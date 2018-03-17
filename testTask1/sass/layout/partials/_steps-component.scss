@@ -1,0 +1,221 @@
+//$step-component-border-radius: 3px;
+//$step-corner-width: 10px;
+//$step-border-width: 1px;
+//
+//.steps-component {
+//  margin-bottom: 22px;
+//
+//  ul {
+//    display: table;
+//    width: 100%;
+//
+//    li {
+//      position: relative;
+//      display: table-cell;
+//      box-sizing: border-box;
+//      height: 28px;
+//
+//      border-style: solid;
+//      border-top-width: $step-border-width;
+//      border-bottom-width: $step-border-width;
+//      border-color: #dcdcdc;
+//      border-bottom-color: #a2a2a2;
+//
+//      padding: 10px 0 10px 10px;
+//      text-align: center;
+//      font-size: 0.5625rem;
+//      font-family: "Verdana", sans-serif;
+//      color: $gray;
+//      font-weight: 400;
+//      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.42);
+//      background: linear-gradient(0deg, #bfbfbf 0%, #c7cacb 100%);
+//      background-color: #bfbfbf;
+//
+//      &:not(:last-child):before {
+//        position: absolute;
+//        z-index: 1;
+//        right: -$step-corner-width;
+//        top: 0;
+//        bottom: 0;
+//
+//        display: block;
+//        content: '';
+//        width: $step-corner-width;
+//        background: url("../images/step-done.png");
+//      }
+//
+//      &:first-child {
+//        border-left: $step-border-width solid #a7a7a7;
+//        border-top-left-radius: $step-component-border-radius;
+//        border-bottom-left-radius: $step-component-border-radius;
+//      }
+//
+//      &:last-child {
+//        padding: 10px;
+//        border-right: $step-border-width solid #a7a7a7;
+//        border-top-right-radius: $step-component-border-radius;
+//        border-bottom-right-radius: $step-component-border-radius;
+//
+//      }
+//
+//      &.step-active {
+//        background: linear-gradient(0deg, #ff891f 0%, #ffae02 100%);
+//        background-color: $bg-orange;
+//        &::before {
+//          position: absolute;
+//          z-index: 1;
+//          right: -$step-corner-width;
+//          top: 0;
+//          bottom: 0;
+//
+//          display: block;
+//          content: '';
+//          width: $step-corner-width;
+//          background: url("../images/step-active.png");
+//        }
+//      }
+//
+//      &.step-active ~ li {
+//        background: linear-gradient(0deg, #e6e6e6 0%, #f5fafb 100%);
+//        background-color: #f5fafb;
+//        &:not(:last-child):before {
+//          position: absolute;
+//          z-index: 1;
+//          right: -$step-corner-width;
+//          top: 0;
+//          bottom: 0;
+//
+//          display: block;
+//          content: '';
+//          width: $step-corner-width;
+//          background: url("../images/step-undone.png");
+//        }
+//      }
+//    }
+//  }
+//}
+//
+section {
+  .wrapp {
+    height: 92px;
+    position: relative;
+    display: inline-block;
+    margin-top: -8px;
+    .progress {
+      border-radius: 3px;
+      background-color: #e6e6e6;
+      position: relative;
+      padding: 1px;
+      box-sizing: border-box;
+      background: -webkit-linear-gradient(90deg, #e6e6e6 0%, #f5f9fb 100%);
+      background: -moz-linear-gradient(90deg, #e6e6e6 0%, #f5f9fb 100%);
+      background: -o-linear-gradient(90deg, #e6e6e6 0%, #f5f9fb 100%);
+      background: -ms-linear-gradient(90deg, #e6e6e6 0%, #f5f9fb 100%);
+      background: linear-gradient(0deg, #e6e6e6 0%, #f5f9fb 100%);
+      height: 16px;
+      box-shadow: 0 1px 1px rgba(0,0,0,.6);
+      border: 1px solid rgba(0,0,0,.21);
+      background-clip: padding-box;
+      width: 214px;
+      .progress-bar {
+        height: 12px;
+        border-radius: 3px;
+        background-repeat: repeat-x, repeat-x;
+        background-position: center;
+        background-size: 216px;
+        -webkit-transition: 0.4s linear;
+        -moz-transition: 0.4s linear;
+        -o-transition: 0.4s linear;
+        transition: 0.4s linear;
+      }
+    }
+  }
+  #twenty:checked ~ .progress > .progress-bar {
+    width: 20%;
+    background-image: url("../images/progress-bar.png");
+  }
+
+  #fourty:checked ~ .progress > .progress-bar {
+    width: 40%;
+    background-image: url("../images/progress-bar.png");
+  }
+
+  #sixty:checked ~ .progress > .progress-bar {
+    width: 60%;
+    background-image: url("../images/progress-bar.png");
+  }
+
+  #eighty:checked ~ .progress > .progress-bar {
+    width: 80%;
+    background-image: url("../images/progress-bar.png");
+  }
+
+  #onehundred:checked ~ .progress > .progress-bar {
+    width: 100%;
+    background-image: url("../images/progress-bar.png");
+  }
+
+  .radio {
+    display: none;
+  }
+
+  .label {
+    background: url("../images/step2.png") no-repeat;
+    width: 56px;
+    padding: 10px 0 0 5px;
+    height: 30px;
+    text-align: center;
+    font-size: 0.5625rem;
+    font-family: "Verdana", sans-serif;
+    color: $gray;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.42);
+  }
+  .radio:checked + .label {
+    background: url("../images/step3.png") no-repeat;
+    width: 56px;
+    height: 30px;
+    bottom: 24px;
+    padding-top: 9px;
+  }
+  .radio:checked + .five {
+    background: url("../images/step-last.png") no-repeat;
+    width: 56px;
+    height: 28px;
+    bottom: 25px;
+    padding-top: 9px;
+  }
+  .one {
+    background: url("../images/step1.png") no-repeat;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    bottom: 25px;
+  }
+  .two {
+    position: absolute;
+    left: 38px;
+    z-index: 4;
+    bottom: 25px;
+  }
+  .three {
+    position: absolute;
+    left: 80px;
+    z-index: 3;
+    bottom: 25px;
+  }
+  .four {
+    background: url("../images/step4.png") no-repeat;
+    position: absolute;
+    left: 122px;
+    z-index: 2;
+    bottom: 25px;
+  }
+  .five {
+    background: url("../images/step5.png") no-repeat;
+    position: absolute;
+    left: 164px;
+    height: 31px;
+    bottom: 24px;
+  }
+}

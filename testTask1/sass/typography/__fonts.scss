@@ -1,0 +1,11 @@
+$font: "../fonts";
+
+@font-face {
+  font-family: 'SourceSansProLight';
+  src: url('#{$font}/SourceSansProLight/SourceSansProLight.eot');
+  src: url('#{$font}/SourceSansProLight/SourceSansProLight.eot?#iefix') format('embedded-opentype'),
+  url('#{$font}/SourceSansProLight/SourceSansProLight.woff') format('woff'),
+  url('#{$font}/SourceSansProLight/SourceSansProLight.ttf')  format('truetype');
+  //font-style: normal;
+  //font-weight: normal;
+}

@@ -1,0 +1,158 @@
+@media (min-width: 768px) and (max-width: 991px){
+  .header {
+    .logo {
+      .web-coder {
+        img {
+          padding-left: 44px;
+        }
+      }
+    }
+    .orange {
+      //min-height: 505px;
+      min-height:460px;
+
+      .shadow{
+        display: none;
+      }
+      .book {
+        max-width: 750px;
+        height: 440px;
+        .padding {
+          padding: 0;
+        }
+        .book1 {
+          [class*="slide"] {
+            max-height: 438px;
+          }
+        }
+        .form {
+          max-height: 440px;
+          padding: 10px 10px 20px 10px;
+          h1{
+            display: block;
+          }
+          .gradient-text{
+            display:none;
+          }
+          .join-us {
+            padding-left: 54px;
+            .gender {
+              button{
+                display: inline-block;
+                border: none;
+                background-color: transparent;
+                vertical-align: middle;
+                cursor: pointer;
+
+              }
+              .search{
+                margin-left: 10px;
+                margin-right: 0px;
+                span {
+                  margin-left: -18px;
+                }
+              }
+            }
+            .name {
+              input {
+                width: 298px;
+              }
+              .invalid {
+                display: none;
+                //position: absolute;
+                //right: 12px;
+                //top: 117px;
+              }
+              .comment {
+                display:none;
+              }
+            }
+            .select2-container--default .select2-selection--single {
+              padding-left: 10px;
+            }
+            .select2-container .select2-selection--single .select2-selection__rendered {
+              padding: 0;
+            }
+            .select2-container--default .select2-selection--single .select2-selection__arrow {
+              width: 28px;
+            }
+            .age {
+              .date {
+                #date {
+                  width: 74px;
+                }
+              }
+              .month {
+                margin: 0 6px;
+                #month {
+                  width: 110px;
+                }
+              }
+              .year {
+                #year {
+                  width: 95px;
+                }
+              }
+              .valid {
+                display: none;
+                //position: absolute;
+                //right: 12px;
+                //top: 162px;
+              }
+
+            }
+            .city {
+              #city {
+                width: 298px;
+              }
+            }
+            .check {
+              .radio-set {
+                padding: 0;
+              }
+            }
+            .button-start {
+              button {
+                width: 298px;
+                height: 60px;
+                span {
+                  font-size: 44px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .content {
+    .block {
+      .code-block {
+        max-width: 368px;
+      }
+    }
+    #slide-two {
+      max-width: 333px;
+      margin-left: 12px;
+    }
+      #slide-two .owl-nav .owl-prev{
+        left:-22px;
+      }
+    #slide-two .owl-nav .owl-next{
+        right: -18px;
+      }
+    .users-list{
+      margin-left: 2px;
+    }
+    .section-size{
+      min-width: 354px;
+    }
+    .progress-section > aside{
+      margin-right: -1px;
+    }
+    .progress-section > section{
+      margin-right: 108px;
+    }
+  }
+
+}

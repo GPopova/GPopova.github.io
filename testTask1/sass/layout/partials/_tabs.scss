@@ -1,0 +1,62 @@
+.section-size{
+  max-width: 390px;
+}
+.tabs {
+  padding: 0px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.tabs>section {
+  display: none;
+  padding: 25px 18px 20px;
+  height: 150px;
+  //border: 1px solid #fff;
+  border-radius: 5px;
+  background-clip: padding-box;
+  background-color: $white;
+  box-shadow: 0 1px 3px rgba(0,0,0,.6);
+}
+.tabs>section>p {
+  margin: 0 0 5px;
+  line-height: 1.5;
+  color: #383838;
+}
+.tabs>input {
+  display: none;
+  position: absolute;
+}
+.tabs>label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 9px 41px 5px 5px / 9px 34px 5px 5px;
+  background-clip: padding-box;
+  background-color: #f8f8f8;
+  border: 1px solid gainsboro;
+  border-bottom: 1px solid transparent;
+  span{
+    color: $gray-tabs;
+    padding: 0 10px;
+    @include after-absolute{
+      border-left: 1.5px solid $gray-tabs;
+      height: 15px;
+      margin: -14px 96px;
+    }
+  }
+}
+
+.tabs>label:hover {
+  color: $gray-tabs;
+  cursor: pointer;
+}
+.tabs>input:checked+label {
+  color: $orange-a;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+}
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
+  display: block;
+}

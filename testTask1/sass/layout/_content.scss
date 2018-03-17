@@ -1,0 +1,123 @@
+.content {
+  background-color: $white;
+  .block {
+    margin-top: 44px;
+    .code-block {
+      height: 216px;
+      max-width: 472px;
+      overflow: hidden;
+      margin: 22px -20px 70px -10px;
+      img{
+        float: left;
+        max-width: 175px;
+        max-height: 175px;
+        border-radius: 50%;
+
+        shape-outside: circle(50%);
+        margin-right: 12px;
+        }
+      p{
+        text-align: justify;
+        margin-left: 10px;
+      }
+    }
+  }
+  .users-list{
+    margin-left: 64px;
+  }
+  .text {
+    min-height: 348px;
+    padding-bottom: 16px;
+    h3 {
+      padding-bottom: 16px;
+    }
+    .border {
+      border-bottom: 1px solid #cfcfcf;
+      padding-bottom: 50px;
+      .column {
+        //-webkit-column-width: 200px;
+        //-moz-column-width: 200px;
+        //column-width: 200px;
+        //-webkit-column-count: 3;
+        //-moz-column-count: 3;
+        //column-count: 3;
+        //-webkit-column-gap: 30px;
+        //-moz-column-gap: 30px;
+        //column-gap: 30px;
+        //-webkit-column-rule: 1px solid #ccc;
+        //-moz-column-rule: 1px solid #ccc;
+        //column-rule: 1px solid #ccc;
+        -webkit-columns: 200px 3;
+        -moz-columns: 200px 3;
+        columns: 200px 3;
+        -webkit-column-gap: 30px;
+        -moz-column-gap: 30px;
+        column-gap: 30px;
+        -webkit-column-rule: 1px solid transparent;
+        -moz-column-rule: 1px solid transparent;
+        column-rule: 1px solid transparent;
+        .there {
+          padding-bottom: 20px;
+        }
+        .line {
+          font-family: $source-sans;
+          font-size: 14px;
+          color: $orange;
+          font-weight: 300;
+          line-height: 16px;
+          border-left: 2px solid $orange;
+          padding-left: 16px; /* Расстояние от линии до текста */
+        }
+        .text-ol {
+          padding: 24px 0;
+        }
+        ol {
+          counter-reset: num; /* Задаём имя счетчика */
+          li {
+            line-height: 22px;
+            &:not(:last-child) {
+              padding-bottom: 8px;
+            }
+            &:before {
+              content: counter(num) '. '; /* Выводим число */
+              counter-increment: num; /* Увеличиваем значение счётчика */
+              color: $gray-light;
+              font-size: 11px;
+              padding-right: 4px;
+              //font-style: italic;
+            }
+          }
+        }
+
+        .comments {
+          color: $gray-light;
+          font-style: italic;
+          line-height: 16px;
+          padding: 38px 20px 30px;
+          @include before-absolute {
+            background-image: url("../images/koma_up.png");
+            height: 15px;
+            width: 16px;
+            margin-left: -20px;
+          }
+          @include after-absolute {
+            background-image: url("../images/koma_down.png");
+            height: 15px;
+            width: 16px;
+            right: 20px;
+          }
+        }
+        .click-here {
+          float: right;
+          @include before-absolute {
+            background-image: url("../images/click-here.png");
+            width: 6px;
+            height: 8px;
+            right: 155px;
+            margin-top: 3px;
+          }
+        }
+      }
+    }
+  }
+}

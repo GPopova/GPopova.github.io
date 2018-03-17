@@ -1,0 +1,19 @@
+.stars {
+  margin-top: 100px;
+  button{
+    display: inline-block;
+    border:none;
+    background-color: transparent;
+    background-image: url("../images/star.png");
+    width: 16px;
+    height: 16px;
+    background-clip: padding-box;
+    &:hover, &:focus {
+      background-image: url("../images/star-active.png");
+      width: 17px;
+      height: 16px;
+      margin-top: -1px;
+      margin-left: -1px;
+    }
+  }
+}
