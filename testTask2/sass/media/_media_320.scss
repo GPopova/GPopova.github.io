@@ -1,0 +1,16 @@
+@media (max-width: 320px){
+  .header{
+    min-height: 517px;
+  }
+  .slider{
+    background-color: transparent;
+  }
+  footer{
+    .footer_menu{
+      display: none;
+    }
+    .designed{
+      padding-top: 50px;
+    }
+  }
+}

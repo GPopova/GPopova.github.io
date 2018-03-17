@@ -1,0 +1,114 @@
+@media (max-width: 767px){
+
+  header {
+    min-height: 547px;
+    .logo {
+      text-align: center;
+    }
+    .main_menu {
+      float: none;
+      text-align: center;
+      width: 253px;
+      margin: 0 auto 20px;
+      border: 1px solid #041016;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background: rgba(53, 39, 61, 0.9);
+      -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+      -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+      box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+      position: relative;
+      z-index: 1;
+
+      ul {
+        li {
+          display: block;
+          &:hover .submenu {
+            display: block;
+          }
+          a {
+            margin: 5px 0 7px 0;
+            &:hover {
+              text-shadow: 0 0 10px rgba(255, 255, 255, .6);
+            }
+          }
+          .submenu {
+            position: absolute;
+            left: -1px;
+            display: none;
+            width: 253px;
+            opacity: 0.9;
+            border: 1px solid #041016;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            background-color: #35293d;
+            -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+            -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+            box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+            li {
+              display: block;
+              margin-left: 0;
+              a {
+                display: block;
+                border-bottom: 1px solid transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .slider {
+      .header_text {
+        padding-top: 95px;
+        padding-bottom: 95px;
+        text-align: center;
+        h1{
+          font-size: 2.25rem;
+        }
+        h2{
+          font-size: $fs-title;
+        }
+      }
+    }
+  }
+  .about{
+    .our_company1, .our_company2, .our_company3 {
+      width: 85%;
+      padding-bottom: 30px;
+      p{
+        max-height: 75px;
+      }
+    }
+  }
+  .news{
+    .updates{
+      width: 375px;
+      margin: 0 auto 90px;
+    }
+  }
+  .last_articles{
+    .first, .second, .third{
+      width: 100%;
+      max-height: 130px;
+      margin-bottom: 65px;
+      margin-left: 0;
+    }
+  }
+  footer{
+    .footer_menu{
+      text-align: center;
+      li{
+        a{
+          font-size: 1.25rem;
+        }
+      }
+    }
+    .designed{
+      text-align: center;
+      padding-top: 0;
+    }
+  }
+}

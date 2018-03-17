@@ -1,0 +1,46 @@
+header {
+  background: url("../images/bg.png") no-repeat;
+  min-height: 850px;
+  background-position: center;
+  background-size: cover;
+
+  .logo{
+    text-transform: uppercase;
+    color: $color_text;
+    font-size: 3rem;
+    text-shadow: 0 2px 2px rgba(0,0,0,.3);
+    margin-top: 65px;
+    margin-bottom: 160px;
+
+    span{
+      $color_text: #533a5e;
+      color: $color_text;
+      text-shadow: none;
+    }
+  }
+  .main_menu{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    float: right;
+    font-size: 0;
+
+    li {
+      display: inline-block;
+      margin-left: 15px;
+
+      a {
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 0 10px;
+        color: $color_text;
+        font-size: $fs-title-large;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, .4);
+
+        &:hover {
+          border-bottom: 2px solid #edbfff;
+        }
+      }
+    }
+  }
+}

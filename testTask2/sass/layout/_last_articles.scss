@@ -1,0 +1,62 @@
+%article{
+  max-height: 215px;
+  width: 280px;
+  overflow: hidden;
+}
+%p{
+  color:  #787878;
+  line-height: 24px;
+  font:{
+    size: $fs-base;
+    family: $font_light;
+  }
+}
+.last_articles{
+  background-color: #ececec;
+  padding: 98px 0 100px 0;
+   .first{
+     @extend %article;
+     h1{
+       color:  #454545;
+       font-size: $fs-large;
+       text-shadow: 0px 1px 0px #ffffff;
+       text-transform: uppercase;
+       padding-bottom: 21px;
+
+       span{
+         color:  #b9b9b9;
+       }
+     }
+     h2{
+       color:  #c5c5c5;
+       font:{
+         style: italic;
+         size: $fs-base;
+         family: "Georgia", sans-serif;
+       }
+       text-shadow: 0px 1px 0px #ffffff;
+       padding-bottom: 13px;
+     }
+     p{
+       @extend %p;
+     }
+   }
+  .second{
+    @extend %article;
+    margin-left: 12px;
+    h1{
+      text-transform: uppercase;
+      color:  #454444;
+      font-size: 1.875rem;
+      padding-bottom: 20px;
+      text-shadow: 0 1px 0 #fff;
+    }
+    p{
+      @extend %p;
+    }
+  }
+  .third{
+    @extend .second;
+    margin-left: 35px;
+  }
+}

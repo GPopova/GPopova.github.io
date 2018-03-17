@@ -1,0 +1,14 @@
+@media (max-width: 496px) {
+  footer{
+    .footer_menu{
+      li{
+        display: block;
+        margin-bottom: 5px;
+        a{
+          margin:0;
+          padding:0;
+        }
+      }
+    }
+  }
+}
