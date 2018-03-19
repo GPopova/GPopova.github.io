@@ -1258,7 +1258,7 @@ header .main_menu li a {
 }
 /* line 40, ../sass/layout/_header.scss */
 header .main_menu li a:hover {
-  border-bottom: 2px solid #edbfff;
+  text-shadow: 0 0 6px plum;
 }
 
 /* line 1, ../sass/layout/_slider.scss */
@@ -1692,7 +1692,7 @@ footer .footer_menu li a {
 }
 /* line 20, ../sass/layout/_footer.scss */
 footer .footer_menu li a:hover {
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 }
 /* line 23, ../sass/layout/_footer.scss */
 footer .footer_menu li a:first-child {
@@ -2085,8 +2085,9 @@ footer .designed p span {
   /* line 32, ../sass/media/_media_480.scss */
   header .main_menu ul li a:hover {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    border-bottom: none;
   }
-  /* line 36, ../sass/media/_media_480.scss */
+  /* line 37, ../sass/media/_media_480.scss */
   header .main_menu ul li .submenu {
     position: absolute;
     left: -1px;
@@ -2102,48 +2103,48 @@ footer .designed p span {
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
   }
-  /* line 50, ../sass/media/_media_480.scss */
+  /* line 51, ../sass/media/_media_480.scss */
   header .main_menu ul li .submenu li {
     display: block;
     margin-left: 0;
   }
-  /* line 53, ../sass/media/_media_480.scss */
+  /* line 54, ../sass/media/_media_480.scss */
   header .main_menu ul li .submenu li a {
     display: block;
     border-bottom: 1px solid transparent;
   }
-  /* line 64, ../sass/media/_media_480.scss */
+  /* line 65, ../sass/media/_media_480.scss */
   header .slider .header_text {
     padding-top: 95px;
     padding-bottom: 95px;
     text-align: center;
   }
-  /* line 68, ../sass/media/_media_480.scss */
+  /* line 69, ../sass/media/_media_480.scss */
   header .slider .header_text h1 {
     font-size: 2.25rem;
   }
-  /* line 71, ../sass/media/_media_480.scss */
+  /* line 72, ../sass/media/_media_480.scss */
   header .slider .header_text h2 {
     font-size: 1.125rem;
   }
 
-  /* line 78, ../sass/media/_media_480.scss */
+  /* line 79, ../sass/media/_media_480.scss */
   .about .our_company1, .about .our_company2, .about .our_company3, .about .our_company2, .about .our_company3 {
     width: 85%;
     padding-bottom: 30px;
   }
-  /* line 81, ../sass/media/_media_480.scss */
+  /* line 82, ../sass/media/_media_480.scss */
   .about .our_company1 p, .about .our_company2 p, .about .our_company3 p, .about .our_company2 p, .about .our_company3 p {
     max-height: 75px;
   }
 
-  /* line 87, ../sass/media/_media_480.scss */
+  /* line 88, ../sass/media/_media_480.scss */
   .news .updates {
     width: 375px;
     margin: 0 auto 90px;
   }
 
-  /* line 93, ../sass/media/_media_480.scss */
+  /* line 94, ../sass/media/_media_480.scss */
   .last_articles .first, .last_articles .second, .last_articles .third, .last_articles .third {
     width: 100%;
     max-height: 130px;
@@ -2151,15 +2152,15 @@ footer .designed p span {
     margin-left: 0;
   }
 
-  /* line 101, ../sass/media/_media_480.scss */
+  /* line 102, ../sass/media/_media_480.scss */
   footer .footer_menu {
     text-align: center;
   }
-  /* line 104, ../sass/media/_media_480.scss */
+  /* line 105, ../sass/media/_media_480.scss */
   footer .footer_menu li a {
     font-size: 1.25rem;
   }
-  /* line 109, ../sass/media/_media_480.scss */
+  /* line 110, ../sass/media/_media_480.scss */
   footer .designed {
     text-align: center;
     padding-top: 0;
