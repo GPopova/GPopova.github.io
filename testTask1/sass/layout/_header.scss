@@ -143,15 +143,8 @@
             }
           }
           .name {
-            .invalid {
-              width: 20px;
-              height: 18px;
-              margin-right: -22px;
-              vertical-align: middle;
-            }
             input {
-              border: 1px solid rgba(209, 0, 0, 49);
-              //border: 1px solid rgba(0,0,0,.21);
+              border: 1px solid rgba(0,0,0,.21);
               border-radius: 18px;
               background-clip: padding-box;
               box-shadow: inset 0 0 3px rgba(0, 0, 0, .33);
@@ -179,22 +172,6 @@
               padding-top: 10px;
               margin-left: 36px;
               margin-top: -16px;
-              span {
-                font-family: "Trebuchet MS";
-                font-size: 16px;
-                color: $white;
-              }
-              @include before-absolute {
-                content: "";
-                position: absolute;
-                width: 0;
-                height: 0;
-                right: 100%;
-                top: calc(50% - 10px);
-                border-top: 10px solid transparent;
-                border-right: 10px solid $black;
-                border-bottom: 10px solid transparent;
-              }
             }
           }
           .select2-container--default .select2-selection--single {
@@ -252,12 +229,6 @@
                 width: 105px;
               }
             }
-             .valid {
-              width: 21px;
-              height: 19px;
-               margin-right: -24px;
-            }
-
           }
           .city {
             #city {

@@ -1406,15 +1406,8 @@ p {
   height: 40px;
 }
 /* line 146, ../sass/layout/_header.scss */
-.header .orange .book .form .join-us .name .invalid {
-  width: 20px;
-  height: 18px;
-  margin-right: -22px;
-  vertical-align: middle;
-}
-/* line 152, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .name input {
-  border: 1px solid #d10000;
+  border: 1px solid rgba(0, 0, 0, 0.21);
   border-radius: 18px;
   background-clip: padding-box;
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.33);
@@ -1429,7 +1422,7 @@ p {
   padding: 0 20px;
   font-size: 14px;
 }
-/* line 169, ../sass/layout/_header.scss */
+/* line 162, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .name .comment {
   width: 175px;
   height: 77px;
@@ -1444,28 +1437,7 @@ p {
   margin-left: 36px;
   margin-top: -16px;
 }
-/* line 182, ../sass/layout/_header.scss */
-.header .orange .book .form .join-us .name .comment span {
-  font-family: "Trebuchet MS";
-  font-size: 16px;
-  color: #fff;
-}
-/* line 32, ../sass/mixins/_pseudo-block.scss */
-.header .orange .book .form .join-us .name .comment:before {
-  content: '';
-  display: block;
-  position: absolute;
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  right: 100%;
-  top: calc(50% - 10px);
-  border-top: 10px solid transparent;
-  border-right: 10px solid #000;
-  border-bottom: 10px solid transparent;
-}
-/* line 200, ../sass/layout/_header.scss */
+/* line 177, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .select2-container--default .select2-selection--single {
   padding-left: 16px;
   border: 1px solid rgba(0, 0, 0, 0.21);
@@ -1483,16 +1455,16 @@ p {
   color: #666;
   font-family: "SourceSansProLight", sans-serif;
 }
-/* line 218, ../sass/layout/_header.scss */
+/* line 195, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .select2-container .select2-selection--single .select2-selection__rendered {
   padding: 0;
 }
-/* line 221, ../sass/layout/_header.scss */
+/* line 198, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: #666;
   line-height: 34px;
 }
-/* line 225, ../sass/layout/_header.scss */
+/* line 202, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .select2-container--default .select2-selection--single .select2-selection__arrow {
   top: 1px;
   right: 1px;
@@ -1503,82 +1475,76 @@ p {
   width: 36px;
   height: 34px;
 }
-/* line 236, ../sass/layout/_header.scss */
+/* line 213, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .age .date {
   display: inline-block;
 }
-/* line 238, ../sass/layout/_header.scss */
+/* line 215, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .age .date #date {
   width: 84px;
 }
-/* line 242, ../sass/layout/_header.scss */
+/* line 219, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .age .month {
   display: inline-block;
   margin: 0 2px;
 }
-/* line 245, ../sass/layout/_header.scss */
+/* line 222, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .age .month #month {
   width: 119px;
 }
-/* line 249, ../sass/layout/_header.scss */
+/* line 226, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .age .year {
   display: inline-block;
 }
-/* line 251, ../sass/layout/_header.scss */
+/* line 228, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .age .year #year {
   width: 105px;
 }
-/* line 255, ../sass/layout/_header.scss */
-.header .orange .book .form .join-us .age .valid {
-  width: 21px;
-  height: 19px;
-  margin-right: -24px;
-}
-/* line 263, ../sass/layout/_header.scss */
+/* line 234, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .city #city {
   width: 320px;
   height: 36px;
 }
-/* line 268, ../sass/layout/_header.scss */
+/* line 239, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check {
   padding-top: 8px;
   line-height: 30px;
 }
-/* line 271, ../sass/layout/_header.scss */
+/* line 242, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .box, .header .orange .book .form .join-us .check .radio-set {
   text-align: left;
   display: inline-block;
 }
-/* line 275, ../sass/layout/_header.scss */
+/* line 246, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .box {
   padding-right: 66px;
 }
-/* line 278, ../sass/layout/_header.scss */
+/* line 249, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .radio-set {
   padding-right: 86px;
 }
-/* line 281, ../sass/layout/_header.scss */
+/* line 252, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .checkbox, .header .orange .book .form .join-us .check .radio {
   vertical-align: top;
   margin: 0;
   width: 14px;
   height: 14px;
 }
-/* line 287, ../sass/layout/_header.scss */
+/* line 258, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .checkbox + label, .header .orange .book .form .join-us .check .radio + label {
   cursor: pointer;
 }
-/* line 290, ../sass/layout/_header.scss */
+/* line 261, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .checkbox:not(checked), .header .orange .book .form .join-us .check .radio:not(checked) {
   position: absolute;
   opacity: 0;
 }
-/* line 294, ../sass/layout/_header.scss */
+/* line 265, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .checkbox:not(checked) + label {
   position: relative;
   padding: 0 0 0 28px;
 }
-/* line 298, ../sass/layout/_header.scss */
+/* line 269, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .checkbox:not(checked) + label:before, .header .orange .book .form .join-us .check .radio:not(checked) + label:before {
   content: '';
   position: absolute;
@@ -1591,39 +1557,39 @@ p {
   background-clip: padding-box;
   background-image: linear-gradient(to top, #e6e6e6 0%, #f5f9fb 100%);
 }
-/* line 310, ../sass/layout/_header.scss */
+/* line 281, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .checkbox:checked + label:before {
   background-image: url("../images/checked.png");
   background-size: 12px 12px;
   background-repeat: no-repeat;
 }
-/* line 315, ../sass/layout/_header.scss */
+/* line 286, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .checkbox:focus + label:before, .header .orange .book .form .join-us .check .radio:focus + label:before {
   box-shadow: 0 0 0 2px #ffb575;
 }
-/* line 318, ../sass/layout/_header.scss */
+/* line 289, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .radio:not(checked) + label {
   position: relative;
   padding: 0 0 0 24px;
 }
-/* line 322, ../sass/layout/_header.scss */
+/* line 293, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .radio:not(checked) + label:before {
   border-radius: 7px;
   width: 14px;
   height: 14px;
 }
-/* line 327, ../sass/layout/_header.scss */
+/* line 298, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .check .radio:checked + label:before {
   background-image: url("../images/radio_set.png");
   background-size: 11px 11px;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 334, ../sass/layout/_header.scss */
+/* line 305, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .button-start {
   padding-top: 18px;
 }
-/* line 336, ../sass/layout/_header.scss */
+/* line 307, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .button-start button {
   width: 320px;
   height: 70px;
@@ -1635,7 +1601,7 @@ p {
   background-image: linear-gradient(to top, #93c516 0%, #93c516 4.49%, #72a900 51.68%, #8db92a 51.9%, #a7c732 91.67%, #b9cd44 100%);
   cursor: pointer;
 }
-/* line 346, ../sass/layout/_header.scss */
+/* line 317, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .button-start button span {
   font-family: "SourceSansProLight", sans-serif;
   color: #fff;
@@ -1643,7 +1609,7 @@ p {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
   font-weight: 200;
 }
-/* line 353, ../sass/layout/_header.scss */
+/* line 324, ../sass/layout/_header.scss */
 .header .orange .book .form .join-us .button-start button:hover {
   box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.4);
 }
@@ -2736,5 +2702,58 @@ section .five {
   /* line 153, ../sass/media/_media992-768.scss */
   .content .progress-section > section {
     margin-right: 108px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 2, ../sass/media/_media768-480.scss */
+  .header .orange .book .form {
+    margin: 0 auto;
+  }
+
+  /* line 5, ../sass/media/_media768-480.scss */
+  .header .orange .book .book1 {
+    display: none;
+  }
+
+  /* line 8, ../sass/media/_media768-480.scss */
+  .header .orange .shadow {
+    display: none;
+  }
+
+  /* line 11, ../sass/media/_media768-480.scss */
+  .content .block .code-block {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  /* line 15, ../sass/media/_media768-480.scss */
+  .content .users-list {
+    margin-left: 0;
+  }
+
+  /* line 18, ../sass/media/_media768-480.scss */
+  .content .text {
+    margin-top: 60px;
+  }
+
+  /* line 21, ../sass/media/_media768-480.scss */
+  .content .container {
+    margin-left: 7%;
+  }
+
+  /* line 24, ../sass/media/_media768-480.scss */
+  .header .orange .book .form .join-us .button-start button span {
+    font-size: 38px;
+  }
+
+  /* line 27, ../sass/media/_media768-480.scss */
+  .header .orange .book .form .join-us .button-start button {
+    width: 276px;
+    height: 52px;
+  }
+
+  /* line 31, ../sass/media/_media768-480.scss */
+  .content .block .code-block {
+    max-width: 100%;
   }
 }
