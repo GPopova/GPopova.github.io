@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: 'lobster_1_4';
+  src: url('../fonts/Lobster/lobster_1_4/lobster_1_4.eot');
+  src: url('../fonts/Lobster/lobster_1_4/lobster_1_4?#iefix') format('embedded-opentype'),
+  url('../fonts/Lobster/lobster_1_4/lobster_1_4.woff') format('woff'),
+  url('../fonts/Lobster/lobster_1_4/lobster_1_4.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('../fonts/OpenSansLight/OpenSansLight.eot');
+  src: url('../fonts/OpenSansLight/OpenSansLight?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSansLight/OpenSansLight.woff') format('woff'),
+  url('../fonts/OpenSansLight/OpenSansLight.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/Bebas/BebasNeue/BebasNeue.eot');
+  src: url('../fonts/Bebas/BebasNeue/BebasNeue?#iefix') format('embedded-opentype'),
+  url('../fonts/Bebas/BebasNeue/BebasNeue.woff') format('woff'),
+  url('../fonts/Bebas/BebasNeue/BebasNeue.ttf')  format('truetype');
+}
+
+$Lobster:'Lobster_1_4';
+$OpenSans:'OpenSansLight';
+$Bebas: 'BebasNeue';
+
+
+@import url('//use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css');
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
+  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
+  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
+  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
