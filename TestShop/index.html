@@ -21,14 +21,14 @@
                             </ul>
                         </div>
                         <div class="col-md-4">
-                            <div id="signIn" class="sign_menu">
+                            <div class="sign_menu">
                                 <span class="sign">Sign in</span>
                             </div>
                         </div>
                         <div class="links col-md-2">
-                            <a href="#"><img src="img/logo---Twitter.png"></a>
-                            <a href="#"><img src="img/logo---Facebook.png"></a>
-                            <a href="#"><img src="img/logo---Instagram.png"></a>
+                            <a href="https://twitter.com/"><img class="twit" src="img/logo---Twitter.png"></a>
+                            <a href="https://www.facebook.com/"><img class="fc" src="img/logo---Facebook.png"></a>
+                            <a href="https://www.instagram.com/"><img class="insta" src="img/logo---Instagram.png"></a>
                         </div>
                     </div>
                 </div>
@@ -42,13 +42,13 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <div class="input">
-                                <input type="text" autocomplete="on"><a href="#"><img src="img/serch2.png"></a>
+                            <div class="search">
+                                <input type="text" autocomplete="on"><a href="#"><img src="img/serch.png"></a>
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="korzina">
-                                <a href="#"><img src="img/korzina_1.png"></a>
+                            <div class="basket">
+                                <a href="#"><img src="img/basket.png"></a>
                             </div>
                         </div>
                     </div>
@@ -130,6 +130,51 @@
                     </div>
                 </div>
             </div>
+            <div class="container products">
+                <div class="row">
+                    <h2>best choise</h2>
+                    <div class="col-md-6">
+                        <div id="product1"></div>
+                        <a class="product1" href="#">reviews</a>
+                        <div id="description1"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="product2"></div>
+                        <a class="product2" href="#">reviews</a>
+                        <div id="description2"></div>
+                    </div>
+                </div>
+                <script id="products-tpl" type="text/x-jquery-tmpl">
+                    <div>
+                        <div class="name">Product name : ${title}</div>
+                        <div class="img"><img src="http://smktesting.herokuapp.com/static/${img}" />
+                        <div class="id">Product id: ${id}</div>
+                        <div class="property">Property: ${text}</div>
+                    </div>
+                </script>
+                <script id="description1-tmpl" type="text/x-jquery-tmpl">
+                    <ul class="modal1">
+                        <li>Product name: ${product}</li>
+                        <li>Product id: ${id}</li>
+                        <li>Rate:${rate}</li>
+                        <li>Comment:" ${text} "</li>
+                        <li>User id: ${created_by["id"]}</li>
+                        <li>User name: ${created_by["username"]}</li>
+                        <li>Date: ${created_at} </li>
+                    </ul>
+                </script>
+                <script id="description2-tmpl" type="text/x-jquery-tmpl">
+                    <ul class="modal2">
+                        <li>Product name: ${product}</li>
+                        <li>Product id: ${id}</li>
+                        <li>Rate:${rate}</li>
+                        <li>Comment:${text}</li>
+                        <li>User id: ${created_by["id"]}</li>
+                        <li>User name: ${created_by["username"]}</li>
+                        <li>Date:${created_at}</li>
+                    </ul>
+                </script>
+            </div>
             <div class="slider1">
                 <div class="container">
                     <div class="row">
@@ -181,7 +226,7 @@
             </div>
             <div class="wardrobe">
                 <div class="container">
-                    <div class="row">
+                    <div class="row first">
                         <div class="col-md-4">
                             <img src="img/men.png">
                             <p><a href="#">shop all women</a> </p>
@@ -231,24 +276,29 @@
             <div class="footer_nav">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-6">
                             <ul class="menu_settings">
                                 <li><a href="#">Track order</a></li>
                                 <li><a href="#">Help</a></li>
                                 <li><a href="#">Contact us</a></li>
                             </ul>
                         </div>
-                        <div class="links col-md-4">
-                            <a class="sign">Sign in</a>
-                            <a href="#"><img src="img/logo---Twitter.png"></a>
-                            <a href="#"><img src="img/logo---Facebook.png"></a>
-                            <a href="#"><img src="img/logo---Instagram.png"></a>
+                        <div class="col-md-4">
+                            <div class="sign_menu">
+                                <span class="sign">Sign in</span>
+                            </div>
+                        </div>
+                        <div class="links col-md-2">
+                            <a href="https://twitter.com/"><img class="twit" src="img/logo---Twitter.png"></a>
+                            <a href="https://www.facebook.com/"><img class="fc" src="img/logo---Facebook.png"></a>
+                            <a href="https://www.instagram.com/"><img class="insta" src="img/logo---Instagram.png"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
         <script src="src/jquery/jquery.min.js"></script>
+        <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
         <script src="src/owl/owl.carousel.min.js"></script>
         <script src="js/script.min.js"></script>
     </body>

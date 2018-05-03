@@ -25,14 +25,8 @@ header {
     width: 100%;
     padding: 12px 0;
     .menu_settings {
-      font-size: 0;
       li {
         display: inline-block;
-        border-left: 2px solid #fff;
-        height: 20px;
-        &:first-child {
-          border-left: none;
-        }
         a {
           font-size: 14px;
           font-family: $OpenSans;
@@ -57,9 +51,18 @@ header {
       text-align: right;
       a {
         padding: 0 10px;
-        font-size: 14px;
-        font-family: $OpenSans;
-        color: #fff;
+        img{
+          height: 14px;
+        }
+        .twit{
+          width: 16px;
+        }
+        .fc{
+          width: 8px;
+        }
+        .insta{
+          width: 14px;
+        }
       }
     }
   }
@@ -71,7 +74,7 @@ header {
       font-size: 49px;
       margin: -10px 25px;
     }
-    .input {
+    .search {
       text-align: center;
       input {
         width: 460px;
@@ -84,10 +87,19 @@ header {
       }
       a {
         margin-left: 12px;
+        img{
+          position: absolute;
+          margin-top: 7px;
+          width: 20px;
+        }
       }
     }
-    .korzina {
+    .basket {
       text-align: right;
+      img{
+        width: 34px;
+        height: 30px;
+      }
     }
   }
   .header_bg {
@@ -270,6 +282,86 @@ header {
       }
     }
   }
+  .products{
+    h2{
+      font-size: 34px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 40px;
+      font-family: $OpenSans;
+      text-align: center;
+      color: #333;
+    }
+    #product1{
+      display: inline-block;
+      margin-top: 60px;
+      text-align: center;
+      position: relative;
+      img{
+        width: 300px;
+        border: 2px solid lightgrey;
+        height: 260px;
+      }
+    }
+    #product2{
+      display: inline-block;
+      margin-top: 60px;
+      text-align: center;
+      position: relative;
+      margin-left: 70px;
+      img{
+        width: 300px;
+        height: 260px;
+      }
+    }
+    #description1{
+      margin-right: 70px;
+    }
+    #description2{
+      margin-left: 70px;
+    }
+    .modal1, .modal2{
+      display: none;
+      -webkit-transition: top 0.5s;
+      -moz-transition: top 0.5s;
+      -o-transition: top 0.5s;
+      transition: top 0.5s;
+      li{
+        display: inline-block;
+        color: #333;
+        padding: 6px 0;
+        font-size: 14px;
+        font-family: $OpenSans;
+      }
+    }
+    .modal1.active, .modal2.active{
+      padding: 12px;
+      padding-left: 20px;
+      border-bottom: 1px dotted lightgray;
+      display: block;
+    }
+    a{
+      font-family: $Bebas;
+      font-size: 18px;
+      color: #333;
+      letter-spacing: 1px;
+      border-bottom: 3px solid #3bc3b4;
+    }
+    .name{
+      font-family: $Bebas;
+      color: #333;
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+    .id,.property{
+      font-family: $OpenSans;
+      font-size: 16px;
+      margin-top: 14px;
+    }
+    .img{
+      margin:30px;
+    }
+  }
   .slider1 {
     padding: 60px 0 26px;
     text-align: center;
@@ -366,8 +458,8 @@ header {
   .wardrobe{
     margin-bottom: 80px;
     img{
-      width: 100%;
-      padding: 20px;
+      width: 338px;
+      padding: 9px;
       opacity: 1;
       -webkit-transition: opacity 0.2s;
       -moz-transition: opacity 0.2s;
@@ -387,6 +479,9 @@ header {
         text-transform: uppercase;
         font-family: $OpenSans;
       }
+    }
+    .first{
+      margin-bottom: 20px;
     }
   }
 }
@@ -436,14 +531,8 @@ footer{
     width: 100%;
     padding: 12px 0;
     .menu_settings {
-      font-size: 0;
       li {
         display: inline-block;
-        border-left: 2px solid #fff;
-        height: 20px;
-        &:first-child {
-          border-left: none;
-        }
         a {
           font-size: 14px;
           font-family: $OpenSans;
@@ -453,13 +542,33 @@ footer{
         }
       }
     }
+    .sign_menu{
+      text-align: right;
+      display: block;
+      font-family: $OpenSans;
+      .sign{
+        padding: 0 10px;
+        font-size: 14px;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
     .links {
       text-align: right;
       a {
         padding: 0 10px;
-        font-size: 14px;
-        font-family: $OpenSans;
-        color: #fff;
+        img{
+          height: 14px;
+        }
+        .twit{
+          width: 16px;
+        }
+        .fc{
+          width: 8px;
+        }
+        .insta{
+          width: 14px;
+        }
       }
     }
   }
