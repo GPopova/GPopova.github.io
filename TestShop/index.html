@@ -21,8 +21,25 @@
                             </ul>
                         </div>
                         <div class="col-md-4">
-                            <div class="sign_menu">
-                                <span class="sign">Sign in</span>
+                            <div class="sign_menu" id="signIn">
+                                <span class="sign" id="sign">Sign in</span>
+                                <div id="formSignIn">
+                                    <div class="form_login">
+                                        <form action="post" name="login">
+                                            <div><input type="text" name="name" placeholder="User name"/></div>
+                                            <div><input type="password" name="password" placeholder="Password"/></div>
+                                            <div><button type="submit">Log me in</button></div>
+                                        </form>
+                                    </div>
+                                    <div class="form_registration">
+                                        <form name="registration">
+                                            <h3>Registration</h3>
+                                            <div><input type="text" name="name" placeholder="User name"/></div>
+                                            <div><input type="password" name="password" placeholder="Password"/></div>
+                                            <div><button type="submit">Join now</button></div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="links col-md-2">
@@ -136,12 +153,24 @@
                     <div class="col-md-6">
                         <div id="product1"></div>
                         <a class="product1" href="#">reviews</a>
-                        <div id="description1"></div>
+                        <div id="description1">
+                            <div class="comments">
+                                <p>Your comment:</p>
+                                <p><textarea class="comment" disabled="disabled" rows="3" cols="40"></textarea></p>
+                                <button class="sendComment">send</button>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div id="product2"></div>
                         <a class="product2" href="#">reviews</a>
-                        <div id="description2"></div>
+                        <div id="description2">
+                            <div class="comments">
+                                <p>Your comment:</p>
+                                <p><textarea class="comment" disabled="disabled" rows="3" cols="40"></textarea></p>
+                                <button class="sendComment">send</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <script id="products-tpl" type="text/x-jquery-tmpl">
@@ -154,24 +183,24 @@
                 </script>
                 <script id="description1-tmpl" type="text/x-jquery-tmpl">
                     <ul class="modal1">
-                        <li>Product name: ${product}</li>
-                        <li>Product id: ${id}</li>
-                        <li>Rate:${rate}</li>
-                        <li>Comment:" ${text} "</li>
-                        <li>User id: ${created_by["id"]}</li>
-                        <li>User name: ${created_by["username"]}</li>
-                        <li>Date: ${created_at} </li>
+                        <li>Product name: ${product}.</li>
+                        <li>Product id: ${id}.</li>
+                        <li>Rate:${rate}.</li>
+                        <li>Comment: " ${text} ".</li>
+                        <li>User id: ${created_by["id"]}.</li>
+                        <li>User name: ${created_by["username"]}.</li>
+                        <li>Date: ${created_at}.</li>
                     </ul>
                 </script>
                 <script id="description2-tmpl" type="text/x-jquery-tmpl">
                     <ul class="modal2">
-                        <li>Product name: ${product}</li>
-                        <li>Product id: ${id}</li>
-                        <li>Rate:${rate}</li>
-                        <li>Comment:${text}</li>
-                        <li>User id: ${created_by["id"]}</li>
-                        <li>User name: ${created_by["username"]}</li>
-                        <li>Date:${created_at}</li>
+                        <li>Product name: ${product}.</li>
+                        <li>Product id: ${id}.</li>
+                        <li>Rate:${rate}.</li>
+                        <li>Comment: " ${text} ".</li>
+                        <li>User id: ${created_by["id"]}.</li>
+                        <li>User name: ${created_by["username"]}.</li>
+                        <li>Date:${created_at}.</li>
                     </ul>
                 </script>
             </div>
@@ -283,12 +312,7 @@
                                 <li><a href="#">Contact us</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
-                            <div class="sign_menu">
-                                <span class="sign">Sign in</span>
-                            </div>
-                        </div>
-                        <div class="links col-md-2">
+                        <div class="links col-md-6">
                             <a href="https://twitter.com/"><img class="twit" src="img/logo---Twitter.png"></a>
                             <a href="https://www.facebook.com/"><img class="fc" src="img/logo---Facebook.png"></a>
                             <a href="https://www.instagram.com/"><img class="insta" src="img/logo---Instagram.png"></a>
