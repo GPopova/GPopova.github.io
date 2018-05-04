@@ -208,12 +208,25 @@ function checkEmail(str) {
 }
 
 // add Comments
-var parentElem = document.getElementById('description1');
-var comment = parentElem.querySelector('.comment');
-$('.sendComment').one('click', function() {
+$('.sendComment1').on('click', function() {
+    var parentElem = document.getElementById('description1');
+    var comment = parentElem.querySelector('.comment');
     var message = comment.value;
-    var msgElem = document.createElement('ul');
-    msgElem.className = "add-comment";
-    msgElem.innerHTML = 'Your comment:' + '"' + message + '"';
-    parentElem.appendChild(msgElem);
+    if(message !== ''){
+        var msgElem = document.createElement('ul');
+        msgElem.className = "add-comment";
+        msgElem.innerHTML = 'Your comment:' + '"' + message + '"';
+        parentElem.appendChild(msgElem);  
+    }
+});
+$('.sendComment2').on('click', function() {
+    var parentElem = document.getElementById('description2');
+    var comment = parentElem.querySelector('.comment');
+    var message = comment.value;
+    if(message !== ''){
+        var msgElem = document.createElement('ul');
+        msgElem.className = "add-comment";
+        msgElem.innerHTML = 'Your comment:' + '"' + message + '"';
+        parentElem.appendChild(msgElem);
+    }
 });
