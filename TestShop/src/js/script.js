@@ -51,7 +51,7 @@ $(document).ready(function(){
 });
 
 // API Get products, reviews
-var $link = 'http://demo4072172.mockable.io/api';
+var $link = 'https://demo4072172.mockable.io/api';
 $(document).ready(function() {
     $.get( $link+'/product/1', function(response) {
         $('#products-tpl').tmpl(response).appendTo('#product1');
@@ -101,7 +101,7 @@ formLogin.onsubmit = function (e) {
     if(validateName(this.elements.name.value, 2, 20) && validatePassword(this.elements.password.value, 6, 15)){
         $.ajax({
             method: 'POST',
-            url: 'http://demo4072172.mockable.io/api/login',
+            url: $link+'/login',
             data: {
                 username: this.elements.name.value,
                 password: this.elements.password.value
@@ -134,7 +134,7 @@ formRegistration.onsubmit = function (e) {
     if(validateName(this.elements.name.value, 2, 20) && validatePassword(this.elements.password.value, 6, 15)){
         $.ajax({
             method: 'POST',
-            url: 'http://demo4072172.mockable.io/api/register',
+            url: $link+'/register',
             data: {
                 username: this.elements.name.value,
                 password: this.elements.password.value

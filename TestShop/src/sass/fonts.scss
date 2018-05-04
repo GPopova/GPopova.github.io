@@ -1,10 +1,6 @@
-
 @font-face {
-  font-family: 'lobster_1_4';
-  src: url('../fonts/Lobster/lobster_1_4/lobster_1_4.eot');
-  src: url('../fonts/Lobster/lobster_1_4/lobster_1_4?#iefix') format('embedded-opentype'),
-  url('../fonts/Lobster/lobster_1_4/lobster_1_4.woff') format('woff'),
-  url('../fonts/Lobster/lobster_1_4/lobster_1_4.ttf')  format('truetype');
+  font-family: 'Lobster';
+  src: url('../fonts/Lobster/Lobster.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'OpenSansLight';
@@ -21,24 +17,6 @@
   url('../fonts/Bebas/BebasNeue/BebasNeue.ttf')  format('truetype');
 }
 
-$Lobster:'Lobster_1_4';
+$Lobster:'Lobster';
 $OpenSans:'OpenSansLight';
 $Bebas: 'BebasNeue';
-
-
-@import url('//use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css');
-
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');
-  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
-  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
-  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
-  url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
