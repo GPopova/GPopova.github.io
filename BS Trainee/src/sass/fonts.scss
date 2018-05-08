@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'FuturaLight';
+  src: url('../fonts/Futura/FuturaPTLight.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'FuturaLightOb';
+  src: url('../fonts/Futura/FuturaPTLightOblique.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'FuturaHeavyOb';
+  src: url('../fonts/Futura/FuturaPTHeavyOblique.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'FuturaBold';
+  src: url('../fonts/Futura/FuturaBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/Roboto/roboto.light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url('../fonts/Roboto/roboto.black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('../fonts/OpenSansLight/OpenSansLight.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+$OpenSans:'OpenSansLight';
+$RobotoL:'RobotoLight';
+$RobotoB:'RobotoBlack';
+$FuturaL: 'FuturaLight';
+$FuturaLOb: 'FuturaLightOb';
+$FuturaHOb: 'FuturaHeavyOb';
+$FuturaB: 'FuturaBold';
+
+
+
+
