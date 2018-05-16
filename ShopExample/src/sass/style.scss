@@ -1,0 +1,585 @@
+//base
+*, :after, :before, :hover {
+  box-sizing: border-box;
+}
+*{
+  outline:none;
+}
+body{
+  overflow-x: hidden;
+  position: relative;
+  background: white;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+//
+
+header {
+  .top_nav {
+    background-color: #333;
+    width: 100%;
+    padding: 12px 0;
+    .menu_settings {
+      li {
+        display: inline-block;
+        a {
+          font-size: 14px;
+          font-family: $OpenSans;
+          color: #fff;
+          padding: 0 20px;
+          text-transform: none;
+        }
+      }
+    }
+    .sign_menu{
+      text-align: right;
+      display: block;
+      font-family: $OpenSans;
+      .sign{
+        padding: 0 10px;
+        font-size: 14px;
+        color: #fff;
+        cursor: pointer;
+      }
+      #formSignIn.open{
+        display: block;
+        position: absolute;
+        z-index: 2;
+        margin-top: 20px;
+        text-align: left;
+        padding: 0 16px;
+        border-radius: 3px;
+        background-color: #333;
+        padding-right: 40px;
+        padding-bottom: 17px;
+        .form_login{
+          position: relative;
+          padding-bottom: 10px;
+          .error-message{
+            position: absolute;
+            top: 66px;
+            margin-left: -150px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #c41230;
+          }
+        }
+        .form_registration{
+          margin-bottom: 20px;
+          position: relative;
+          form{
+            .error-message{
+              position: absolute;
+              margin-left: -150px;
+              margin-top: 50px;
+              font-size: 12px;
+              font-weight: 600;
+              color: #c41230;
+            }
+          }
+        }
+        form{
+          width: 470px;
+          padding: 16px 14px 0 22px;
+          margin: 0 auto;
+          display: inline-block;
+          div{
+            display: inline-block;
+          }
+          h3{
+            font-family: $OpenSans;
+            color: #fff;
+            font-size: 16px;
+          }
+          input{
+            background-color:  #e8e8e8;
+            display: inline-block;
+            padding: 0 10px;
+            font-family: $OpenSans;
+            color:  #4f4f4f;
+            font-size: 14px;
+            margin-top: 25px;
+            border: none;
+            width: 155px;
+            height: 22px;
+          }
+          button{
+            background-color:  #434343;
+            width: 94px;
+            height: 24px;
+            color: #fff;
+            font-family: $OpenSans;
+            font-size: 14px;
+            border: none;
+          }
+        }
+      }
+      #formSignIn{
+        display: none;
+      }
+    }
+    .links {
+      text-align: right;
+      a {
+        padding: 0 10px;
+        img{
+          height: 14px;
+        }
+        .twit{
+          width: 16px;
+        }
+        .fc{
+          width: 8px;
+        }
+        .insta{
+          width: 14px;
+        }
+      }
+    }
+  }
+  .logo {
+    margin: 30px 0;
+    .title {
+      color: #3bc3b4;
+      font-family: $Lobster;
+      font-size: 49px;
+      margin: -10px 25px;
+    }
+    .search {
+      text-align: center;
+      input {
+        width: 460px;
+        height: 34px;
+        border-radius: 5px;
+        padding: 4px 14px;
+        border: 1px solid lightgray;
+        font-size: 16px;
+        color: #333;
+      }
+      a {
+        margin-left: 12px;
+        img{
+          position: absolute;
+          margin-top: 7px;
+          width: 20px;
+        }
+      }
+    }
+    .basket {
+      text-align: right;
+      img{
+        width: 34px;
+        height: 30px;
+      }
+    }
+  }
+  .header_bg {
+    background-color: #fff;
+    min-height: 488px;
+    .top_menu {
+      ul {
+        font-size: 0;
+        padding: 28px 0;
+        li {
+          display: inline-block;
+          text-transform: uppercase;
+          height: 20px;
+          a {
+            font-size: 21px;
+            font-family: $Bebas;
+            color: #333;
+            padding: 0 30px;
+          }
+        }
+        .sale {
+          a {
+            color: #c41230;
+          }
+        }
+      }
+    }
+    .movie {
+      video {
+        width: 100%;
+      }
+    }
+    .text_video {
+      text-align: center;
+      margin-top: -300px;
+      font-family: $Bebas;
+      opacity: .8;
+      color: #fff;
+      &:hover {
+        opacity: 1;
+      }
+      .name {
+        font-family: $Lobster;
+        font-size: 30px;
+        letter-spacing: 2px;
+      }
+      p {
+        font-size: 54px;
+        line-height: 54px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+      }
+      a {
+        font-family: $Bebas;
+        color: #333;
+        font-size: 18px;
+        background-color: #fff;
+        border: none;
+        margin: 10px 15px 0;
+        max-width: 340px;
+        padding: 14px 30px;
+        vertical-align: top;
+      }
+    }
+  }
+}
+.content{
+  .slider2{
+    background-color: #fff;
+    min-height: 190px;
+    padding: 34px 0;
+    .slide-two {
+      position: relative;
+      .owl-dots {
+        display: none;
+      }
+      .owl-nav {
+        display: block;
+        color: transparent;
+        .owl-prev {
+          width: 29px;
+          height: 88px;
+          content: '';
+          background: url("../img/arrow-left.png");
+          left: -40px;
+          top: 20px;
+          position: absolute;
+        }
+        .owl-next {
+          width: 29px;
+          height: 88px;
+          content: '';
+          background: url("../img/arrow-right.png") ;
+          right: -40px;
+          top: 20px;
+          position: absolute;
+        }
+      }
+    }
+    .one,.two,.three{
+      img{
+        float: left;
+      }
+      width:340px;
+      display: block;
+      margin: 0px 24px;
+      h3{
+        width:80px;
+        position: absolute;
+        margin:30px 175px;
+        text-transform: uppercase;
+        font-family: $OpenSans;
+        color: #333;
+        font-size: 20px;
+      }
+      a{
+        padding: 4px 14px;
+        border-radius: 3px;
+        background-color: #3bc3b4;
+        position: absolute;
+        margin: 95px 5px;
+        color: #fff;
+        font-family: $Bebas;
+        padding-top: 8px;
+      }
+    }
+    .one{
+      img {
+        width: 170px;
+        height: 142px;
+      }
+    }
+    .two{
+      img {
+        width: 120px;
+        height: 133px;
+      }
+      a{
+        margin: 95px 56px;
+      }
+    }
+    .three{
+      img {
+        width: 80px;
+        height: 128px;
+      }
+      a{
+        margin: 95px 95px;
+      }
+    }
+  }
+  .blog{
+    background-image: url("../img/trees.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    margin-top: 30px;
+    font-family: $OpenSans;
+    color: #333;
+    text-align: center;
+    padding: 62px 150px;
+    h2{
+      font-size: 34px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 22px;
+    }
+    p{
+      line-height: 22px;
+      color: black;
+    }
+    .read_more{
+      margin-top: 20px;
+      a{
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 4px;
+        border-bottom: 2px solid #333;
+        color: #333;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .slider1 {
+    padding: 60px 0 26px;
+    text-align: center;
+    .img {
+      img {
+        height: 326px;
+        width: 286px;
+        display: inline-block;
+        float: left;
+        margin: 20px 65px;
+      }
+    }
+    .text {
+      text-align: left;
+      display: inline-block;
+      margin: 54px 0;
+      max-width: 406px;
+      h1 {
+        font-size: 34px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: $OpenSans;
+        line-height: 48px;
+      }
+      p {
+        font-family: $OpenSans;
+        font-size: 17px;
+        margin-top: 30px;
+        margin-bottom: 56px;
+      }
+      a {
+        font-size: 20px;
+        font-family: $Bebas;
+        border-radius: 5px;
+        background-color: #3bc3b4;
+        padding: 10px 24px;
+        color: #fff;
+        letter-spacing: 1px;
+      }
+    }
+    .owl-carousel {
+      .owl-nav {
+        display: block;
+        font-size: 0;
+        .owl-prev {
+          width: 29px;
+          height: 88px;
+          content: '';
+          background: url("../img/arrow-left.png");
+          left: -40px;
+          bottom: 200px;
+          position: absolute;
+        }
+        .owl-next {
+          width: 29px;
+          height: 88px;
+          content: '';
+          background: url("../img/arrow-right.png") ;
+          right: -40px;
+          bottom: 200px;
+          position: absolute;
+        }
+      }
+      .owl-dots {
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 26px;
+        .owl-dot {
+          display: inline-block;
+          zoom: 1;
+          span {
+            width: 9px;
+            height: 9px;
+            margin: 5px 7px;
+            background-color: #333;
+            display: block;
+            -webkit-backface-visibility: visible;
+            -webkit-transition: opacity 200ms ease;
+            -moz-transition: opacity 200ms ease;
+            -ms-transition: opacity 200ms ease;
+            -o-transition: opacity 200ms ease;
+            transition: opacity 200ms ease;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+          }
+          &.active span, &:hover span {
+            background: rgba(2, 2, 2, 0.32);
+          }
+        }
+      }
+    }
+  }
+  .wardrobe{
+    margin-bottom: 80px;
+    img{
+      width: 338px;
+      padding: 9px;
+      opacity: 1;
+      -webkit-transition: opacity 0.2s;
+      -moz-transition: opacity 0.2s;
+      -o-transition: opacity 0.2s;
+      &:hover{
+        opacity:.5;
+      }
+    }
+    p{
+      text-align: center;
+      a{
+        font-weight: bold;
+        font-size: 14px;
+        padding-bottom: 4px;
+        border-bottom: 2px solid #333;
+        color: #333;
+        text-transform: uppercase;
+        font-family: $OpenSans;
+      }
+    }
+    .first{
+      margin-bottom: 20px;
+    }
+  }
+}
+footer{
+  background-color: #333;
+  .footer-form{
+    .form-subscribe{
+      form{
+        width: 470px;
+        height: 110px;
+        padding: 16px 14px 20px 22px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 36px;
+        div{
+          display: inline-block;
+        }
+        input{
+          width: 265px;
+          height: 22px;
+          background-color:  #e8e8e8;
+          padding: 0 10px;
+          font-family: $OpenSans;
+          color:  #4f4f4f;
+          font-size: 14px;
+          border: none;
+        }
+        h3{
+          font-family: $OpenSans;
+          color: #fff;
+          font-size: 16px;
+          margin-bottom: 20px;
+        }
+        button{
+          background-color:  #434343;
+          width: 94px;
+          height: 24px;
+          color: #fff;
+          font-family: $OpenSans;
+          font-size: 14px;
+          border: none;
+        }
+        .error-message{
+          position: absolute;
+          top: 100px;
+          margin-left: -260px;
+          font-size: 12px;
+          font-weight: 600;
+          color: #c41230;
+          font-family: $OpenSans;
+        }
+      }
+    }
+  }
+  .footer_nav {
+    width: 100%;
+    padding: 12px 0;
+    .menu_settings {
+      li {
+        display: inline-block;
+        a {
+          font-size: 14px;
+          font-family: $OpenSans;
+          color: #fff;
+          padding: 0 20px;
+          text-transform: none;
+        }
+      }
+    }
+    .links {
+      text-align: right;
+      a {
+        padding: 0 10px;
+        img{
+          height: 14px;
+        }
+        .twit{
+          width: 16px;
+        }
+        .fc{
+          width: 8px;
+        }
+        .insta{
+          width: 14px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
