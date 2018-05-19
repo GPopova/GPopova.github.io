@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TestTask</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="css/main.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header>
+    <ul class="nav">
+        <li><span class="home"><img src="img/home.png"></span><a href="#">Главная </a></li>
+        <li><span class="line">&mdash;</span><a href="#">Каталог товаров</a></li>
+        <li><span class="line">&mdash;</span>Воздушные шары</li>
+    </ul>
+    <h1>Каталог шариков</h1>
+</header>
+<div class="content">
+    <div class="toolbar">
+        <div class="filter-color">
+            <p>Цвет:
+            <input type="radio" name="color" id="red" value="red">
+            <label for="red"><span></span></label>
+            <input type="radio" name="color" id="grey" value="grey" checked>
+            <label for="grey"><span></span></label>
+            <input type="radio" name="color" id="mustard" value="mustard">
+            <label for="mustard"><span></span></label>
+            <input type="radio" name="color" id="white" value="white">
+            <label for="white"><span></span></label>
+            <input type="radio" name="color" id="green" value="green">
+            <label for="green"><span></span></label>
+            <input type="radio" name="color" id="pink" value="pink">
+            <label for="pink"><span></span></label>
+            <input type="radio" name="color" id="orange" value="orange">
+            <label for="orange"><span></span></label>
+            </p>
+        </div>
+        <div class="filter-amount">
+            <input type="checkbox" id="all">
+            <label for="all">Все шары</label>
+            <input type="checkbox" id="set"checked>
+            <label for="set">Комплекты</label>
+            <input type="checkbox" id="one">
+            <label for="one">По одному</label>
+        </div>
+        <div class="filter-sorting">
+            <p>Сортировать по: </p>
+            <p class="red">Цене </p><span class="up"> &uarr; </span><span class="down"> &darr; </span>
+        </div>
+    </div>
+    <div class="products">
+        <div class="product" id="product1">
+            <div class="picture">
+                <img src="img/balloon-pink.png">
+            </div>
+            <div class="title">
+                <a href="#">Шары «Звезды и Кометы»</a>
+            </div>
+            <p class="description">Фигуры, латексный, полупрозрачный,  средний, красный</p>
+            <p class="price"><span>75 Р </span> / шт.</p>
+            <p class="crossing-price">90 Р</p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="20" class="num_count" id="num_count" name="quantity" value="200" title="Кол.">
+                <span>шт.</span>
+                <input type="button" value="-" id="button_minus" class="button_minus">
+                <input type="button" value="+" id="button_plus" class="button_plus">
+                <input type="submit" name="submit" class="basket">
+            </div>
+        </div>
+        <div class="product" id="product2">
+            <div class="picture">
+                <img src="img/balloon-yellow.png">
+            </div>
+            <div class="title">
+                <a href="#">Шары «Звезды и Кометы»</a>
+            </div>
+            <p class="description">Фигуры, латексный</p>
+            <p class="price"><span>15 075 Р </span> / шт.</p>
+            <p class="crossing-price">90 Р</p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="20" class="num_count" name="quantity" value="2" title="Кол.">
+                <span>шт.</span>
+                <input type="button" value="-" class="button_minus">
+                <input type="button" value="+" class="button_plus">
+                <input type="submit" name="submit" class="basket">
+            </div>
+        </div>
+        <div class="product" id="product3">
+            <div class="picture">
+                <img src="img/balloon-pink.png">
+            </div>
+            <div class="title">
+                <a href="#">Шары «Звезды»</a>
+            </div>
+            <p class="description">Фигуры, латексный, полупрозрачный,  средний, красный</p>
+            <p class="price"><span>75 Р </span> / шт.</p>
+            <p class="crossing-price">90 Р</p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="20" class="num_count" name="quantity" value="200" title="Кол.">
+                <span>шт.</span>
+                <input type="button" value="-" class="button_minus">
+                <input type="button" value="+" class="button_plus">
+                <input type="submit" name="submit" class="basket">
+            </div>
+        </div>
+        <div class="product" id="product4">
+            <div class="picture">
+                <img src="img/balloon-yellow.png">
+            </div>
+            <div class="title">
+                <a href="#">Шары «Звезды и Кометы»</a>
+            </div>
+            <p class="description">Фигуры, латексный, полупрозрачный,  средний, красный</p>
+            <p class="price"><span>15 075 Р </span> / шт.</p>
+            <p class="crossing-price">90 Р</p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="20" class="num_count" name="quantity" value="2" title="Кол.">
+                <span>шт.</span>
+                <input type="button" value="-" class="button_minus">
+                <input type="button" value="+" class="button_plus">
+                <input type="submit" name="submit" class="basket">
+            </div>
+        </div>
+        <div class="product" id="product5">
+            <div class="picture">
+                <img src="img/balloon-yellow.png">
+            </div>
+            <div class="title">
+                <a href="#">Шары «Звезды»</a>
+            </div>
+            <p class="description">Фигуры, латексный, полупрозрачный</p>
+            <p class="price"><span>15 075 Р </span> / шт.</p>
+            <p class="crossing-price">90 Р</p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="20" class="num_count" name="quantity" value="2" title="Кол.">
+                <span>шт.</span>
+                <input type="button" value="-" class="button_minus">
+                <input type="button" value="+" class="button_plus">
+                <input type="submit" name="submit" class="basket">
+            </div>
+        </div>
+        <div class="product" id="product6">
+            <div class="picture">
+                <img src="img/balloon-yellow.png">
+            </div>
+            <div class="title">
+                <a href="#">Шары «Звезды»</a>
+            </div>
+            <p class="description">Фигуры, латексный, полупрозрачный</p>
+            <p class="price"><span>15 075 Р </span> / шт.</p>
+            <p class="crossing-price">90 Р</p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="20" class="num_count" name="quantity" value="2" title="Кол.">
+                <span>шт.</span>
+                <input type="button" value="-" class="button_minus">
+                <input type="button" value="+" class="button_plus">
+                <input type="submit" name="submit" class="basket">
+            </div>
+        </div>
+        <div class="product" id="product7">
+            <div class="picture">
+                <img src="img/balloon-pink.png">
+            </div>
+            <div class="title">
+                <a href="#">Шары «Кометы»</a>
+            </div>
+            <p class="description">Фигуры, латексный</p>
+            <p class="price"><span>75 Р </span> / шт.</p>
+            <p class="crossing-price">90 Р</p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="20" class="num_count" name="quantity" value="200" title="Кол.">
+                <span>шт.</span>
+                <input type="button" value="-" class="button_minus">
+                <input type="button" value="+" class="button_plus">
+                <input type="submit" name="submit" class="basket">
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <nav>
+        <div class="previous">
+            <p>&lt; <a href="#">Назад</a></p>
+        </div>
+        <div class="pages">
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#" class="active">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+            </ul>
+        </div>
+        <div class="next">
+            <p><a href="#">Далее</a> &gt;</p>
+        </div>
+    </nav>
+</footer>
+<script src="js/script.min.js"></script>
+</body>
+</html>

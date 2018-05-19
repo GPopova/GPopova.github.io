@@ -1,0 +1,153 @@
+@media(max-width: 991px){
+body{
+
+  margin-left: 20px;
+  margin-right: 20px;
+  .content{
+    .toolbar{
+      padding: 12px 16px;
+      div{
+        display: inline-block;
+        width: 33%;
+        text-align: left;
+      }
+      .filter-color{
+        border: none;
+        padding:0;
+      }
+      .filter-amount{
+        border: none;
+        padding-right: 0;
+        padding-left: 82px;
+        label{
+          display: block;
+          margin-top: -18px;
+        }
+        input{
+          margin-left: -30px;
+          margin-bottom: 4px;
+        }
+      }
+      .filter-sorting{
+        padding: 0;
+        text-align: right;
+        margin-left:-2px;
+      }
+    }
+  }
+  footer{
+    nav{
+      .pages{
+        ul{
+          li{
+            padding-right: 10px;
+          }
+        }
+      }
+      .next{
+        margin-left: -2px;
+      }
+    }
+  }
+}
+}
+
+@media(max-width: 767px){
+ body{
+   .content{
+     .toolbar{
+       padding: 20px 16px;
+       div{
+         display: block;
+         width: 100%;
+       }
+       .filter-color{
+         padding-bottom: 10px;
+       }
+       .filter-amount{
+         padding: 10px 0;
+         border-top: 1px solid rgb(194, 209, 220);
+         border-bottom: 1px solid rgb(194, 209, 220);
+         label{
+           display: inline-block;
+           margin-top: 0;
+         }
+         input{
+           margin-left: 0;
+           margin-bottom: 0;
+         }
+       }
+       .filter-sorting{
+         padding-top: 10px;
+         margin: 0;
+         text-align: left;
+       }
+     }
+   }
+   footer{
+     nav{
+       .pages{
+         ul{
+           li{
+             padding-right: 2px;
+           }
+         }
+       }
+       .next{
+         margin-left: -4px;
+       }
+     }
+   }
+ }
+}
+
+@media (max-width: 479px){
+body{
+  header{
+    .nav{
+      margin-bottom: 14px;
+      li{
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .content{
+    .toolbar{
+      .filter-amount{
+        label{
+          display: block;
+          margin-top: -18px;
+          margin-left: 30px;
+        }
+        input{
+          margin-bottom: 4px;
+        }
+      }
+    }
+    .products{
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  footer{
+    nav{
+      .pages{
+        ul{
+          li{
+            a{
+              display: none;
+            }
+            .active{
+              display: block;
+              margin-left: 14px;
+            }
+          }
+        }
+      }
+      .next{
+        margin-left: -8px;
+      }
+    }
+  }
+}
+}
