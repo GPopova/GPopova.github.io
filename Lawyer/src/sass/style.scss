@@ -30,12 +30,21 @@ a{
   color: #FFFFFF;
   cursor: pointer;
 }
+//
+
 header {
-  margin: 30px;
+  margin: 30px 0;
   background: url("../img/header-bg.png"), no-repeat;
   background-size: cover;
+  background-position: 50%;
+  .header-content{
+    padding: 0 18px 0 0;
+  }
   .top-line {
     padding-top: 14px;
+    .logo{
+      padding-left: 15px;
+    }
     .top-right {
       text-align: right;
       div {
@@ -44,9 +53,10 @@ header {
       .text {
         margin-top: 8px;
         p {
-          font-family: 'DomineRegular', sans-serif;
+          font-family: DomineRegular,sans-serif;
           font-size: 22px;
-          letter-spacing: 1px;
+          letter-spacing: .8px;
+          padding-top: 2px;
         }
         .bold {
           font-family: 'DomineRegular', sans-serif;
@@ -59,13 +69,21 @@ header {
         }
       }
       .number {
-        font-family: 'OpenSansLight', sans-serif;
+        font-family: OpenSansLight,sans-serif;
         font-size: 30px;
         line-height: 41px;
-        margin-left: 6px;
+        margin: -24px 2px 0 8px;
+        vertical-align: middle;
       }
     }
   }
+  .top-menu {
+    display: block;
+  }
+  #menu-responsive{
+    display: none;
+  }
+
   .top-menu {
     border-bottom: 1px solid rgba(196, 196, 196, 0.2);
     padding: 0;
@@ -117,25 +135,24 @@ header {
     }
   }
   .content-left {
-    margin-top: 89px;
+    margin-top: 87px;
     h1 {
       font-family: 'DomineRegular', sans-serif;
       font-size: 40px;
       line-height: 50px;
+      letter-spacing: -0.1px;
     }
     p {
       font-family: 'OpenSansRegular', sans-serif;
       font-size: 14px;
       line-height: 24px;
-      margin-top: 12px;
-      margin-bottom: 22px;
+      margin: 12px 68px 18px 0;
     }
     .btn-default {
-      width: 100%;
       color: #fff;
-      font-family: DomineBold,sans-serif;
+      font-family: 'DomineBold',sans-serif;
       font-size: 12px;
-      letter-spacing: 2.2px;
+      letter-spacing: 2.4px;
       line-height: 14px;
       text-transform: uppercase;
       display: inline-block;
@@ -143,77 +160,82 @@ header {
       vertical-align: top;
       margin: 6px 0;
       border-radius: 3px;
-      background-color: $red;
-      padding: 21px 0;
+      background-color: #ce0b24;
+      padding: 21px 101px;
       &:hover, &:active, &:focus {
-        background-color: $red;
-        color: #ffffff;
+        background-color: #AF0A1F;
       }
     }
     .header-rating {
+      margin-top: 15px;
+      margin-left: -5px;
       p {
-        font-family: 'Domine', sans-serif;
+        font-family: Domine,sans-serif;
         font-size: 10px;
         font-weight: 400;
-        letter-spacing: 3px;
+        letter-spacing: 2.4px;
         line-height: 16px;
         text-transform: uppercase;
         position: relative;
-        text-align: center;
-        color: #ffffff;
+        color: #fff;
         margin-bottom: 13px;
+        margin-left: 100px;
         &:before, &:after {
           position: absolute;
           top: 7px;
-          right: 0;
+          right: 40px;
           content: '';
           width: 16%;
           height: 1px;
-          background: rgba(255, 255, 255, 0.3);
+          background: rgba(255,255,255,.3);
         }
         &:before {
           right: inherit;
-          left: 0;
+          left: -94px;
         }
+      }
+      a{
+        padding-right: 2px;
       }
     }
   }
     .content-right {
       img{
         position: relative;
-        right: -6px;
-        bottom: -5px;
+        right: 97px;
+        bottom: -4px;
         vertical-align: text-bottom;
       }
     }
 }
+
 .practice-areas{
   .practice-wrap{
     padding-top: 26px;
-    padding-bottom: 89px;
+    padding-bottom: 93px;
     border-bottom: 1px solid $border-dark;
     .left{
-      margin-top: 32px;
+      margin-top: 30px;
       h2{
         font-family: DomineRegular,sans-serif;
         font-size: 36px;
         line-height: 57px;
-        margin-bottom: 7px;
+        margin-bottom: 8px;
       }
       p{
         font-family: OpenSansRegular,sans-serif;
         font-size: 14px;
         line-height: 24px;
         color: #d4d8de;
-        padding-right: 8px;
+        padding-right: 16px;
       }
     }
     .right{
+      padding-left: 9px;
       .item{
         text-align: center;
         display: inline-block;
-        margin-bottom: -9px;
-        min-width: 169px;
+        min-width: 170px;
         a:hover p{
           color: $red;
         }
@@ -232,7 +254,7 @@ header {
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center;
-          padding-left: 19px;
+          padding-left: 20px;
           text-align: center;
           color: #e0e0e0;
           text-transform: uppercase;
@@ -247,57 +269,63 @@ header {
           align-items: flex-end;
           width: 100%;
           height: 92px;
-          margin-bottom: 10px;
+          margin-bottom: 4px;
+        }
+      }
+      .top{
+        .icon{
+          margin-bottom: 14px;
         }
       }
     }
   }
 }
+
 .about{
-  padding: 92px 0;
+  padding: 89px 0px;
   border-bottom: 1px solid $border-dark;
   .photo{
     .partners{
-      margin-left: -18px;
-      filter: drop-shadow(12px 12px 0px #2a2c2d);
+      margin-left: -20px;
+      filter: drop-shadow(10px 10px 0 #2a2c2d);
     }
-    .bottom{
-      span{
-       font-family: 'DomineRegular', sans-serif;
-       font-size: 12px;
-       line-height: 14px;
-       letter-spacing: 2.4px;
-        color: #F4F5F7;
-        text-transform: uppercase;
-        position: relative;
-        padding-left: 24px;
-        padding-right: 19px;
-        &:before{
-          position: absolute;
-          top: 5px;
-          left: 0;
-          content: '';
-          width: 13px;
-          background: $red;
-          height: 2px;
-          padding-left: 13px;
-        }
+  }
+  .bottom{
+    margin-top: 6px;
+    span{
+      font-family: DomineRegular,sans-serif;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 2.4px;
+      color: #f4f5f7;
+      text-transform: uppercase;
+      position: relative;
+      padding-left: 22px;
+      &:before{
+        position: absolute;
+        top: 5px;
+        left: 0;
+        content: '';
+        width: 13px;
+        background: $red;
+        height: 2px;
+        padding-left: 13px;
       }
-      img{
-        vertical-align: middle;
-        padding-left: 14px;
-        padding-right: 26px;
-      }
+    }
+    img{
+      vertical-align: middle;
+      padding-left: 15px;
+      padding-right: 6px;
     }
   }
   .text{
     text-align: left;
-    padding-left: 28px;
+    padding-left: 16px;
     h2{
       font-family: 'DomineRegular', sans-serif;
       font-size: 36px;
       line-height: 46px;
-      padding: 4px 0 12px 0;
+      padding: 4px 0 10px 0;
     }
     .bold{
       font-family: 'OpenSansSemibold', sans-serif;
@@ -309,12 +337,13 @@ header {
       padding-bottom: 14px;
     }
     p{
-      font-family: 'OpenSansRegular', sans-serif;
+      font-family: OpenSansRegular,sans-serif;
       font-size: 14px;
       line-height: 24px;
-      color: #D4D8DE;
-      margin-right: -2px;
-      padding-bottom: 16px;
+      color: #d4d8de;
+      margin-right: 20px;
+      padding-bottom: 14px;
+      margin-top: 1px;
     }
     a{
       font-family: 'OpenSansBold', sans-serif;
@@ -329,10 +358,14 @@ header {
     }
   }
 }
+
 .courts{
   .list{
-    padding: 90px 0 60px 0;
+    padding: 91px 0 63px 0;;
     border-bottom: 1px solid $border-dark;
+    .more{
+      display: none;
+    }
     h2{
       font-family: 'DomineRegular', sans-serif;
       font-size: 36px;
@@ -342,9 +375,10 @@ header {
       margin-left: -18px;
     }
     ul{
+      -moz-column-count: 3;
       -webkit-column-count: 3;
       column-count: 3;
-      margin: 20px 0 14px;
+      margin:18px 0 14px -3px;
       display: block;
       list-style-type: disc;
       li{
@@ -367,9 +401,10 @@ header {
     }
   }
 }
+
 .blog-wrap{
   .blog{
-    padding: 77px 0;
+    padding: 74px 0 99px;
     border-bottom: 1px solid $border-dark;
     h6{
       font-family: 'OpenSansSemibold', sans-serif;
@@ -395,8 +430,9 @@ header {
       }
     }
     .content{
-      margin-top: 18px;
+      margin-top: 15px;
       .item-news{
+        padding-left: 16px;
         a{
           color: #d4d8de;
           display: block;
@@ -420,8 +456,8 @@ header {
       .item{
         width: 270px;
         height: 426px;
-        background: #FFFFFF;
-        margin-left: 28px;
+        background: #fff;
+        margin: 7px 9px 0 21px;
         .img{
           height: 170px;
           width: 270px;
@@ -431,8 +467,9 @@ header {
           }
         }
         h6{
-          padding-top: 26px;
+          padding-top: 24px;
           padding-right: 18px;
+          line-height: 23px;
           a{
             font-family: OpenSansBold,sans-serif;
             letter-spacing: 0px;
@@ -447,14 +484,13 @@ header {
           }
         }
         p{
-          margin-top: 24px;
           font-size: 14px;
           line-height: 23px;
-          letter-spacing: 0;
-          color: #646F7A;
+          letter-spacing: -0.2px;
+          color: #646f7a;
           padding-right: 20px;
-          font-family: OpenSansSemibold,sans-serif;
-          margin-bottom: 18px;
+          font-family: 'OpenSansSemibold',sans-serif;
+          margin: 22px 0 18px;
         }
         a{
           font-family: 'OpenSansBold', sans-serif;
@@ -471,21 +507,17 @@ header {
     }
   }
 }
-.testimonials-wrap{
-  background: url("../img/testimonials-bg.png") no-repeat;
-  -webkit-background-size:cover;
-  background-size:cover;
-}
+
 .testimonials{
-  padding: 95px 0 88px;
+  padding: 98px 0 81px 24px;
   border-bottom: 1px solid $border-dark;
   .left{
     width: 292px;
     display: inline-block;
     vertical-align: top;
     .avvo{
-      padding: 20px 29px 17px;
-      background: #25292D;
+      padding: 20px 28px 16px;
+      background: #25292d;
       border-radius: 3px;
       margin-bottom: 20px;
       width: 200px;
@@ -494,8 +526,8 @@ header {
         font-size: 14px;
         font-weight: 700;
         line-height: 23px;
-        margin-bottom: 9px;
-        letter-spacing: -0.2px;
+        margin-bottom: 7px;
+        letter-spacing: 0.4px;
       }
       img{
         position: relative;
@@ -506,8 +538,8 @@ header {
         color: $red;
         font-size: 12px;
         line-height: 23px;
-        margin-bottom: 3px;
         position: relative;
+        letter-spacing: 0.1px;
         font-family: 'OpenSansSemibold', sans-serif;
         &:hover, &:active, &:focus{
           text-decoration: underline;
@@ -527,7 +559,7 @@ h3{
   font-size: 30px;
   font-weight: 400;
   line-height: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 .testimonials-content{
   width: calc(100% - 297px);
@@ -539,8 +571,8 @@ h3{
     vertical-align: top;
     padding: 12px 0;
     h6{
-      font-weight: 700;
-      margin-bottom: 22px;
+      margin-bottom: 23px;
+      font-family: 'OpenSansBold', sans-serif;
     }
     p{
       color: #D4D8DE;
@@ -553,7 +585,7 @@ h3{
     .stars{
       margin-bottom: 13px;
       img{
-        margin-right: 1px;
+        margin-right: 2px;
       }
     }
     .bottom{
@@ -581,50 +613,65 @@ h3{
     margin-right: 0;
   }
 }
+
 .contact{
-  padding: 72px 0 0;
+  padding: 72px 0 60px;
   text-align: center;
-  z-index: 5;
-  position: relative;
+  border-bottom: 1px solid $border-dark;
   h2{
     font-family: DomineRegular,sans-serif;
     font-size: 36px;
     line-height: 46px;
     color: #fff;
     margin-bottom: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 22px;
+    margin-left: 6px;
   }
   &>p{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     margin: 0 auto 34px;
-    width: 50%;
-    font-family: 'OpenSansRegular', sans-serif;
-    color:#D4D8DE;
+    width: 60%;
+    font-family: 'OpenSansRegular',sans-serif;
+    color: #d4d8de;
   }
   .content{
-    padding: 12px 0 1px;
+    padding: 14px 0 1px;
     .item{
       width: 270px;
-      background-color: #ffffff;
+      background-color: #fff;
       text-align: left;
       margin-right: 25px;
       display: inline-block;
-      padding: 36px 5px 32px 38px;
+      padding: 32px 6px 35px 36px;
       position: relative;
       vertical-align: top;
       top: 0;
       bottom: 0;
       margin-bottom: 30px;
-      &:first-child{
+      &:hover{
         position: relative;
         top: -15px;
         padding: 25px 5px 40px 30px;
+        -webkit-box-shadow: 0 4px 20px rgba(55, 56, 60, 0.05);
+        box-shadow: 0 4px 20px rgba(55, 56, 60, 0.05);
+        margin-bottom: 0;
+      }
+      &:first-child{
+        position: relative;
+        top: -15px;
         box-shadow: 0 4px 20px rgba(55, 56, 60, 0.05);
         margin-bottom: 0;
         border-bottom: 3px solid $red;
+        &:hover{
+          position: relative;
+          top: -40px;
+          padding: 30px 26px 40px 32px;
+          -webkit-box-shadow: 0 4px 20px rgba(55, 56, 60, 0.05);
+          box-shadow: 0 4px 20px rgba(55, 56, 60, 0.05);
+          margin-bottom: 0;
+        }
       }
       h6{
         font-size: 14px;
@@ -633,23 +680,26 @@ h3{
         color: #2a333f;
         letter-spacing: 0.2px;
         margin-bottom: 26px;
+        font-family: 'OpenSansBold', sans-serif;
       }
       p{
         color: #646f7a;
         font-size: 14px;
         font-weight: 400;
-        line-height: 23px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
         width: 205px;
+        font-family: 'OpenSansRegular',sans-serif;
       }
       a{
-        margin: 20px 0 5px;
+        margin: 22px 0 -1px;
         display: block;
         color: $red;
         font-size: 10px;
         font-weight: 700;
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-family: 'OpenSansBold', sans-serif;
+        font-family: OpenSansBold,sans-serif;
         &:hover, &:active, &:focus{
           text-decoration: underline;
         }
@@ -662,48 +712,54 @@ h3{
   .bottom{
     a{
       font-size: 12px;
+      margin-left: 6px;
       letter-spacing: 2.4px;
       line-height: 24px;
       display: block;
-      margin-bottom: 3px;
       text-transform: uppercase;
-      font-family: 'OpenSansSemibold', sans-serif;
+      font-family: OpenSansSemibold,sans-serif;
       text-align: center;
     }
     .button{
-      margin-top: 26px;
+      margin-top: 32px;
+      margin-left: 16px;
       .btn-default {
         color: #fff;
         font-family: DomineBold,sans-serif;
         font-size: 12px;
-        letter-spacing: 2.2px;
+        letter-spacing: 2.4px;
         line-height: 14px;
         text-transform: uppercase;
         display: inline-block;
         text-align: center;
         vertical-align: top;
-        margin: 6px 0;
-        margin-left: 12px;
         border-radius: 3px;
         background-color: $red;
-        padding: 21px 12px 21px 26px;
+        padding: 21px 52px;
         min-width: 370px;
         &:hover, &:active, &:focus {
-          background-color: $red;
-          color: #ffffff;
+          background-color: #AF0A1F;
         }
       }
     }
 
   }
 }
+
+#map{
+  width: 760px;
+  height: 400px;
+}
+.fancybox-slide>*{
+  padding: 0;
+}
+.fancybox-close-small{
+  display: none;
+}
+
 .footer{
-  border-top: 1px solid $border-dark;
-  margin-top: -17px;
-  z-index: 0;
-  position: relative;
   text-align: center;
-  padding: 54px 0 ;
+  padding: 54px 0 0 8px;
   p{
     font-family: 'OpenSansRegular', sans-serif;
     font-size: 14px;
@@ -713,11 +769,12 @@ h3{
       padding-right: 4px;
     }
     a{
-      padding: 10px 2px;
+      padding: 10px 2px 0 0;
     }
   }
   .link-white{
-    margin-top: 30px;
+    margin-top: 28px;
+    margin-left: 10px;
     li{
       display: inline-block;
       a{
@@ -727,6 +784,7 @@ h3{
   }
   .link-red{
     margin-top: 2px;
+    margin-left: 10px;
     li{
       display: inline-block;
       a{
@@ -735,6 +793,4 @@ h3{
     }
   }
 }
-
-
 
