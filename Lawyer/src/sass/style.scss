@@ -778,16 +778,18 @@ h3{
     margin-left: 10px;
     li{
       display: inline-block;
-      a{
-        padding: 0 14px 0 0;
+      .facebook:hover img{
+        content: url("../img/facebook-red.svg");
       }
-    }
-  }
-  .link-red{
-    margin-top: 2px;
-    margin-left: 10px;
-    li{
-      display: inline-block;
+      .twitter:hover img{
+        content: url("../img/twitter-red.svg");
+      }
+      .google:hover img{
+        content: url("../img/google+-red.svg");
+      }
+      .linkedin:hover img{
+        content: url("../img/linkedin-red.svg");
+      }
       a{
         padding: 0 14px 0 0;
       }

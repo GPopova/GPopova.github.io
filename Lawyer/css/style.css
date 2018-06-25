@@ -775,8 +775,27 @@ h3 {
 .footer ul li a {
   color: #2a333f;
   font-size: 12px; }
-.footer ul li a:hover {
-  color: #95999f; }
+
+
+.contact .bottom .btn-default:hover{
+  background-color: #AF0A1F;
+}
+
+.footer ul li .facebook:hover img{
+  content: url("../img/facebook-red.svg");
+}
+
+.footer ul li .twitter:hover img{
+  content: url("../img/twitter-red.svg");
+}
+
+.footer ul li .google:hover img{
+  content: url("../img/google+-red.svg");
+}
+
+.footer ul li .linkedin:hover img{
+  content: url("../img/linkedin-red.svg");
+}
 
 /*------END-FOOTER-----------*/
 /*----------GENERIC-PAGE-----------*/
@@ -1567,10 +1586,10 @@ color: #CE0B24}
 
 .pages-content .blog-page-content {
   margin-top: -3px;
-  padding: 0px 0 0 8px; }
+  padding: 0px 0 0 9px; }
 .pages-content .blog-page-content .item {
-  margin-bottom: 52px;
-  padding-bottom: 42px;
+  padding-bottom: 41px;
+  margin-bottom: 53px;
   border-bottom: 1px solid #2F3337; }
 .pages-content .blog-page-content .item .img{
 
@@ -1589,10 +1608,16 @@ color: #CE0B24}
   font-size: 26px;
   font-weight: 400;
   line-height: 37px;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
+  margin-top: 27px;
 }
 .pages-content .blog-page-content .item p {
-  margin-bottom: 18px; }
+  margin-right: -4px;
+  margin-bottom: 18px;
+  line-height: 23px; }
+.pages-content .blog-page-content .item p img{
+  margin-top: 6px;
+}
 .pages-content .blog-page-content .item p a{
   font-family: 'OpenSansRegular', sans-serif;
   text-transform: none;
@@ -1609,6 +1634,12 @@ color: #CE0B24}
 .pages-content .blog-page-content .item:nth-child(6){
   border-bottom: 1px solid #FFFFFF;
 }
+
+.pages-content .blog-page-content .pagination-wrap .pagination{
+  margin-top: 56px;
+  padding-bottom: 32px;
+}
+
 .pages-content .blog-page-content .item a:after {
   content: url("../img/chevron-right.png");
   position: relative;
@@ -1809,6 +1840,7 @@ padding-right: 30px; }
 
 /*---------END-PRACTICE-PAGE-----------*/
 /*---------OCEAN-PAGE-----------*/
+
 .ocean-page h2 {
   color: #FFFFFF;
   font-family: 'Domine', sans-serif;
@@ -1825,15 +1857,20 @@ padding-right: 30px; }
   margin-bottom: 19px;
   margin-top: 52px; }
 .ocean-page p{
-  letter-spacing: 0.02px; }
+  letter-spacing: 0.02px;
+  line-height: 23px; }
 .ocean-page p b {
-  margin-bottom: 8px;
-  margin-top: -8px;
+  margin-bottom: 26px;
+  margin-top: -25px;
   display: block;
   font-family: 'OpenSansSemibold', sans-serif;}
 .ocean-page .ocean-map {
   width: 100% !important;
   margin-bottom: 37px; }
+
+.ocean-page #map{
+  margin-top: -10px;
+}
 
 .reverse{
   display: none;

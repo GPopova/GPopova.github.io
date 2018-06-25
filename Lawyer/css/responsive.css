@@ -1003,6 +1003,14 @@
     width: 100%;
     padding: 0 15px; }
 
+  .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+    margin-top: 0px;
+  }
+
+  .slicknav_menu .slicknav_icon-bar:first-of-type {
+    top: 12px;
+  }
+
   .courts .right ul {
     -webkit-column-count: 2;
     column-count: 2;
@@ -1315,7 +1323,6 @@
     left: 50%;
     -webkit-transform: translate(-50%);
     transform: translate(-50%);
-    border: 1px solid #e1e0e1;
     border-radius: 5px;
     -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); }
@@ -1325,7 +1332,7 @@
 
   .select-block .nice-select .option {
     margin: 0;
-    color: #2F3337;
+    color: #D4D8DE;
     line-height: 40px;
     font-size: 12px;
     font-family: 'OpenSans', sans-serif;
@@ -1682,6 +1689,10 @@
   .contact .content .item:nth-of-type(3) p{
     width: 260px;
     margin: 0 auto;
+  }
+
+  .ocean-page{
+    border-bottom: none;
   }
 
 }
