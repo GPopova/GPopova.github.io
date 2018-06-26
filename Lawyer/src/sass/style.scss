@@ -22,7 +22,7 @@ body{
   min-width: 320px;
   background: #242628;
   max-width: 2000px;
-  margin: auto;
+  margin:0 auto !important;
   color: #ffffff;
 }
 a{
@@ -778,20 +778,30 @@ h3{
     margin-left: 10px;
     li{
       display: inline-block;
-      .facebook:hover img{
-        content: url("../img/facebook-red.svg");
-      }
-      .twitter:hover img{
-        content: url("../img/twitter-red.svg");
-      }
-      .google:hover img{
-        content: url("../img/google+-red.svg");
-      }
-      .linkedin:hover img{
-        content: url("../img/linkedin-red.svg");
-      }
       a{
-        padding: 0 14px 0 0;
+        background: #FFFFFF;
+        padding: 6px 10px;
+        border-radius: 26px;
+        margin-right: 11px;
+        &:hover{
+          background: #CE0B24;
+        }
+        &:hover i{
+          color:#FFFFFF;
+        }
+        i{
+          font-size: 12px;
+          color: #000;
+        }
+      }
+      .twitter{
+        padding: 6px 7px;
+      }
+      .google{
+        padding: 6px 6px;
+      }
+      .linkedin{
+        padding: 6px 8px;
       }
     }
   }

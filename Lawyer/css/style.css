@@ -28,6 +28,7 @@ a:hover, a:focus, a:active {
 
 .pure-g-1170 {
   width: 100%;
+  max-width: 1170px;
   margin: auto; }
 
 header, section, footer {
@@ -111,8 +112,7 @@ header {
   text-align: right;
   position: relative;
   z-index: 5;
-  margin-top: -11px;
-  margin-left: 4px;}
+  margin: -10px auto 0px;}
 .top-menu ul {
   text-align: right;
   width: 100%;
@@ -776,25 +776,40 @@ h3 {
   color: #2a333f;
   font-size: 12px; }
 
+.footer .link-white li a{
+  background: #FFFFFF;
+  padding: 6px 10px;
+  border-radius: 26px;
+  margin-right: -3px;
+}
+
+.footer .link-white li a:hover{
+  background: #CE0B24;
+}
+
+.footer .link-white li a:hover i{
+  color:#FFFFFF;
+}
+
+.footer .link-white li .twitter{
+  padding: 6px 7px;
+}
+
+.footer .link-white li .google{
+  padding: 6px 6px;
+}
+
+.footer .link-white li .linkedin{
+  padding: 6px 8px;
+}
+
+.footer .link-white li a i{
+  font-size: 12px;
+  color: #000;
+}
 
 .contact .bottom .btn-default:hover{
   background-color: #AF0A1F;
-}
-
-.footer ul li .facebook:hover img{
-  content: url("../img/facebook-red.svg");
-}
-
-.footer ul li .twitter:hover img{
-  content: url("../img/twitter-red.svg");
-}
-
-.footer ul li .google:hover img{
-  content: url("../img/google+-red.svg");
-}
-
-.footer ul li .linkedin:hover img{
-  content: url("../img/linkedin-red.svg");
 }
 
 /*------END-FOOTER-----------*/
