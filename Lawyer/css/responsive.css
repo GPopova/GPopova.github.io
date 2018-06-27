@@ -877,6 +877,23 @@
   .firm-content .pages-main p #photo{
     margin-right: 80px;
   }
+
+  .pages-content .img-will{
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .pages-content .img-will img{
+    width: 300px;
+  }
+
+  .pages-content .img-will a{
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    bottom: 32px;
+    right: 0px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -1110,12 +1127,6 @@
     width: 100%;
     letter-spacing: 1px; }
 
-
-  /*.header-content-pages h1, .firm-will-content h2, .firm-content h2, .contact-page h2, .practice-page h2, .ocean-page h2 {
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: 2px; }*/
-
   .header-content-pages {
     padding: 24px 0 38px; }
 
@@ -1137,10 +1148,6 @@
     border-bottom:1px solid #2F3337;
     padding-bottom: 60px;
     margin-bottom: 4px;}
-
-  /*.pages-content h1 {
-    font-size: 30px;
-    line-height: 36px; }*/
 
   .pages-content form {
     margin: 0;
@@ -1281,16 +1288,6 @@
   .pages-content .pages-aside h5 {
     display: none; }
 
-  /*.pages-content .pages-aside .aside-blog {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding-top: 32px; }*/
     .pages-content .pages-aside .aside-blog h5 {
       display: block;
       width: 100%; }
@@ -1722,6 +1719,12 @@
 }
 
 @media (max-width: 421px ) {
+
+  .slicknav_nav {
+    top: 52px;
+    left: inherit;
+    right: -26px;
+  }
 
   .firm-content h2{
     text-align: center;
