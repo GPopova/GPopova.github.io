@@ -867,6 +867,18 @@
     width: 100%;
   }
 }
+
+@media (max-width: 824px) and (min-width: 768px){
+  .pages-content .pages-aside .aside-li{
+    padding-right: 0;
+    margin-right: -3px;
+  }
+
+  .firm-content .pages-main p #photo{
+    margin-right: 80px;
+  }
+}
+
 @media (max-width: 767px) {
   header, section, footer {
     margin: 10px; }
@@ -1646,6 +1658,13 @@
     margin: 8px 0;
   }
 
+  .contact{
+    border: none;
+  }
+  .firm-content{
+    border: none;
+  }
+
   .contact h2{
     font-size: 30px;
     line-height: 34px;
@@ -1703,6 +1722,14 @@
 }
 
 @media (max-width: 421px ) {
+
+  .firm-content h2{
+    text-align: center;
+  }
+
+  .firm-content h5{
+    text-align: center;
+  }
 
   .generic-page header{
     margin: 10px;
