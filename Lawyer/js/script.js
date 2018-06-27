@@ -52,5 +52,7 @@ $(document).ready(function () {
     $('.counties-li li.more').removeClass('display-none');
     $('.counties-li li:gt(13)').hide();
   });
+
+  $('select').niceSelect();
   
 });

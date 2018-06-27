@@ -387,10 +387,15 @@
 
   #error{
     width: 712px;
-  } }
+  }
+
+  .select-block {
+    display: none; } }
+
 @media (min-width: 980px) {
   .select-block {
     display: none; } }
+
 @media (max-width: 979px) {
   .pure-g-1170 {
     width: 100%; }
