@@ -44,15 +44,14 @@
       position: absolute;
     }
     .content-left{
-      width: 92%;
-      margin-top: 22px;
-      margin-left: 40px;
-      margin-right: 40px;
+      margin: 21px auto;
+      width: 100%;
       text-align: center;
       border-top: 1px solid rgba(255,255,255,.1);
-      padding: 52px 169px 48px;
+      padding: 24px 204px 26px;
       h1{
         margin-left: -4px;
+        margin-bottom: 8px;
       }
       p{
         margin: 7px 26px 18px;
@@ -62,25 +61,21 @@
         padding: 21px 96px;
       }
       .header-rating{
-        margin-left: 15px;
+        margin: 0 auto;
         p{
-          margin-left: 0;
-          margin-top: 14px;
+          margin: 14px auto;
           font-size: 9px;
           letter-spacing: 2.7px;
           &:before, &:after {
-            top: 5px;
-            right: 32px;
+            top: 6px;
+            right: 46px;
           }
           &:before {
-            left: 25px;
+            left: 43px;
           }
         }
         a{
           margin-left:0;
-        }
-        #rating{
-          margin-left: -18px;
         }
       }
     }
@@ -109,11 +104,10 @@
       }
       .right{
         width: 100%;
-        margin-left: 10px;
-        margin-top: -6px;
+        margin: -6px 0 0 -10px;
         text-align: center;
         .item{
-          margin-right: 12px;
+          margin-right: 14px;
           img{
             margin-left: 20px;
           }
@@ -150,13 +144,16 @@
   .courts{
     .list{
       margin: 0 auto;
-      padding-left: 8px;
-      .more{
-        display: none;
-      }
+      padding-left: 12px;
       border: none;
       padding-top: 73px;
       padding-bottom: 59px;
+      h2{
+        margin-left: -13px;
+      }
+      .more{
+        display: none;
+      }
       ul{
         column-count: 2;
         -webkit-column-count: 2;
@@ -165,6 +162,9 @@
         -webkit-column-gap:0;
         -moz-column-gap:0;
         column-gap:0;
+        li{
+          margin-left: 16px;
+        }
       }
     }
   }
@@ -251,8 +251,9 @@
   }
   .contact-wrap{
     .contact{
+      margin: 0 auto;
       padding-top: 38px;
-      padding-bottom: 78px;
+      padding-bottom: 48px;
       padding-right: 16px;
       p{
         width: 78%;
@@ -288,6 +289,7 @@
       .bottom{
         margin-left: 2px;
         .button{
+          margin: 32px auto;
           p{
             width:100%;
             margin-left: 2px;
@@ -342,30 +344,27 @@
     .content-left{
       margin-top: 19px;
       padding: 51px 80px 58px;
-      margin-left: 20px;
       h1{
         line-height: 48px;
-        margin-left: 20px;
       }
       p{
-        margin-left: 46px;
+        margin: 0 auto;
+        padding: 0 40px;
         line-height: 23px;
-        margin-top: 12px;
         &:before{
-          left: 16px;
+          left: 54px;
         }
         &:after{
-          right: 14px;
+          right: 58px;
         }
       }
       .btn-default{
-        margin-left: 22px;
+        margin: 27px auto 11px;
       }
       .header-rating{
-        margin-left: 47px;
         p{
           &:before{
-            left: 16px;
+            left: 54px;
           }
           &:after{
             right: 6px;
@@ -376,7 +375,7 @@
   }
   .practice-areas{
     .practice-wrap{
-      padding-top: 58px;
+      padding-top: 36px;
       .left{
         margin-left: 0;
         h2{
@@ -386,9 +385,9 @@
       .right{
         text-align: center;
         margin-top: 3px;
-        margin-left: -13px;
         .item{
           margin-top: -10px;
+          margin-right: 11px;
           &:last-child, &:nth-child(8){
             p{
               margin-top: 14px;
@@ -410,11 +409,12 @@
       width: 100%;
       h2{
         text-align: center;
-        margin-left: 18px;
+        margin-left: 31px;
       }
       .bold{
         text-align: center;
         margin-top: 0;
+        padding-left: 3px;
       }
       p{
         margin-left: 14px;
@@ -450,12 +450,11 @@
   }
   .courts{
     .list{
-      margin-left: -3px;
       .more{
         display: none;
       }
       h2{
-        margin-left: -14px;
+        margin-left: -22px;
       }
       ul{
         margin-left: 0;
@@ -473,9 +472,6 @@
       }
       .visit{
           margin-right: -6px;
-        a{
-          margin-right: -156px;
-        }
       }
       .content{
         margin: 0 auto;
@@ -520,7 +516,9 @@
   }
   .testimonials-wrap{
     .testimonials{
-      text-align: center;
+      width: 100%;
+      text-align: left;
+      margin: 0 auto;
       padding-top: 74px;
       padding-bottom: 65px;
       .left{
@@ -629,7 +627,7 @@
         margin-right: 0;
         .top-right{
           text-align: center;
-          margin-left: 34px;
+          margin-left: 17px;
           margin-top: -3px;
           .number{
             margin-top: -28px;
@@ -642,29 +640,27 @@
       }
     }
     .content-left{
-      margin-top: 19px;
-      padding: 51px 80px 58px;
-      margin-left: 20px;
+      margin: 19px auto;
+      padding: 25px 86px 58px;
       h1{
         line-height: 48px;
-        margin-left: 20px;
+        margin-bottom: 11px;
       }
       p{
-        margin-left: 46px;
+        margin: 0 auto;
+        padding: 0 40px;
         line-height: 23px;
-        margin-top: 12px;
         &:before{
           left: 16px;
         }
         &:after{
-          right: 14px;
+          right: 58px;
         }
       }
       .btn-default{
-        margin-left: 22px;
+        margin: 27px auto 11px;
       }
       .header-rating{
-        margin-left: 47px;
         p{
           &:before{
             left: 16px;
@@ -678,7 +674,7 @@
   }
   .practice-areas{
     .practice-wrap{
-      padding-top: 58px;
+      padding-top: 36px;
       .left{
         margin-left: 0;
         h2{
@@ -688,9 +684,9 @@
       .right{
         text-align: center;
         margin-top: 3px;
-        margin-left: -13px;
         .item{
           margin-top: -10px;
+          margin-right: 11px;
           &:last-child, &:nth-child(8){
             p{
               margin-top: 14px;
@@ -710,15 +706,16 @@
     padding-left: 8px;
     h2{
       text-align: center;
-      margin-left: 18px;
+      margin-left: 31px;
     }
     .bold{
       text-align: center;
       margin-top: 0;
+      padding-left: 3px;
     }
     p{
+      margin-right: -15px;
       margin-left: 14px;
-      margin-right: 4px;
       margin-top: 579px;
       padding-bottom: 18px;
       letter-spacing: 0.02px;
@@ -750,12 +747,9 @@
 }
   .courts{
     .list{
-      margin-left: -3px;
+      padding-left: 0;
       .more{
         display: none;
-      }
-      h2{
-        margin-left: -14px;
       }
       ul{
         margin-left: 0;
@@ -763,6 +757,7 @@
     }
   }
   .blog-wrap{
+    width: 100%;
     .blog{
       position: relative;
       padding-bottom: 414px;
@@ -777,9 +772,11 @@
       }
       .content{
         margin-left: -13px;
+        margin-top: 18px;
         .item-news{
           position: absolute;
-          margin-top: 71%;
+          margin-top: 69%;
+          padding-left: 8px;
           a{
             margin-bottom: 14px;
             width: 724px;
@@ -793,10 +790,11 @@
             margin-left: 11px;
           }
           &:not(:first-child){
-            margin-left: 15px;
+            margin-left: 14px;
           }
           &:last-child{
             position: absolute;
+            margin-left: 20px;
           }
           .img{
             img{
@@ -817,6 +815,9 @@
   }
   .testimonials-wrap{
     .testimonials{
+      width: 100%;
+      text-align: left;
+      margin: 0 auto;
       padding-top: 74px;
       padding-bottom: 65px;
       .left{
@@ -831,6 +832,7 @@
         }
       }
       .testimonials-content{
+        margin-top: -2px;
         margin-right: -60px;
         width: calc(100% - 240px);
         margin-left: 17px;
@@ -841,17 +843,21 @@
             padding-right: 9px;
             letter-spacing: 0.26px;
           }
+          h6{
+            letter-spacing: 0;
+          }
         }
       }
     }
   }
   .contact-wrap{
     .contact{
+      margin: 0 auto;
       padding-top: 35px;
-      padding-bottom: 78px;
+      padding-bottom: 48px;
       padding-right: 0;
       h2{
-        margin-top: 36px;
+        margin: 36px auto 10px;
       }
       p{
         line-height: 23px;
@@ -860,10 +866,10 @@
         margin-left: 0;
       }
       .content{
-        text-align: left;
         display: inline-block;
+        margin: 0 auto;
         padding-top: 33px;
-        padding-left: 17px;
+        padding-left: 0;
         .item{
           width: 352px;
           height: 260px;
@@ -903,7 +909,13 @@
     }
   }
   .footer{
-    margin-left: -4px;
+    margin: 0 auto;
+    padding-left: 2px;
+    padding-top: 54px;
+    .link-white{
+      margin: 29px auto;
+      padding-left: 10px;
+    }
   }
 }
 
@@ -917,9 +929,7 @@
     .header-content{
       .top-line{
         .top-right{
-          text-align: left;
           margin-top: -9px;
-          margin-left: 5px;
           .text{
             margin-left: 7px;
             margin-top: 17px;
@@ -968,7 +978,6 @@
       }
       .content-left{
         margin-top: 14px;
-        margin-left: 23px;
         text-align: center;
         padding: 10px;
         padding-top: 36px;
@@ -977,44 +986,40 @@
         h1{
           font-size: 30px;
           line-height: 34px;
-          margin-left: 14px;
+          width: 60%;
+          margin: 0 auto 11px;
         }
         p{
-          padding-top: 17px;
-          width: 350px;
-          padding-left: 10px;
+          width: 65%;
+          padding: 17px 0;
           margin: 0 auto;
         }
         a{
           text-align: center;
           padding: 20px 0;
           margin-bottom: 0;
-          margin-left: -13px;
           width: 422px;
           margin-top: 27px;
           letter-spacing: 2.4px;
         }
         .header-rating{
-          margin-top: -15px;
-          margin-left: -5px;
           padding-bottom: 12px;
           padding-top: 24px;
           p{
             margin: 0 auto;
             &:before{
               top: 24px;
-              left: -23px;
+              left: -37px;
             }
             &:after{
               top: 24px;
-              right: -37px;
+              right: -33px;
             }
           }
           #rating{
             padding-bottom: 18px;
             margin-top: 14px;
-            margin-left: 33px;
-            a:nth-of-type(2){
+            /*a:nth-of-type(2){
               .avvo-badge{
                 margin-left: 28px;
               }
@@ -1023,7 +1028,7 @@
               .avvo-badge{
                 margin-top: -18px;
               }
-            }
+            }*/
           }
         }
       }
@@ -1042,17 +1047,13 @@
         }
         p{
           margin: 0 auto;
-          padding: 0;
-          width: 422px;
+          padding: 0 50px;
           line-height: 23px;
         }
       }
       .right{
-        margin-top: 3px;
-        margin-left: 15px;
-        .item{
-          margin-right: 43px;
-        }
+        padding: 0;
+        margin: 3px auto;
       }
     }
   }
@@ -1063,7 +1064,7 @@
       top: 0;
       margin: 0 auto;
       width: 100%;
-      padding: 0 40px;
+      padding: 0;
       a{
         margin-left: 18px;
       }
@@ -1078,16 +1079,16 @@
         line-height: 20px;
       }
       p{
-        margin-top: 380px;
+        margin-top: 385px;
         margin-right: -20px;
         padding-bottom: 17px;
-        margin-left: 40px;
+        margin-left: 32px;
       }
     }
     .photo{
       margin: 0 auto;
       background: url("../img/lawyers-about-422.png"), no-repeat;
-      width: 442px;
+      width: 480px;
       height: 269px;
     }
     .bottom{
@@ -1125,7 +1126,7 @@
         height: 602px;
         overflow: hidden;
         margin-bottom: 0;
-        margin-left: 0px;
+        margin-left: 22px;
       }
     }
   }
@@ -1251,6 +1252,7 @@
         .item{
           width: 422px;
           height: 260px;
+          padding: 33px 30px;
           text-align: center;
           margin-bottom: 9px;
           margin-left: -7px;
@@ -1271,6 +1273,7 @@
           }
           &:first-child{
             height: 304px;
+            padding: 33px 30px;
             margin-bottom: -18px;
             h6{
               margin-bottom: 24px;
@@ -1309,7 +1312,7 @@
     .header-content{
       .top-line{
         .top-right{
-          text-align: left;
+          text-align: center;
           margin-top: -9px;
           margin-left: 5px;
           .text{
@@ -1359,53 +1362,50 @@
         }
       }
       .content-left{
-        margin-top: 14px;
-        margin-left: 23px;
+        padding-top: 34px;
+        margin: 14px auto;
         text-align: center;
-        padding: 10px;
-        padding-top: 36px;
         margin-bottom: 0;
         padding-bottom: 0;
         h1{
           font-size: 30px;
           line-height: 34px;
-          margin-left: 14px;
+          margin: 0 auto;
+          width: 80%;
         }
         p{
           padding-top: 17px;
           margin: 0 auto;
           width: 350px;
+          line-height: 23px;
         }
         a{
           text-align: center;
           padding: 20px 0;
           margin-bottom: 0;
-          margin-left: -13px;
           width: 422px;
-          margin-top: 27px;
+          margin-top: 12px;
           letter-spacing: 2.4px;
         }
         .header-rating{
           margin-top: -15px;
-          margin-left: -5px;
           padding-bottom: 12px;
-          padding-top: 24px;
+          padding-top: 21px;
           p{
             margin: 0 auto;
             padding-left: 0;
            &:before{
-             top: 24px;
-             left: -23px;
+             top: 27px;
+             left: -30px;
            }
             &:after{
-              top: 24px;
-              right: -23px;
+              top: 27px;
+              right: -32px;
             }
           }
           #rating{
-            padding-bottom: 18px;
-            margin-top: 14px;
-            margin-left: 33px;
+            padding-bottom: 20px;
+            margin-top: -8px;
             a:nth-of-type(2){
               .avvo-badge{
                 margin-left: 28px;
@@ -1423,25 +1423,31 @@
   }
   .practice-areas{
     .practice-wrap{
-      padding-bottom: 52px;
-      padding-top: 36px;
+      padding-bottom: 44px;
+      padding-top: 26px;
+      margin-bottom: 9px;
       .left{
-        margin-left: -2px;
+        margin-left: 0;
+        padding-top: 9px;
         h2{
           font-family: 'DomineRegular', sans-serif;
           font-size: 30px;
           line-height: 57px;
         }
         p{
-          margin: 0 auto;
-          padding: 0;
+          padding-top: 5px;
           width: 422px;
+          padding-right: 10px;
+          margin: 0 auto;
           line-height: 23px;
-          margin-top: 10px;
+          padding: 2px 0;
         }
       }
       .right{
-        margin: 3px auto;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding-left: 24px;
         .item{
           margin-right: 43px;
         }
@@ -1478,16 +1484,12 @@
       }
     }
     .photo{
-      background: url("../img/lawyers-about-422.png"), no-repeat;
-      width: 442px;
-      height: 269px;
       margin-left: -20px;
-      margin-top: 2px;
-      margin-bottom: 33px;
     }
     .bottom{
       margin: 0 auto;
       padding-right: 15px;
+      padding-top: 33px;
     }
   }
   .courts{
@@ -1616,14 +1618,18 @@
           width: 422px;
           margin-left: -3px;
           padding-right: 2px;
+          &:last-child{
+            padding-right: 0;
+            letter-spacing: .26px;
+          }
         }
       }
     }
   }
   .contact-wrap{
     .contact{
-      padding-left: 7px;
-      padding-top: 20px;
+      padding-left: 5px;
+      padding-top: 17px;
       padding-bottom: 60px;
       h2{
         font-size: 30px;
@@ -1632,9 +1638,9 @@
       }
       p{
         padding-top: 5px;
-        margin-left: -8px;
         width: 422px;
         padding-right: 10px;
+        margin: 0 auto;
       }
       .content{
         padding-left: 0;
@@ -1645,6 +1651,7 @@
           margin-bottom: 9px;
           margin-left: -7px;
           padding-left: 24px;
+          padding-top: 24px;
           p{
             text-align: center;
             width: 246px;
@@ -1670,7 +1677,7 @@
           margin: 26px 0 0;
           p{
             a{
-              margin-left: -2px;
+              margin: 0 auto;
               width: 422px;
             }
           }
@@ -1679,327 +1686,12 @@
     }
   }
   .footer{
-    margin-left: -5px;
-    padding-top: 53px;
+    margin: 0 auto;
+    padding-top: 54px;
   }
 }
 
 @media (max-width: 421px) {
-  body{
-    padding: 0 10px;
-  }
-  .container{
-    width:100%;
-  }
-  header{
-    margin-top: 10px;
-    .header-content{
-      .top-line{
-        padding: 10px 0px 0 22px;
-        .logo{
-          img{
-            width: 287px;
-            height: 58px;
-            text-align: center;
-          }
-        }
-        .top-right{
-          text-align: center;
-          .text{
-            margin-top: 13px;
-          }
-          .number{
-            margin-top: -5px;
-            a{
-              padding: 9px 80px 9px 98px;
-              &:before{
-                left: 81px;
-              }
-            }
-          }
-        }
-        #menu-responsive{
-          top: 145px;
-          right: 45%;
-          .slicknav_menu{
-            .slicknav_nav{
-              left: -115px;
-              &:before{
-                right: 142px;
-              }
-            }
-          }
-        }
-      }
-      .content-left{
-        margin-top: 50px;
-        h1{
-          margin-top: -16px;
-        }
-        p{
-          width: 100%;
-          padding: 0;
-          padding-top: 10px;
-          margin-left: 0;
-        }
-        .btn-default{
-          margin-left: -2px;
-          width: 280px;
-          margin-top: 12px;
-          span{
-            display: none;
-          }
-        }
-        .header-rating{
-          margin-left: -12px;
-          margin-right: -20px;
-          padding-bottom: 14px;
-          p{
-            margin: 0 auto;
-            padding: 0;
-            &:before, &:after{
-              display: none;
-            }
-          }
-          #rating{
-            margin-left: -16px;
-            margin-right: 0;
-            a{
-              &:last-of-type{
-                .avvo-badge{
-                  margin-top: -20px;
-                }
-              }
-              &:nth-of-type(2){
-                .avvo-badge{
-                  margin-left: 10px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  .practice-areas{
-    .practice-wrap{
-      .left{
-        margin-left: -3px;
-        margin-top: 10px;
-        p{
-          margin-top: 11px;
-          margin-left: 11px;
-          width: 88%;
-          line-height: 23px;
-        }
-      }
-      .right{
-        .item{
-          margin-bottom: 6px;
-        }
-        .top{
-          margin-bottom: 0;
-        }
-      }
-    }
-  }
-  .about{
-    padding-bottom: 735px;
-    .text{
-      h2{
-        margin-left: 0;
-        margin-right: 0;
-        padding-right: 18px;
-      }
-      .bold{
-        padding-right: 20px;
-        margin-left: 28px;
-        width: 100%;
-      }
-      p{
-        margin-top: 111%;
-        margin-left: 21px;
-        width: 100%;
-        padding-right: 20px;
-      }
-    }
-    .photo{
-      background: 0 0;
-      filter: none;
-      margin-top: 40px;
-      margin-left: -3px;
-      .partners{
-        display: block;
-        width: 73%;
-        height: 82%;
-      }
-    }
-    .bottom{
-      margin-top: -65px;
-      margin-left: 0;
-      span{
-        padding-bottom: 20px;
-        display: block;
-        margin: 0 auto;
-        padding-left: 0;
-        &:before{
-          left: 84px;
-        }
-      }
-      img{
-        padding-right: 20px;
-        margin-left: -14px;
-      }
-    }
-  }
-  .courts{
-    .list{
-      margin: 0 auto;
-    }
-  }
-  .blog-wrap{
-    .blog{
-      margin: 0 auto;
-      position: relative;
-      .news{
-        margin-top: 454%;
-      }
-      .visit{
-        margin-right: 21px;
-      }
-      .content{
-        margin-left: -15px;
-        position: relative;
-        .item{
-          &:first-child{
-            height: 410px;
-          }
-          margin-top: 10px;
-          height: 410px;
-          width: 298px;
-          margin-bottom: 20px;
-          .img{
-            width: 300px;
-            height: 160px;
-            img{
-              width: 300px;
-              height: 160px;
-              margin-left: -1px;
-            }
-            a{
-              margin-left: 0;
-            }
-          }
-          h6{
-            padding-left: 0;
-            a{
-              margin: 0;
-            }
-          }
-          p{
-            padding-left: 0;
-            padding-right: 16px;
-          }
-          a{
-            margin-left: 0;
-          }
-        }
-        .item-news{
-          margin-top: 410%;
-          margin-left: 0;
-        }
-      }
-    }
-  }
-  .testimonials-wrap{
-    .testimonials{
-      padding-top: 55px;
-      padding-left: 0;
-      padding-bottom: 94px;
-      .left{
-        h3{
-          margin-left: -12px;
-        }
-        .avvo{
-          text-align: center;
-          width: 300px;
-          margin-left: 15px;
-          padding-left: 18px;
-        }
-        .avvo-link{
-          margin-left: 0;
-          padding-left: 28px;
-        }
-      }
-      .testimonials-content{
-        .item{
-          width: 310px;
-          margin-left: 4px;
-          padding-right: 12px;
-        }
-      }
-    }
-  }
-  .contact-wrap{
-    .contact{
-      margin: 0 auto;
-      padding-top: 20px;
-      padding-left: 13px;
-      padding-bottom: 39px;
-      h2{
-        margin-left: -14px;
-      }
-      p{
-        width: 301px;
-        margin: 0 auto;
-      }
-      .content{
-        .item{
-          height: 260px;
-          width: 300px;
-          padding-left: 26px;
-          padding-top: 21px;
-          margin-left: -13px;
-          &:first-child{
-            padding-left: 30px;
-            padding-top: 33px;
-          }
-        }
-      }
-      .bottom{
-        margin: 0 auto;
-        text-align: center;
-        width: 260px;
-        .button{
-          margin-top: 22px;
-          text-align: center;
-          margin-left: -26px;
-          p{
-            a{
-              min-width: 300px;
-              width: 300px;
-              padding-left: 0;
-              padding-right: 0;
-            }
-          }
-        }
-        a{
-          margin-left: 0;
-        }
-      }
-    }
-  }
-  .footer{
-    margin-left: -7px;
-    margin-right: 10px;
-    padding-bottom: 50px;
-    p{
-      padding-right: 20px;
-    }
-  }
-}
-
-@media (max-width: 330px) {
   body{
     padding: 0 10px;
   }
@@ -2043,6 +1735,15 @@ header{
         .slicknav_menu{
           .slicknav_nav{
             left: -113px;
+            width: 300px !important;
+            li{
+              padding: 5px;
+              margin: 1px 20px 0;
+              border-bottom: 1px solid #efefef ;
+              &:last-child{
+                border: none;
+              }
+            }
             &:before{
               right: 142px;
             }
@@ -2052,48 +1753,45 @@ header{
     }
     .content-left{
       margin-top: 50px;
+      width: 300px;
       h1{
         margin-top: -16px;
+        width: 100%;
       }
       p{
         padding: 0;
         padding-top: 10px;
-        margin-left: 0;
         width: 280px;
       }
       .btn-default{
-        margin-left: -16px;
+        margin: 13px auto;
         width: 280px;
-        margin-top: 12px;
         span{
           display: none;
         }
       }
       .header-rating{
-        margin-left: -12px;
-        margin-right: -20px;
-        padding-bottom: 14px;
+        margin: -15px auto 0;
+        padding-bottom: 9px;
         p{
-          margin-left: 10px;
-          margin-bottom: 10px;
-          margin-top: 16px;
+          margin: 4px auto 16px;
           padding: 0;
           &:before, &:after{
             display: none;
           }
         }
         #rating{
-          margin-left: -51px;
-          margin-right: -36px;
+          margin-left: -20px;
+          margin-right: -20px;
           a{
             &:last-of-type{
               .avvo-badge{
-                margin-top: -20px;
+                margin-top: -18px;
               }
             }
             &:nth-of-type(2){
               .avvo-badge{
-                margin-left: 10px;
+                margin-left: 0;
               }
             }
           }
@@ -2104,7 +1802,7 @@ header{
 }
   .practice-areas{
     .practice-wrap{
-      padding-top: 32px;
+      padding-top: 25px;
       .left{
         margin-left: -3px;
         margin-top: 10px;
@@ -2125,138 +1823,17 @@ header{
       }
     }
   }
+
   .about{
-    padding-bottom: 736px;
-    position: relative;
-    .text{
-      h2{
-        padding-right: 18px;
-        margin-top: 52px;
-      }
-      .bold{
-        width: 294px;
-        padding-right: 20px;
-        margin-left: 28px;
-      }
-      p{
-        margin-top: 356px;
-        margin-left: 21px;
-        width: 300px;
-        padding-right: 0;
-      }
-    }
+    padding-bottom: 586px;
     .photo{
-      background: 0 0;
-      filter: none;
-      margin-top: 39px;
-      margin-left: -4px;
-      .partners{
-        display: block;
-        width: 73%;
-        height: 82%;
-      }
+      margin-top: 22px;
+      text-align: center;
+      margin-left: -32px;
     }
-    .bottom{
-      margin-top: -63px;
-      margin-left: 14px;
-      span{
-        padding-bottom: 20px;
-        display: block;
-        margin: 0 auto;
-        padding-left: 0;
-        &:before{
-          left: 69px;
-        }
-      }
-      img{
-        padding-right: 20px;
-        margin-left: -14px;
-      }
-    }
-  }
-  .courts{
-    .list{
-      padding-left: 0;
-      h2{
-        margin-left: -20px;
-      }
-      ul{
-        margin-left: -6px;
-        li{
-          a{
-            letter-spacing: 1.3px;
-            margin-left: 0;
-          }
-        }
-      }
-      .more{
-        margin-left: 14px;
-      }
-    }
-  }
-  .blog-wrap{
-    .blog{
-      padding-left: 0;
-      padding-bottom: 379px;
-      h6{
-        margin-left: 1px;
-      }
-      .news{
-        margin-left: 4px;
-        bottom: 320px;
-      }
-      .visit{
-        margin-right: 21px;
-        a{
-          margin-right: 0;
-        }
-      }
-      .content{
-        margin-left: -15px;
-        .item{
-          &:first-child{
-            height: 410px;
-          }
-          &:not(:first-child){
-            margin-left: 14px;
-          }
-          &:last-of-type{
-            margin-left: -15px;
-          }
-          margin-top: 10px;
-          height: 410px;
-          width: 298px;
-          margin-bottom: 14px;
-          .img{
-            width: 300px;
-            height: 160px;
-            img{
-              width: 300px;
-              height: 160px;
-              margin-left: -1px;
-            }
-            a{
-              margin-left: 0;
-            }
-          }
-          h6{
-            padding-left: 0;
-            a{
-              margin: 0;
-            }
-          }
-          p{
-            padding-left: 0;
-            padding-right: 16px;
-          }
-          a{
-            margin-left: 0;
-          }
-        }
-        .item-news{
-          margin-left: -2px;
-          bottom: -346px;
-        }
+    .text{
+      p{
+        margin-top: 400px;
       }
     }
   }
@@ -2300,18 +1877,19 @@ header{
   .contact-wrap{
     .contact{
       padding-top: 20px;
-      padding-left: 13px;
-      margin-left: 0;
-      padding-bottom: 72px;
+      padding-left: 0;
+      margin: 0 auto;
+      padding-bottom: 70px;
       h2{
-        margin-left: -14px;
+        margin: 36px auto 11px;
       }
       p{
         width: 311px;
-        margin-left: -13px;
-        margin-bottom: -10px;
+        margin: 0 auto;
       }
       .content{
+        margin: 23px auto;
+        padding-left: 13px;
         .item{
           height: 260px;
           width: 300px;
@@ -2326,11 +1904,11 @@ header{
       }
       .bottom{
         text-align: center;
-        width: 260px;
-        margin-top: 11px;
-        margin-left: -12px;
+        margin: -11px auto;
+        padding: 0;
+        width: 300px;
         .button{
-          margin-top: 22px;
+          margin-top: 28px;
           text-align: center;
           margin-left: 0;
           p{
@@ -2343,15 +1921,88 @@ header{
           }
         }
         a{
-          margin-left: 40px;
+          margin:0 auto;
+          width: 260px;
+          line-height: 23px;
         }
       }
     }
   }
   .footer{
-    margin-left: 10px;
     padding-top: 54px;
-    margin-right: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    p{
+      margin-left: -6px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 398px){
+  .about{
+    padding-bottom: 700px;
+    .photo{
+      margin-top: 22px;
+      text-align: center;
+      margin-left: -44px;
+    }
+    .text{
+      p{
+        margin-top: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 328px){
+  .about{
+    padding-bottom: 765px;
+    position: relative;
+    .text{
+      h2{
+        margin: 54px auto 18px;
+        padding: 0;
+      }
+      .bold{
+        margin: 0 auto;
+        padding-left: 28px;
+        padding-right: 0;
+        width: 100%;
+      }
+      p{
+        margin-top: 354px;
+        margin-left: 21px;
+        width: 300px;
+        padding-right: 0;
+      }
+    }
+    .photo{
+      background: 0 0;
+      filter: none;
+      margin-top: 39px;
+      margin-left: -4px;
+      .partners{
+        display: block;
+        width: 67%;
+        height: 82%;
+      }
+    }
+    .bottom{
+      margin: -30px auto;
+      padding: 0;
+      span{
+        padding-bottom: 20px;
+        display: block;
+        margin: 0 auto;
+        padding-left: 0;
+        &:before{
+          left: 84px;
+        }
+      }
+      img{
+        padding-right: 20px;
+        margin-left: -14px;
+      }
+    }
   }
 }
