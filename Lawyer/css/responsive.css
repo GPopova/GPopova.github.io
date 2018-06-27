@@ -848,6 +848,10 @@
     height: 340px;
   }
 
+  .pages-content h2 {
+    margin-top: 24px;
+  }
+
   .testimonials-page-content .content .item {
     padding: 20px 20px 30px;
     margin-left: 0;
@@ -1274,6 +1278,7 @@
    }
 
   .pages-content-flex {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1333,6 +1338,7 @@
     width: 6px; }
 
   .select-block .nice-select.open .list {
+    padding-left: 0;
     margin: 0;
     left: 50%;
     -webkit-transform: translate(-50%);
@@ -1379,6 +1385,10 @@
   .pages-content .pages-aside, .pages-content .pages-main {
    width: 100%; }
 
+  .firm-content .pages-partners ul{
+    padding-left: 6px;
+  }
+
   #submit-window {
     width: 450px; }
 
@@ -1387,6 +1397,21 @@
 
   footer{
     margin: 20px;
+  }
+
+  .testimonials-page-content .avvo{
+    position: absolute;
+    top: 110px;
+    width: 300px;
+  }
+
+  .testimonials-page-content .content .item{
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .testimonials-page-content .content{
+    margin-top: 175px;
   }
 
   .practice-page .alignleft {
@@ -2024,7 +2049,6 @@
       text-align: center; }
 
   .testimonials-page-content .content .item {
-    padding: 20px 20px 30px;
     margin-left: 0;}
 
   .pages-content .blog-inner-page-content .alignleft {
