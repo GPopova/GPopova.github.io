@@ -1757,7 +1757,8 @@ color: #CE0B24}
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
-  margin-bottom: 15px; }
+  margin-bottom: 21px;
+  margin-top: 23px; }
 .contact-page h3 {
   color: #FFFFFF;
   font-family: 'Domine', sans-serif;
@@ -1765,6 +1766,13 @@ color: #CE0B24}
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 16px; }
+.contact-page .pages-main {
+  padding-left: 10px;
+}
+.contact-page p{
+  line-height:24px;
+  margin-bottom: 23px;
+}
 .contact-page p span{
   display: inline-block;
 }
@@ -1789,7 +1797,7 @@ color: #CE0B24}
 .contact-page .contact-page-content .item {
   width: 24%;
   text-align: left;
-  margin-right: 12px;
+  margin-right: 18px;
   display: inline-block;
   padding: 0;
   position: relative;
@@ -1797,25 +1805,30 @@ color: #CE0B24}
   top: 0;
   bottom: 0; }
 .contact-page .contact-page-content .item:first-child p{
-  padding-right: 58px;
+  padding-right: 48px;
 }
 .contact-page .contact-page-content .item h6 {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
-  letter-spacing: 0px;
-  margin: 10px 0 26px;
+  letter-spacing: 0.2px;
+  margin: 10px 0 22px;
   font-family: 'OpenSans', sans-serif; }
 .contact-page .contact-page-content .item p {
   margin-top: 0;
   color: #d4d8de;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
+  font-family: 'OpenSansRegular', sans-serif;
   width: 205px;
   margin-bottom: 0;
-padding-right: 30px; }
+padding-right: 14px; }
+.contact-page .pages-main .form-name{
+  margin-top: 38px;
+  margin-bottom: 0;
+}
 .contact-page .contact-page-content .item a {
   margin: 20px 0 5px;
   display: block;
@@ -1850,17 +1863,23 @@ padding-right: 30px; }
   font-weight: 400;
   line-height: 36px;
   margin-bottom: 16px;
-  margin-top: 64px; }
-.practice-page p{
-  margin-bottom: 20px;
-  margin-right: -5px;
+  letter-spacing: -0.04px;
+  margin-top: 44px; }
+.practice-page .pages-main h3:last-of-type{
+  margin-top: 53px;
+}
+.practice-page p {
+  margin-bottom: 23px;
+  margin-right: 0px;
+  line-height: 23px;
+  margin-top: -2px;
 }
 .practice-page .practice-block .list-areas{
   margin-bottom: 51px;
 }
 .practice-page .alignleft {
   width: 270px;
-  margin: 32px 31px 0 0; }
+  margin: 32px 31px 2px 0; }
 
 /*---------END-PRACTICE-PAGE-----------*/
 /*---------OCEAN-PAGE-----------*/
