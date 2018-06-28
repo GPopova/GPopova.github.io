@@ -1572,6 +1572,9 @@
           width: 420px;
           height: 404px;
           margin-bottom: 27px;
+          &:nth-child(3){
+            height: 400px;
+          }
           .img{
             width: 422px;
             height: 200px;
@@ -1587,8 +1590,11 @@
             padding-top: 24px;
           }
           p{
-            padding-left: 8px;
-            padding-right: 33px;
+            padding-left: 0;
+            padding-right: 14px;
+          }
+          .read{
+            margin-left: 0;
           }
           a{
             margin-left: 7px;
@@ -1859,20 +1865,37 @@ header{
 
   .blog-wrap{
     .blog{
+      padding-bottom: 368px;
       .content{
         .item{
-          width: 298px;
+          width: 96%;
+          overflow-x: hidden;
           height: 410px;
+          margin-bottom: 18px;
           .img{
-            width: 300px;
+            width: 100%;
             height: 160px;
             img{
-              width: 300px;
+              width: 108%;
               height: 160px;
               margin-left: -8px;
             }
           }
+          &:nth-child(3){
+            margin-bottom: 20px;
+          }
+          &:last-child{
+            margin-left: -15px;
+            margin-top: 2px;
+          }
         }
+      }
+      .news{
+        bottom: 328px;
+      }
+      .item-news{
+        bottom: -334px;
+        margin-left: 0px;
       }
     }
   }
@@ -1883,7 +1906,8 @@ header{
       padding-bottom: 94px;
       .left{
         h3{
-          margin-left: -12px;
+          text-align: center;
+          margin-left: -7px;
         }
         .avvo{
           text-align: center;
