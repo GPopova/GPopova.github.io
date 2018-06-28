@@ -43,6 +43,20 @@
       margin-top: 23px;
       position: absolute;
     }
+    .slicknav_nav {
+      padding: 8px 0 10px;
+      position: absolute;
+      top: 55px;
+      left: -226px;
+      width: 300px;
+      border-radius: 3px;
+      overflow: visible;
+      z-index: 100;
+      -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+      background-color: #fff;
+      width: 300px !important;
+    }
     .content-left{
       margin: 21px auto;
       width: 100%;
@@ -338,6 +352,10 @@
         #menu-responsive{
           top: 74px;
           right: 37px;
+        }
+        .slicknav_nav {
+          top: 42px;
+          left: -226px;
         }
       }
     }
@@ -778,7 +796,7 @@
           padding-left: 8px;
           a{
             margin-bottom: 14px;
-            width: 724px;
+            width: 100%;
           }
         }
         .item{
@@ -923,6 +941,12 @@
   .about .photo{
     margin-left: 0;
   }
+
+  .slicknav_nav {
+    top: 52px;
+    left: inherit;
+    right: 0;
+  }
 }
 
 @media (max-width: 723px) {
@@ -980,6 +1004,11 @@
         #menu-responsive{
           top: 71px;
           right: 30px;
+        }
+        .slicknav_nav {
+          top: 52px;
+          left: inherit;
+          right: -19px;
         }
       }
       .content-left{
@@ -1271,41 +1300,8 @@
 }
 
 @media (max-width: 639px){
-  .testimonials-wrap{
-    .testimonials{
-      padding-left: 20px;
-      padding-bottom: 96px;
-      position: relative;
-      .left{
-        text-align: center;
-        width: 100%;
-        margin-left: 6px;
-        h3{
-          text-align: left;
-        }
-        .avvo{
-          width: 422px;
-          height: 114px;
-        }
-        .avvo-link{
-          height: 50px;
-          position: absolute;
-          bottom: 41px;
-          left: 26px;
-        }
-      }
-      .testimonials-content{
-        margin-left: 10px;
-        margin-right: 0;
-        width: 100%;
-        padding-bottom: 41px;
-        .item{
-          width: 96%;
-          margin-left: -3px;
-          padding-right: 2px;
-        }
-      }
-    }
+  .testimonials-wrap .testimonials .testimonials-content{
+    width: 51%;
   }
 }
 
@@ -1318,6 +1314,10 @@
 
   .about {
     padding-bottom: 448px;
+  }
+
+  .testimonials-wrap .testimonials .testimonials-content{
+    width: 48%;
   }
 }
 
@@ -1549,7 +1549,7 @@
     .blog{
       padding-left: 0px;
       padding-top: 54px;
-      padding-bottom: 382px;
+      padding-bottom: 386px;
       margin-left: -2px;
       position: relative;
       .news{
@@ -1604,7 +1604,7 @@
           }
         }
         .item-news{
-          bottom: -327px;
+          bottom: -332px;
           margin-left: -2px;
         }
       }
@@ -1624,9 +1624,10 @@
           margin-bottom: 24px;
         }
         .avvo{
-          width: 422px;
+          width: 93%;
           height: 114px;
-          margin-left: -2px;
+          margin-left: 6px;
+          margin-bottom: 16px;
         }
         .avvo-link{
           height: 50px;
@@ -1636,13 +1637,13 @@
         }
       }
       .testimonials-content{
-        margin-left: 15px;
-        margin-top: 2px;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 8px;
+        padding-right: 35px;
         padding-bottom: 41px;
         .item{
-          width: 422px;
-          margin-left: -3px;
-          padding-right: 2px;
+          margin-right: 0;
           &:last-child{
             padding-right: 0;
             letter-spacing: .26px;
@@ -1760,7 +1761,6 @@ header{
         .slicknav_menu{
           .slicknav_nav{
             left: -113px;
-            width: 300px !important;
             li{
               padding: 5px;
               margin: 1px 20px 0;
@@ -1774,6 +1774,11 @@ header{
             }
           }
         }
+      }
+      .slicknav_nav {
+        top: 52px;
+        left: 0%;
+        right: -9%;
       }
     }
     .content-left{

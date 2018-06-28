@@ -118,7 +118,8 @@
     z-index: 100;
     -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
             box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
-    background-color: #fff; }
+    background-color: #fff;
+    width: 300px !important;  }
     .slicknav_nav:before {
       content: url("../img/up.png");
       top: -10px;
@@ -961,7 +962,7 @@
   .slicknav_nav {
     top: 52px;
     left: inherit;
-    right: 0; }
+    right: 18px; }
 
   .header-content .left {
     padding: 15px 15px 24px; }
@@ -1480,6 +1481,10 @@
     padding-right: 0;
   }
 
+  .slicknav_nav {
+    right: -12px;
+  }
+
   .top-line .top-right .contact-text p:last-child{
     font-size: 8px;
     letter-spacing: 3.1px;
@@ -1756,8 +1761,8 @@
 
   .slicknav_nav {
     top: 52px;
-    left: 0%;
-    right: -9%;
+    left: 0px;
+    margin: 0 auto;
   }
 
   .firm-content h2{
