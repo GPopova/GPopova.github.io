@@ -61,7 +61,7 @@ header {
   margin-top: -9px; }
 .top-line .logo .logo-text p {
   color: #ffffff;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 3.6px;
@@ -158,7 +158,7 @@ header {
 .header-content .left .header-rating {
   text-align: center; }
 .header-content .left .header-rating p {
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 3px;
@@ -199,7 +199,7 @@ h1 {
   letter-spacing: -0.2px; }
 
 .btn-default {
-  font-family: 'DomineBold',sans-serif;
+  font-family: 'DomineRegular',sans-serif;
   color: #fff;
   font-size: 12px;
   letter-spacing: 2.4px;
@@ -393,10 +393,6 @@ h6 {
 
 /*------END-ABOUT-----------*/
 /*----------COURTS-----------*/
-.courts-wrap {
-  background: url("../img/courts-bg.png") no-repeat;
-  background-size: cover; }
-
 .courts {
   padding: 70px 0 76px; }
 .courts .left {
@@ -835,21 +831,21 @@ h3 {
   border-bottom: 1px solid #2F3337; }
 .pages-content h1 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   margin-bottom: 22px; }
 .pages-content h2 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 16px; }
 .pages-content h3 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
@@ -862,7 +858,7 @@ h3 {
 }
 .pages-content h4 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 20px;
@@ -873,7 +869,7 @@ h3 {
   line-height: 17px; }
 .pages-content h6 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 20px;
@@ -1233,7 +1229,7 @@ float: left;}
   border: none;
   width: 270px;
   float: right;
-  margin: 30px -2px 0 0 ;
+  margin: 30px 2px 0 0 ;
   height: 50px; }
 .contact-page form .btn-default {
   border: none;
@@ -1304,7 +1300,7 @@ float: left;}
 }
 .firm-content h2 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
@@ -1313,7 +1309,7 @@ float: left;}
   margin-bottom: 17px;
   margin-top: 48px;
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 37px;  }
@@ -1370,14 +1366,14 @@ float: left;}
 }
 .firm-will-content h2 {
   color: #2a333f;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   margin-bottom: 15px; }
 .firm-will-content h3 {
   color: #2a333f;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
@@ -1624,7 +1620,7 @@ color: #CE0B24}
 }
 .pages-content .blog-page-content .item h3{
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 37px;
@@ -1749,7 +1745,7 @@ color: #CE0B24}
 }
 .contact-page h2 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
@@ -1757,7 +1753,7 @@ color: #CE0B24}
   margin-top: 23px; }
 .contact-page h3 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
@@ -1847,14 +1843,14 @@ padding-right: 14px; }
 /*---------PRACTICE-PAGE-----------*/
 .practice-page h2 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   margin-bottom: 15px; }
 .practice-page h3 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
@@ -1870,7 +1866,7 @@ padding-right: 14px; }
   line-height: 23px;
   margin-top: -2px;
 }
-.practice-page .practice-block .list-areas{
+.practice-page .practice-block ul{
   margin-bottom: 51px;
 }
 .practice-page .alignleft {
@@ -1882,14 +1878,14 @@ padding-right: 14px; }
 
 .ocean-page h2 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   margin-bottom: 13px; }
 .ocean-page h3 {
   color: #FFFFFF;
-  font-family: 'DomineBold', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;

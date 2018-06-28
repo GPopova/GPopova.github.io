@@ -730,7 +730,7 @@
     margin-top: 105px;
     width: 744px;
     height: 449px;
-    margin-left: -19px;
+    margin-left: -20px;
     img{
       display: none;
     }
@@ -915,6 +915,12 @@
       margin: 29px auto;
       padding-left: 10px;
     }
+  }
+}
+
+@media (width: 768px){
+  .about .photo{
+    margin-left: 0;
   }
 }
 
