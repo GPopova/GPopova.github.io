@@ -7,7 +7,8 @@ body {
   background: #242628;
   max-width: 2000px;
   margin: auto;
-  color: #ffffff; }
+  color: #ffffff;
+  overflow-x: hidden;}
 
 header, section, footer {
   margin: auto; }
@@ -60,7 +61,7 @@ header {
   margin-top: -9px; }
 .top-line .logo .logo-text p {
   color: #ffffff;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 3.6px;
@@ -190,7 +191,7 @@ header {
 
 h1 {
   color: #ffffff;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 47px;
@@ -198,7 +199,7 @@ h1 {
   letter-spacing: -0.2px; }
 
 .btn-default {
-  font-family: 'Domine',sans-serif;
+  font-family: 'DomineBold',sans-serif;
   color: #fff;
   font-size: 12px;
   letter-spacing: 2.4px;
@@ -236,7 +237,7 @@ h1 {
   text-align: center; }
 .practice .item h5 {
   color: #2a333f;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 3.2px;
@@ -273,7 +274,7 @@ h1 {
   background-color: #ffffff; }
 .practice .item p a {
   color: #CE0B24;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 2.2px;
@@ -300,7 +301,7 @@ h1 {
 /*----------ABOUT-----------*/
 h2 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
@@ -343,7 +344,7 @@ h6 {
   padding: 11px 19px; }
 .about .right .bottom p {
   color: #2a333f;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2.4px;
@@ -378,7 +379,7 @@ h6 {
   border-radius: 30px;
   border: 1px solid rgba(100, 111, 122, 0.2);
   color: #2a333f !important;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -562,17 +563,12 @@ h6 {
   position: relative; }
 .testimonials .left .avvo a:hover, .testimonials .left .avvo a:active, .testimonials .left .avvo a:focus {
   text-decoration: underline; }
-.testimonials .left .avvo a:after {
-  content: url("../img/chevron-right.png");
-  position: relative;
-  right: -6px;
-  top: 0; }
 .testimonials .left .avvo-link {
   padding: 13px 31px; }
 
 h3 {
   color: #ffffff;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineRegular', sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 35px;
@@ -839,21 +835,21 @@ h3 {
   border-bottom: 1px solid #2F3337; }
 .pages-content h1 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   margin-bottom: 22px; }
 .pages-content h2 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 16px; }
 .pages-content h3 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
@@ -866,7 +862,7 @@ h3 {
 }
 .pages-content h4 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 20px;
@@ -877,7 +873,7 @@ h3 {
   line-height: 17px; }
 .pages-content h6 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 20px;
@@ -1308,7 +1304,7 @@ float: left;}
 }
 .firm-content h2 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
@@ -1317,7 +1313,7 @@ float: left;}
   margin-bottom: 17px;
   margin-top: 48px;
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 37px;  }
@@ -1374,14 +1370,14 @@ float: left;}
 }
 .firm-will-content h2 {
   color: #2a333f;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   margin-bottom: 15px; }
 .firm-will-content h3 {
   color: #2a333f;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
@@ -1628,7 +1624,7 @@ color: #CE0B24}
 }
 .pages-content .blog-page-content .item h3{
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 37px;
@@ -1675,7 +1671,7 @@ color: #CE0B24}
   font-size: 10px;
   font-weight: 700;
   line-height: 20px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSansBold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   vertical-align: top; }
@@ -1739,7 +1735,7 @@ color: #CE0B24}
   font-size: 10px;
   font-weight: 700;
   line-height: 20px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSansBold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   vertical-align: top;
@@ -1753,7 +1749,7 @@ color: #CE0B24}
 }
 .contact-page h2 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
@@ -1761,7 +1757,7 @@ color: #CE0B24}
   margin-top: 23px; }
 .contact-page h3 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
@@ -1814,7 +1810,7 @@ color: #CE0B24}
   color: #FFFFFF;
   letter-spacing: 0.2px;
   margin: 10px 0 22px;
-  font-family: 'OpenSans', sans-serif; }
+  font-family: 'OpenSansBold', sans-serif; }
 .contact-page .contact-page-content .item p {
   margin-top: 0;
   color: #d4d8de;
@@ -1858,7 +1854,7 @@ padding-right: 14px; }
   margin-bottom: 15px; }
 .practice-page h3 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
@@ -1886,14 +1882,14 @@ padding-right: 14px; }
 
 .ocean-page h2 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   margin-bottom: 13px; }
 .ocean-page h3 {
   color: #FFFFFF;
-  font-family: 'Domine', sans-serif;
+  font-family: 'DomineBold', sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;

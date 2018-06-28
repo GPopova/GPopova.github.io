@@ -1747,8 +1747,8 @@
 
   .slicknav_nav {
     top: 52px;
-    left: inherit;
-    right: -26px;
+    left: 0%;
+    right: -9%;
   }
 
   .firm-content h2{
