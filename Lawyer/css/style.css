@@ -1,3 +1,7 @@
+html{
+overflow-x: hidden;
+}
+
 body {
   font-family: 'OpenSans', sans-serif;
   font-size: 14px;

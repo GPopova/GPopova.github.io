@@ -2,6 +2,10 @@
 $red: #CE0B24;
 $border-dark: #2F3337;
 
+html{
+  overflow-x: hidden;
+}
+
 *, :after, :before, :hover {
   box-sizing: border-box;
 }
