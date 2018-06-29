@@ -483,11 +483,6 @@ h6 {
   position: relative;
   text-transform: uppercase;
   padding: 15px 20px; }
-.blog .item > a:after {
-  content: url("../img/chevron-right.png");
-  position: relative;
-  right: -5px;
-  top: 0; }
 .blog .item > a:hover {
   text-decoration: underline !important; }
 .blog .item-news {
@@ -521,9 +516,6 @@ h6 {
 
 /*------END-BLOG-----------*/
 /*-----------TESTIMONIALS-----------*/
-.testimonials-wrap {
-  background: url("../img/testimonials-bg.png") no-repeat;
-  background-size: cover; }
 
 .testimonials {
   padding: 66px 0 70px; }
@@ -1121,7 +1113,7 @@ h3 {
 .pages-content .pages-aside .aside-blog .item .img img {
   width: 100%; }
 .pages-content .pages-aside .aside-blog .item h6 {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSansBold', sans-serif;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
@@ -1419,11 +1411,6 @@ float: left;}
   font-family: 'OpenSansSemibold', sans-serif;}
 .testimonials-page-content .avvo a:hover, .testimonials-page-content .avvo a:active, .testimonials-page-content .avvo a:focus {
   text-decoration: underline; }
-.testimonials-page-content .avvo a:after {
-  content: url("../img/chevron-right.png");
-  position: relative;
-  right: -6px;
-  top: 0; }
 .testimonials-page-content .pagination-wrap .pagination{
   margin-top: 53px;
 }
@@ -1656,11 +1643,6 @@ color: #CE0B24}
   padding-bottom: 32px;
 }
 
-.pages-content .blog-page-content .item a:after {
-  content: url("../img/chevron-right.png");
-  position: relative;
-  right: -1px;
-  top: 0; }
 .pages-content .blog-page-content .item span {
   float: right;
   color: #BEC3C9;
