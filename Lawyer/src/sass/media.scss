@@ -132,13 +132,14 @@
   .about{
     padding-top: 70px;
     padding-bottom: 76px;
+    padding-left: 14px;
     .photo{
       margin-left: -12px;
       margin-top: 2px;
       .partners{
         height: 331px;
         width: 483px;
-        margin-left: -7px;
+        margin-left: -4px;
       }
     }
     .bottom{
@@ -156,6 +157,7 @@
     }
   }
   .courts{
+    padding: 0 20px;
     .list{
       margin: 0 auto;
       padding-left: 12px;
@@ -192,7 +194,8 @@
       padding-left: 0;
       .news{
         h6{
-          margin-left: -4px;
+          padding-left: 8px;
+          margin-left: 0;
         }
       }
       h6{
@@ -203,7 +206,8 @@
       }
       .content{
         .item-news{
-          padding-left: 12px;
+          padding-left: 20px;
+          margin-left: 2px;
           a{
             line-height: 23px;
             margin-right: 0;
@@ -313,7 +317,6 @@
     }
   }
   .footer{
-    padding-bottom: 62px;
     margin-left: -12px;
     padding-top: 56px;
     .link-red{
@@ -732,7 +735,7 @@
       padding-left: 3px;
     }
     p{
-      margin-right: -15px;
+      margin-right: 0;
       margin-left: 14px;
       margin-top: 579px;
       padding-bottom: 18px;
@@ -793,7 +796,8 @@
         .item-news{
           position: absolute;
           margin-top: 69%;
-          padding-left: 8px;
+          padding-left: 18px;
+          padding-right: 20px;
           a{
             margin-bottom: 14px;
             width: 100%;
@@ -831,6 +835,7 @@
     }
   }
   .testimonials-wrap{
+    padding: 0 20px;
     .testimonials{
       width: 100%;
       text-align: left;
@@ -939,7 +944,7 @@
 
 @media (width: 768px){
   .about .photo{
-    margin-left: 0;
+    margin-left: -12px;
   }
 
   .slicknav_nav {
@@ -1100,7 +1105,7 @@
       top: 0;
       margin: 0 auto;
       width: 100%;
-      padding: 0;
+      padding: 0 20px;
       a{
         margin-left: 20px;
       }
@@ -1168,10 +1173,8 @@
   }
   .blog-wrap{
     .blog{
+      padding: 54px 0 382px 20px;
       margin: 0 auto;
-      padding-left: 0;
-      padding-top: 54px;
-      padding-bottom: 382px;
       position: relative;
       .news{
         bottom: 356px;
@@ -1230,6 +1233,7 @@
     }
   }
   .testimonials-wrap{
+    padding: 0 20px;
     .testimonials{
       .testimonials-content{
         width: 60%;
@@ -1240,6 +1244,7 @@
     }
   }
   .contact-wrap{
+    padding: 0 20px;
     .contact{
       p{
         margin:0 auto 56px;
@@ -1686,65 +1691,7 @@
       }
     }
   }
-  /*.contact-wrap{
-    .contact{
-      padding-left: 5px;
-      padding-top: 17px;
-      padding-bottom: 60px;
-      h2{
-        font-size: 30px;
-        line-height: 34px;
-        margin-left: -6px;
-      }
-      p{
-        padding-top: 5px;
-        width: 422px;
-        padding-right: 10px;
-        margin: 0 auto;
-      }
-      .content{
-        padding-left: 0;
-        .item{
-          width: 422px;
-          height: 260px;
-          text-align: center;
-          margin-bottom: 9px;
-          margin-left: -7px;
-          padding-left: 24px;
-          padding-top: 24px;
-          p{
-            text-align: center;
-            width: 246px;
-            margin: 0 auto;
-            font-size: 14px;
-            font-family: 'OpenSansRegular', sans-serif;
-            padding: 0;
-          }
-          &:first-child{
-            height: 304px;
-            margin-bottom: -18px;
-            padding-left: 26px;
-            h6{
-              margin-bottom: 24px;
-            }
-          }
-        }
-      }
-      .bottom{
-        margin-top: 13px;
-        margin-left: -9px;
-        .button{
-          margin: 26px 0 0;
-          p{
-            a{
-              margin: 0 auto;
-              width: 422px;
-            }
-          }
-        }
-      }
-    }
-  }*/
+
   .footer{
     margin: 0 auto;
     padding-top: 54px;
@@ -1890,6 +1837,7 @@ header{
 
   .about{
     padding-bottom: 586px;
+    padding-left: 0;
     .photo{
       margin-top: 22px;
       text-align: center;
@@ -1909,36 +1857,52 @@ header{
         .item{
           width: 96%;
           overflow-x: hidden;
-          height: 410px;
+          height: 100%;
           margin-bottom: 18px;
+          padding-bottom: 20px;
           .img{
             width: 100%;
-            height: 160px;
             img{
               width: 108%;
-              height: 160px;
               margin-left: -8px;
             }
           }
           &:nth-child(3){
+            height: 100%;
             margin-bottom: 20px;
+            padding-bottom: 20px;
           }
           &:last-child{
             margin-left: -15px;
             margin-top: 2px;
           }
+          h6{
+            padding-right: 20px;
+          }
+        }
+        .item-news{
+          bottom: -334px;
+          margin-left: 0px;
+          padding-left: 10px;
+          padding-right: 0;
         }
       }
       .news{
-        bottom: 328px;
+        bottom: 336px;
+        h6{
+          padding-left: 0;
+        }
       }
-      .item-news{
-        bottom: -334px;
-        margin-left: 0px;
+
+      .visit{
+        a{
+          margin-right: 0;
+        }
       }
     }
   }
   .testimonials-wrap{
+    padding: 0;
     .testimonials{
       padding-top: 55px;
       padding-left: 0;
@@ -1978,6 +1942,7 @@ header{
     }
   }
   .contact-wrap{
+    padding: 0;
     .contact{
       padding-top: 11px;
       padding-left: 0;
@@ -2007,7 +1972,7 @@ header{
       }
       .bottom{
         text-align: center;
-        margin: -11px auto;
+        margin: 3px auto -10px;
         padding: 0;
         width: 300px;
         .button{
@@ -2083,11 +2048,12 @@ header{
       background: 0 0;
       filter: none;
       margin-top: 39px;
-      margin-left: -4px;
+      margin-left: -7px;
       .partners{
         display: block;
         width: 67%;
         height: 82%;
+        filter: drop-shadow(5px 5px 0 #2a2c2d);
       }
     }
     .bottom{
@@ -2105,6 +2071,29 @@ header{
       img{
         padding-right: 20px;
         margin-left: -14px;
+      }
+    }
+  }
+  .courts{
+    padding: 0;
+  }
+  .blog-wrap .blog .content .item .img{
+    height: 160px;
+    img{
+      height: 160px;
+    }
+  }
+  .blog-wrap{
+    .blog{
+      .content{
+        .item{
+          height: 410px;
+          padding-bottom: 0;
+          &:nth-child(3){
+            height: 400px;
+            padding-bottom: 0;
+          }
+        }
       }
     }
   }
