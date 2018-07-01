@@ -1402,7 +1402,8 @@ float: left;}
   color: #D2D7E4; }
 .testimonials-page-content .avvo img {
   position: relative;
-  top: 2px; }
+  top: 2px;
+max-width: 52px;}
 .testimonials-page-content .avvo a {
   display: block;
   color: #CE0B24;
@@ -1533,6 +1534,9 @@ color: #CE0B24}
   font-family: 'OpenSansRegular', sans-serif;
   margin-left: 23px;
   padding-bottom: 11px;
+}
+.blog-content .aside-blog-page .demo li{
+  list-style-type: none;
 }
 .pages-content .submenu {
   display: none;
