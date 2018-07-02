@@ -1389,7 +1389,7 @@
 
   .pages-content .alignright{
     width: 228px;
-    margin-left: 0;
+    margin-left: 8px;
     margin-right: 10px;
   }
 
@@ -1626,6 +1626,11 @@
 @media (max-width: 723px){
   .home .about .photo{
     margin: 0 auto;
+  }
+
+  .home .about .text h2{
+    margin-top: 52px;
+    margin-bottom: 20px;
   }
 
   .home .blog-wrap .blog .content{
@@ -2222,6 +2227,12 @@ padding-top: 13px;
 padding-bottom: 3px;
 }
 
+  .home .courts .list ul{
+    margin-top: -15px;
+    margin-left: 0;
+  }
+
+
 .header-content-pages {
 padding: 24px 0 38px;
 }
@@ -2585,6 +2596,7 @@ left: -38px;
 
 .home .practice-areas .practice-wrap .left p{
 margin: 10px auto 0;
+  width: 300px;
 }
 
 .home .about .text h2{
@@ -2660,6 +2672,10 @@ margin: 0;
 height: 160px;
 }
 
+  .home .blog-wrap .blog .news{
+    bottom: 335px;
+  }
+
 .pages-content .pages-aside .aside-blog .item .img img {
 height: 160px;
 }
@@ -2697,12 +2713,29 @@ padding-left: 0;
 }
 
 .home .blog-wrap .blog .news{
-padding-left: 4px;
+padding-left: 0;
 }
 
 .home .blog-wrap .blog .content .item-news {
-top: 1364px;
+  top: 1337px;
+  margin-left: -6px;
 }
+
+  .home .blog-wrap .blog{
+    padding-bottom: 346px;
+  }
+
+  .home .testimonials-wrap .testimonials .left h3{
+    margin-top: 0;
+  }
+
+  .home .testimonials-wrap .testimonials .testimonials-content{
+    margin-top: -6px;
+  }
+
+  .home .testimonials-wrap .testimonials .testimonials-content .item{
+    padding-bottom: 0;
+  }
 
 .home .about {
 padding-bottom: 765px;
