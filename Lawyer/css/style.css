@@ -1519,7 +1519,8 @@ color: #CE0B24}
 .pages-content .data-menu > li {
   margin: 12px 0 -3px 0;
   padding-bottom: 12px;
-  border-bottom: 1px solid #2F3337; }
+  border-bottom: 1px solid #2F3337;
+  list-style-type: none;}
 .pages-content .data-menu > li:first-child {
   margin: 6px 0 13px 0;
   padding-bottom: 1px;
