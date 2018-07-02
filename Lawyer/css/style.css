@@ -1706,8 +1706,8 @@ color: #CE0B24}
   margin-bottom: 20px;
 }
 .pages-content .blog-inner .bottom{
-  margin-bottom: 32px;
-  margin-top: 50px;
+  margin-bottom: 33px;
+  margin-top: 54px;
 }
 .pages-content .blog-inner .bottom img{
   padding-right: 7px;
@@ -1743,6 +1743,34 @@ color: #CE0B24}
   vertical-align: top;
   position: relative;
   top: -4px; }
+
+
+.blog-inner .date{
+  margin-bottom: 15px;
+  margin-top: -2px;
+  font-family: 'OpenSansSemibold', sans-serif;
+  text-transform: uppercase;
+  color: #BEC3C9;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.blog-inner p{
+  line-height: 23px;
+  margin-bottom: 23px;
+}
+
+.blog-inner .alignleft{
+  margin: 7px 30px 4px 0;
+}
+
+.blog-inner h2{
+  font-family: 'DomineRegular', sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 48px;
+  margin-bottom: 12px;
+}
 
 /*---------END-BLOG-PAGE-----------*/
 /*---------CONTACT-PAGE-----------*/
