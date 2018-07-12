@@ -281,6 +281,11 @@ header .navigation .navigation-panel .menu ul li{
     padding: 21px 22px;
 }
 
+header .navigation .navigation-panel .menu ul li:first-child{
+    padding-left: 34px;
+    margin-left: -12px;
+}
+
 header .navigation .navigation-panel .menu ul .actions{
     background: #E8204F;
     padding: 21px 24px;
@@ -1415,7 +1420,7 @@ footer .footer-text .text-right{
 }
 
 #selectCity .city-choice input[type="radio"] + label:before {
-    content: url("../img/radiobutton.png");
+    content: url("../img/Radiobutton.png");
     background-repeat: no-repeat;
     height: 15px;
     width: 15px;
