@@ -858,6 +858,10 @@ header .navigation .navigation-panel .menu ul li:hover{
     padding-right: 0;
 }
 
+.articles .row{
+    position: relative;
+}
+
 .articles .left{
     padding-left: 7px;
     padding-bottom: 23px;
@@ -878,8 +882,8 @@ header .navigation .navigation-panel .menu ul li:hover{
 
 .articles .right{
     position: absolute;
-    right: 30px;
-    top: 40px;
+    right: 8px;
+    top: 0;
 }
 
 .articles .right button{
