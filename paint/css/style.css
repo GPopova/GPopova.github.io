@@ -153,7 +153,7 @@ header .header-content .logo{
 }
 
 header .header-content .logo img{
-   width: 255px;
+    width: 255px;
     height: 54px;
     margin-bottom: 6px;
 }
@@ -296,24 +296,24 @@ header .navigation .navigation-panel .menu ul li:hover{
     background: linear-gradient(to top, #302B27, #5B5149);
 }
 
-header .navigation .navigation-panel .catalog .catalogInner{
+
+
+.catalogInner{
     background: #FFFFFF;
     color: #000000;
     font-size: 15px;
     line-height: 14px;
-    margin-top: 21px;
     width: 315px;
-    margin-left: -21px;
     display: none;
     box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    margin: -30px 0 30px;
 }
 
-header .navigation .navigation-panel .catalog .open{
+.content .products .open{
     display: block;
-    margin-bottom: -21px;
 }
 
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li{
+.catalogInner .catalogMenu li{
     border-bottom: 1px solid #dedede;
     font-family: 'CircleRegular';
     font-size: 15px;
@@ -323,57 +323,47 @@ header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li{
     position: relative;
 }
 
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu .down:hover{
+.catalogInner .catalogMenu .down:hover{
     background: #3C55D7;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li:not(:first-child):before{
+.catalogInner .catalogMenu li:not(:first-child):before{
     content: url("../img/Vector.svg");
     position: absolute;
     right: 16px;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li a{
+.catalogInner .catalogMenu li a{
     color: #000000;
     padding-left: 20px;
 }
 
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li .submenu{
+.catalogInner .catalogMenu li .submenu{
     margin-top: 22px;
     margin-bottom: -21px;
     display: none;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li .open{
+.catalogInner .catalogMenu li .open{
     display: block;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li .submenu li{
+.catalogInner .catalogMenu li .submenu li{
     background: #262d52;
     border-bottom: 1px solid #4B4F68;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li .submenu li:hover{
+.catalogInner .catalogMenu li .submenu li:hover{
     text-decoration: underline;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li .submenu li:before{
+.catalogInner .catalogMenu li .submenu li:before{
     content: ' ';
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li .submenu li a{
+.catalogInner .catalogMenu li .submenu li a{
     color: #FFFFFF;
     padding-left: 24px;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu input[type="radio"]{
+.catalogInner .catalogMenu input[type="radio"]{
     display: none;
     height: 15px;
     width: 15px;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li label{
+.catalogInner .catalogMenu li label{
     font-family: 'CircleRegular';
     font-size: 15px;
     line-height: 18px;
@@ -382,20 +372,17 @@ header .navigation .navigation-panel .catalog .catalogInner .catalogMenu li labe
     margin-left: 34px;
     color: #A8A8A8;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu input[type="radio"]:checked + label{
+.catalogInner .catalogMenu input[type="radio"]:checked + label{
     color: #000000;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu input[type="radio"] + label:before{
+.catalogInner .catalogMenu input[type="radio"] + label:before{
     content: url("../img/Radiobutton.svg");
     background-repeat: no-repeat;
     background-size: 15px 15px;
     position: absolute;
     left: -20px;
 }
-
-header .navigation .navigation-panel .catalog .catalogInner .catalogMenu input[type="radio"]:checked + label:before{
+.catalogInner .catalogMenu input[type="radio"]:checked + label:before{
     content: url("../img/Radiobutton active.svg");
     background-repeat: no-repeat;
     background-size: 15px 15px;
@@ -1081,13 +1068,13 @@ header .navigation .navigation-panel .catalog .catalogInner .catalogMenu input[t
     border-radius: 50%;
     padding: 6px 0;
     margin-right: 4px;
-    -webkit-transition: all .2s ease-in-out;
 }
 
 .footer-top .logo ul li .link li a:hover{
     color: #0B1759;
     border-color: #0B1759;
 }
+
 
 .footer-top .logo ul li .link li a .fab{
     width: 30px;

@@ -1,6 +1,6 @@
 "use strict";
 
-/* ---- MENU CATALOG ---- */
+// Menu Catalog
 
 $('.down').on('click', function() {
     var submenu = $(this).find('.submenu');
@@ -11,7 +11,9 @@ $('#openCatalog').on('click', function () {
    $('.catalogInner').toggleClass('open');
 });
 
+
 // Slider OwlCarousel
+
 $(document).ready(function(){
     $(".slider").owlCarousel({
         loop:true,
