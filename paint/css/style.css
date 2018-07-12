@@ -80,7 +80,7 @@ a{
 header .settings{
     background: #FFFFFF;
     padding-top: 15px;
-    padding-bottom: 11px;
+    padding-bottom: 16px;
 }
 
 header .settings .top-panel .region .select p{
@@ -91,12 +91,9 @@ header .settings .top-panel .region .select p a{
     text-decoration: underline;
 }
 
-header .settings .top-panel .region .select #selectCity{
-    display: none;
-}
-
 header .settings .top-panel .top-menu{
     padding-left: 0;
+    margin-left: -4px;
 }
 
 header .settings .top-panel .top-menu ul li{
@@ -107,7 +104,7 @@ header .settings .top-panel .top-menu ul li{
 header .settings .top-panel .compare{
     text-align: right;
     margin-right: -10px;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 
 header .settings .top-panel .compare .picture{
@@ -130,6 +127,7 @@ header .settings .top-panel .login .picture{
 header .settings .top-panel .login a:last-child{
     margin-left: 18px;
     position: relative;
+    margin-right: -2px;
 }
 
 header .settings .top-panel .login a:last-child:before{
@@ -149,7 +147,7 @@ header .header-content{
 }
 
 header .header-content .logo{
-    padding-top: 32px;
+    padding-top: 29px;
 }
 
 header .header-content .logo img{
@@ -174,7 +172,7 @@ header .header-content .contacts{
     color: white;
     margin-left: 24px;
     margin-right: -24px;
-    padding-top: 22px;
+    padding-top: 17px;
 }
 
 header .header-content .contacts p:first-child{
@@ -184,7 +182,7 @@ header .header-content .contacts p:first-child{
 header .header-content .contacts .number{
     font-family: 'CircleBold';
     font-size: 24px;
-    line-height: 34px;
+    line-height: 37px;
 }
 
 header .header-content .contacts .schedule{
@@ -194,11 +192,12 @@ header .header-content .contacts .schedule{
 header .header-content .contacts .mail a{
     color: #FFFFFF;
     text-decoration: underline;
-    line-height: 32px;
+    line-height: 30px;
+    margin-right: 2px;
 }
 
 header .header-content .basket{
-    padding: 38px 0 0 42px;
+    padding: 36px 0 0 42px;
 }
 
 header .header-content .basket button{
@@ -213,12 +212,13 @@ header .header-content .basket button{
     position: relative;
     font-family: 'CircleRegular';
     font-size: 15px;
-    line-height: 14px;
+    line-height: 16px;
 }
 
 header .header-content .basket button img{
     position: absolute;
-    left: 32px;
+    left: 30px;
+    top: 27px;
 }
 
 header .navigation{
@@ -246,7 +246,7 @@ header .navigation .navigation-panel .catalog{
 }
 
 header .navigation .navigation-panel .catalog #openCatalog{
-    padding: 17px 210px 17px 0px;
+    padding: 17px 210px 17px 3px;
 }
 
 header .navigation .navigation-panel .catalog:hover{
@@ -255,17 +255,18 @@ header .navigation .navigation-panel .catalog:hover{
 
 header .navigation .navigation-panel .catalog img{
     float: right;
-    margin-top: -10px;
+    margin-top: -12px;
+    margin-right: -4px;
 }
 
 header .navigation .navigation-panel .menu{
-    padding-left: 52px;
+    padding-left: 34px;
 }
 
 header .navigation .navigation-panel .menu img{
     display: inline-block;
-    top: 22px;
-    left: 23px;
+    top: 18px;
+    left: 26px;
     vertical-align: bottom;
     position: absolute;
 }
@@ -277,11 +278,12 @@ header .navigation .navigation-panel .menu ul{
 header .navigation .navigation-panel .menu ul li{
     display: inline-block;
     cursor: pointer;
-    padding: 21px;
+    padding: 21px 22px;
 }
 
 header .navigation .navigation-panel .menu ul .actions{
     background: #E8204F;
+    padding: 21px 24px;
 }
 
 header .navigation .navigation-panel .menu ul .actions:hover{
@@ -317,15 +319,25 @@ header .navigation .navigation-panel .menu ul li:hover{
     border-bottom: 1px solid #dedede;
     font-family: 'CircleRegular';
     font-size: 15px;
-    line-height: 18px;
+    line-height: 17px;
     text-transform: none;
-    padding: 25px 0 20px;
+    padding: 24px 0 17px;
     position: relative;
+}
+
+.catalogInner .catalogMenu li:first-child{
+    padding-top: 25px;
+    padding-bottom: 23px;
 }
 
 .catalogInner .catalogMenu .down:hover{
     background: #3C55D7;
 }
+
+.catalogInner .catalogMenu .down:hover a{
+    color: #FFFFFF;
+}
+
 .catalogInner .catalogMenu li:not(:first-child):before{
     content: url("../img/Vector.svg");
     position: absolute;
@@ -347,6 +359,8 @@ header .navigation .navigation-panel .menu ul li:hover{
 .catalogInner .catalogMenu li .submenu li{
     background: #262d52;
     border-bottom: 1px solid #4B4F68;
+    padding-top: 18px;
+    padding-bottom: 21px;
 }
 .catalogInner .catalogMenu li .submenu li:hover{
     text-decoration: underline;
@@ -369,7 +383,7 @@ header .navigation .navigation-panel .menu ul li:hover{
     line-height: 18px;
     text-transform: none;
     position: relative;
-    margin-left: 34px;
+    margin-left: 46px;
     color: #A8A8A8;
 }
 .catalogInner .catalogMenu input[type="radio"]:checked + label{
@@ -398,40 +412,67 @@ header .navigation .navigation-panel .menu ul li:hover{
 
 .content .products h1{
     display: inline-block;
-    padding-bottom: 16px;
+    padding-bottom: 12px;
     padding-right: 21px;
+    padding-top: 5px;
 }
 
-.content .products .prew, .next{
-    background: transparent;
-    border:none;
+
+.content .products .slider3 .owl-nav{
     display: inline-block;
-    vertical-align: top;
-    margin-left: -10px;
+    position: absolute;
+    top: -53px;
+    right: 14px;
 }
 
-.content .products .product-item{
+.content .products .slider3 .owl-nav .owl-prev{
+    display: inline-block;
+    color: transparent;
+    background: url("../img/prew.svg"), no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.content .products .slider3 .owl-nav .owl-prev:hover{
+    background: url("../img/img-prew-blue.svg"), no-repeat;
+}
+
+.content .products .slider3 .owl-nav .owl-next{
+    display: inline-block;
+    color: transparent;
+    background: url("../img/img-next-white.svg"), no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.content .products .slider3 .owl-nav .owl-next:hover{
+    background: url("../img/next.svg"), no-repeat;
+}
+
+.content .products .slider3 div .product-item{
     width: 315px;
     background: #FFFFFF;
-    padding: 36px 0 30px 20px;
+    padding: 36px 0 20px 20px;
     position: relative;
     border: 1px solid #dedede;
     margin-bottom: 20px;
 }
 
-.content .products .product-item .item-img{
+.content .products .slider3 div .product-item .item-img{
     text-align: center;
     padding-right: 20px;
     width: 100%;
     height: 190px;
 }
 
-.content .products .product-item .item-img img{
+.content .products .slider3 div .product-item .item-img img{
     width: 236px;
     height: 185px;
+    margin: 0 auto;
 }
 
-.content .products .product-item .item-img span{
+.content .products .slider3 div .product-item .item-img span{
     position: absolute;
     font-family: 'CircleBold';
     font-size: 17px;
@@ -444,37 +485,38 @@ header .navigation .navigation-panel .menu ul li:hover{
     background: url("../img/Ellipse.svg"), no-repeat;
     top: 8px;
     left: 10px;
+    z-index: 2;
 }
 
-.content .products .product-item .item-img:after{
+.content .products .slider3 div .product-item .item-img:after{
     position: absolute;
     content: url("../img/compare.svg");
     top: 14px;
     right: 16px;
 }
 
-.content .products .product-item .item-specification{
-    padding-top: 14px;
+.content .products .slider3 div .product-item .item-specification{
+    padding-top: 17px;
     line-height: 24px;
 }
 
-.content .products .product-item .item-specification p{
+.content .products .slider3 div .product-item .item-specification p{
     color: #A8A8A8;
 }
 
-.content .products .product-item .item-specification p span{
+.content .products .slider3 div .product-item .item-specification p span{
     color: #042567;
 }
 
-.content .products .product-item .item-specification .text{
+.content .products .slider3 div .product-item .item-specification .text{
     color: #000000;
 }
 
-.content .products .product-item .price{
+.content .products .slider3 div .product-item .price{
     padding-top: 14px;
 }
 
-.content .products .product-item .price p{
+.content .products .slider3 div .product-item .price p{
     color: #000000;
     font-family: 'CircleBold';
     line-height: 35px;
@@ -482,17 +524,17 @@ header .navigation .navigation-panel .menu ul li:hover{
     display: inline-block;
 }
 
-.content .products .product-item .price p span{
+.content .products .slider3 div .product-item .price p span{
     font-size: 30px;
     margin-left: 4px;
 }
 
-.content .products .product-item .price p .rub{
+.content .products .slider3 div .product-item .price p .rub{
     color: #A8A8A8;
     font-size: 24px;
 }
 
-.content .products .product-item .price .crossed-price{
+.content .products .slider3 div .product-item .price .crossed-price{
     margin-left: 80px;
     font-size: 17px;
     color: #A8A8A8;
@@ -500,24 +542,24 @@ header .navigation .navigation-panel .menu ul li:hover{
     text-decoration: line-through;
 }
 
-.content .products .product-item .price .crossed-price span{
+.content .products .slider3 div .product-item .price .crossed-price span{
     font-size: 17px;
 }
 
-.content .products .product-item .product-size{
+.content .products .slider3 div .product-item .product-size{
     padding: 8px 0;
 }
 
-.content .products .product-item .product-size div{
+.content .products .slider3 div .product-item .product-size div{
     display: inline-block;
     position: relative;
 }
 
-.content .products .product-item .product-size input{
+.content .products .slider3 div .product-item .product-size input{
     display: none;
 }
 
-.content .products .product-item .product-size label{
+.content .products .slider3 div .product-item .product-size label{
     margin-right: 16px;
     display: inline-block;
     text-align: center;
@@ -525,7 +567,7 @@ header .navigation .navigation-panel .menu ul li:hover{
     cursor: pointer;
 }
 
-.content .products .product-item .product-size input+label{
+.content .products .slider3 div .product-item .product-size input+label{
     display: inline-block;
     border: 1px solid #DEDEDE;
     border-radius: 5px;
@@ -533,11 +575,19 @@ header .navigation .navigation-panel .menu ul li:hover{
     width: 78px;
 }
 
-.content .products .product-item .product-size input:checked+label{
-    background-color: #dedede;
+.content .products .slider3 div .product-item .product-size input+.checked{
+    background: #DEDEDE;
 }
 
-.content .products .product-item .buy button{
+.content .products .slider3 div .product-item .product-size input+label:hover{
+    background: #DEDEDE;
+}
+
+.content .products .slider3 div .product-item .product-size input:checked+label{
+    background: #DEDEDE;
+}
+
+.content .products .slider3 div .product-item .buy button{
     width: 140px;
     background-color: #042567;
     border:none;
@@ -545,30 +595,33 @@ header .navigation .navigation-panel .menu ul li:hover{
     color: #FFFFFF;
     font-family: 'CircleRegular';
     border-radius: 5px;
-    padding: 14px 0;
+    padding: 14px 56px;
+    position: relative;
 }
 
-.content .products .product-item .buy button img{
+.content .products .slider3 div .product-item .buy button img{
     width: 22px;
     height: 19px;
     vertical-align: bottom;
-    margin-right: 8px;
+    left: 24px;
+    position: absolute;
 }
 
-.content .products .product-item .buy a{
+.content .products .slider3 div .product-item .buy a{
     color: #A8A8A8;
     font-size: 15px;
     margin-left: 17px;
 }
 
-.content .products .product-item .buy a:hover{
+.content .products .slider3 div .product-item .buy a:hover{
     text-decoration: underline;
 }
 
 
 
 .content .page-content {
-    margin-top: 36px;
+    margin-top: 19px;
+    padding-left: 15px;
 }
 
 .content .page-content .search input[type="search"]{
@@ -622,7 +675,7 @@ header .navigation .navigation-panel .menu ul li:hover{
     border: none;
     border-radius: 3px;
     position: absolute;
-    right: -6px;
+    right: -9px;
     top: 1px;
 }
 
@@ -641,6 +694,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 .content .page-content .owl-carousel .owl-dots{
     display: inline-block;
     text-align: center;
+    margin-left: 10px;
 }
 
 .content .page-content .owl-carousel .owl-dots .owl-dot{
@@ -665,15 +719,24 @@ header .navigation .navigation-panel .menu ul li:hover{
     background-color: #FFFFFF;
     width: 1082px;
     border: 1px solid #DEDEDE;
-    padding: 20px 0 25px 16px;
+    padding: 18px 0 25px 16px;
+    margin-top: 2px;
 }
 
 .content .page-content .advantage .advantage-item{
     display: inline-block;
     padding-left: 14px;
-    padding-right: 22px;
+    padding-right: 24px;
     border-right: 1px solid #DEDEDE;
     vertical-align: top;
+}
+
+.content .page-content .advantage .advantage-item:first-child{
+    padding-right: 14px;
+}
+
+.content .page-content .advantage .advantage-item:last-child{
+    padding-left: 30px;
 }
 
 .content .page-content .advantage .narrow{
@@ -686,6 +749,10 @@ header .navigation .navigation-panel .menu ul li:hover{
 
 .content .page-content .advantage .advantage-item .item-header{
     height: 38px;
+}
+
+.content .page-content .advantage .advantage-item .middle{
+    padding-top: 5px;
 }
 
 .content .page-content .advantage .advantage-item .item-header img{
@@ -711,7 +778,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 
 .content .page-content .dye-logos{
     padding-top: 19px;
-    margin-left: -17px;
+    margin-left: -19px;
     padding-bottom: 38px;
 }
 
@@ -863,7 +930,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .articles .left{
-    padding-left: 7px;
+    padding-left: 11px;
     padding-bottom: 23px;
 }
 
@@ -880,29 +947,18 @@ header .navigation .navigation-panel .menu ul li:hover{
     text-decoration: underline;
 }
 
-.articles .right{
-    position: absolute;
-    right: 8px;
-    top: 0;
-}
-
-.articles .right button{
-    background: transparent;
-    border: none;
-}
-
 .articles .articles-item{
     background: #FFFFFF;
     width: 688px;
     height: 475px;
-    margin-left: 6px;
+    margin-left: 11px;
     margin-right: 26px;
     padding: 0;
 }
 
 .articles .articles-item:last-child{
     margin-right: 0;
-    margin-left: 16px;
+    margin-left: 12px;
 }
 
 .articles .articles-item .image{
@@ -937,7 +993,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .articles .articles-item .article-text{
-    padding: 20px 32px 20px 44px;
+    padding: 26px 32px 20px 44px;
 }
 
 .articles .articles-item .article-text p{
@@ -952,10 +1008,40 @@ header .navigation .navigation-panel .menu ul li:hover{
     text-decoration: underline;
 }
 
+.articles .slider2 .owl-nav{
+    display: inline-block;
+    position: absolute;
+    top: -57px;
+    right: 8px;
+}
 
+.articles .slider2 .owl-nav .owl-prev{
+    display: inline-block;
+    color: transparent;
+    background: url("../img/prew.svg"), no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.articles .slider2 .owl-nav .owl-prev:hover{
+    background: url("../img/img-prew-blue.svg"), no-repeat;
+}
+
+.articles .slider2 .owl-nav .owl-next{
+    display: inline-block;
+    color: transparent;
+    background: url("../img/img-next-white.svg"), no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.articles .slider2 .owl-nav .owl-next:hover{
+    background: url("../img/next.svg"), no-repeat;
+}
 
 .about-company{
-    background: url(../img/about-bg.png);
+    background: url("../img/about-bg.png");
     height: 541px;
     background-position: center;
 }
@@ -963,13 +1049,13 @@ header .navigation .navigation-panel .menu ul li:hover{
 .about-company .map-position{
     text-align: center;
     margin-top: 50px;
-    margin-left: -108px;
-    margin-right: 108px;
+    margin-left: -102px;
+    margin-right: 100px;
 }
 
 .about-company .company-details{
-    padding-top: 92px;
-    padding-left: 16px;
+    padding-top: 93px;
+    padding-left: 24px;
     padding-right: 0;
 }
 
@@ -988,7 +1074,7 @@ header .navigation .navigation-panel .menu ul li:hover{
     font-size: 18px;
     line-height: 12px;
     border-bottom: 1px solid #FFFFFF;
-    margin-right: 112px;
+    margin-right: 105px;
 }
 
 .about-company .company-details input{
@@ -996,7 +1082,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .about-company .company-details input+label{
-    right: 40px;
+    right: 32px;
     top: 80px;
     position: absolute;
     width: 53px;
@@ -1013,6 +1099,7 @@ header .navigation .navigation-panel .menu ul li:hover{
     line-height: 27px;
     color: #FFFFFF;
     padding-top: 18px;
+    margin-right: -12px;
 }
 
 
@@ -1021,7 +1108,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .footer-top .logo{
-    padding-left: 6px;
+    padding-left: 12px;
 }
 
 .footer-top .logo img{
@@ -1119,7 +1206,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .footer-top .contacts{
-    padding: 0 66px 0 34px;
+    padding: 0 66px 0 41px;
 }
 
 .footer-top .contacts p{
@@ -1133,7 +1220,8 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .footer-top .contacts .mail{
-    padding-bottom: 40px;
+    margin-top: 5px;
+    padding-bottom: 36px;
 }
 
 .footer-top .contacts .mail a{
@@ -1141,13 +1229,22 @@ header .navigation .navigation-panel .menu ul li:hover{
     text-decoration: underline;
 }
 
+.footer-top .contacts .tel{
+    padding-top: 6px;
+    padding-bottom: 6pxpx;
+}
+
+.footer-top .contacts .telephone{
+    line-height: 32px;
+}
+
 .footer-top .footer-menu{
-    padding-left: 24px;
+    padding-left: 30px;
 }
 
 .footer-top .footer-menu h4{
     line-height: 26px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 .footer-top .footer-menu ul{
@@ -1163,7 +1260,7 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .footer-top .continue{
-    padding: 36px 34px 0 48px;
+    padding: 36px 34px 0 54px;
 }
 
 .footer-top .footer-menu .link {
@@ -1201,7 +1298,7 @@ footer .footer-text a{
 }
 
 footer .footer-text {
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 
@@ -1214,6 +1311,131 @@ footer .footer-text .text-right{
     padding-right: 0px;
     padding-top: 10px;
 }
+
+
+/* ------ */
+
+#selectCity{
+    display: none;
+    position: absolute;
+    width: 700px;
+    height: 360px;
+    background: #FFFFFF;
+    border:1px solid #DEDEDE;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.15);
+    z-index: 5;
+    margin-top: 19px;
+    padding: 32px 60px 29px 40px;
+}
+
+#selectCity[class="open"]{
+    display: block;
+}
+
+#selectCity h2{
+    font-size: 24px;
+    line-height: 23px;
+    padding-bottom: 14px;
+    font-family: 'CircleBold';
+}
+
+#selectCity p{
+    font-family: 'CircleRegular';
+    font-size: 13px;
+    line-height: 12px;
+    padding-bottom: 15px;
+}
+
+#selectCity input[type="text"]{
+    width: 600px;
+    height: 50px;
+    border: 1px solid #D3D3D3;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+#selectCity input[type="text"]::-moz-placeholder{
+    color: #A8A8A8;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'CircleRegular';
+}
+
+#selectCity input[type="text"]::placeholder{
+    color: #A8A8A8;
+    font-size: 15px;
+    line-height: 18px;
+    opacity:1;
+    font-family: 'CircleRegular';
+}
+
+#selectCity button[type="submit"]{
+    background-color: transparent;
+    border: none;
+    background-image: url("../img/search-blue.svg");
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 106px;
+    right: 77px;
+}
+
+#selectCity .city-choice{
+    -moz-column-count: 3;
+    -moz-column-width: 140px;
+    -webkit-column-count: 3;
+    -webkit-column-width: 140px;
+    -moz-column-gap: 38px;
+    -webkit-column-gap: 38px;
+    column-count: 3;
+    column-width: 140px;
+    column-gap: 38px;
+    padding-top: 18px;
+}
+
+#selectCity .city-choice div{
+    position: relative;
+    line-height: 35px;
+}
+
+#selectCity .city-choice label{
+    color: #A8A8A8;
+    font-family: 'CircleRegular';
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+#selectCity .city-choice input[type="radio"] {
+    display: none;
+    height: 15px;
+    width: 15px;
+}
+
+#selectCity .city-choice input[type="radio"] + label:before {
+    content: url("../img/radiobutton.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    line-height: 35px;
+    left: 0;
+    position: absolute;
+}
+
+#selectCity .city-choice input[type="radio"]:checked + label:before {
+    content: url("../img/radiobutton-active.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+}
+
+#selectCity .city-choice input[type="radio"]:checked + label {
+    color: #000000;
+}
+
 
 
 
