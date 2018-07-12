@@ -1420,7 +1420,7 @@ footer .footer-text .text-right{
 }
 
 #selectCity .city-choice input[type="radio"] + label:before {
-    content: url("../img/Radiobutton.png");
+    content: url("../img/radiobutton.png");
     background-repeat: no-repeat;
     height: 15px;
     width: 15px;
