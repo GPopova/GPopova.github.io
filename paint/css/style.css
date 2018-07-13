@@ -343,11 +343,23 @@ header .navigation .navigation-panel .menu ul li:hover{
     color: #FFFFFF;
 }
 
-.catalogInner .catalogMenu li:not(:first-child):before{
+.catalogInner .catalogMenu li:before{
     content: url("../img/Vector.svg");
     position: absolute;
     right: 16px;
 }
+
+.catalogInner .catalogMenu .active:before{
+    content: url("../img/Vector-up.svg");
+    position: absolute;
+    right: 16px;
+}
+
+.catalogInner .catalogMenu li:first-child::before{
+    content: ' ';
+}
+
+
 .catalogInner .catalogMenu li a{
     color: #000000;
     padding-left: 20px;

@@ -5,6 +5,7 @@
 $('.down').on('click', function() {
     var submenu = $(this).find('.submenu');
     submenu.toggleClass('open');
+    $(this).toggleClass('active');
 });
 
 $('#openCatalog').on('click', function () {
@@ -24,7 +25,13 @@ var a = $('.select').find('a');
 a.on('click', function (){
     $('#selectCity').toggleClass('open');
 });
+//Select City
 
+$("#selectCity input[type='radio']").on('click', function () {
+    var label = $(this).next();
+    var text = label.text();
+    $('#cityName').html(text);
+});
 
 
 // Slider OwlCarousel
