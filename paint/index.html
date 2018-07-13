@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <nav class="top-panel">
-                    <div class="region col-md-3">
+                    <div class="region col-md-3 col-sm-3">
                         <div class="select">
                             <p>Регион: <a id="cityName" href="#">Москва <img src="img/Rectangle-black.svg"></a></p>
                             <form id="selectCity">
@@ -113,23 +113,29 @@
                             </form>
                         </div>
                     </div>
-                    <div class="top-menu col-md-6">
+                    <div class="top-menu col-md-6 col-sm-6">
                         <ul>
                             <li><a href="#">О компании</a></li>
-                            <li><a href="#">Новости</a></li>
-                            <li><a href="#">Сотрудничество</a></li>
+                            <li class="tablet-none"><a href="#">Новости</a></li>
+                            <li class="tablet-none"><a href="#">Сотрудничество</a></li>
                             <li><a href="#">Для оптовых покупателей</a></li>
                             <li><a href="#">Отзывы</a></li>
+                            <li class="tablet"><a href="#">Еще</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Новости</a></li>
+                                    <li><a href="#">Сотрудничество</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
-                    <div class="compare col-md-1">
+                    <div class="compare col-md-1 col-sm-1">
                         <a class="picture" href="#"><img src="img/compare.svg"></a>
-                        <a class="text" href="#">Сравнение</a>
+                        <a class="text tablet-none" href="#">Сравнение</a>
                     </div>
-                    <div class="login col-md-2">
+                    <div class="login col-md-2 col-sm-2">
                         <a class="picture" href="#"><img src="img/lock.svg"></a>
-                        <a class="text" href="#">Войти</a>
-                        <a class="text" href="#">Регистрация</a>
+                        <a class="text tablet-none" href="#">Войти</a>
+                        <a class="text tablet-none" href="#">Регистрация</a>
                     </div>
 
                 </nav>
@@ -139,21 +145,29 @@
     <div class="header-content">
         <div class="container">
             <div class="row">
-                <div class="logo col-md-3">
+                <div class="logo col-md-3 col-sm-3">
                     <img src="img/logo-white.png">
-                    <p>Современному городу - <span>Современные материалы!</span></p>
+                    <p class="tablet-none">Современному городу - <span>Современные материалы!</span></p>
                 </div>
-                <div class="city col-md-5">
-
+                <div class="city col-md-5 col-sm-5">
+                    <form class="tablet search">
+                        <p>
+                            <input class="text" placeholder="Например: Краска для обоев">
+                            <input type="submit">
+                        </p>
+                    </form>
                 </div>
-                <div class="contacts col-md-2">
-                    <p>Заказать обратный звонок</p>
-                    <p class="number">+7 (495) 649-65-60</p>
-                    <p class="schedule">Пн-Пт — с 9:00 до 19:00</p>
-                    <p class="schedule">Сб-Вс — с 9:00 до 16:00</p>
-                    <p class="mail"><a href="#">admin@s-hit.ru</a></p>
+                <div class="contacts col-md-2 col-sm-3">
+                    <a class="tablet">+7 (495) 649-65-60</a>
+                    <div>
+                        <p>Заказать обратный звонок</p>
+                        <p class="number">+7 (495) 649-65-60</p>
+                        <p class="schedule">Пн-Пт — с 9:00 до 19:00</p>
+                        <p class="schedule">Сб-Вс — с 9:00 до 16:00</p>
+                        <p class="mail"><a href="#">admin@s-hit.ru</a></p>
+                    </div>
                 </div>
-                <div class="basket col-md-2">
+                <div class="basket col-md-2 col-sm-1">
                     <button><img src="img/basket.svg"> В корзине нет товаров</button>
                 </div>
             </div>
@@ -163,19 +177,201 @@
         <div class="container">
             <div class="row">
                 <nav class="navigation-panel">
-                    <div class="catalog col-md-3">
+                    <div class="catalog col-md-3 col-sm-4">
                         <a href="#" id="openCatalog">каталог <img src="img/Rectangle-white.svg"></a>
+                        <div class="tablet">
+                            <nav class="catalogInner">
+                                <ul class="catalogMenu">
+                                    <li><input type="radio" id="sort3"
+                                               name="sort" checked>
+                                        <label for="sort3">По видам</label>
+
+                                        <input type="radio" id="sort4"
+                                               name="sort" >
+                                        <label for="sort4">По брендам</label>
+                                    </li>
+                                    <li class="down"><a href="#">Краски</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Эмали</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Лаки</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Для паркета и деревянного пола</a></li>
+                                            <li><a href="#">Для стен и потолков</a></li>
+                                            <li><a href="#">Для деревянных полов, террас</a></li>
+                                            <li><a href="#">Для бани и сауны</a></li>
+                                            <li><a href="#">Атмосферостойкие, влагостойкие, яхтные</a></li>
+                                            <li><a href="#">Для бетона и камня</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
-                    <div class="menu col-md-9">
+                    <div class="menu col-md-9 col-sm-8">
                         <img src="img/double-square.svg">
                         <ul>
                             <li><a href="#">Система колеровки</a></li>
                             <li><a href="#">Подбор по параметрам</a></li>
-                            <li><a href="#">Бренды</a></li>
-                            <li><a href="#">Оплата</a></li>
-                            <li><a href="#">Доставка</a></li>
+                            <li class="tablet-none"><a href="#">Бренды</a></li>
+                            <li class="tablet-none"><a href="#">Оплата</a></li>
+                            <li class="tablet-none"><a href="#">Доставка</a></li>
                             <li class="actions"><a href="#">Акции</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li class="tablet-none last"><a href="#">Контакты</a></li>
+                            <li class="tablet"><a href="#">Еще</a>
+                                <ul class="submenu">
+                                    <li ><a href="#">Бренды</a></li>
+                                    <li ><a href="#">Оплата</a></li>
+                                    <li ><a href="#">Доставка</a></li>
+                                    <li ><a href="#">Контакты</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -187,8 +383,8 @@
 
 <div class="content container">
     <div class="row">
-        <aside class="products col-md-3">
-            <div>
+        <aside class="products col-md-3 tablet-none">
+            <div class="tablet-none">
                 <nav class="catalogInner">
                     <ul class="catalogMenu">
                         <li><input type="radio" id="sort1"
@@ -368,6 +564,7 @@
                     <div class="product-item">
                         <div class="item-img">
                             <span>Хит продаж</span>
+                            <a class="after"></a>
                             <img src="img/product.png">
                         </div>
                         <div class="item-specification">
@@ -378,20 +575,20 @@
                                 по металлу на водной основе 3</p>
                         </div>
                         <div class="price">
-                            <p>от <span> 1 020</span><span class="rub">&#8381</span></p>
+                            <p>от <span class="cost"> 1 020</span><span class="rub">&#8381</span></p>
                             <p class="crossed-price">1 200 <span>&#8381</span></p>
                         </div>
                         <div class="product-size">
                             <div>
-                                <input type="radio" id="size1" name="size" value="0.9л" checked>
-                                <label class="check" for="size1">0.9 л</label>
+                                <input type="radio" id="size1" name="size" value="1 020" checked>
+                                <label class="check checked" for="size1">0.9 л</label>
                             </div>
                             <div>
-                                <input type="radio" id="size2" name="size" value="2.7л">
-                                <label class="check" for="size2">2.7 л</label>
+                                <input type="radio" id="size2" name="size" value="2 700">
+                                <label class="check" for="size2" >2.7 л</label>
                             </div>
                             <div >
-                                <input type="radio" id="size3" name="size" value="9л">
+                                <input type="radio" id="size3" name="size" value="9 000">
                                 <label class="check" for="size3">9 л</label>
                             </div>
                         </div>
@@ -404,6 +601,7 @@
                     <div class="product-item">
                         <div class="item-img">
                             <span>Хит продаж</span>
+                            <a class="after"></a>
                             <img src="img/product.png">
                         </div>
                         <div class="item-specification">
@@ -414,20 +612,20 @@
                                 по металлу на водной основе 3</p>
                         </div>
                         <div class="price">
-                            <p>от <span> 1 020</span><span class="rub">&#8381</span></p>
+                            <p>от <span class="cost"> 1 020</span><span class="rub">&#8381</span></p>
                             <p class="crossed-price">1 200 <span>&#8381</span></p>
                         </div>
                         <div class="product-size">
                             <div>
-                                <input type="radio" id="size4" name="size2" value="0.9л" checked>
-                                <label class="check" for="size4">0.9 л</label>
+                                <input type="radio" id="size4" name="size2" value="1 020" checked>
+                                <label class="check checked" for="size4">0.9 л</label>
                             </div>
                             <div>
-                                <input type="radio" id="size5" name="size2" value="2.7л">
+                                <input type="radio" id="size5" name="size2" value="2 700">
                                 <label class="check" for="size5">2.7 л</label>
                             </div>
                             <div>
-                                <input type="radio" id="size6" name="size2" value="9л">
+                                <input type="radio" id="size6" name="size2" value="9 000">
                                 <label class="check" for="size6">9 л</label>
                             </div>
                         </div>
@@ -440,9 +638,9 @@
                 <div></div>
             </div>
         </aside>
-        <main class="page-content col-md-9">
+        <main class="page-content col-md-9 col-sm-12">
             <div class="row">
-                <form class="search">
+                <form class="search tablet-none">
                     <p>
                         <input type="search" placeholder="Например: Краска для обоев">
                         <input type="submit" value="Найти">
@@ -459,7 +657,54 @@
                         <img src="img/slide.png">
                     </div>
                 </div>
-                <div class="advantage">
+                <div class="advantage tablet-none">
+                    <div class="advantage-item">
+                        <div class="item-header">
+                            <img src="img/call-center-boy.svg">
+                            <p class="name">Квалифицированные <br/>специалисты</p>
+                        </div>
+                        <div class="item-text">
+                            <p>Ответят на любые<br/> вопросы и помогут <br/>в выборе</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="item-header middle">
+                            <img src="img/product-realise.svg">
+                            <p class="name">Товар всегда в наличии</p>
+                        </div>
+                        <div class="item-text">
+                            <p>Посетите наш шоу-рум.<br/> 1,500 м2 склада и шоу-рума</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="item-header middle">
+                            <img src="img/security.svg">
+                            <p class="name">Более 20 лет на рынке</p>
+                        </div>
+                        <div class="item-text">
+                            <p>Большой опыт работы<br/> в сфере товаров для<br/> ремонта</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item narrow">
+                        <div class="item-header">
+                            <img src="img/quality.svg">
+                            <p class="name">Проверенные <br/>производители</p>
+                        </div>
+                        <div class="item-text">
+                            <p>Все товары только<br/> от мировых <br/>и известных брендов</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item">
+                        <div class="item-header middle">
+                            <img src="img/delivery-truck.svg">
+                            <p class="name">Оперативная доставка</p>
+                        </div>
+                        <div class="item-text">
+                            <p>Доставим Ваш заказ<br/> быстро и в указанное <br/>время</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage tablet owl-carousel slider4">
                     <div class="advantage-item">
                         <div class="item-header">
                             <img src="img/call-center-boy.svg">
@@ -716,6 +961,118 @@
                         <p class="translate">Бостик</p>
                     </div>
                 </div>
+                <section class="products tablet">
+                    <h1>Хиты продаж</h1>
+                    <div class="owl-carousel slider3">
+                            <div class="product-item">
+                                <div class="item-img">
+                                    <span>Хит продаж</span>
+                                    <img src="img/product.png">
+                                </div>
+                                <div class="item-specification">
+                                    <p>Бренд: <span>Tikkurila</span></p>
+                                    <p>Производство: <span>Италия</span></p>
+                                    <p class="text">Marshall Anticorr Aqua / Маршал Антикор<br/>
+                                        Аква полуглянцевая грунт эмаль<br/>
+                                        по металлу на водной основе 3</p>
+                                </div>
+                                <div class="price">
+                                    <p>от <span> 1 020</span><span class="rub">&#8381</span></p>
+                                    <p class="crossed-price">1 200 <span>&#8381</span></p>
+                                </div>
+                                <div class="product-size">
+                                    <div>
+                                        <input type="radio" id="sizes" name="sizexs" value="0.9л" checked>
+                                        <label class="check" for="sizes">0.9 л</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="sizesm" name="sizexs" value="2.7л">
+                                        <label class="check" for="sizesm">2.7 л</label>
+                                    </div>
+                                    <div >
+                                        <input type="radio" id="sizesl" name="sizexs" value="9л">
+                                        <label class="check" for="sizesl">9 л</label>
+                                    </div>
+                                </div>
+                                <div class="buy">
+                                    <button type="submit"><img src="img/basket.svg">Купить</button>
+                                    <a href="#">Купить в 1 клик</a>
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="item-img">
+                                    <span>Хит продаж</span>
+                                    <img src="img/product.png">
+                                </div>
+                                <div class="item-specification">
+                                    <p>Бренд: <span>Tikkurila</span></p>
+                                    <p>Производство: <span>Италия</span></p>
+                                    <p class="text">Marshall Anticorr Aqua / Маршал Антикор<br/>
+                                        Аква полуглянцевая грунт эмаль<br/>
+                                        по металлу на водной основе 3</p>
+                                </div>
+                                <div class="price">
+                                    <p>от <span> 1 020</span><span class="rub">&#8381</span></p>
+                                    <p class="crossed-price">1 200 <span>&#8381</span></p>
+                                </div>
+                                <div class="product-size">
+                                    <div>
+                                        <input type="radio" id="sizels" name="sizem" value="0.9л" checked>
+                                        <label class="check" for="sizels">0.9 л</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="sizelm" name="sizem" value="2.7л">
+                                        <label class="check" for="sizelm">2.7 л</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="sizell" name="sizem" value="9л">
+                                        <label class="check" for="sizell">9 л</label>
+                                    </div>
+                                </div>
+                                <div class="buy">
+                                    <button type="submit"><img src="img/basket.svg">Купить</button>
+                                    <a href="#">Купить в 1 клик</a>
+                                </div>
+                            </div>
+
+                        <div class="product-item">
+                            <div class="item-img">
+                                <span>Хит продаж</span>
+                                <img src="img/product.png">
+                            </div>
+                            <div class="item-specification">
+                                <p>Бренд: <span>Tikkurila</span></p>
+                                <p>Производство: <span>Италия</span></p>
+                                <p class="text">Marshall Anticorr Aqua / Маршал Антикор<br/>
+                                    Аква полуглянцевая грунт эмаль<br/>
+                                    по металлу на водной основе 3</p>
+                            </div>
+                            <div class="price">
+                                <p>от <span> 1 020</span><span class="rub">&#8381</span></p>
+                                <p class="crossed-price">1 200 <span>&#8381</span></p>
+                            </div>
+                            <div class="product-size">
+                                <div>
+                                    <input type="radio" id="sizems" name="sizel" value="0.9л" checked>
+                                    <label class="check" for="sizems">0.9 л</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="sizemm" name="sizel" value="2.7л">
+                                    <label class="check" for="sizemm">2.7 л</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="sizeml" name="sizel" value="9л">
+                                    <label class="check" for="sizeml">9 л</label>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <button type="submit"><img src="img/basket.svg">Купить</button>
+                                <a href="#">Купить в 1 клик</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section class="feedback">
                     <form>
                         <div class="left">
@@ -743,7 +1100,7 @@
                 <a href="#">смотреть все статьи</a>
             </div>
             <div class="owl-carousel slider2">
-                <div class="articles-item slide col-md-6">
+                <div class="articles-item slide col-md-6 col-sm-6">
                     <div class="image">
                         <img src="img/Photo.png">
                         <div class="date">
@@ -759,7 +1116,7 @@
                             <a href="#">Читать</a></p>
                     </div>
                 </div>
-                <div class="articles-item slide col-md-6">
+                <div class="articles-item slide col-md-6 col-sm-6">
                     <div class="image">
                         <img src="img/Photo2.png">
                         <div class="date">
@@ -782,7 +1139,7 @@
 <section class="about-company">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 map-position">
+            <div class="col-md-6 col-sm-12 map-position">
                 <div class="map-img">
                     <img src="img/map-img.png">
                 </div>
@@ -790,7 +1147,7 @@
                     <img src="img/mark.svg">
                 </div>
             </div>
-            <div class="col-md-6 company-details">
+            <div class="col-md-6 company-details tablet-none">
                 <h2>О компании</h2>
                 <a href="#">Подробнее</a>
                 <input id="sw" type="checkbox" class="switcher-value">
@@ -807,9 +1164,27 @@
                 </p>
             </div>
         </div>
+        <div class="row tablet">
+            <div class="col-sm-12 company-details">
+                <h2>О компании</h2>
+                <a href="#">Подробнее</a>
+                <input id="sv" type="checkbox" class="switcher-value">
+                <label for="sv" class="sw_btn"></label>
+                <p>
+                    При каждом магазине действуют колор-студии и доступна услуга сверхточной компьютерной колеровки
+                    на оборудовании профессиональных систем тонирования. В каждом магазине представлен большой выбор
+                    качественных товаров в таких категориях, как лаки, краски, эмали, грунтовки, антисептики,
+                    декоративные покрытия, затирки, растворители, клеи, монтажные пены и обои под покраску.
+                    Наиболее широко п редставлены фасадные краски, краска для потолка, краска для стен, краска для пола,
+                    краска водоэмульсионная, акриловые краски, антисептики и деревозащита, стеклообои.При каждом
+                    магазине действуют колор-студии и доступна услуга сверхточной компьютерной колеровки на
+                    оборудовании профессиональных систем тонирования.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
-<section class="footer-top">
+<section class="footer-top tablet-none">
     <div class="container">
         <div class="row">
             <div class="logo col-md-3">
@@ -882,6 +1257,80 @@
                     <li><a href="#"><img src="img/yandex-pay-logo.svg"></a></li>
                     <li><a href="#"><img src="img/pay-icon.svg"></a></li>
                 </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer-top tablet">
+    <div class="container">
+        <div class="row">
+            <div class="footer-menu col-md-12 col-sm-12">
+                <h4>Каталог продукции</h4>
+                <ul>
+                    <li><a href="#">Краски</a></li>
+                    <li><a href="#">Эмали</a></li>
+                    <li><a href="#">Лаки</a></li>
+                    <li><a href="#">Масла</a></li>
+                    <li><a href="#">Декоративные штукатурки</a></li>
+                    <li><a href="#">Жидкие обои</a></li>
+                    <li><a href="#">Обои под покраску</a></li>
+                    <li><a href="#">Грунтовки</a></li>
+                    <li><a href="#">Шпатлевки</a></li>
+                    <li><a href="#">Клеи</a></li>
+                    <li><a href="#">Герметики</a></li>
+                    <li><a href="#">Растворители, очистители</a></li>
+                    <li><a href="#">Гидроизоляционные составы</a></li>
+                    <li><a href="#">Затирки, Пластификаторы</a></li>
+                    <li><a href="#">Витражные пленки</a></li>
+                    <li><a href="#">Малярные инструменты</a></li>
+                </ul>
+            </div>
+            <div class="logo col-md-4 col-sm-4">
+                <img src="img/logo-blue.png">
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Бренды</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <button class="call"><img src="img/tel.svg">Задать вопрос</button>
+            </div>
+            <div class="contacts col-md-4 col-sm-4">
+                <h4>Адрес:</h4>
+                <p>	г. Москва, Волоколамское шоссе, 103</p>
+                <h4>Электронная почта:</h4>
+                <p class="mail"><a href="#">sample@mail.ru</a></p>
+                <h4>Режим работы:</h4>
+                <p>пн-пт с 9:00-19:00<br/>
+                    сб-вс с 9:00-16:00</p>
+                <h4 class="tel">Телефон:</h4>
+                <p class="telephone">тел.: +7 (495) 649-6560,<br/>
+                    тел.: +7 (495) 773-7098,<br/>
+                    тел.: +7 (495) 766-4129<br/>
+                    факс: +7 (495) 748-1789 </p>
+                <h4>Читайте отзывы на:</h4>
+                <p><a href="#"><img src="img/yandex-market.svg"></a></p>
+            </div>
+            <div class="footer-menu continue col-md-4 col-sm-4">
+                <h4>Платите как удобно:</h4>
+                <ul class="link">
+                    <li><a href="#"><img src="img/visa.svg"></a></li>
+                    <li><a href="#"><img src="img/maestro.svg"></a></li>
+                    <li><a href="#"><img src="img/mastercard.svg"></a></li>
+                    <li><a href="#"><img src="img/pay-icon1.svg"></a></li>
+                    <li><a href="#"><img src="img/yandex-pay-logo.svg"></a></li>
+                    <li><a href="#"><img src="img/pay-icon.svg"></a></li>
+                </ul>
+
+                <h4>СтройХит в соц.сетях:</h4>
+                    <ul class="link">
+                        <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
             </div>
         </div>
     </div>

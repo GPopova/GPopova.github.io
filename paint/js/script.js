@@ -15,8 +15,13 @@ $('#openCatalog').on('click', function () {
 // button
 
 $('.check').on('click', function () {
+    $('.check').removeClass('checked');
     $(this).toggleClass('checked');
+// Change Price
+    var c = $(this).prev().val();
+    $(this).parents('.product-item').find('.cost').text(c);
 });
+
 
 // Menu City
 

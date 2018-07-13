@@ -17,6 +17,12 @@
     }
 }
 
+@media (min-width: 1024px){
+    .container{
+      width: 1000px;
+    }
+}
+
 @media (min-width: 1440px){
     .container{
         width: 1420px;

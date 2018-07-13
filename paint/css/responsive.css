@@ -1,0 +1,9 @@
+@media (max-width: 1439px){
+    .tablet{
+        display: block;
+    }
+
+    .tablet-none{
+        display: none;
+    }
+}

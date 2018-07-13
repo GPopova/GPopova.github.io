@@ -23,9 +23,13 @@
 *, :after, :before, :hover {
     box-sizing: border-box;
 }
-*{
+
+* {
     outline:none;
-}
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease; }
 
 a{
     text-decoration: none;
@@ -101,6 +105,10 @@ header .settings .top-panel .top-menu ul li{
     padding-right: 30px;
 }
 
+header .settings .top-panel .top-menu ul li a:hover{
+    color: #042567;
+}
+
 header .settings .top-panel .compare{
     text-align: right;
     margin-right: -10px;
@@ -111,6 +119,16 @@ header .settings .top-panel .compare .picture{
     position: absolute;
     left: -4px;
     top: -8px;
+}
+
+header .settings .top-panel .compare .picture img:hover{
+    content:url("../img/compare-blue.svg");
+    width: 34px;
+    height: 34px;
+}
+
+header .settings .top-panel .compare a:hover{
+    color: #042567;
 }
 
 header .settings .top-panel .login{
@@ -138,6 +156,17 @@ header .settings .top-panel .login a:last-child:before{
     background-color: #A8A8A8;
     left: -10px;
     top: 0px;
+}
+
+header .settings .top-panel .login a:hover{
+    color: #042567;
+}
+
+
+header .settings .top-panel .login a img:hover{
+    content: url("../img/lock-blue.svg");
+    width: 34px;
+    height: 34px;
 }
 
 header .header-content{
@@ -295,8 +324,9 @@ header .navigation .navigation-panel .menu ul .actions:hover{
     background: #E8204F;
 }
 
-header .navigation .navigation-panel .menu ul li:last-child{
-    margin-right: -42px;
+header .navigation .navigation-panel .menu ul .last{
+    margin-right: -50px;
+    padding-right: 42px;
 }
 
 header .navigation .navigation-panel .menu ul li:hover{
@@ -505,11 +535,19 @@ header .navigation .navigation-panel .menu ul li:hover{
     z-index: 2;
 }
 
-.content .products .slider3 div .product-item .item-img:after{
+.content .products .slider3 div .product-item .item-img .after{
     position: absolute;
     content: url("../img/compare.svg");
     top: 14px;
     right: 16px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.content .products .slider3 div .product-item .item-img .after:hover{
+    content: url("../img/compare-blue.svg");
+    width: 34px;
+    height: 34px;
 }
 
 .content .products .slider3 div .product-item .item-specification{
@@ -552,7 +590,8 @@ header .navigation .navigation-panel .menu ul li:hover{
 }
 
 .content .products .slider3 div .product-item .price .crossed-price{
-    margin-left: 80px;
+    position: absolute;
+    right: 40px;
     font-size: 17px;
     color: #A8A8A8;
     font-family: 'CircleRegular';
@@ -728,6 +767,10 @@ header .navigation .navigation-panel .menu ul li:hover{
     margin: -38px 0 0 10px;
 }
 
+.content .page-content .owl-carousel .owl-dots .owl-dot span:hover{
+    background: #E8204F;
+}
+
 .content .page-content .owl-carousel .owl-dots .active span{
     background: #E8204F;
 }
@@ -809,13 +852,18 @@ header .navigation .navigation-panel .menu ul li:hover{
     display:inline-block;
     margin-left: 17px;
     margin-bottom: 25px;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.content .page-content .dye-logos .dye-logos-item:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
 .content .page-content .dye-logos .dye-logos-item a img{
     width: 115px;
     height: 115px;
     cursor: pointer;
-    -webkit-transition: all .2s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
 }
 
 .content .page-content .dye-logos .dye-logos-item a img:hover{
@@ -1455,6 +1503,10 @@ footer .footer-text .text-right{
 
 
 
+
+.tablet{
+    display: none!important;
+}
 
 
 
