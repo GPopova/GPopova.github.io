@@ -105,6 +105,10 @@ header .settings .top-panel .top-menu ul li{
     padding-right: 30px;
 }
 
+header .settings .top-panel .top-menu ul .tablet{
+    display: none;
+}
+
 header .settings .top-panel .top-menu ul li a:hover{
     color: #042567;
 }
@@ -308,6 +312,10 @@ header .navigation .navigation-panel .menu ul li{
     display: inline-block;
     cursor: pointer;
     padding: 21px 22px;
+}
+
+header .navigation .navigation-panel .menu ul .tablet{
+    display: none;
 }
 
 header .navigation .navigation-panel .menu ul li:first-child{
@@ -783,6 +791,10 @@ header .navigation .navigation-panel .menu ul li:hover{
     margin-top: 2px;
 }
 
+.content .page-content .tablet{
+    display: none;
+}
+
 .content .page-content .advantage .advantage-item{
     display: inline-block;
     padding-left: 14px;
@@ -1068,9 +1080,10 @@ header .navigation .navigation-panel .menu ul li:hover{
     padding-top: 10px;
 }
 
-.articles .articles-item .article-text p a{
+.articles .articles-item .article-text a{
     color:  #042567;
     text-decoration: underline;
+    font-size: 18px;
 }
 
 .articles .slider2 .owl-nav{
@@ -1505,7 +1518,7 @@ footer .footer-text .text-right{
 
 
 .tablet{
-    display: none!important;
+    display: none;
 }
 
 

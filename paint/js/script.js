@@ -83,8 +83,9 @@ $(document).ready(function(){
                 nav:true
             },
             600:{
-                items:1,
+                items:2,
                 nav:true,
+                margin:20
             },
             992:{
                 items:2,
@@ -112,11 +113,51 @@ $(document).ready(function(){
                 nav:true
             },
             600:{
+                items:3,
+                nav:true,
+                margin:4
+            },
+            992:{
+                items:3,
+                nav:true,
+                loop:true
+
+            },
+            1024:{
+                items:3,
+                nav:true,
+                loop:true
+            },
+            1440:{
                 items:1,
+                nav:true,
+                loop:true
+            }
+        }
+    });
+});
+
+
+$(document).ready(function(){
+    $(".slider4").owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        URLhashListener:true,
+        startPosition: 'URLHash',
+        infinite: false,
+        navSpeed: 1000,
+        responsive:{
+            0:{
+                items:3,
+                nav:true
+            },
+            600:{
+                items:3,
                 nav:true,
             },
             992:{
-                items:1,
+                items:3,
                 nav:true,
                 loop:true
 
@@ -125,5 +166,30 @@ $(document).ready(function(){
     });
 });
 
-//
+
+
+//Responsive
+
+
+//Open Submenu(header)
+
+$('.top-menu .tablet a').on('click', function () {
+    $(this).next().toggleClass('open');
+});
+
+
+// Open Submenu(NavigationPanel)
+
+$('.navigation-panel .tablet a').on('click', function () {
+    $(this).next().toggleClass('open');
+});
+
+// Open Contacts
+
+$('.contacts .tablet').on('click', function () {
+   $(this).toggleClass('active');
+    $(this).next().toggleClass('open');
+});
+
+
 
