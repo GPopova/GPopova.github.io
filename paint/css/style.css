@@ -57,6 +57,7 @@ body {
     max-width: 1920px;
     margin: auto;
     color: #000000;
+    overflow-x: hidden;
 }
 
 h1{
@@ -1518,6 +1519,10 @@ footer .footer-text .text-right{
 
 
 .tablet{
+    display: none;
+}
+
+.mobile{
     display: none;
 }
 

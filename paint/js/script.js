@@ -82,9 +82,16 @@ $(document).ready(function(){
                 items:1,
                 nav:true
             },
-            600:{
+            700:{
+                items:1,
+                nav:true,
+                loop:true,
+                margin:4
+            },
+            768:{
                 items:2,
                 nav:true,
+                loop:true,
                 margin:20
             },
             992:{
@@ -112,7 +119,12 @@ $(document).ready(function(){
                 items:1,
                 nav:true
             },
-            600:{
+            700:{
+                items:1,
+                nav:true,
+                margin:4
+            },
+            768:{
                 items:3,
                 nav:true,
                 margin:4
@@ -189,6 +201,23 @@ $('.navigation-panel .tablet a').on('click', function () {
 $('.contacts .tablet').on('click', function () {
    $(this).toggleClass('active');
     $(this).next().toggleClass('open');
+});
+
+// Footer Menu
+
+$('.logo .mobile').on('click', function () {
+   $(this).toggleClass('active');
+    $('.logo ul').toggleClass('open');
+});
+
+// Dye Logos Open All
+
+$('.products-all').on('click', function () {
+   $('.dye-logos .close').toggleClass('open');
+    $(this).text("Скрыть");
+    $(this).on('click', function () {
+        $(this).text("Показать все 50");
+    });
 });
 
 

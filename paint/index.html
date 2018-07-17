@@ -20,11 +20,11 @@
 <body class="home">
 
 <header>
-    <div class="settings">
+    <div class="settings mobile-none">
         <div class="container">
             <div class="row">
                 <nav class="top-panel">
-                    <div class="region col-md-3 col-sm-3">
+                    <div class="region col-md-3 col-sm-3 col-xs-3">
                         <div class="select">
                             <p>Регион: <a id="cityName" href="#">Москва <img src="img/Rectangle-black.svg"></a></p>
                             <form id="selectCity">
@@ -113,7 +113,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="top-menu col-md-6 col-sm-6">
+                    <div class="top-menu col-md-6 col-sm-6 col-xs-6">
                         <ul>
                             <li><a href="#">О компании</a></li>
                             <li class="tablet-none"><a href="#">Новости</a></li>
@@ -128,11 +128,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="compare col-md-1 col-sm-1">
+                    <div class="compare col-md-1 col-sm-1 col-xs-1">
                         <a class="picture" href="#"><img src="img/compare.svg"></a>
                         <a class="text tablet-none" href="#">Сравнение</a>
                     </div>
-                    <div class="login col-md-2 col-sm-2">
+                    <div class="login col-md-2 col-sm-2 col-xs-2">
                         <a class="picture" href="#"><img src="img/lock.svg"></a>
                         <a class="text tablet-none" href="#">Войти</a>
                         <a class="text tablet-none" href="#">Регистрация</a>
@@ -142,14 +142,37 @@
             </div>
         </div>
     </div>
-    <div class="header-content">
+    <div class="settings mobile">
         <div class="container">
             <div class="row">
-                <div class="logo col-md-3 col-sm-3">
+                <div class="menu-mobile col-xs-1">
+                    <a href="#">
+                        <img src="img/menu-mobile.png">
+                    </a>
+                </div>
+                <div class="logo col-xs-5">
+                    <img src="img/logo-blue.png">
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="list col-xs-5">
+                    <ul>
+                        <li><a class="icon3" href="#"><img src="img/phone-icon.svg"></a></li>
+                        <li><a class="icon1" href="#"><img src="img/compare.svg"></a></li>
+                        <li><a class="icon2" href="#"><img src="img/shopping-icon.svg"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-content mobile-none">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-md-3 col-sm-3 col-xs-3">
                     <img src="img/logo-white.png">
                     <p class="tablet-none">Современному городу - <span>Современные материалы!</span></p>
                 </div>
-                <div class="city col-md-5 col-sm-5">
+                <div class="city col-md-5 col-sm-5 col-xs-5">
                     <form class="tablet search">
                         <p>
                             <input type="text" placeholder="Например: Краска для обоев">
@@ -157,7 +180,7 @@
                         </p>
                     </form>
                 </div>
-                <div class="contacts col-md-2 col-sm-3">
+                <div class="contacts col-md-2 col-sm-3 col-xs-3">
                     <a class="tablet">+7 (495) 649-65-60
                     <img src="img/Rectangle-white.svg"> </a>
                     <div>
@@ -168,17 +191,17 @@
                         <p class="mail"><a href="#">admin@s-hit.ru</a></p>
                     </div>
                 </div>
-                <div class="basket col-md-2 col-sm-1">
+                <div class="basket col-md-2 col-sm-1 col-xs-1">
                     <button><img src="img/basket.svg"> В корзине нет товаров</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="navigation">
+    <div class="navigation mobile-none">
         <div class="container">
             <div class="row">
                 <nav class="navigation-panel">
-                    <div class="catalog col-md-3 col-sm-4">
+                    <div class="catalog col-md-3 col-sm-4 col-xs-4">
                         <a href="#" id="openCatalog">каталог <img src="img/Rectangle-white.svg"></a>
                         <div class="tablet">
                             <nav class="catalogInner">
@@ -355,7 +378,7 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="menu col-md-9 col-sm-8">
+                    <div class="menu col-md-9 col-sm-8 col-xs-8">
                         <img src="img/double-square.svg">
                         <ul>
                             <li><a href="#">Система колеровки</a></li>
@@ -639,7 +662,15 @@
                 <div></div>
             </div>
         </aside>
-        <main class="page-content col-md-9 col-sm-12">
+            <form class="mobile search">
+                    <div class="col-xs-12">
+                        <p>
+                            <input type="text" placeholder="Например: Краска для обоев">
+                            <input type="submit" placeholder="f">
+                        </p>
+                    </div>
+            </form>
+        <main class="page-content col-md-9 col-sm-12 col-xs-12">
             <div class="row">
                 <form class="search tablet-none">
                     <p>
@@ -705,7 +736,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="advantage tablet owl-carousel slider4">
+                <div class="advantage tablet mobile-none owl-carousel slider4">
                     <div class="advantage-item">
                         <div class="item-header">
                             <img src="img/call-center-boy.svg">
@@ -751,6 +782,9 @@
                             <p>Доставим Ваш заказ<br/> быстро и в указанное <br/>время</p>
                         </div>
                     </div>
+                </div>
+                <div class="mobile">
+                    <button class="products-catalog">Каталог товаров</button>
                 </div>
                 <div class="dye-logos">
                     <div>
@@ -817,12 +851,12 @@
                             <p class="title">Dulux</p>
                             <p class="translate">Дулюкс</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Caparol.png"></a>
                             <p class="title">Caparol</p>
                             <p class="translate">Капарол</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dufa.png"></a>
                             <p class="title">Dufa</p>
                             <p class="translate">Дюфа</p>
@@ -833,22 +867,22 @@
                             <p class="translate">Бостик</p>
                         </div>
                         <!--->
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Osmo.png"></a>
                             <p class="title">Osmo</p>
                             <p class="translate">Осмо</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dulux.png"></a>
                             <p class="title">Dulux</p>
                             <p class="translate">Дулюкс</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Caparol.png"></a>
                             <p class="title">Caparol</p>
                             <p class="translate">Капарол</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dufa.png"></a>
                             <p class="title">Dufa</p>
                             <p class="translate">Дюфа</p>
@@ -859,22 +893,22 @@
                             <p class="translate">Бостик</p>
                         </div>
                         <!--->
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Osmo.png"></a>
                             <p class="title">Osmo</p>
                             <p class="translate">Осмо</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dulux.png"></a>
                             <p class="title">Dulux</p>
                             <p class="translate">Дулюкс</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Caparol.png"></a>
                             <p class="title">Caparol</p>
                             <p class="translate">Капарол</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dufa.png"></a>
                             <p class="title">Dufa</p>
                             <p class="translate">Дюфа</p>
@@ -885,22 +919,22 @@
                             <p class="translate">Бостик</p>
                         </div>
                         <!--->
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Osmo.png"></a>
                             <p class="title">Osmo</p>
                             <p class="translate">Осмо</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dulux.png"></a>
                             <p class="title">Dulux</p>
                             <p class="translate">Дулюкс</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Caparol.png"></a>
                             <p class="title">Caparol</p>
                             <p class="translate">Капарол</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dufa.png"></a>
                             <p class="title">Dufa</p>
                             <p class="translate">Дюфа</p>
@@ -911,22 +945,22 @@
                             <p class="translate">Бостик</p>
                         </div>
                         <!--->
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Osmo.png"></a>
                             <p class="title">Osmo</p>
                             <p class="translate">Осмо</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dulux.png"></a>
                             <p class="title">Dulux</p>
                             <p class="translate">Дулюкс</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Caparol.png"></a>
                             <p class="title">Caparol</p>
                             <p class="translate">Капарол</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dufa.png"></a>
                             <p class="title">Dufa</p>
                             <p class="translate">Дюфа</p>
@@ -937,22 +971,22 @@
                             <p class="translate">Бостик</p>
                         </div>
                         <!--->
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Osmo.png"></a>
                             <p class="title">Osmo</p>
                             <p class="translate">Осмо</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dulux.png"></a>
                             <p class="title">Dulux</p>
                             <p class="translate">Дулюкс</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Caparol.png"></a>
                             <p class="title">Caparol</p>
                             <p class="translate">Капарол</p>
                         </div>
-                        <div class="dye-logos-item">
+                        <div class="dye-logos-item close">
                             <a href="#"><img src="img/Dufa.png"></a>
                             <p class="title">Dufa</p>
                             <p class="translate">Дюфа</p>
@@ -963,6 +997,9 @@
                             <p class="translate">Бостик</p>
                         </div>
                     </div>
+                </div>
+                <div class="mobile">
+                    <button class="products-all">Показать все 50</button>
                 </div>
                 <section class="products tablet">
                     <h1>Хиты продаж</h1>
@@ -986,8 +1023,8 @@
                                 </div>
                                 <div class="product-size">
                                     <div>
-                                        <input type="radio" id="sizes" name="sizexs" value="1 020" checked>
-                                        <label class="check" for="sizes">0.9 л</label>
+                                        <input type="radio" id="sizes" name="sizexs" value="1 200" checked>
+                                        <label class="check checked" for="sizes">0.9 л</label>
                                     </div>
                                     <div>
                                         <input type="radio" id="sizesm" name="sizexs" value="2 700">
@@ -1023,8 +1060,8 @@
                                 </div>
                                 <div class="product-size">
                                     <div>
-                                        <input type="radio" id="sizels" name="sizem" value="1 020" checked>
-                                        <label class="check" for="sizels">0.9 л</label>
+                                        <input type="radio" id="sizels" name="sizem" value="1 200" checked>
+                                        <label class="check checked" for="sizels">0.9 л</label>
                                     </div>
                                     <div>
                                         <input type="radio" id="sizelm" name="sizem" value="2 700">
@@ -1060,8 +1097,8 @@
                             </div>
                             <div class="product-size">
                                 <div>
-                                    <input type="radio" id="sizems" name="sizel" value="1 020" checked>
-                                    <label class="check" for="sizems">0.9 л</label>
+                                    <input type="radio" id="sizems" name="sizel" value="1 200" checked>
+                                    <label class="check checked" for="sizems">0.9 л</label>
                                 </div>
                                 <div>
                                     <input type="radio" id="sizemm" name="sizel" value="2 700">
@@ -1103,10 +1140,10 @@
         <div class="row">
             <div class="left">
                 <h2>Полезные статьи</h2>
-                <a href="#">смотреть все статьи</a>
+                <a class="mobile-none href="#">смотреть все статьи</a>
             </div>
             <div class="owl-carousel slider2">
-                <div class="articles-item slide col-md-6 col-sm-6">
+                <div class="articles-item slide col-md-6 col-sm-6 col-xs-6">
                     <div class="image">
                         <img src="img/Photo.png">
                         <div class="date">
@@ -1122,7 +1159,7 @@
                             <a href="#">Читать</a>
                     </div>
                 </div>
-                <div class="articles-item slide col-md-6 col-sm-6">
+                <div class="articles-item slide col-md-6 col-sm-6 col-xs-6">
                     <div class="image">
                         <img src="img/Photo2.png">
                         <div class="date">
@@ -1139,13 +1176,16 @@
                     </div>
                 </div>
             </div>
+            <div class="mobile">
+                <button class="articles-all">Смотреть все статьи</button>
+            </div>
         </div>
     </div>
 </section>
-<section class="about-company">
+<section class="about-company mobile-none">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12 map-position">
+            <div class="col-md-6 col-sm-12 col-xs-12 map-position">
                 <div class="map-img">
                     <img src="img/map-img.png">
                 </div>
@@ -1171,7 +1211,7 @@
             </div>
         </div>
         <div class="row tablet">
-            <div class="col-sm-12 company-details">
+            <div class="col-sm-12 col-xs-12 company-details">
                 <h2>О компании</h2>
                 <a href="#">Подробнее</a>
                 <input id="sv" type="checkbox" class="switcher-value">
@@ -1270,7 +1310,7 @@
 <section class="footer-top tablet">
     <div class="container">
         <div class="row">
-            <div class="footer-menu col-md-12 col-sm-12">
+            <div class="footer-menu mobile-none col-md-12 col-sm-12 col-xs-12">
                 <h4>Каталог продукции</h4>
                 <ul>
                     <li><a href="#">Краски</a></li>
@@ -1291,9 +1331,9 @@
                     <li class="last"><a href="#">Малярные инструменты</a></li>
                 </ul>
             </div>
-            <div class="logo col-md-4 col-sm-4">
+            <div class="logo col-md-4 col-sm-4 col-xs-12">
                 <img src="img/logo-blue.png">
-                <ul>
+                <ul class="open">
                     <li><a href="#">О компании</a></li>
                     <li><a href="#">Оплата и доставка</a></li>
                     <li><a href="#">Акции</a></li>
@@ -1301,12 +1341,15 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
                 <button class="call"><img src="img/tel.svg">Задать вопрос</button>
+                <button class="mobile active"><img src="img/button-up.svg"></button>
             </div>
-            <div class="contacts col-md-4 col-sm-4">
+            <div class="contacts col-md-4 col-sm-4 col-xs-4">
                 <h4>Адрес:</h4>
                 <p>	г. Москва, Волоколамское шоссе, 103</p>
-                <h4>Электронная почта:</h4>
-                <p class="mail"><a href="#">sample@mail.ru</a></p>
+                <div class="email">
+                    <h4>Электронная почта:</h4>
+                    <p class="mail"><a href="#">sample@mail.ru</a></p>
+                </div>
                 <h4>Режим работы:</h4>
                 <p>пн-пт с 9:00-19:00<br/>
                     сб-вс с 9:00-16:00</p>
@@ -1320,7 +1363,7 @@
                     <p><a href="#"><img src="img/yandex-market.svg"></a></p>
                 </div>
             </div>
-            <div class="footer-menu continue col-md-4 col-sm-4">
+            <div class="footer-menu continue col-md-4 col-sm-4 col-xs-12">
                 <h4>Платите как удобно:</h4>
                 <ul class="link">
                     <li><a href="#"><img src="img/visa.svg"></a></li>
@@ -1331,7 +1374,7 @@
                     <li><a href="#"><img src="img/pay-icon.svg"></a></li>
                 </ul>
 
-                <h4>СтройХит в соц.сетях:</h4>
+                <h4 class="mobile-none">СтройХит в соц.сетях:</h4>
                     <ul class="link">
                         <li><a href="#"><i class="fab fa-vk"></i></a></li>
                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
