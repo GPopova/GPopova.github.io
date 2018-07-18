@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MainPage</title>
+
+    <!-- PURE CSS style -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/grid.css"/>
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css"/>
+    <!-- Main style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style-pages.css"/>
+</head>
+<body class="home error">
+
+<header>
+    <div class="settings mobile-none">
+        <div class="container">
+            <div class="row">
+                <nav class="top-panel">
+                    <div class="region col-md-3 col-sm-3 col-xs-3">
+                        <div class="select">
+                            <p>Регион: <a id="cityName" href="#">Москва <img src="img/Rectangle-black.svg"></a></p>
+                            <form id="selectCity">
+                                <h2>Выберите город</h2>
+                                <p>Доставляем в 7 458 населенных пунктов России</p>
+                                <div>
+                                    <input class="typeahead" type="text" placeholder="Поиск города">
+                                    <button type="submit"></button>
+                                </div>
+                                <div class="city-choice">
+                                    <div>
+                                        <input type="radio" id="city1" name="city" checked>
+                                        <label for="city1">Москва и МО</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city2" name="city">
+                                        <label for="city2">Санкт-Петербург</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city3" name="city">
+                                        <label for="city3">Красноярск</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city4" name="city">
+                                        <label for="city4">Санкт-Петербург</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city5" name="city">
+                                        <label for="city5">Красноярск</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city6" name="city">
+                                        <label for="city6">Санкт-Петербург</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city7" name="city">
+                                        <label for="city7">Санкт-Петербург</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city8" name="city">
+                                        <label for="city8">Красноярск</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city9" name="city">
+                                        <label for="city9">Санкт-Петербург</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city10" name="city">
+                                        <label for="city10">Красноярск</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city11" name="city">
+                                        <label for="city11">Санкт-Петербург</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city12" name="city">
+                                        <label for="city12">Красноярск</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city13" name="city">
+                                        <label for="city13">Санкт-Петербург</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city14" name="city">
+                                        <label for="city14">Красноярск</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="city15" name="city">
+                                        <label for="city15">Санкт-Петербург</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="top-menu col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li class="tablet-none"><a href="#">Новости</a></li>
+                            <li class="tablet-none"><a href="#">Сотрудничество</a></li>
+                            <li><a href="#">Для оптовых покупателей</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li class="tablet"><a href="#">Еще<img src="img/Rectangle-black.svg"></a>
+                                <ul class="submenu">
+                                    <li><a href="#">Новости</a></li>
+                                    <li><a href="#">Сотрудничество</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="compare col-md-1 col-sm-1 col-xs-1">
+                        <a class="picture" href="#"><img src="img/compare.svg"></a>
+                        <a class="text tablet-none" href="#">Сравнение</a>
+                    </div>
+                    <div class="login col-md-2 col-sm-2 col-xs-2">
+                        <a class="picture" href="#"><img src="img/lock.svg"></a>
+                        <a class="text tablet-none" href="#">Войти</a>
+                        <a class="text tablet-none" href="#">Регистрация</a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="settings mobile">
+        <div class="container">
+            <div class="row">
+                <div class="menu-mobile col-xs-1">
+                    <a href="#">
+                        <img src="img/menu-mobile.png">
+                    </a>
+                </div>
+                <div class="logo col-xs-5">
+                    <img src="img/logo-blue.png">
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="list col-xs-5">
+                    <ul>
+                        <li><a class="icon3" href="#"><img src="img/phone-icon.svg"></a></li>
+                        <li><a class="icon1" href="#"><img src="img/compare.svg"></a></li>
+                        <li><a class="icon2" href="#"><img src="img/shopping-icon.svg"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-content mobile-none">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-md-3 col-sm-3 col-xs-3">
+                    <img src="img/logo-white.png">
+                    <p class="tablet-none">Современному городу - <span>Современные материалы!</span></p>
+                </div>
+                <div class="city col-md-5 col-sm-5 col-xs-5">
+                    <form class="tablet search">
+                        <p>
+                            <input type="text" placeholder="Например: Краска для обоев">
+                            <input type="submit" placeholder="f">
+                        </p>
+                    </form>
+                </div>
+                <div class="contacts col-md-2 col-sm-3 col-xs-3">
+                    <a class="tablet">+7 (495) 649-65-60
+                        <img src="img/Rectangle-white.svg"> </a>
+                    <div>
+                        <p>Заказать обратный звонок</p>
+                        <p class="number">+7 (495) 649-65-60</p>
+                        <p class="schedule">Пн-Пт — с 9:00 до 19:00</p>
+                        <p class="schedule">Сб-Вс — с 9:00 до 16:00</p>
+                        <p class="mail"><a href="#">admin@s-hit.ru</a></p>
+                    </div>
+                </div>
+                <div class="basket col-md-2 col-sm-1 col-xs-1">
+                    <button><img src="img/basket.svg"> В корзине нет товаров</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation mobile-none">
+        <div class="container">
+            <div class="row">
+                <nav class="navigation-panel">
+                    <div class="catalog col-md-3 col-sm-4 col-xs-4">
+                        <a href="#" id="openCatalog">каталог <img src="img/Rectangle-white.svg"></a>
+                        <div class="tablet">
+                            <nav class="catalogInner">
+                                <ul class="catalogMenu">
+                                    <li><input type="radio" id="sort3"
+                                               name="sortType" checked>
+                                        <label for="sort3">По видам</label>
+
+                                        <input type="radio" id="sort4"
+                                               name="sortType" >
+                                        <label for="sort4">По брендам</label>
+                                    </li>
+                                    <li class="down"><a href="#">Краски</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Эмали</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Лаки</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Для паркета и деревянного пола</a></li>
+                                            <li><a href="#">Для стен и потолков</a></li>
+                                            <li><a href="#">Для деревянных полов, террас</a></li>
+                                            <li><a href="#">Для бани и сауны</a></li>
+                                            <li><a href="#">Атмосферостойкие, влагостойкие, яхтные</a></li>
+                                            <li><a href="#">Для бетона и камня</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="down"><a href="#">Body text</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                            <li><a href="#">Body text</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu col-md-9 col-sm-8 col-xs-8">
+                        <img src="img/double-square.svg">
+                        <ul>
+                            <li><a href="#">Система колеровки</a></li>
+                            <li><a href="#">Подбор по параметрам</a></li>
+                            <li class="tablet-none"><a href="#">Бренды</a></li>
+                            <li class="tablet-none"><a href="#">Оплата</a></li>
+                            <li class="tablet-none"><a href="#">Доставка</a></li>
+                            <li class="actions"><a href="#">Акции</a></li>
+                            <li class="tablet-none last"><a href="#">Контакты</a></li>
+                            <li class="tablet"><a href="#">Еще<img src="img/Rectangle-white.svg"></a>
+                                <ul class="submenu">
+                                    <li ><a href="#">Бренды</a></li>
+                                    <li ><a href="#">Оплата</a></li>
+                                    <li ><a href="#">Доставка</a></li>
+                                    <li ><a href="#">Контакты</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<div class="content container">
+    <div class="row">
+        <aside class="products col-md-3 tablet-none">
+            <div class="tablet-none">
+                <nav class="catalogInner">
+                    <ul class="catalogMenu">
+                        <li><input type="radio" id="sort1"
+                                   name="sort" checked>
+                            <label for="sort1">По видам</label>
+
+                            <input type="radio" id="sort2"
+                                   name="sort" >
+                            <label for="sort2">По брендам</label>
+                        </li>
+                        <li class="down"><a href="#">Краски</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Эмали</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Лаки</a>
+                            <ul class="submenu">
+                                <li><a href="#">Для паркета и деревянного пола</a></li>
+                                <li><a href="#">Для стен и потолков</a></li>
+                                <li><a href="#">Для деревянных полов, террас</a></li>
+                                <li><a href="#">Для бани и сауны</a></li>
+                                <li><a href="#">Атмосферостойкие, влагостойкие, яхтные</a></li>
+                                <li><a href="#">Для бетона и камня</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                        <li class="down"><a href="#">Body text</a>
+                            <ul class="submenu">
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                                <li><a href="#">Body text</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <form class="mobile search">
+            <div class="col-xs-12">
+                <p>
+                    <input type="text" placeholder="Например: Краска для обоев">
+                    <input type="submit" placeholder="f">
+                </p>
+            </div>
+        </form>
+        <main class="page-content col-md-9 col-sm-12 col-xs-12">
+            <div class="row">
+                <form class="search tablet-none">
+                    <p>
+                        <input type="search" placeholder="Например: Краска для обоев">
+                        <input type="submit" value="Найти">
+                    </p>
+                </form>
+            </div>
+            <div class="error-content">
+                <div class="row">
+                    <div class="error-img">
+                        <p>4<span><img src="img/bucket.png"></span>4</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="error-text">
+                        <p>
+                            К сожалению страница, которую вы ищете, не существует вы можете
+                            воспользоваться поиском или перейдите на главную
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="error-button">Перейти на главную</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<section class="footer-top tablet-none">
+    <div class="container">
+        <div class="row">
+            <div class="logo col-md-3">
+                <img src="img/logo-blue.png">
+                <p>Современному городу - <span>Современные материалы!</span></p>
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Бренды</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li>СтройХит в соц.сетях:
+                        <ul class="link">
+                            <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="call"><img src="img/tel.svg">Задать вопрос</button>
+            </div>
+            <div class="contacts col-md-3">
+                <h4>Адрес:</h4>
+                <p>	г. Москва, Волоколамское шоссе, 103</p>
+                <h4>Электронная почта:</h4>
+                <p class="mail"><a href="#">sample@mail.ru</a></p>
+                <h4>Режим работы:</h4>
+                <p>пн-пт с 9:00-19:00<br/>
+                    сб-вс с 9:00-16:00</p>
+                <h4 class="tel">Телефон:</h4>
+                <p class="telephone">тел.: +7 (495) 649-6560,<br/>
+                    тел.: +7 (495) 773-7098,<br/>
+                    тел.: +7 (495) 766-4129<br/>
+                    факс: +7 (495) 748-1789 </p>
+            </div>
+            <div class="footer-menu col-md-3">
+                <h4>Каталог продукции</h4>
+                <ul>
+                    <li><a href="#">Краски</a></li>
+                    <li><a href="#">Эмали</a></li>
+                    <li><a href="#">Лаки</a></li>
+                    <li><a href="#">Масла</a></li>
+                    <li><a href="#">Декоративные штукатурки</a></li>
+                    <li><a href="#">Жидкие обои</a></li>
+                    <li><a href="#">Обои под покраску</a></li>
+                    <li><a href="#">Грунтовки</a></li>
+                </ul>
+                <h4>Читайте отзывы на:</h4>
+                <p><a href="#"><img src="img/yandex-market.svg"></a></p>
+            </div>
+            <div class="footer-menu continue col-md-3">
+                <ul>
+                    <li><a href="#">Шпатлевки</a></li>
+                    <li><a href="#">Клеи</a></li>
+                    <li><a href="#">Герметики</a></li>
+                    <li><a href="#">Растворители, очистители</a></li>
+                    <li><a href="#">Гидроизоляционные составы</a></li>
+                    <li><a href="#">Затирки, Пластификаторы</a></li>
+                    <li><a href="#">Витражные пленки</a></li>
+                    <li><a href="#">Малярные инструменты</a></li>
+                </ul>
+                <h4>Платите как удобно:</h4>
+                <ul class="link">
+                    <li><a href="#"><img src="img/visa.svg"></a></li>
+                    <li><a href="#"><img src="img/maestro.svg"></a></li>
+                    <li><a href="#"><img src="img/mastercard.svg"></a></li>
+                    <li><a href="#"><img src="img/pay-icon1.svg"></a></li>
+                    <li><a href="#"><img src="img/yandex-pay-logo.svg"></a></li>
+                    <li><a href="#"><img src="img/pay-icon.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer-top tablet">
+    <div class="container">
+        <div class="row">
+            <div class="footer-menu mobile-none col-md-12 col-sm-12 col-xs-12">
+                <h4>Каталог продукции</h4>
+                <ul>
+                    <li><a href="#">Краски</a></li>
+                    <li><a href="#">Эмали</a></li>
+                    <li><a href="#">Лаки</a></li>
+                    <li><a href="#">Масла</a></li>
+                    <li><a href="#">Декоративные штукатурки</a></li>
+                    <li><a href="#">Жидкие обои</a></li>
+                    <li><a href="#">Обои под покраску</a></li>
+                    <li><a href="#">Грунтовки</a></li>
+                    <li><a href="#">Шпатлевки</a></li>
+                    <li><a href="#">Клеи</a></li>
+                    <li><a href="#">Герметики</a></li>
+                    <li><a href="#">Растворители, очистители</a></li>
+                    <li class="last"><a href="#">Гидроизоляционные составы</a></li>
+                    <li class="last"><a href="#">Затирки, Пластификаторы</a></li>
+                    <li class="last"><a href="#">Витражные пленки</a></li>
+                    <li class="last"><a href="#">Малярные инструменты</a></li>
+                </ul>
+            </div>
+            <div class="logo col-md-4 col-sm-4 col-xs-12">
+                <img src="img/logo-blue.png">
+                <ul class="open">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Бренды</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <button class="call"><img src="img/tel.svg">Задать вопрос</button>
+                <button class="mobile active"><img src="img/button-up.svg"></button>
+            </div>
+            <div class="contacts col-md-4 col-sm-4 col-xs-4">
+                <h4>Адрес:</h4>
+                <p>	г. Москва, Волоколамское шоссе, 103</p>
+                <div class="email">
+                    <h4>Электронная почта:</h4>
+                    <p class="mail"><a href="#">sample@mail.ru</a></p>
+                </div>
+                <h4>Режим работы:</h4>
+                <p>пн-пт с 9:00-19:00<br/>
+                    сб-вс с 9:00-16:00</p>
+                <h4 class="tel">Телефон:</h4>
+                <p class="telephone">тел.: +7 (495) 649-6560,<br/>
+                    тел.: +7 (495) 773-7098,<br/>
+                    тел.: +7 (495) 766-4129<br/>
+                    факс: +7 (495) 748-1789 </p>
+                <div class="yandex">
+                    <h4>Читайте отзывы на:</h4>
+                    <p><a href="#"><img src="img/yandex-market.svg"></a></p>
+                </div>
+            </div>
+            <div class="footer-menu continue col-md-4 col-sm-4 col-xs-12">
+                <h4>Платите как удобно:</h4>
+                <ul class="link">
+                    <li><a href="#"><img src="img/visa.svg"></a></li>
+                    <li><a href="#"><img src="img/maestro.svg"></a></li>
+                    <li><a href="#"><img src="img/mastercard.svg"></a></li>
+                    <li><a href="#"><img src="img/pay-icon1.svg"></a></li>
+                    <li><a href="#"><img src="img/yandex-pay-logo.svg"></a></li>
+                    <li><a href="#"><img src="img/pay-icon.svg"></a></li>
+                </ul>
+
+                <h4 class="mobile-none">СтройХит в соц.сетях:</h4>
+                <ul class="link">
+                    <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-text container">
+        <div class="row">
+            <div class="col-md-10">
+                <p>&copy; ООО "Вайпер СПб" 2009-2016.
+                    <span>Щетки стеклоочистителя с доставкой в Москве и Санкт-Петербурге</span></p>
+                <p><a href="#">Политика конфиденциальности</a></p>
+            </div>
+            <div class="text-right col-md-2">
+                <p>Создание сайта — <a href="#">Vikiweb</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="owl/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

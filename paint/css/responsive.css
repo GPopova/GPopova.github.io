@@ -1771,6 +1771,7 @@
         text-align: left;
         margin-top: 0;
     }
+
 }
 
 @media (max-width: 422px) {
@@ -2147,6 +2148,5 @@
     footer .footer-text .text-right {
         padding-top: 18px;
     }
-
 
 }
