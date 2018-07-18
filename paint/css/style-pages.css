@@ -17,6 +17,13 @@
     text-align: center;
 }
 
+.error .content .page-content .search p{
+    position: relative;
+    width: 1420px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .error .content .page-content .search input[type="search"]{
     width: 1420px;
     padding-left: 15px;
