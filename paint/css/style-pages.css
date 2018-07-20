@@ -90,6 +90,14 @@
 
 /* Reviews Page */
 
+.reviews .review-shadow{
+    dispaly: none;
+}
+
+.reviews .review-shadow .img{
+    display: none;
+}
+
 .reviews .footer-top{
     border-top: 1px solid #a8a8a8;
 }
@@ -261,6 +269,363 @@
     right: 0;
 }
 
+/* Certificates */
+
+.certificates .content .page-content .basic .reviews-sheet{
+    background: none;
+    border:none;
+    margin-top: 18px;
+    margin-left: -30px;
+}
+
+.certificates .content .page-content .basic .reviews-sheet .items{
+    margin-right: -32px;
+}
+
+.certificates .content .page-content .basic .reviews-sheet .item{
+    width: 245px;
+    height: 400px;
+    display: inline-block;
+    border: 1px solid #DEDEDE;
+    background: #FFFFFF;
+    padding: 16px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.certificates .content .page-content .basic .reviews-sheet .item:hover{
+    width: 265px;
+    height: 420px;
+    padding: 26px;
+    margin:-14px -14px 0 23px ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.certificates .content .page-content .basic .reviews-sheet .item .text{
+    padding-left: 12px;
+}
+
+.certificates .content .page-content .basic .reviews-sheet .item .text p{
+    text-align: left;
+}
+
+.certificates .content .page-content{
+    margin-bottom: 69px;
+}
+
+.certificates .content .page-content .basic .reviews-sheet .reviews-navigation{
+    margin-left: 30px;
+    padding: 22px 0 0 27px;
+}
+
+.certificates .content .page-content .basic .reviews-sheet .reviews-navigation .choose-page ul li{
+    background: #FFFFFF;
+}
+
+
+/* Vacancies Page */
+
+.vacancies .content .page-content .basic .reviews-sheet{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item{
+    padding: 28px 40px 24px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description h3{
+    font-family: 'CircleBold';
+    font-size: 20px;
+    line-height: 23px;
+    color: #a8a8a8;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item a{
+    color: #042567;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .active img{
+    content: url("../img/triangle-up-blue.svg");
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .title div{
+    display: inline-block;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .title .open-link{
+    padding-left: 8px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .title .open-link img{
+    vertical-align: middle;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .title .salary{
+    color: #000000;
+    font-family: 'CircleBold';
+    line-height: 35px;
+    font-size: 18px;
+    padding-left: 106px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .title .salary .cost{
+    font-size: 30px;
+    margin-left: 4px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .title .salary .rub{
+    color: #A8A8A8;
+    font-size: 24px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description ul li{
+   line-height: 22px;
+    padding-left: 14px;
+    position: relative;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description ul{
+    list-style: none;
+    padding-bottom: 6px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description ul li:before{
+    content: ' ';
+    width: 10px;
+    height: 1px;
+    background: #000000;
+    padding-right: 0;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .contact{
+    border-top:1px dashed #A8A8A8;
+    margin-top: 28px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .contact h3{
+    margin-bottom: 14px;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description{
+    display: none;
+}
+
+.vacancies .content .page-content .basic .reviews-sheet .item .open{
+    display: block;
+}
+
+
+/* Text Page */
+
+.text-page .content .page-content .basic .reviews-sheet{
+    padding: 19px 32px 40px 20px;
+    margin-top: 18px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .img-left{
+    position: relative;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .date{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    top: 20px;
+    left: 20px;
+    padding-top: 12px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .date p{
+    font-family: 'CircleRegular';
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    padding: 0;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .date .month{
+    font-size: 15px;
+    line-height: 8px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet p{
+    font-family: 'CircleRegular';
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 12px;
+    padding-bottom: 53px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet h2{
+    font-family: 'CircleRegular';
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .img-left{
+    padding-bottom: 10px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .img-center{
+    width: 490px;
+    height: 280px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .slider5{
+    margin-top: 0;
+    margin-left: -20px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet .slider5 .owl-dots{
+    margin-left: -10px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet table{
+    width: 1000px;
+    height: 390px;
+    border: 1px solid #dedede;
+    margin-left: 20px;
+    font-family: 'CircleRegular';
+    font-size: 15px;
+    line-height: 14px;
+    margin-top: 27px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet table *{
+    border: 1px solid #dedede;
+    width: 220px;
+    vertical-align: middle;
+}
+
+.text-page .content .page-content .basic .reviews-sheet table th{
+    color: #A8A8A8;
+    height: 50px;
+    text-align: center;
+}
+
+.text-page .content .page-content .basic .reviews-sheet table th:first-child{
+    width: 122px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet table td{
+    padding: 0 30px 0 13px;
+    line-height: 18px;
+}
+
+.text-page .content .page-content .basic .reviews-sheet table td:first-child{
+    width: 122px;
+    text-align: center;
+    padding: 0;
+}
+
+.text-page .content .page-content{
+    margin-bottom: 84px;
+}
+
+
+/* Article Page */
+
+.article-page .content .page-content .basic .reviews-sheet{
+    padding: 19px 30px 24px 20px;
+}
+
+.article-page .content .page-content .basic .reviews-sheet p{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.article-page .page-content .slider6 .owl-nav{
+    display: inline-block;
+    position: absolute;
+    top: -57px;
+    right: 8px;
+}
+
+.article-page .page-content .slider6 .owl-dots{
+    display: none;
+}
+
+.article-page .slider6 .owl-nav .owl-prev{
+    display: inline-block;
+    color: transparent;
+    background: url("../img/prew.svg"), no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.article-page .slider6 .owl-nav .owl-prev:hover{
+    background: url("../img/img-prew-blue.svg"), no-repeat;
+}
+
+.article-page .slider6 .owl-nav .owl-next{
+    display: inline-block;
+    color: transparent;
+    background: url("../img/img-next-white.svg"), no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.article-page .slider6 .owl-nav .owl-next:hover{
+    background: url("../img/next.svg"), no-repeat;
+}
+
+.article-page .page-content .articles{
+    padding-top: 90px;
+}
+
+.article-page .page-content .articles .left{
+    padding-left: 0;
+    padding-bottom: 11px;
+}
+
+.article-page .page-content .articles .left h1{
+    display: inline-block;
+}
+
+.article-page .page-content .articles .slider6 .articles-item{
+    width: 530px;
+    height: 472px;
+    text-align: left;
+    margin: 0;
+}
+
+.article-page .content .page-content .basic .reviews-sheet .img-left {
+    padding-bottom: 22px;
+}
+
+.article-page .page-content .articles .articles-item .article-text {
+    padding: 26px 32px 20px 35px;
+}
+
+.article-page .page-content .articles .articles-item .article-text p{
+    height: 93px;
+    overflow: hidden;
+}
+
+.article-page .page-content .articles .left a{
+    margin-left: 12px;
+}
+
+.article-page .content .page-content {
+    margin-bottom: 122px;
+}
+
+
 
 /* Resposive */
 
@@ -336,6 +701,220 @@
     .reviews .content .page-content{
         margin-bottom: 40px;
     }
+
+    /* Certificates */
+
+    .certificates .content .page-content .basic .reviews-sheet{
+        margin: 3px auto;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .item{
+        margin-left: 14px;
+        margin-bottom: 20px;
+        width: 222px;
+        height: 400px;
+        padding: 15px 14px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .items{
+        margin-left: -14px;
+        height: 1255px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .item .img{
+        content: url("../img/certificate-tablet.png");
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .item .text{
+        padding-top: 7px;
+        font-size: 15px;
+        margin-right: -10px;
+        line-height: 17px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .reviews-navigation{
+        margin-left: 0;
+    }
+
+    .certificates .content .page-content {
+        margin-bottom: -2px;
+    }
+
+    /* Vacancies Page */
+
+    .vacancies .content .page-content .basic .reviews-sheet .items{
+        height: 100%;
+        padding-top: 8px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet{
+        margin-top: 12px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item {
+        padding: 19px 26px 30px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item a{
+        font-size: 13px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description h3{
+        font-size: 13px;
+        margin-top: 14px;
+        margin-bottom: 4px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description ul li{
+        line-height: 19px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description ul{
+        padding-bottom: 18px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .title .salary{
+        padding-left: 114px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .contact{
+        margin-top: 42px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .contact p{
+        line-height: 18px;
+        padding-right: 80px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .contact h3{
+        margin-bottom: 8px;
+    }
+
+    .vacancies .content .page-content {
+        margin-bottom: 43px;
+    }
+
+    /* Text Page */
+
+    .text-page .content .page-content .basic .reviews-sheet .slider5{
+        display: none;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet{
+        padding: 19px 24px 40px 20px;
+        overflow-x: scroll;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet .img-left img{
+        width: 100%;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet p{
+        padding-top: 10px;
+        padding-bottom: 22px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet {
+        margin-top: 6px;
+        padding-bottom: 35px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet .img-left {
+        padding-bottom: 2px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet .img-center{
+        margin: 11px auto;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet table{
+        margin-left: 0;
+        margin-top: 33px;
+    }
+
+    .text-page .content .page-content {
+        margin-bottom: 34px;
+    }
+
+    .text-page #scroll{
+        width: 100%;
+        height: 6px;
+        border-radius: 5px;
+        background-color: #DEDEDE;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+        position: relative;
+        margin-top: 46px;
+    }
+
+    .text-page #scroll #thumb{
+        background: url("../img/scroll.svg"), no-repeat;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: -8px;
+        cursor: pointer;
+    }
+
+
+    /* Article Page */
+
+    .article-page .content .articles .container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .article-page .content .articles .container .row{
+        margin: 0;
+    }
+
+    .article-page .page-content .articles .slider6{
+        width: 100%;
+        margin-top: 4px;
+    }
+
+    .article-page .page-content .articles .slider6 .articles-item{
+        width:340px;
+        height: 320px;
+    }
+
+    .article-page .content .page-content .basic .reviews-sheet {
+        padding-bottom: 0;
+    }
+
+    .article-page .page-content .articles {
+        padding-top: 25px;
+    }
+
+    .article-page .page-content .articles .left a{
+        font-size: 13px;
+        margin-left: 8px;
+    }
+
+    .article-page .page-content .articles .articles-item .article-text p{
+        height: 62px;
+    }
+
+    .article-page .content .page-content {
+        margin-bottom: 10px;
+    }
+
+    .article-page .slider6 .owl-nav .owl-next, .article-page .slider6 .owl-nav .owl-prev{
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+    }
+
+    .article-page .slider6 .owl-nav .owl-prev:hover, .article-page .slider6 .owl-nav .owl-next:hover{
+        background-size: 30px 30px;
+    }
+
+    .article-page .page-content .articles .articles-item .article-text {
+        padding: 9px 12px 20px 22px;
+    }
+
+
 }
 
 @media (max-width: 699px) {
@@ -499,4 +1078,283 @@
         padding: 19px 20px 46px;
     }
 
+    /* Certificates */
+
+    .certificates .content .page-content .basic .reviews-sheet .items{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Vacancies page */
+
+    .vacancies .content .page-content .basic .reviews-sheet .items{
+        padding-top: 0;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item{
+        position: relative;
+        padding: 11px 4px 4px 10px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item h2{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .title div{
+        display: block;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item a{
+        color: transparent;
+        position: absolute;
+        top: 13px;
+        right: 8px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .title .salary{
+        padding-left: 0;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .title .salary p{
+        color: transparent;
+        margin-top: -5px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .title .salary .cost{
+        color: #000000;
+        margin-left: -22px;
+        font-size: 16px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .title .salary .rub {
+        font-size: 13px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .vacancy-description h3 {
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .contact {
+        margin-top: -7px;
+        padding-top: 14px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .contact p {
+        line-height: 19px;
+        padding-right: 0;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .contact p a{
+        position: relative;
+        color: #0B1759;
+        top: 0;
+        right: 0;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .item .contact {
+        padding-bottom: 11px;
+    }
+
+    .vacancies .content .page-content {
+        margin-bottom: 34px;
+    }
+
+    .vacancies .content .page-content .basic .reviews-sheet .reviews-navigation {
+        padding-top: 12px;
+    }
+
+    /* Text Page */
+
+    .text-page .content .page-content .basic .reviews-sheet table{
+        font-size: 13px;
+        margin-top: 19px;
+        width: 795px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet table *{
+        width: 185px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet table th:first-child{
+        width: 55px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet table td{
+        padding-top: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        line-height: 15px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet table td:first-child{
+        width: 55px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet .img-left img{
+        content: url("../img/text-img-mobile.png");
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet{
+        padding: 9px 9px 20px;
+        margin-top: 4px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet .date{
+        top: 10px;
+        left: 10px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet .img-center{
+        padding: 0;
+        width: 300px;
+        height: 170px;
+        margin: 0;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet .img-center img{
+        width: 100%;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet h2{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .text-page .content .page-content .basic .reviews-sheet p{
+        padding-bottom: 11px;
+    }
+
+    .text-page #scroll{
+        margin-top: 34px;
+    }
+
+
+    /* Article Page */
+
+    .article-page .content .page-content .basic .reviews-sheet p {
+        padding-bottom: 0;
+    }
+
+    .article-page .content .page-content .basic .reviews-sheet{
+        padding-bottom: 16px;
+    }
+
+    .article-page .content .page-content .basic h1{
+        font-size: 24px;
+        padding-left: 0;
+    }
+
+    .article-page .page-content .articles {
+        padding-top: 17px;
+    }
+
+    .article-page .page-content .articles .slider6{
+        margin-top: 0;
+    }
+
+    .article-page .page-content .slider6 .owl-nav{
+        top:-45px;
+    }
+
+    .article-page .page-content .articles .articles-item .article-text {
+        padding: 7px 26px 20px 19px;
+    }
+
+    .article-page .page-content .articles .articles-item .article-text p {
+        height: 62px;
+    }
+
+    .article-page .content .page-content {
+        margin-bottom: 15px;
+    }
+
+    .article-page .page-content .articles .slider6{
+        width: 340px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
 }
+
+
+@media (max-width: 478px){
+
+
+    /* Certificates */
+
+    .certificates .content .page-content .basic .reviews-sheet .items{
+        height: 1170px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .item{
+        width: 300px;
+        height: 280px;
+        margin-left: 0;
+        padding: 8px 0 10px 0;
+        margin-bottom: 13px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .item .img{
+        content: "";
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .item .img img{
+       width: 140px;
+        height: 196px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .item .text{
+        padding-left: 9px;
+        line-height: 18px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet .reviews-navigation{
+        padding-top: 15px;
+    }
+
+    .certificates .content .page-content .basic .reviews-sheet{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    /* Article Page */
+
+
+    .article-page .page-content .articles .articles-item .article-text p {
+        height: 56px;
+    }
+
+
+    .article-page .page-content .articles .slider6 .articles-item {
+        width: 300px;
+        height: 280px;
+    }
+
+    .article-page .page-content .articles .slider6 {
+        width: 300px;
+    }
+
+
+}
+
+
+
+
+
+
+
+/* reviews shadow
+
+background-color: rgba(1, 1, 1, 0.725);
+opacity: 0.8;
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+z-index: 1000;
+width: 100%;
+
+*/

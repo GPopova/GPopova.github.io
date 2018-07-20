@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MainPage</title>
+    <title>Certificates</title>
 
     <!-- PURE CSS style -->
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -16,8 +16,9 @@
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style-pages.css"/>
 </head>
-<body class="home">
+<body class="home reviews certificates">
 
 <header>
     <div class="settings mobile-none">
@@ -182,7 +183,7 @@
                 </div>
                 <div class="contacts col-md-2 col-sm-3 col-xs-3">
                     <a class="tablet">+7 (495) 649-65-60
-                    <img src="img/Rectangle-white.svg"> </a>
+                        <img src="img/Rectangle-white.svg"> </a>
                     <div>
                         <p>Заказать обратный звонок</p>
                         <p class="number">+7 (495) 649-65-60</p>
@@ -404,12 +405,11 @@
     </div>
 
 </header>
-
 <div class="content container">
     <div class="row">
         <aside class="products col-md-3 tablet-none">
             <div class="tablet-none">
-                <nav class="catalogInner">
+                <nav class="catalogInner open">
                     <ul class="catalogMenu">
                         <li><input type="radio" id="sort1"
                                    name="sort" checked>
@@ -582,94 +582,15 @@
                     </ul>
                 </nav>
             </div>
-            <h1>Хиты продаж</h1>
-            <div class="owl-carousel slider3">
-                <div>
-                    <div class="product-item">
-                        <div class="item-img">
-                            <span>Хит продаж</span>
-                            <a class="after"></a>
-                            <img src="img/product.png">
-                        </div>
-                        <div class="item-specification">
-                            <p>Бренд: <span>Tikkurila</span></p>
-                            <p>Производство: <span>Италия</span></p>
-                            <p class="text">Marshall Anticorr Aqua / Маршал Антикор<br/>
-                                Аква полуглянцевая грунт эмаль<br/>
-                                по металлу на водной основе 3</p>
-                        </div>
-                        <div class="price">
-                            <p>от <span class="cost"> 1 020</span><span class="rub">&#8381</span></p>
-                            <p class="crossed-price">1 200 <span>&#8381</span></p>
-                        </div>
-                        <div class="product-size">
-                            <div>
-                                <input type="radio" id="size1" name="size" value="1 020" checked>
-                                <label class="check checked" for="size1">0.9 л</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="size2" name="size" value="2 700">
-                                <label class="check" for="size2" >2.7 л</label>
-                            </div>
-                            <div >
-                                <input type="radio" id="size3" name="size" value="9 000">
-                                <label class="check" for="size3">9 л</label>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <button type="submit"><img src="img/basket.svg">Купить</button>
-                            <a href="#">Купить в 1 клик</a>
-                        </div>
-                    </div>
-
-                    <div class="product-item">
-                        <div class="item-img">
-                            <span>Хит продаж</span>
-                            <a class="after"></a>
-                            <img src="img/product.png">
-                        </div>
-                        <div class="item-specification">
-                            <p>Бренд: <span>Tikkurila</span></p>
-                            <p>Производство: <span>Италия</span></p>
-                            <p class="text">Marshall Anticorr Aqua / Маршал Антикор<br/>
-                                Аква полуглянцевая грунт эмаль<br/>
-                                по металлу на водной основе 3</p>
-                        </div>
-                        <div class="price">
-                            <p>от <span class="cost"> 1 020</span><span class="rub">&#8381</span></p>
-                            <p class="crossed-price">1 200 <span>&#8381</span></p>
-                        </div>
-                        <div class="product-size">
-                            <div>
-                                <input type="radio" id="size4" name="size2" value="1 020" checked>
-                                <label class="check checked" for="size4">0.9 л</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="size5" name="size2" value="2 700">
-                                <label class="check" for="size5">2.7 л</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="size6" name="size2" value="9 000">
-                                <label class="check" for="size6">9 л</label>
-                            </div>
-                        </div>
-                        <div class="buy">
-                            <button type="submit"><img src="img/basket.svg">Купить</button>
-                            <a href="#">Купить в 1 клик</a>
-                        </div>
-                    </div>
-                </div>
-                <div></div>
-            </div>
         </aside>
-            <form class="mobile search">
-                    <div class="col-xs-12">
-                        <p>
-                            <input type="text" placeholder="Например: Краска для обоев">
-                            <input type="submit" placeholder="f">
-                        </p>
-                    </div>
-            </form>
+        <form class="mobile search">
+            <div class="col-xs-12">
+                <p>
+                    <input type="text" placeholder="Например: Краска для обоев">
+                    <input type="submit" placeholder="f">
+                </p>
+            </div>
+        </form>
         <main class="page-content col-md-9 col-sm-12 col-xs-12">
             <div class="row">
                 <form class="search tablet-none">
@@ -678,558 +599,142 @@
                         <input type="submit" value="Найти">
                     </p>
                 </form>
-                <div class="owl-carousel slider">
-                    <div class="slide">
-                        <img src="img/slide.png">
+                <div class="basic">
+                    <div class="move-link">
+                        <ul>
+                            <li><a href="#">Главная</a><img src="img/arrov-vector.svg"></li>
+                            <li><a href="#">О компании</a><img src="img/arrov-vector.svg"></li>
+                            <li><a href="#">Сертификаты</a></li>
+                        </ul>
                     </div>
-                    <div class="slide">
-                        <img src="img/slide.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/slide.png">
-                    </div>
-                </div>
-                <div class="advantage tablet-none">
-                    <div class="advantage-item">
-                        <div class="item-header">
-                            <img src="img/call-center-boy.svg">
-                            <p class="name">Квалифицированные <br/>специалисты</p>
+                    <h1>Сертификаты</h1>
+                    <div class="reviews-sheet">
+                        <div class="items">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/certificate.png">
+                                </div>
+                                <div class="text">
+                                    <p>Документ, удостоверяющий соответствие объекта требованиям технических регламентов</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item-text">
-                            <p>Ответят на любые<br/> вопросы и помогут <br/>в выборе</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="item-header middle">
-                            <img src="img/product-realise.svg">
-                            <p class="name">Товар всегда в наличии</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Посетите наш шоу-рум.<br/> 1,500 м2 склада и шоу-рума</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="item-header middle">
-                            <img src="img/security.svg">
-                            <p class="name">Более 20 лет на рынке</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Большой опыт работы<br/> в сфере товаров для<br/> ремонта</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item narrow">
-                        <div class="item-header">
-                            <img src="img/quality.svg">
-                            <p class="name">Проверенные <br/>производители</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Все товары только<br/> от мировых <br/>и известных брендов</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="item-header middle">
-                            <img src="img/delivery-truck.svg">
-                            <p class="name">Оперативная доставка</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Доставим Ваш заказ<br/> быстро и в указанное <br/>время</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="advantage tablet mobile-none owl-carousel slider4">
-                    <div class="advantage-item">
-                        <div class="item-header">
-                            <img src="img/call-center-boy.svg">
-                            <p class="name">Квалифицированные <br/>специалисты</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Ответят на любые<br/> вопросы и помогут <br/>в выборе</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="item-header middle">
-                            <img  class="box" src="img/product-realise.svg">
-                            <p class="name">Товар всегда <br/>в наличии</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Посетите наш шоу-рум.<br/> 1,500 м2 склада и шоу-рума</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="item-header middle">
-                            <img src="img/security.svg">
-                            <p class="name">Более 20 лет на рынке</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Большой опыт работы<br/> в сфере товаров для<br/> ремонта</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item narrow">
-                        <div class="item-header">
-                            <img src="img/quality.svg">
-                            <p class="name">Проверенные <br/>производители</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Все товары только<br/> от мировых <br/>и известных брендов</p>
-                        </div>
-                    </div>
-                    <div class="advantage-item">
-                        <div class="item-header middle">
-                            <img class="box" src="img/delivery-truck.svg">
-                            <p class="name">Оперативная доставка</p>
-                        </div>
-                        <div class="item-text">
-                            <p>Доставим Ваш заказ<br/> быстро и в указанное <br/>время</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mobile">
-                    <button class="products-catalog">Каталог товаров</button>
-                </div>
-                <div class="dye-logos">
-                    <div>
-                        <!--->
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Dulux.png"></a>
-                            <p class="title">Dulux</p>
-                            <p class="translate">Дулюкс</p>
-                        </div>
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Caparol.png"></a>
-                            <p class="title">Caparol</p>
-                            <p class="translate">Капарол</p>
-                        </div>
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
-                        </div>
-                        <!--->
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Kudo.png"></a>
-                            <p class="title">Kudo</p>
-                            <p class="translate">Кудо</p>
-                        </div>
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Kudo.png"></a>
-                            <p class="title">Kudo</p>
-                            <p class="translate">Кудо</p>
-                        </div>
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
-                        </div>
-                        <!--->
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item">
-                            <a href="#"><img src="img/Dulux.png"></a>
-                            <p class="title">Dulux</p>
-                            <p class="translate">Дулюкс</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Caparol.png"></a>
-                            <p class="title">Caparol</p>
-                            <p class="translate">Капарол</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
-                        </div>
-                        <!--->
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dulux.png"></a>
-                            <p class="title">Dulux</p>
-                            <p class="translate">Дулюкс</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Caparol.png"></a>
-                            <p class="title">Caparol</p>
-                            <p class="translate">Капарол</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
-                        </div>
-                        <!--->
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dulux.png"></a>
-                            <p class="title">Dulux</p>
-                            <p class="translate">Дулюкс</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Caparol.png"></a>
-                            <p class="title">Caparol</p>
-                            <p class="translate">Капарол</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
-                        </div>
-                        <!--->
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dulux.png"></a>
-                            <p class="title">Dulux</p>
-                            <p class="translate">Дулюкс</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Caparol.png"></a>
-                            <p class="title">Caparol</p>
-                            <p class="translate">Капарол</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
-                        </div>
-                        <!--->
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dulux.png"></a>
-                            <p class="title">Dulux</p>
-                            <p class="translate">Дулюкс</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Caparol.png"></a>
-                            <p class="title">Caparol</p>
-                            <p class="translate">Капарол</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
-                        </div>
-                        <!--->
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Osmo.png"></a>
-                            <p class="title">Osmo</p>
-                            <p class="translate">Осмо</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dulux.png"></a>
-                            <p class="title">Dulux</p>
-                            <p class="translate">Дулюкс</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Caparol.png"></a>
-                            <p class="title">Caparol</p>
-                            <p class="translate">Капарол</p>
-                        </div>
-                        <div class="dye-logos-item close">
-                            <a href="#"><img src="img/Dufa.png"></a>
-                            <p class="title">Dufa</p>
-                            <p class="translate">Дюфа</p>
-                        </div>
-                        <div class="dye-logos-item tablet-none">
-                            <a href="#"><img src="img/Bostik.png"></a>
-                            <p class="title">Bostik</p>
-                            <p class="translate">Бостик</p>
+                        <div class="reviews-navigation">
+                            <button class="more">Показать еще <span>12</span></button>
+                            <div class="choose-page">
+                                <ul>
+                                    <li class="previous"><a href="#"><img src="img/prew.svg"></a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li class="active"><a href="#">2</a></li>
+                                    <li class="active"><a href="#">3</a></li>
+                                    <li class="active"><a href="#">4</a></li>
+                                    <li class="active"><a href="#">5</a></li>
+                                    <li><a href="#">6</a></li>
+                                    <li><a href="#">7</a></li>
+                                    <li><a href="#">8</a></li>
+                                    <li><a href="#">9</a></li>
+                                    <li><a href="#">10</a></li>
+                                    <li><a href="#">11</a></li>
+                                    <li class="dots">....</li>
+                                    <li class="active"><a href="#">12</a></li>
+                                    <li class="next"><a href="#"><img src="img/img-next-white.svg"></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="mobile">
-                    <button class="products-all">Показать все 50</button>
-                </div>
-                <section class="products tablet">
-                    <h1>Хиты продаж</h1>
-                    <div class="owl-carousel slider3">
-                            <div class="product-item">
-                                <div class="item-img">
-                                    <a class="after"></a>
-                                    <span>Хит продаж</span>
-                                    <img src="img/product.png">
-                                </div>
-                                <div class="item-specification">
-                                    <p>Бренд: <span>Tikkurila</span></p>
-                                    <p>Производство: <span>Италия</span></p>
-                                    <p class="text">Marshall Anticorr Aqua / Маршал Антикор
-                                        Аква полуглянцевая грунт эмаль
-                                        по металлу на водной основе 3</p>
-                                </div>
-                                <div class="price">
-                                    <p>от <span class="cost"> 1 200</span><span class="rub">&#8381</span></p>
-                                    <p class="crossed-price">1 200 <span>&#8381</span></p>
-                                </div>
-                                <div class="product-size">
-                                    <div>
-                                        <input type="radio" id="sizes" name="sizexs" value="1 200" checked>
-                                        <label class="check checked" for="sizes">0.9 л</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" id="sizesm" name="sizexs" value="2 700">
-                                        <label class="check" for="sizesm">2.7 л</label>
-                                    </div>
-                                    <div >
-                                        <input type="radio" id="sizesl" name="sizexs" value="9 000">
-                                        <label class="check" for="sizesl">9 л</label>
-                                    </div>
-                                </div>
-                                <div class="buy">
-                                    <button type="submit"><img src="img/basket.svg">Купить</button>
-                                    <a href="#">Купить в 1 клик</a>
-                                </div>
-                            </div>
-
-                            <div class="product-item">
-                                <div class="item-img">
-                                    <a class="after"></a>
-                                    <span>Хит продаж</span>
-                                    <img src="img/product.png">
-                                </div>
-                                <div class="item-specification">
-                                    <p>Бренд: <span>Tikkurila</span></p>
-                                    <p>Производство: <span>Италия</span></p>
-                                    <p class="text">Marshall Anticorr Aqua / Маршал Антикор
-                                        Аква полуглянцевая грунт эмаль
-                                        по металлу на водной основе 3</p>
-                                </div>
-                                <div class="price">
-                                    <p>от <span class="cost"> 1 200</span><span class="rub">&#8381</span></p>
-                                    <p class="crossed-price">1 200 <span>&#8381</span></p>
-                                </div>
-                                <div class="product-size">
-                                    <div>
-                                        <input type="radio" id="sizels" name="sizem" value="1 200" checked>
-                                        <label class="check checked" for="sizels">0.9 л</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" id="sizelm" name="sizem" value="2 700">
-                                        <label class="check" for="sizelm">2.7 л</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" id="sizell" name="sizem" value="9 000">
-                                        <label class="check" for="sizell">9 л</label>
-                                    </div>
-                                </div>
-                                <div class="buy">
-                                    <button type="submit"><img src="img/basket.svg">Купить</button>
-                                    <a href="#">Купить в 1 клик</a>
-                                </div>
-                            </div>
-
-                        <div class="product-item">
-                            <div class="item-img">
-                                <a class="after"></a>
-                                <span>Хит продаж</span>
-                                <img src="img/product.png">
-                            </div>
-                            <div class="item-specification">
-                                <p>Бренд: <span>Tikkurila</span></p>
-                                <p>Производство: <span>Италия</span></p>
-                                <p class="text">Marshall Anticorr Aqua / Маршал Антикор
-                                    Аква полуглянцевая грунт эмаль
-                                    по металлу на водной основе 3</p>
-                            </div>
-                            <div class="price">
-                                <p>от <span class="cost"> 1 200</span><span class="rub">&#8381</span></p>
-                                <p class="crossed-price">1 200 <span>&#8381</span></p>
-                            </div>
-                            <div class="product-size">
-                                <div>
-                                    <input type="radio" id="sizems" name="sizel" value="1 200" checked>
-                                    <label class="check checked" for="sizems">0.9 л</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="sizemm" name="sizel" value="2 700">
-                                    <label class="check" for="sizemm">2.7 л</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="sizeml" name="sizel" value="9 000">
-                                    <label class="check" for="sizeml">9 л</label>
-                                </div>
-                            </div>
-                            <div class="buy">
-                                <button type="submit"><img src="img/basket.svg">Купить</button>
-                                <a href="#">Купить в 1 клик</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="feedback">
-                    <form>
-                        <div class="left">
-                            <h1>У вас есть вопросы?</h1>
-                            <p>оставьте  свой номер и наш специалист <br/>Вам перезвонит и проконсультирует бесплатно</p>
-                        </div>
-                        <div class="right">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Ваш номер">
-                            <p>Я согласен на обработку <a href="#">персональных данных</a> ,
-                                а также с <a href="#">условиями подписки</a></p>
-                            <input type="submit" value="Отправить">
-                        </div>
-                    </form>
-                </section>
             </div>
         </main>
     </div>
 </div>
-<section class="articles">
-    <div class="container">
-        <div class="row">
-            <div class="left">
-                <h2>Полезные статьи</h2>
-                <a class="mobile-none" href="#">смотреть все статьи</a>
-            </div>
-            <div class="owl-carousel slider2">
-                <div class="articles-item slide col-md-6 col-sm-6 col-xs-6">
-                    <div class="image">
-                        <img src="img/Photo.png">
-                        <div class="date">
-                            <p>27</p>
-                            <p class="month">марта</p>
-                        </div>
-                    </div>
-                    <div class="article-text">
-                        <h2>Подготовка стен под покраску</h2>
-                        <p>Покраска поверхности стен – это далеко не первый этап ремонта
-                            помещения. Окрашивание производят в направлении сверху вниз. То есть,
-                            в первую очередь потолок, карнизы и молдинги, а только потом стены.</p>
-                            <a href="#">Читать</a>
-                    </div>
-                </div>
-                <div class="articles-item slide col-md-6 col-sm-6 col-xs-6">
-                    <div class="image">
-                        <img src="img/Photo2.png">
-                        <div class="date">
-                            <p>27</p>
-                            <p class="month">марта</p>
-                        </div>
-                    </div>
-                    <div class="article-text">
-                        <h2>Подготовка стен под покраску</h2>
-                        <p>Покраска поверхности стен – это далеко не первый этап ремонта
-                            помещения. Окрашивание производят в направлении сверху вниз. То есть,
-                            в первую очередь потолок, карнизы и молдинги, а только потом стены.</p>
-                            <a href="#">Читать</a>
-                    </div>
-                </div>
-            </div>
-            <div class="mobile">
-                <button class="articles-all">Смотреть все статьи</button>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="about-company mobile-none">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 map-position">
-                <div class="map-img">
-                    <img src="img/map-img.png">
-                </div>
-                <div class="mark">
-                    <img src="img/mark.svg">
-                </div>
-            </div>
-            <div class="col-md-6 company-details tablet-none">
-                <h2>О компании</h2>
-                <a href="#">Подробнее</a>
-                <input id="sw" type="checkbox" class="switcher-value">
-                <label for="sw" class="sw_btn"></label>
-                <p>
-                    При каждом магазине действуют колор-студии и доступна услуга сверхточной компьютерной колеровки
-                    на оборудовании профессиональных систем тонирования. В каждом магазине представлен большой выбор
-                    качественных товаров в таких категориях, как лаки, краски, эмали, грунтовки, антисептики,
-                    декоративные покрытия, затирки, растворители, клеи, монтажные пены и обои под покраску.
-                    Наиболее широко п редставлены фасадные краски, краска для потолка, краска для стен, краска для пола,
-                    краска водоэмульсионная, акриловые краски, антисептики и деревозащита, стеклообои.При каждом
-                    магазине действуют колор-студии и доступна услуга сверхточной компьютерной колеровки на
-                    оборудовании профессиональных систем тонирования.
-                </p>
-            </div>
-        </div>
-        <div class="row tablet">
-            <div class="col-sm-12 col-xs-12 company-details">
-                <h2>О компании</h2>
-                <a href="#">Подробнее</a>
-                <input id="sv" type="checkbox" class="switcher-value">
-                <label for="sv" class="sw_btn"></label>
-                <p>
-                    При каждом магазине действуют колор-студии и доступна услуга сверхточной компьютерной колеровки
-                    на оборудовании профессиональных систем тонирования. В каждом магазине представлен большой выбор
-                    качественных товаров в таких категориях, как лаки, краски, эмали, грунтовки, антисептики,
-                    декоративные покрытия, затирки, растворители, клеи, монтажные пены и обои под покраску.
-                    Наиболее широко п редставлены фасадные краски, краска для потолка, краска для стен, краска для пола,
-                    краска водоэмульсионная, акриловые краски, антисептики и деревозащита, стеклообои.При каждом
-                    магазине действуют колор-студии и доступна услуга сверхточной компьютерной колеровки на
-                    оборудовании профессиональных систем тонирования.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="footer-top tablet-none">
     <div class="container">
         <div class="row">
@@ -1375,13 +880,13 @@
                 </ul>
 
                 <h4 class="mobile-none">СтройХит в соц.сетях:</h4>
-                    <ul class="link">
-                        <li><a href="#"><i class="fab fa-vk"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    </ul>
+                <ul class="link">
+                    <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
             </div>
         </div>
     </div>

@@ -178,6 +178,72 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".slider5").owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        URLhashListener:true,
+        startPosition: 'URLHash',
+        infinite: false,
+        navSpeed: 1000,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:true,
+            },
+            992:{
+                items:1,
+                nav:true,
+                loop:true
+
+            }
+        }
+    });
+});
+
+$(document).ready(function(){
+    $(".slider6").owlCarousel({
+        loop:true,
+        margin:20,
+        responsiveClass:true,
+        URLhashListener:true,
+        startPosition: 'URLHash',
+        navSpeed: 1000,
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+                margin:0
+            },
+            700:{
+                items:1,
+                nav:true,
+                loop:true,
+                margin:4
+            },
+            768:{
+                items:2,
+                nav:true,
+                loop:true,
+                margin:20
+            },
+            992:{
+                items:2,
+                nav:true,
+                loop:true
+
+            }
+        }
+    });
+});
+
+
+
 
 
 //Responsive
@@ -221,5 +287,24 @@ $('.products-all').on('click', function () {
 });
 
 
+// Review Shadow
 
+$('.reviews-sheet .item .left img').on('click', function () {
+   $('.review-shadow').toggleClass('open');
+});
+
+
+// open vacancies
+
+$('.open-link a').on('click', function () {
+    $(this).toggleClass('active');
+    $(this).parents('.item').find('.vacancy-description').toggleClass('open');
+});
+
+
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    // Do something
+});
 
