@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="39" height="39" rx="4.5" fill="white" stroke="#D3D3D3"/>
+<rect width="25" height="5" transform="translate(7 8)" fill="#A8A8A8"/>
+<rect width="25" height="5" transform="translate(7 18)" fill="#A8A8A8"/>
+<rect width="25" height="5" transform="translate(7 28)" fill="#A8A8A8"/>
+</svg>

@@ -302,9 +302,19 @@ $('.open-link a').on('click', function () {
 });
 
 
+//radio button actions
 
-$(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    // Do something
+$('.ch').on('click', function () {
+    $('.ch').removeClass('checked');
+    $(this).toggleClass('checked');
 });
+
+//radio button actions
+
+$('.sort-ch').on('click', function () {
+    $('.sort-ch').removeClass('checked');
+    $(this).toggleClass('checked');
+});
+
+
 
