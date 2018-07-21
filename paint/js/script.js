@@ -298,7 +298,12 @@ $('.reviews-sheet .item .left img').on('click', function () {
 
 $('.open-link a').on('click', function () {
     $(this).toggleClass('active');
+    console.log($(this).text());
     $(this).parents('.item').find('.vacancy-description').toggleClass('open');
+
+    var text = $(this).text();
+    $(this).text(
+        text == "Показать" ? "Свернуть" : "Показать");
 });
 
 
