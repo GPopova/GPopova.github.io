@@ -317,4 +317,19 @@ $('.sort-ch').on('click', function () {
 });
 
 
+// reviews zoom
+
+$('.reviews-sheet .left').on('click', function () {
+   $('.review-shadow').show();
+});
+
+$('.review-shadow .close').on('click', function () {
+   $('.review-shadow').hide();
+});
+
+$('.reviews-sheet .original').on('click', function () {
+   $('.review-shadow').show();
+});
+
+
 
