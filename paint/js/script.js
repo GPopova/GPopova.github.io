@@ -314,7 +314,7 @@ $('.ch').on('click', function () {
     $(this).toggleClass('checked');
 });
 
-//radio button actions
+//Promo Page radio button actions
 
 $('.sort-ch').on('click', function () {
     $('.sort-ch').removeClass('checked');
@@ -322,7 +322,7 @@ $('.sort-ch').on('click', function () {
 });
 
 
-// reviews zoom
+// Review Page Zoom
 
 $('.reviews-sheet .left').on('click', function () {
    $('.review-shadow').show();
@@ -335,6 +335,3 @@ $('.review-shadow .close').on('click', function () {
 $('.reviews-sheet .original').on('click', function () {
    $('.review-shadow').show();
 });
-
-
-
