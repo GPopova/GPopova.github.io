@@ -893,6 +893,10 @@ h3 {
   width: 370px;
 }
 
+.contact .bottom .btn-default span{
+  color: #FFFFFF;
+}
+
 #map {
   margin-top: 36px;
   width: 870px;
