@@ -972,21 +972,30 @@ h3 {
   background: url("../img/header-bg.png") no-repeat;
   background-size: cover;
   background-position: 50%;
-  margin: 30px 0;}
+  margin: 30px;}
 
-.header-content-pages {
-  text-align: center;
-  padding-top: 121px;
-  padding-bottom: 135px; }
-.header-content-pages p {
-  width: 40%;
-  margin: 0 auto 7px;
-  font-family: 'OpenSansRegular', sans-serif;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 30px; }
-.header-content-pages .btn-default {
-  width: 370px; }
+.generic-page .header-content .left h1{
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.generic-page .header-content .left > p{
+  padding-right: 0;
+}
+
+.generic-page .btn-default{
+  width: 400px;
+}
+
+.generic-page .header-content .right{
+  padding-left: 0;
+  padding-top: 3px;
+  margin-bottom: -24px;
+}
+
+.generic-page .header-content .right img{
+  width: 722px;
+}
 
 .pages-content {
   padding: 40px 0 100px;
@@ -1355,6 +1364,7 @@ h3 {
   margin-top: -8px; }
 .pages-content form {
   width: 870px;
+  height: 369px;
   padding-bottom: 37px;
   display: block;
   padding-top: 2px; }
@@ -1459,7 +1469,7 @@ float: left;}
 #error{
   background: #2F3337;
   width: 870px;
-  margin-bottom: 138px; }
+  margin-bottom: 96px; }
 
 #error p{
   font-size: 15px;
@@ -1469,7 +1479,12 @@ float: left;}
 
 #error p img{
   vertical-align: middle;
-  margin-right: 8px; }
+  margin-right: 8px;
+  width: 28px; }
+
+.generic-page .contact{
+  padding-top: 70px;
+}
 
 
 /*---------END-GENERIC-PAGE-----------*/
