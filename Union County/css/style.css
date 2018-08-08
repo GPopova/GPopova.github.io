@@ -974,6 +974,10 @@ h3 {
   background-position: 50%;
   margin: 30px;}
 
+.generic-page .blog-wrap{
+  display: none;
+}
+
 .generic-page .header-content .left h1{
   font-size: 40px;
   line-height: 50px;
@@ -2136,7 +2140,7 @@ padding-right: 14px; }
 
 
 
-.generic-page .pages-content .align{
+.pages-content .align{
   padding-bottom: 5px;
   margin-top: -2px;
 }
