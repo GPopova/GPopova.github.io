@@ -1,0 +1,1124 @@
+@media (max-width: 1439px) {
+
+    .left-padding{
+        padding-left: 28px;
+    }
+
+    .header-content-left{
+        padding-left: 28px;
+    }
+
+    .header-content-left .top-panel .top-menu li:last-of-type{
+        padding-right: 0;
+    }
+
+    .header-content-left .top-panel .logo {
+        margin-left: 2px;
+    }
+
+    .header-content-left .top-panel .top-menu {
+        padding-left: 42px;
+    }
+
+    .header-content-left .title {
+        padding-top: 80px;
+    }
+
+    .header-content-left .title h1 {
+        padding-bottom: 120px;
+        line-height: 64px;
+        margin-left: -2px;
+    }
+
+    .header-content-left .title h1 span{
+        display: none;
+    }
+
+    .header-content-left .title .more {
+        margin-bottom: 69px;
+    }
+
+    .header-content-left .completed{
+        margin-left: -28px;
+        padding-left: 29px;
+    }
+
+    .slider .owl-item img {
+       content: url("../img/header-bg-1024.png");
+    }
+
+    .picture .slider {
+        width: 100%;
+    }
+
+    .picture .lang {
+        right: 28px;
+    }
+
+    .picture .owl-carousel .owl-dots {
+        right: auto;
+        left: 496px;
+    }
+
+    .about-company .left-padding {
+        padding-right: 10px;
+    }
+
+    .about-company .right-padding {
+        padding-left: 30px;
+    }
+
+    .about-company .right-padding ul:last-of-type{
+        padding-right: 0;
+    }
+
+    .about-company .right-padding ul {
+        padding-right: 88px;
+    }
+
+    .products .product .left{
+        margin-left: 0;
+        width: 48.5%;
+    }
+
+    .products .product .left img {
+        height: 440px;
+    }
+
+    .right-padding {
+        padding-left: 31px;
+    }
+
+    .products .product .right-padding {
+        padding-top: 102px;
+        padding-right: 10px;
+    }
+
+    .products .product .right-padding .more {
+        margin-top: 43px;
+    }
+
+    .projects .projects-header {
+        padding-left: 26px;
+        padding-right: 28px;
+    }
+
+    .projects .projects-content {
+        margin-left: 0;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .projects .projects-content .hidden-md{
+        display: none;
+    }
+
+    .projects .projects-content .item{
+        width: 50%;
+    }
+
+    .projects .projects-content .item .options .more {
+        bottom: -50px;
+    }
+
+    .team{
+        border:none;
+    }
+
+    .team .team-content{
+        padding: 83px 0 0;
+    }
+
+    .team .team-content h2 {
+        padding-left: 27px;
+    }
+
+    .team .team-content img{
+        content: url("../img/team-1024.png");
+    }
+
+    .blog .blog-content{
+        padding: 77px 0 66px 28px;
+        text-align: left;
+        width: max-content;
+    }
+
+    .blog .blog-content .all{
+        position: absolute;
+        left: 41%;
+        bottom: 43px;
+    }
+
+    .court{
+        margin-left: -14px;
+    }
+
+    .court .position{
+        left: 18%;
+    }
+
+    footer .footer-panel .footer-menu li:last-of-type{
+        padding-right: 0;
+    }
+
+    footer .left-padding {
+        padding-right: 28px;
+    }
+
+    footer .footer-panel .footer-menu {
+        padding-left: 42px;
+    }
+
+    section{
+        max-width: 1024px;
+    }
+
+    #map {
+        width: 100%;
+    }
+
+    .col-md-6-left{
+        width: 48.5%;
+    }
+
+    .col-md-6-right{
+        width: 51.5%;
+    }
+
+}
+
+@media (max-width: 1023px) {
+
+    .header-content-left .top-panel .top-menu {
+        padding-left: 30px;
+    }
+
+    .header-content-left .title h1 {
+        padding-bottom: 97px;
+    }
+
+    .picture .slider {
+        height: auto;
+    }
+
+    .picture .owl-carousel .owl-dots {
+        left: 470px;
+    }
+
+    .about-company .left-padding{
+        border: none;
+    }
+
+    .about-company .right-padding{
+        border-left: 1px solid #E9EEF2;
+        padding-top: 62px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .picture{
+        width: 100%;
+    }
+
+    .header-content-left{
+        width: 90%;
+        position: absolute;
+        z-index: 3;
+        margin-top: 34px;
+        padding-left: 27px;
+    }
+
+    .slider .owl-item img {
+        content: url("../img/header-bg-768.png");
+    }
+
+    .picture .owl-carousel .owl-dots {
+        left: auto;
+        right: 10px;
+    }
+
+    .header-content-left .top-panel .top-menu li a{
+        color: #FFFFFF;
+    }
+
+    .header-content-left .top-panel .logo img{
+        content: url("../img/logo-768.png");
+    }
+
+    .header-content-left .title h1{
+        color: #FFFFFF;
+        padding-bottom: 119px;
+    }
+
+    .header-content-left .title {
+        padding: 112px 50px 0 100px;
+        text-align: center;
+    }
+
+    .header-content-left .top-panel .top-menu {
+        padding-left: 64px;
+    }
+
+    .picture .lang {
+        right: 29px;
+        top: 37px;
+    }
+
+    .header-content-left .completed{
+        text-align: center;
+        background: none;
+        border: none;
+        padding: 28px 50px 0 100px;
+        margin: 0 auto;
+    }
+
+    .header-content-left .completed p{
+        color: #FFFFFF;
+    }
+
+    .header-content-left .title .more {
+        margin-right: 0;
+    }
+
+    .header-content-left .completed .link-more{
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 24px;
+        padding-left: 0;
+    }
+
+    .header-content-left .completed .link-more a{
+        color: #FFFFFF;
+    }
+
+    .header-content-left .completed .link-more .arrow img{
+        content: url("../img/arrow-white.svg");
+    }
+
+    .header-content-left .completed .arrow {
+        left: 35px;
+        bottom: -30px;
+    }
+
+    .about-company .left-padding{
+        width: 100%;
+        padding: 65px 37% 43px 30px;
+        border-bottom: 1px solid #E9EEF2;
+        height: auto;
+    }
+
+    .about-company .right-padding{
+        border: none;
+        width: 100%;
+        padding-top: 29px;
+        padding-bottom: 54px;
+    }
+
+    .about-company .right-padding ul {
+        padding-right: 191px;
+    }
+
+    .products .product{
+        position: relative;
+    }
+
+    .products .product .left{
+        width: 100%;
+    }
+
+    .products .product .left img {
+        height: 429px;
+    }
+
+    .products .product .right-padding{
+        width: 100%;
+        background: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        top: 0;
+        height: 429px;
+        border: none;
+        padding-top: 88px;
+        padding-right: 260px;
+    }
+
+    .products .product .right-padding h2{
+        color: #FFFFFF;
+    }
+
+    .products .product .right-padding p{
+        color: #FFFFFF;
+    }
+
+    .products .product .right-padding h2 {
+        padding-bottom: 30px;
+    }
+
+    .projects .projects-header h2 span{
+        display: none;
+    }
+
+    .projects .projects-header h2 .our{
+        display: inline-block;
+    }
+
+    .projects .projects-header {
+        padding-left: 29px;
+        padding-right: 30px;
+        padding-top: 84px;
+    }
+
+    .projects .projects-content{
+        padding-top: 84px;
+    }
+
+    .projects .projects-content .item{
+        height: 270px;
+    }
+
+    .projects .projects-content .item .slide{
+        height: 270px;
+    }
+
+    .projects .projects-content .item img{
+        height: inherit;
+    }
+
+    .projects .projects-content .item .options .more {
+        bottom: -39px;
+        padding-top: 6px;
+    }
+
+    .projects .projects-content .item .options h5{
+        font-size: 23px;
+        line-height: 27px;
+        letter-spacing: 0;
+    }
+
+    .projects .projects-content .item .options{
+        padding-right: 33px;
+    }
+
+    .projects .projects-content .item .slider2 .owl-nav{
+        left: 10px;
+    }
+
+    .team .team-content h2 span{
+        display: none;
+    }
+
+    .team .team-content h2 .our{
+        display: inline-block;
+    }
+
+    .team .team-content {
+        padding: 86px 0 0;
+    }
+
+    .team .team-content h2 {
+        padding-left: 29px;
+    }
+
+    .team .team-content img {
+        content: url("../img/team-768.png");
+    }
+
+    .blog .blog-content {
+        padding: 80px 0 55px 29px;
+    }
+
+    .blog .blog-content h2 {
+        padding-bottom: 39px;
+    }
+
+    .blog .blog-content .blog-item{
+        margin-right: 28px;
+    }
+
+    .blog .blog-content .blog-item:first-of-type{
+        padding-right: 62px;
+    }
+
+    .blog .blog-content .all {
+        left: 30%;
+        bottom: 27px;
+    }
+
+    .contact{
+        padding-top: 81px;
+        padding-bottom: 54px;
+        box-shadow: none;
+    }
+
+    .contact .left-padding{
+        padding-top: 106px;
+        padding-left: 30px;
+    }
+
+    .court{
+        padding-left: 30px;
+        margin-left: 0;
+    }
+
+    .court .position{
+        background: url("../img/position-bg-768.png");
+        width: 360px;
+        left:15%;
+    }
+
+    footer .footer-panel .footer-menu{
+        display: none;
+    }
+
+    footer .footer-panel .column{
+        display: inline-block;
+        padding-right: 106px;
+    }
+
+    footer .footer-panel .column:last-of-type{
+        padding-right: 0;
+    }
+
+    footer .footer-panel .column li{
+        line-height: 33px;
+    }
+
+    footer .footer-panel .logo{
+        vertical-align: top;
+        margin-left: 2px;
+        padding-top: 6px;
+        margin-right: 71px;
+    }
+
+    footer .left-padding{
+        padding-top: 18px;
+        padding-right: 30px;
+    }
+
+    footer .lang {
+        margin-top: 8px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    h1{
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .contact .left-padding {
+        display: none;
+    }
+
+    .contact .reverse{
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact{
+        padding-top: 0;
+        position: relative;
+    }
+
+    .court{
+        padding: 0;
+    }
+
+    .court .position{
+        left: 27%;
+    }
+
+    .header-content-left .title{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header-content-left .title h1 {
+        padding-bottom: 9%;
+    }
+
+    #map{
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 666px) {
+
+    .settings{
+        position: relative;
+    }
+
+    .header-content-left .top-panel .top-menu{
+        display: none;
+    }
+
+    .picture .owl-carousel .owl-dots{
+        display: none;
+    }
+
+    .picture .lang{
+        display: none;
+    }
+
+    .header-content-left{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header-content-left .top-panel .logo{
+        position: absolute;
+        left: 8px;
+        top: 20px;
+    }
+
+    .header-content-left .top-panel .menu{
+        display: block;
+        position: absolute;
+        right: 6px;
+        top: 25px;
+    }
+
+    .header-content-left .top-panel .menu img{
+        width: 32px;
+        height: auto;
+    }
+
+    .header-content-left .title{
+        padding: 98px 0 0;
+        width: 70%;
+    }
+
+    .header-content-left .title h1{
+        letter-spacing: -0.1px;
+        line-height: 46px;
+        padding-bottom: 53px;
+    }
+
+    .header-content-left .completed{
+        padding: 0;
+    }
+
+    .header-content-left .title .more {
+        margin-bottom: 40px;
+    }
+
+    .header-content-left .completed .link-more{
+        padding-top: 39px;
+    }
+
+    .header-content-left .completed .link-more a{
+        display: none;
+    }
+
+    .header-content-left .completed .link-more .arrow{
+        display: block;
+        position: relative;
+        left:0;
+        bottom:0;
+    }
+
+    header .slider .owl-item img{
+        height: 480px;
+    }
+
+    .about-company .left-padding{
+        padding: 20px 14px 43px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about-company .left-padding h2 {
+        padding-top: 10px;
+        padding-bottom: 16px;
+    }
+
+    .about-company .left-padding p{
+        padding-left: 22px;
+    }
+
+    .about-company .right-padding{
+        padding-left: 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .about-company .right-padding ul{
+        display: block;
+        padding-right: 0;
+    }
+
+    .products .product .left img {
+        height: 280px;
+    }
+
+    .products .product .right-padding{
+        height: 280px;
+        padding-top: 40px;
+        padding-right: 32px;
+        text-align: center;
+    }
+
+    .products .product .right-padding h2 {
+        padding-bottom: 19px;
+    }
+
+    .products .product .right-padding p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .products .product .right-padding .more {
+        margin-top: 28px;
+    }
+
+    .products .product{
+        border-bottom: 1px solid #E9EEF2;
+        padding-bottom: 18px;
+    }
+
+    .projects .projects-header{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 18px;
+    }
+
+    .projects .projects-header .more{
+        display: none;
+    }
+
+    .projects .projects-header h2 {
+        float: none;
+    }
+
+    .projects .projects-header h2 span {
+        display: inline-block;
+    }
+
+    .projects .projects-header h2 .our {
+        display: none;
+    }
+
+    .projects .projects-content {
+        padding-top: 26px;
+        border-bottom: 1px solid #E9EEF2;
+        padding-bottom: 28px;
+    }
+
+    .projects .projects-content .hidden-xs{
+        display: none;
+    }
+
+    .projects .projects-content .item{
+        width: 100%;
+        height: 335px;
+        position: relative;
+    }
+
+    .projects .projects-content .item .slide {
+        height: 335px;
+    }
+
+    .projects .projects-content .item .options{
+        width: 70%;
+        height: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        left: 15%;
+        right: 15%;
+        padding-top: 131px;
+    }
+
+    .projects .projects-content .item .options .more {
+        bottom: 0;
+        right: 0;
+        margin-top: 92px;
+        padding-top: 2px;
+        position: relative;
+    }
+
+    .projects .projects-content .all{
+        display: block;
+        font-family: 'ProximaNovaBold';
+        position: relative;
+        text-align: center;
+        padding-top: 26px;
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .projects .projects-content .all:after{
+        content: '';
+        background: #9DAFBD;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        right: 0;
+        bottom: -3px;
+    }
+
+    .team .team-content{
+        text-align: center;
+        padding: 7px 0 0;
+    }
+
+    .team .team-content h2 {
+        padding-left: 0;
+        padding-bottom: 25px;
+    }
+
+    .blog .blog-content{
+        width: 100%;
+        text-align: center;
+        padding: 35px 0 46px 0;
+    }
+
+    .blog .blog-content h2{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .blog .blog-content .hidden-xs{
+        display: none;
+    }
+
+    .blog .blog-content .blog-item{
+        margin-right: 0;
+        margin-bottom: 27px;
+    }
+
+    .blog .blog-content .all {
+        left: auto;
+        right: auto;
+        bottom: 0;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        display: block;
+        width: 50px;
+    }
+
+    #map{
+        height: 292px;
+        margin-bottom: 0;
+    }
+
+    .gmnoprint{
+        display: none;
+    }
+
+    .court .position {
+        left: 25%;
+        top: 35px;
+        width: 245px;
+        background-repeat: no-repeat;
+        background-size: 243px 138px;
+        padding-top: 21px;
+    }
+
+    .court{
+        border-bottom: 1px solid #ebf0f3;
+    }
+
+    .contact{
+        padding-bottom: 47px;
+    }
+
+    .contact .reverse{
+        padding-top: 38px;
+        padding-left: 3px;
+    }
+
+    .contact .left-padding h2 {
+        padding-bottom: 18px;
+    }
+
+    .contact .left-padding h6 {
+        padding-top: 22px;
+    }
+
+    .contact .left-padding .link {
+        margin-top: 16px;
+        margin-left: -6px;
+    }
+
+    footer {
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+    footer .left-padding{
+        padding: 0 8px 0;
+    }
+
+    footer .footer-panel .logo{
+        padding-top: 8px;
+        margin-right: 39px;
+    }
+
+    footer .footer-panel .column{
+        padding-right: 74px;
+    }
+
+    footer .lang{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .projects .projects-content .item .slider2 .owl-nav {
+        left: -10px;
+        bottom: auto;
+        top: 137px;
+    }
+
+    .projects .projects-content .item .slider2 .owl-nav .owl-next{
+        margin-right: -20px;
+    }
+
+    .projects .projects-content .item .slider2 .owl-nav .owl-prev{
+        margin-right: 340px;
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .header-content-left .top-panel .menu-top-responsive .logo {
+        top: 20px;
+    }
+
+    .menu-top-responsive{
+        padding: 66px 0 0 51px;
+        border: none;
+    }
+
+    .menu-top-responsive .close {
+        top: 33px;
+    }
+
+    .menu-top-responsive ul{
+        padding-right: 55px;
+    }
+
+    .menu-top-responsive div p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .menu-top-responsive .contacts-top{
+        padding: 22px 0 0 20px;
+    }
+
+    .menu-top-responsive .mail {
+        margin-left: 27px;
+    }
+
+
+}
+
+@media (max-width: 421px) {
+
+    .header-content-left .title{
+       width: 80%;
+    }
+
+    .about-company .left-padding{
+        padding: 14px 0px 43px 0;
+    }
+
+    .about-company .left-padding h2{
+        line-height: 32px;
+        padding-bottom: 14px;
+        padding-top: 8px;
+    }
+
+    .about-company .left-padding p{
+        padding: 0 10px;
+    }
+
+    .about-company .right-padding{
+        padding-bottom: 5px;
+    }
+
+    .products .product .left img {
+        height: 301px;
+    }
+
+    .products .product .right-padding{
+        height: 301px;
+        padding: 38px 16px 0;
+    }
+
+    .products .product .right-padding h2 {
+        padding-bottom: 16px;
+    }
+
+    .products .product .right-padding .more {
+        margin-top: 32px;
+    }
+
+    .products .product{
+        border: none;
+    }
+
+    .projects .projects-header{
+        padding-top: 23px;
+    }
+
+    .projects .projects-header h2 span{
+        display: none;
+    }
+
+    .projects .projects-header h2 .our{
+        display: inline-block;
+    }
+
+    .projects .projects-content .item .slide {
+        height: 280px;
+    }
+
+    .projects .projects-content .item .options{
+        padding-top: 103px;
+    }
+
+    .projects .projects-content .item .options .more{
+        margin-top: 65px;
+    }
+
+    .projects .projects-content .item{
+        height: 280px;
+    }
+
+    .team .team-content{
+        padding-top: 20px;
+    }
+
+    .projects .projects-content .item img{
+        width: 110%;
+        margin-left: -5%;
+    }
+
+    .projects .projects-content .item .slider2 .owl-nav {
+        left: -6px;
+        top: 110px;
+    }
+
+    .projects .projects-content .item .slider2 .owl-nav .owl-prev {
+        margin-right: 270px;
+    }
+
+    .blog .blog-content {
+        width: 100%;
+        text-align: center;
+        padding: 35px 10px 46px;
+    }
+
+    .blog .blog-content .blog-item{
+        width: 340px;
+        padding: 11px 34px 0 29px;
+    }
+
+    .blog .blog-content .blog-item:first-of-type {
+        padding-right: 34px;
+    }
+
+    .court .position {
+        left: 18%;
+        top: 27px;
+        padding-top: 22px;
+        width: 240px;
+    }
+
+    .contact .reverse{
+        padding-left: 0;
+    }
+
+    .contact .left-padding h2 {
+        padding-bottom: 16px;
+    }
+
+    .contact .left-padding h6 {
+        padding-top: 31px;
+    }
+
+    .contact .left-padding .link {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    .contact {
+        padding-bottom: 32px;
+    }
+
+    footer {
+        padding-top: 9px;
+        padding-bottom: 24px;
+        width: max-content;
+    }
+
+    footer .footer-panel .hidden-xxs{
+        display: none;
+    }
+
+    footer .footer-panel .logo {
+        padding-top: 9px;
+        margin-right: 46px;
+    }
+
+    footer .footer-panel .column {
+        padding-right: 71px;
+    }
+
+    footer .left-padding {
+        padding: 0 0 0 8px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .projects .projects-content .item .slider2 .owl-nav .owl-prev {
+        margin-right: 220px;
+    }
+}
+
+@media (max-width: 359px) {
+
+    .blog .blog-content .blog-item{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 325px) {
+
+    .menu-top-responsive .mail {
+        margin-left: 18px;
+    }
+
+}
+
+
+
+
+
+
+/*# sourceMappingURL=responsive.css.map */
