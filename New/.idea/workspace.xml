@@ -32,43 +32,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="112" column="21" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="versolight.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/versolight.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="320" column="40" selection-start-line="320" selection-start-column="40" selection-end-line="320" selection-end-column="40" />
+            <state relative-caret-position="-877">
+              <caret line="28" column="111" selection-start-line="28" selection-start-column="111" selection-end-line="28" selection-end-column="111" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="1172" column="1" selection-start-line="1172" selection-start-column="1" selection-end-line="1172" selection-end-column="1" />
+            <state relative-caret-position="806">
+              <caret line="1133" column="7" selection-start-line="1133" selection-start-column="7" selection-end-line="1133" selection-end-column="7" />
+              <caret line="1140" column="7" selection-start-line="1140" selection-start-column="7" selection-end-line="1140" selection-end-column="7" />
+              <caret line="1144" column="7" selection-start-line="1144" selection-start-column="7" selection-end-line="1144" selection-end-column="7" />
+              <caret line="1149" column="7" selection-start-line="1149" selection-start-column="7" selection-end-line="1149" selection-end-column="7" />
+              <caret line="1154" column="7" selection-start-line="1154" selection-start-column="7" selection-end-line="1154" selection-end-column="7" />
+              <caret line="1158" column="7" selection-start-line="1158" selection-start-column="7" selection-end-line="1158" selection-end-column="7" />
+              <caret line="1162" column="7" selection-start-line="1162" selection-start-column="7" selection-end-line="1162" selection-end-column="7" />
+              <caret line="1168" column="7" selection-start-line="1168" selection-start-column="7" selection-end-line="1168" selection-end-column="7" />
+              <caret line="1172" column="7" selection-start-line="1172" selection-start-column="7" selection-end-line="1172" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="1116" column="1" selection-start-line="1116" selection-start-column="1" selection-end-line="1116" selection-end-column="1" />
+            <state relative-caret-position="569">
+              <caret line="1209" column="24" selection-start-line="1209" selection-start-column="24" selection-end-line="1209" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -94,6 +90,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1734">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -102,10 +110,10 @@
         <option value="$PROJECT_DIR$/css/font.css" />
         <option value="$PROJECT_DIR$/css/grid.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/versolight.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -222,15 +230,15 @@
       <workItem from="1534097592044" duration="32291000" />
       <workItem from="1534230674776" duration="63298000" />
       <workItem from="1534358731762" duration="7802000" />
-      <workItem from="1534405893158" duration="15230000" />
+      <workItem from="1534405893158" duration="28110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118621000" />
+    <option name="totallyTimeSpent" value="131501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20469083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -436,24 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="112" column="21" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="1116" column="1" selection-start-line="1116" selection-start-column="1" selection-end-line="1116" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -464,16 +454,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/versolight.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="320" column="40" selection-start-line="320" selection-start-column="40" selection-end-line="320" selection-end-column="40" />
+        <state relative-caret-position="-877">
+          <caret line="28" column="111" selection-start-line="28" selection-start-column="111" selection-end-line="28" selection-end-column="111" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="1172" column="1" selection-start-line="1172" selection-start-column="1" selection-end-line="1172" selection-end-column="1" />
+        <state relative-caret-position="806">
+          <caret line="1133" column="7" selection-start-line="1133" selection-start-column="7" selection-end-line="1133" selection-end-column="7" />
+          <caret line="1140" column="7" selection-start-line="1140" selection-start-column="7" selection-end-line="1140" selection-end-column="7" />
+          <caret line="1144" column="7" selection-start-line="1144" selection-start-column="7" selection-end-line="1144" selection-end-column="7" />
+          <caret line="1149" column="7" selection-start-line="1149" selection-start-column="7" selection-end-line="1149" selection-end-column="7" />
+          <caret line="1154" column="7" selection-start-line="1154" selection-start-column="7" selection-end-line="1154" selection-end-column="7" />
+          <caret line="1158" column="7" selection-start-line="1158" selection-start-column="7" selection-end-line="1158" selection-end-column="7" />
+          <caret line="1162" column="7" selection-start-line="1162" selection-start-column="7" selection-end-line="1162" selection-end-column="7" />
+          <caret line="1168" column="7" selection-start-line="1168" selection-start-column="7" selection-end-line="1168" selection-end-column="7" />
+          <caret line="1172" column="7" selection-start-line="1172" selection-start-column="7" selection-end-line="1172" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="1209" column="24" selection-start-line="1209" selection-start-column="24" selection-end-line="1209" selection-end-column="24" />
           <folding />
         </state>
       </provider>

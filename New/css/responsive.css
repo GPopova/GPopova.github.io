@@ -185,7 +185,110 @@
         width: 51.5%;
     }
 
+
+    /* PAGES */
+
+    /* Versolight */
+
+    .pages .container {
+        padding: 0 20px;
+    }
+
+    .pages header{
+        padding: 50px 0 0 0;
+    }
+
+    .pages .pages-content section .text-right {
+        padding: 30px 30px 0 30px;
+    }
+
+    .pages .pages-content section .text-left{
+        padding: 30px 30px 0 0;
+    }
+
+    .pages .carousel button{
+        top: 40%;
+    }
+
+    .pages .pages-content .about-us-content p {
+        width: 50%;
+    }
+
+    .pages .base-model-content .padding{
+        padding: 30px;
+    }
+
+    .pages .base-model-content p{
+        display: block;
+        text-align: center;
+        border-right: none;
+        padding: 0;
+        margin-bottom: 14px;
+    }
+
+    .pages .base-model-content ul:first-of-type{
+        padding-left: 15px;
+    }
+
+    .pages .base-model-content ul {
+        padding-right: 50px;
+    }
+
+    .pages .motive-content .text-left ul:first-of-type {
+        padding-right: 24px;
+    }
+
+    .pages .motive-content .text-left p {
+        padding-bottom: 16px;
+    }
+
+    .pages .shapes .text-left .small:not(:first-of-type) {
+        padding-right: 28px;
+    }
+
+    .pages .panels-content .right img{
+        width: 50%;
+        height: auto;
+    }
+
+    .pages .panels-content .right .text{
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .pages .pages-content .motive-content .text-left, .pages .pages-content .scope .text-left{
+        padding-top: 15px;
+    }
+
+    .pages .pages-content .contact .left-padding{
+        text-align: center;
+    }
+
+    .pages .pages-content .contact .adds, .pages-content .contact .schedule{
+        padding-right: 40px;
+        text-align: left;
+    }
+
+    .pages .pages-content .contact .link{
+        display: block;
+        float: none;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .pages footer .footer-panel .footer-menu {
+        padding-left: 30px;
+    }
+
+    .pages footer .footer-panel .footer-menu li {
+        padding-right: 18px;
+    }
+
+
+
 }
+
+
 
 @media (max-width: 1023px) {
 
@@ -214,6 +317,26 @@
         padding-top: 62px;
     }
 
+    /* PAGES */
+
+    /* Versolight */
+
+    .pages .panels-content .right img{
+        height: 200px;
+    }
+
+    .pages .motive-content .text-left ul{
+        padding-left: 16px;
+    }
+
+    .pages .base-model-content ul:first-of-type {
+        padding-left: 5px;
+    }
+
+    .pages .base-model-content ul {
+        padding-right: 42px;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -239,11 +362,11 @@
         right: 10px;
     }
 
-    .header-content-left .top-panel .top-menu li a{
+    .home .header-content-left .top-panel .top-menu li a{
         color: #FFFFFF;
     }
 
-    .header-content-left .top-panel .logo img{
+    .home .header-content-left .top-panel .logo img{
         content: url("../img/logo-768.png");
     }
 
@@ -501,6 +624,85 @@
     }
 
 
+    /* PAGES */
+
+    /* Versolight */
+
+    .pages .header-content-left {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        width: 48.5%;
+    }
+
+    .motive .motive-content{
+        position: relative;
+    }
+
+    .pages section ul {
+        display: block;
+        vertical-align: top;
+    }
+
+    .pages .pages-content .image-left, .pages .pages-content .image-right {
+        padding: 0;
+    }
+
+    .pages .header-content-left .top-panel .top-menu li {
+        padding-right: 15px;
+    }
+
+    .pages .header-content-left .top-panel{
+        margin-right: -68px;
+    }
+
+    .pages .pages-content .about-us-content p {
+        width: 70%;
+    }
+
+    .pages .pages-content section .text-right {
+        padding: 0px 0px 0 20px;
+    }
+
+    .pages .pages-content section .text-left {
+        padding: 0px 20px 0 0;
+    }
+
+    .pages h2{
+        padding-bottom: 8px;
+        line-height: 40px;
+    }
+
+    .pages .pages-content .motive-content .text-left, .pages .pages-content .scope .text-left {
+        padding-top: 0;
+    }
+
+    .pages .panels-content .right img {
+        height: 146px;
+    }
+
+    .pages .panels-content .right .text {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .pages .pages-content .contact .left-padding h6{
+        display: block;
+        margin: 30px 0;
+    }
+
+    .pages .pages-content .contact .adds, .pages-content .contact .schedule {
+        padding-right: 30px;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .pages .header-content-left .top-panel .top-menu{
+        padding-left: 30px;
+    }
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -550,6 +752,74 @@
     #map{
         margin-top: 0;
     }
+
+    /* PAGES */
+
+    /* Versolight */
+
+
+    .pages header {
+        padding: 30px 0 0 0;
+    }
+
+    .pages .header-content-left .top-panel {
+        margin-right: -116px;
+    }
+
+    .pages header .right{
+        padding-top: 60px;
+    }
+
+    .pages .carousel button {
+        top: 44%;
+    }
+
+    .pages .pages-content section .text-right{
+        padding: 30px 0 0;
+        text-align: center;
+    }
+
+    .pages .pages-content section .text-left{
+        padding: 0 0 30px;
+        text-align: center;
+    }
+
+    .pages .motive-content .text-left ul{
+        padding: 0;
+        text-align: left;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .pages .pages-content .motive-content .text-left{
+        text-align: left;
+    }
+
+    .pages .motive-content .text-left h2{
+        text-align: center;
+    }
+
+    .pages .motive-content .text-left p{
+        text-align: center;
+    }
+
+    .pages .motive-content .text-left ul:first-of-type {
+        padding-right: 60px;
+    }
+
+    .pages .panels-content .right .text{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .pages .panels-content .right img{
+        display: none;
+    }
+
+    .pages .contact .left-padding{
+        display: block;
+    }
+
 
 }
 
@@ -879,6 +1149,68 @@
         display: none;
     }
 
+    /* PAGES */
+
+    /* Versolight */
+
+
+    .pages .header-content-left .top-panel .logo{
+        top: -5px;
+    }
+
+    .pages header .right{
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .pages header .right .lang{
+        display: none;
+    }
+
+    .pages header .right .number{
+        padding: 0;
+    }
+
+    .pages .header-content-left .top-panel .menu{
+        top:0;
+    }
+
+    .pages .header-content-left{
+        width: 100%;
+    }
+
+    .pages .menu-top-responsive{
+        top: -30px;
+        border: none;
+        width: calc(100% + 40px);
+        left: -20px;
+    }
+
+    .pages .header-content-left .menu-top-responsive .logo{
+        top: 12px;
+    }
+
+
+    .pages .pages-content .contact .adds, .pages .pages-content .contact .schedule{
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .pages .pages-content .contact .adds{
+        padding-bottom: 20px;
+    }
+
+    .pages .motive-content .text-left ul{
+        padding-left: 16px;
+    }
+
+    .pages-content .panels-content .image {
+        padding-right: 0;
+    }
+
+
 
 }
 
@@ -1091,6 +1423,45 @@
     footer .left-padding {
         padding: 0 0 0 8px;
     }
+
+    /* PAGES */
+
+    /* Versolight */
+
+    .pages .container{
+        padding: 0 10px;
+    }
+
+    .pages .carousel button {
+        top: 36%;
+    }
+
+    .pages .menu-top-responsive{
+        left:-10px;
+        width: calc(100% + 20px);
+    }
+
+    .pages header .right .number{
+        padding-left: 15px;
+    }
+
+    .pages .pages-content .about-us-content p {
+        width: 80%;
+    }
+
+    .pages-content .customer-request .more{
+        margin: 20px auto;
+        display: block;
+    }
+
+    .pages footer{
+        width: 100%;
+    }
+
+    .pages footer .footer-panel .column {
+        padding-right: 22px;
+    }
+
 
 }
 
