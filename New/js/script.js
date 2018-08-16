@@ -1,6 +1,8 @@
 "use strict";
 
-// Slider OwlCarousel
+
+//PAGE HOME//
+/* Slider OwlCarousel*/
 
 $(document).ready(function(){
     $(".slider").owlCarousel({
@@ -149,3 +151,64 @@ $('.menu').on('click', function () {
        $('.menu-top-responsive').hide();
    });
 });
+
+
+// PAGES //
+
+/* Carousel Slider3 */
+
+var images = [
+    "img/install-img.png",
+    "img/color-img.png",
+    "img/lighter-img.png"
+];
+
+var num = 0;
+
+function next(){
+    var slider = document.getElementById("slider3");
+    num++;
+    if(num >= images.length){
+        num = 0;
+    }
+    slider.src = images[num];
+}
+
+function prew(){
+    var slider = document.getElementById("slider3");
+    num--;
+    if(num < 0){
+        num = images.length-1;
+    }
+    slider.src = images[num];
+}
+
+
+/* Carousel Slider4 */
+
+var images4 = [
+    "img/install-img.png",
+    "img/color-img.png",
+    "img/lighter-img.png"
+];
+
+var num4 = 0;
+
+function next4(){
+    var slider4 = document.getElementById("slider4");
+    num4++;
+    if(num4 >= images4.length){
+        num4 = 0;
+    }
+    slider4.src = images4[num4];
+}
+
+function prew4(){
+    var slider4 = document.getElementById("slider4");
+    num4--;
+    if(num4 < 0){
+        num4 = images4.length-1;
+    }
+    slider4.src = images4[num4];
+}
+

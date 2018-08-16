@@ -827,5 +827,366 @@ footer .footer-panel .column{
 }
 
 
+/* PAGES */
+
+h3{
+    font-family: 'ProximaNovaRegular';
+    font-size: 26px;
+    line-height: 32px;
+    color: #333333;
+    padding-bottom: 8px;
+}
+
+.pages h2{
+    padding-bottom: 20px;
+    letter-spacing: -0.1px;
+}
+
+.pages .container{
+    padding: 0 136px;
+}
+
+.pages .header-content{
+    padding-top: 62px;
+}
+
+.pages .header-content-left{
+    padding: 0;
+    margin: 0;
+}
+
+.header-content-left .top-panel .logo img{
+    margin-top: 3px;
+}
+
+.pages header .right{
+    text-align: right;
+    padding-top: 6px;
+}
+
+.pages header .right .number{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 48px;
+}
+
+.pages header .right .lang{
+    display: inline-block;
+    text-align: left;
+}
+
+
+.pages-content .row{
+    padding: 50px 0 43px;
+}
+
+.pages-content .about-us-content{
+    padding: 43px 0 58px;
+    text-align: center;
+}
+
+.pages-content .about-us-content p{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.install-content{
+    padding: 50px 0;
+}
+
+.image{
+    position: relative;
+}
+
+.image img, .image-left img, .image-right img{
+    width: 100%;
+}
+
+.image-left{
+    padding-right: 15px;
+}
+
+.image-right{
+    padding-left: 15px;
+}
+
+.carousel img{
+    /*width="569px" heigth="355px"*/
+    width: 100%;
+}
+
+.carousel{
+    position: relative;
+    width: 100%;
+}
+
+.carousel button{
+    background: none;
+    border: none;
+    position: absolute;
+    width: 77px;
+    padding: 0;
+}
+
+.carousel .prev{
+    left: -8px;
+    top: 148px;
+}
+
+.carousel .next{
+    right: -8px;
+    top: 148px;
+}
+
+.text-right{
+    padding: 68px 42px 0 83px;
+}
+
+.text-left{
+    padding: 68px 110px 0 14px;
+}
+
+.customer-request{
+    text-align: center;
+}
+
+.customer-request .light-gray-bg{
+    margin-top: 50px;
+}
+
+.customer-request .more{
+    margin: 23px 38px 7px 0;
+}
+
+.customer-request .light{
+    margin-left: -12px;
+}
+
+.light{
+    background: #ECF0F4;
+}
+
+.base-model .base-model-content{
+    padding-bottom: 50px;
+}
+
+.base-model-content .padding{
+    padding: 43px 0 46px 50px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.base-model-content p{
+    border-right: 2px solid #ECF0F4;
+    padding-bottom: 100px;
+    padding-right: 14px;
+    padding-top: 4px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.base-model-content ul{
+    padding-right: 61px;
+}
+
+.base-model-content ul:last-child{
+    padding-right: 0;
+}
+
+.base-model-content ul:first-of-type{
+    padding-left: 30px;
+}
+
+.motive .motive-content{
+    padding-bottom: 41px;
+}
+
+.motive-content .text-left{
+    padding: 34px 80px 0 0;
+}
+
+.motive-content .text-left h2{
+    padding-bottom: 10px;
+}
+
+.motive-content .text-left p{
+   padding-bottom: 26px;
+}
+
+.motive-content .text-left ul:first-of-type{
+    padding-left: 16px;
+    padding-right: 66px;
+}
+
+.indirect .text-left{
+    padding: 53px 80px 0 0;
+}
+
+.indirect .text-left h2{
+    padding-bottom: 16px;
+}
+
+.indirect .text-left .small{
+    padding-right: 45px;
+}
+
+.colors .text-right{
+    padding-top: 90px;
+}
+
+.shapes .text-left{
+    padding: 59px 0 0 0;
+}
+
+.shapes .text-left h2{
+    padding-bottom: 15px;
+}
+
+.shapes .text-left .small:not(:first-of-type){
+    padding-right: 124px;
+}
+
+.pages section ul{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.pages section ul li{
+    font-family: 'ProximaNovaRegular';
+    font-size: 14px;
+    line-height: 30px;
+    color: #333333;
+    position: relative;
+}
+
+.pages section ul li:before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FFD600;
+    padding-right: 0;
+    font-size: 15px;
+    margin-left: -17px;
+    position: absolute;
+    top: 12px;
+    left: 2px;
+}
+
+
+.small{
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+    font-family: 'ProximaNovaRegular';
+    padding-bottom: 15px;
+}
+
+.light-gray-bg{
+    background: #f6f7f8;
+}
+
+.panels-content .image{
+    padding-right: 15px;
+}
+
+.panels-content .right{
+    margin-left: -14px;
+}
+
+.panels-content .right img{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.panels-content .right .images{
+    margin-right: -14px;
+}
+
+.panels-content .right .text{
+    padding: 40px 8px 0 59px;
+}
+
+.panels-content .right .text h2{
+    padding-bottom: 5px;
+}
+
+.scope .text-left{
+    padding: 68px 68px 0 0;
+}
+
+.scope .text-left p{
+    padding-bottom: 11px;
+}
+
+.pages-content .contact .contact-content{
+    padding-top: 49px;
+    padding-bottom: 50px;
+}
+
+.pages-content .contact{
+    background: none;
+    box-shadow: none;
+    border:none;
+    padding: 0;
+}
+
+.pages-content .contact .left-padding{
+    padding: 0;
+}
+
+.pages-content .contact .adds, .pages-content .contact .schedule, .pages-content .contact h6, .pages-content .contact .mail, .pages-content .contact .link{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pages-content .contact .adds{
+    padding-right: 93px;
+    padding-left: 2px;
+}
+
+.pages-content .contact .schedule{
+    padding-right: 90px;
+}
+
+.pages-content .contact .left-padding h6{
+    padding: 5px 14px 0 0;
+}
+
+.pages-content .contact .left-padding .mail{
+    padding-left: 13px;
+    padding-right: 8px;
+    line-height: 26px;
+}
+
+.pages-content .contact .left-padding .mail:last-of-type{
+    border-left: 1px solid;
+}
+
+.pages-content .contact .link{
+    margin-top: 14px;
+    margin-right: -4px;
+    float: right;
+}
+
+
+.pages footer {
+    padding-top: 27px;
+    padding-bottom: 24px;
+    border-top:1px solid #cfcfcf;
+}
+
+.pages footer .left-padding{
+    padding: 0;
+}
+
+.pages footer .lang {
+    margin-top: 4px;
+    right: -2px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
