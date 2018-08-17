@@ -1193,4 +1193,347 @@ footer .footer-panel .column{
 }
 
 
+/* News */
+
+.news-page .blog{
+    border: none;
+}
+
+.news-page .blog .blog-content{
+    padding: 0;
+}
+
+.news-page .blog .blog-content .blog-item:first-of-type{
+    background: #f8f8f8;
+}
+
+.news-page .pages-content .carousel img{
+    height: 360px;
+}
+
+.news-page .news-content .news-about{
+    margin-right: -180px;
+    z-index: 3;
+    position: relative;
+    padding-top: 31px;
+    padding-bottom: 200px;
+}
+
+.news-page .news-content{
+    padding-top: 43px;
+    padding-bottom: 0;
+}
+
+.news-page .news-content .news-about h3{
+    color: #666666;
+}
+
+.news-page .news-content .news-about h6{
+    padding-bottom: 20px;
+}
+
+.news-page .news-content .follow{
+    padding-top: 133px;
+    position: relative;
+}
+
+.news-page .news-content .follow h6{
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: absolute;
+    left: -36px;
+    bottom: 42px;
+}
+
+.news-page .news-content .follow .link{
+    padding-left: 71px;
+}
+
+.news-page .news-content .follow .link li{
+    position: relative;
+    line-height: 34px;
+}
+
+.news-page .news-content .follow .link li:before{
+    display: none;
+}
+
+.news-page .news-content .follow .link li a{
+    color: #9DAFBD;
+    font-family: 'ProximaNovaBold';
+    border-bottom: 2px solid #9DAFBD;
+}
+
+.news-page .news-content .follow .link li a i{
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #666;
+    padding: 4px;
+    border-radius: 26px;
+    position: absolute;
+    left: -32px;
+    top: 8px;
+}
+
+
+.news-page .news-content .follow .link li .facebook i{
+    padding: 4px 7px;
+}
+
+.news-page .news-content .follow .link li a:hover{
+    color: #666;
+    border-color: #666666;
+}
+
+.news-page .news-content .follow .link li a:hover i{
+    background: #C32AA3;
+}
+
+.news-page .news-content .follow .link li .twitter:hover i{
+    background: #1DA1F2;
+}
+
+.news-page .news-content .follow .link li .facebook:hover i{
+    background: #3B5998;
+}
+
+.news-page .news-content .news-content-right{
+    padding-left: 5px;
+}
+
+
+.news-page .pages-content .carousel button{
+    z-index: 3;
+    font-family: 'ProximaNovaRegular';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #9DAFBD;
+    letter-spacing: 1px;
+    width: 100px;
+}
+
+.news-page .pages-content .carousel .prev{
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    left: -233px;
+    bottom: -54px;
+}
+
+.news-page .pages-content .carousel .next{
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: -79px;
+    right: -16px;
+}
+
+.news-page .pages-content .carousel button img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.news-page .news-content .news-content-right .news-text{
+    padding: 32px 188px 42px 0;
+}
+
+.news-page .news-content .news-content-right .news-text p{
+    padding-top: 28px;
+    line-height: 27px;
+}
+
+.news-page h3{
+    text-align: left;
+}
+
+.news-page .blog-content h3{
+    margin-top: -11px;
+    margin-bottom: 20px;
+}
+
+.news-page .pages-content .contact .contact-content {
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin-top: -5px;
+}
+
+
+/* Imprint */
+
+.imprint .imprint-content-padding{
+    padding: 70px 68px 98px 68px;
+}
+
+.imprint .imprint-content-header{
+    background: #f9f9f9;
+    padding: 40px 0 35px 50px;
+}
+
+.imprint .imprint-content-header div{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 85px;
+}
+
+.imprint .imprint-content-header div:last-of-type{
+    padding-right: 0;
+}
+
+.imprint p{
+    color: #333333;
+    line-height: 32px;
+}
+
+.imprint .imprint-content-text{
+    padding: 47px 45px 21px 50px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.17);
+    position: relative;
+}
+
+.imprint .imprint-content-text .left-column{
+    width: 38%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imprint .imprint-content-text .right-column{
+    width: 61%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 12px;
+}
+
+.imprint .imprint-content-text p{
+    line-height: 26px;
+}
+
+.imprint .imprint-content-text .left-column div{
+    padding-bottom: 30px;
+}
+
+.imprint .imprint-content-text .right-column p{
+    padding-bottom: 26px;
+}
+
+.imprint .imprint-content-text .initiative{
+    background: #ecf0f4;
+    padding: 17px 0 24px 14px;
+    margin-top: 94px;
+}
+
+.imprint .imprint-content-text .initiative img{
+    width: 96px;
+    height: 108px;
+    float: left;
+    margin-right: 15px;
+}
+
+.imprint .imprint-content-text .initiative p{
+    padding-top: 24px;
+}
+
+
+.imprint .imprint-content-text .initiative a{
+    font-size: 18px;
+}
+
+
+/* About Us */
+
+.about-us-page .about .about-us-inner{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 69px;
+}
+
+.about-us-page .about .about-us-inner .big{
+    font-size: 26px;
+    line-height: 46px;
+    padding: 19px 0 11px;
+}
+
+.about-us-page .about .about-us-inner .about-us-experience{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.17);
+    padding: 48px 0 52px;
+    text-align: left;
+    margin-top: 75px;
+}
+
+.about-us-page .about .about-us-inner .about-us-experience div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 33%;
+}
+
+.about-us-page .about .about-us-inner .about-us-experience p{
+    color: #9DAFBD;
+    text-align: center;
+}
+
+.about-us-page .our-clients{
+    background: #f9f9f9;
+    border-top: 1px solid #e9eef2;
+    border-bottom: 1px solid #e9eef2;
+}
+
+.about-us-page .our-clients-inner{
+    padding: 0;
+
+}
+
+.about-us-page .our-clients-inner .left{
+    padding-top: 180px;
+}
+
+.about-us-page .our-clients-inner .left h2{
+    padding-bottom: 27px;
+}
+
+.about-us-page .our-clients-inner .right{
+    border-left: 1px solid #e9eef2;
+    padding: 90px 0 69px 64px;
+    margin-left: 16px;
+    margin-right: -16px;
+}
+
+.about-us-page .our-clients-inner .item-clients-img{
+    position: relative;
+    padding-bottom: 11px;
+}
+
+.about-us-page .our-clients-inner .first{
+    width: 368px;
+    height: 158px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-page .our-clients-inner .second{
+    width: 254px;
+    height: 150px;
+    position: absolute;
+    top: -20px;
+    right: 59px;
+}
+
+.about-us-page .our-clients-inner .pos{
+    top: -10px
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
