@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Imprint</title>
+    <title>Contacts Form Accepted</title>
 
     <!-- PURE CSS style -->
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -20,7 +20,7 @@
 
 
 </head>
-<body class="pages imprint">
+<body class="pages contact-page">
 
 <header>
     <div class="settings">
@@ -88,68 +88,71 @@
 
 <main class="pages-content">
 
-    <section class="imprint-content">
+    <div class="contact-shadow">
+        <div class="contact-accepted">
+            <div class="top">
+                <img src="img/accepted.svg">
+                <h3>Application accepted</h3>
+            </div>
+            <div class="bottom">
+                <h3>We will get back to you as soon as possible.</h3>
+                <p>In the meantime, you can go to the main page</p>
+                <a href="index.html" class="more btn-default">Home page</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-header">
         <div class="container">
-            <div class="row imprint-content-padding">
-                <div class="col-lg-12">
-                    <div class="imprint-content-header">
-                        <div>
-                            <h6>Court of registration</h6>
-                            <p>Amtsgericht München</p>
-                        </div>
-                        <div>
-                            <h6>Registration number</h6>
-                            <p>175058</p>
-                        </div>
-                        <div>
-                            <h6>Managing Director</h6>
-                            <p>Volodymyr Glik</p>
-                        </div>
-                        <div>
-                            <h6>weee registration</h6>
-                            <p>DE4993303</p>
-                        </div>
+            <div class="row">
+                <h1>Contacts</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-inner">
+        <div class="container">
+            <div class="row contact-inner-content">
+                <div class="col-lg-6 left">
+                    <div id="map" class="courts-map"></div>
+                    <div class="position">
+                        <h6>Address</h6>
+                        <h3>G & G Lichtdekor GmbH<br/>
+                            Damaschkestraße 85<br/>
+                            D 81825 Munich
+                        </h3>
                     </div>
-                    <div class="imprint-content-text">
-                        <div class="left-column">
-                            <div>
-                                <p>VAT identification number according
-                                    to § 27 a Value Added Tax Act<br/>
-                                    DE261402540   </p>
-                            </div>
-                            <div>
-                                <h6>address</h6>
-                                <p>Damaschkestr 85<br/>
-                                    81825 Munich | Germany  </p>
-                            </div>
-                            <div class="cont">
-                                <h6>Phone</h6>
-                                <p>49 (0) 89 954575-650</p>
-                            </div>
-                            <div class="cont">
-                                <h6>fax</h6>
-                                <p> 49 (0) 89 954575649 </p>
-                            </div>
-                            <div class="cont">
-                                <h6>e-mail</h6>
-                                <p>vertrieb1@lichtdekor.de </p>
-                            </div>
-                        </div>
-                        <div class="right-column">
-                            <p>Platform of the European Commission online Dispute resolution:  https://ec.europa.eu/consumers/odr</p>
-                            <p>We are neither obliged nor willing to participate in a dispute settlement procedure before a
-                                consumer dispute resolution body.</p>
-                            <div class="initiative">
-                                <img src="img/initiative-icon.png">
-                                <p>Member of the Fairness in Commerce initiative.<br/>
-                                    Information about the initiative: <a href="#">fairness-im-handel.de</a></p>
-                            </div>
-                        </div>
+                    <div class="padding">
+                        <h6>Phone</h6>
+                        <p class="phone">49 (0) 89 954575-650</p>
+                    </div>
+                    <div>
+                        <h6>Fax</h6>
+                        <p class="phone">49 (0) 89 954575-649</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right">
+                        <h3>Do you have a project or question?</h3>
+                        <form action="" id="contactForm">
+                            <input type="text" placeholder="Name" name="firstname" id="firstname" class="form-control" required="required"/>
+                            <input type="text" placeholder="Subject" name="subject" id="subject" class="form-control"/>
+                            <input type="email" placeholder="E-mail" name="email" id="email" class="form-control" required="required"/>
+                            <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+                            <label class="cont">I have read the <a href="#">privacy policy</a> and accept it
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <input type="submit" name="submit" value="Submit" class="btn-default more" />
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
 
 </main>
 
@@ -199,6 +202,27 @@
         </div>
     </div>
 </footer>
+
+<div style="display:none">
+    <div id="map-wrap">
+        <div id="map"></div>
+    </div>
+</div>
+
+<script>
+    function initMap() {
+        var latlng = new google.maps.LatLng(48.123485, 11.658706);
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: latlng,
+            zoom: 17
+        });
+    }
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh1NE8kfXzx31UyPrwTCqwJdETUseulmI&callback=initMap">
+</script>
+
 
 <script src="js/jquery.min.js"></script>
 <script src="owl/owl.carousel.min.js"></script>

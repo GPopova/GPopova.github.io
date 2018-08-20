@@ -565,24 +565,17 @@ ul li a:hover, ul li.active a{
 
 .contact .left-padding .link li a{
     background: #666;
-    padding: 2px 4px;
-    border-radius: 26px;
+    padding: 3px 6px;
+    border-radius: 50%;
 }
 
-.contact .left-padding .link li a:hover{
+.contact .left-padding .link li .instagram:hover{
     background: #C32AA3;
 }
 
-.contact .left-padding .link li .twitter{
-    padding: 2px 4px;
-}
 
 .contact .left-padding .link li .twitter:hover{
     background: #1DA1F2;
-}
-
-.contact .left-padding .link li .facebook{
-    padding: 2px 7px;
 }
 
 .contact .left-padding .link li .facebook:hover{
@@ -592,6 +585,8 @@ ul li a:hover, ul li.active a{
 .contact .left-padding .link li a i{
     font-size: 12px;
     color: #FFFFFF;
+    width: 10px;
+    text-align: center;
 }
 
 .contact .reverse{
@@ -719,6 +714,9 @@ footer .lang{
     left: 0;
     right: 0;
     z-index: 99;
+}
+footer .select-items{
+    top: -68px;
 }
 /*hide the items when the select box is closed:*/
 .select-hide {
@@ -1533,6 +1531,528 @@ footer .footer-panel .column{
 .about-us-page .our-clients-inner .pos{
     top: -10px
 }
+
+
+
+/* Form Request */
+
+
+.form-request .form-request-padding{
+    padding: 43px 168px 0;
+    text-align: center;
+}
+
+.form-request .form-request-inner{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.17);
+    padding: 48px 0;
+}
+
+.form-request .form-request-inner form{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form-request .form-request-inner h2{
+    padding-bottom: 18px;
+}
+
+.form-request .form-request-inner h3{
+    color: #666666;
+    padding-bottom: 28px;
+}
+
+.form-request .form-request-inner input[type="text"],.form-request .form-request-inner input[type="tel"], .form-request .form-request-inner input[type="email"] {
+    /*width: 500px;*/
+    width: 100%;
+    height: 56px;
+    background: #ECF0F4;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #666666;
+}
+
+.form-request .form-request-inner input[type="text"]:focus,.form-request .form-request-inner input[type="tel"]:focus, .form-request .form-request-inner input[type="email"]:focus{
+    border: 1px solid #9DAFBD;
+    background: #FFFFFF;
+}
+
+.form-request .form-request-inner form input::placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.form-request .form-request-inner form input::-webkit-input-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.form-request .form-request-inner form input::-moz-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.form-request .form-request-inner form input:-ms-input-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.form-request .form-request-inner form input:-moz-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.form-request .form-request-inner form .cont{
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    padding: 18px 0 40px 32px;
+}
+
+.form-request .form-request-inner form .cont a{
+    color: #9dafbd;
+}
+
+.form-request .form-request-inner form .cont input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    top: 15px;
+    left: 101px;
+    z-index: 2;
+}
+
+.form-request .form-request-inner form .checkmark {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    top: 15px;
+    left: 101px;
+    width: 22px;
+    height: 22px;
+    content: url("../img/checkbox.png");
+}
+
+.form-request .form-request-inner input[type="checkbox"]:checked+.checkmark {
+    content: url("../img/checkbox-active.svg");
+    border: none;
+}
+
+/* Form Request Accepted */
+
+.form-request .request-shadow{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    overflow: scroll;
+}
+
+.form-request .request-shadow .request-accepted{
+    width: 832px;
+    height: 490px;
+    background: #FFFFFF;
+    margin: 238px auto;
+    text-align: center;
+    position: relative;
+}
+
+.form-request .request-shadow .request-accepted .top{
+    background: #ecf0f4;
+    padding: 50px 0;
+}
+
+.form-request .request-shadow .request-accepted .top img{
+    width: 100px;
+    height: auto;
+}
+
+.form-request .request-shadow .request-accepted h3{
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    line-height: 30px;
+    margin-top: -6px;
+    padding-bottom: 0px;
+}
+
+.form-request .request-shadow .request-accepted p{
+    color: #000000;
+    padding-bottom: 43px;
+}
+
+.form-request .request-shadow .request-accepted .bottom{
+    padding: 58px 0;
+}
+
+.form-request .request-shadow .request-accepted .bottom h3{
+    padding-bottom: 19px;
+}
+
+.form-request .request-shadow .request-accepted .more{
+    padding: 12px 23px;
+}
+
+
+/* Error Page */
+
+.error-page .error-text-content{
+    text-align: center;
+    padding: 69px 0 106px;
+}
+
+.error-page .error-text-content h1{
+    padding-bottom: 29px;
+}
+
+.error-page .error-text-content h3{
+    padding-bottom: 46px;
+}
+
+.error-page .error-text-content h3 a{
+    color: #9DAFBD;
+    font-size: 26px;
+}
+
+.error-page .error-text-content .more{
+    padding: 12px 23px;
+}
+
+.error-page .error-content-inner{
+    background: #ecf0f4;
+    padding: 2px 0;
+}
+
+.error-page .error-content-inner .left{
+    padding: 46px 134px 0 68px;
+}
+
+.error-page .error-content-inner .left h2{
+    color: #000000;
+    padding-bottom: 13px;
+}
+
+.error-page .error-content-inner .left p{
+    color: #333333;
+    padding-bottom: 28px;
+}
+
+.error-page .error-content-inner .left a{
+    font-family: 'ProximaNovaBold';
+    border-bottom: 2px solid;
+}
+
+.error-page .error-content-inner .right{
+    margin-left: -10px;
+}
+
+.error-page .error-content-inner .right img{
+    width: 102%;
+    margin-bottom: -6px;
+}
+
+
+/* Contacts Page */
+
+.contact-page .contact-header{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -8px;
+}
+
+.contact-page .contact-inner{
+    background: #fbfbfb;
+    margin-bottom: 51px;
+}
+
+.contact-page #map{
+    width: 566px;
+    height: 388px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.contact-page #map .gmnoprint{
+    display: none;
+}
+
+.contact-page .contact-inner-content{
+    padding-bottom: 48px;
+}
+
+.contact-page .contact-inner-content .left div{
+    display: inline-block;
+}
+
+.contact-page .contact-inner-content .left .padding{
+    padding: 0 55px 0 66px;
+}
+
+.contact-page .contact-inner-content .left .phone{
+    padding-top: 8px;
+}
+
+.contact-page .contact-inner-content .left h6{
+    color: #000000;
+}
+
+.contact-page .contact-inner-content .left p{
+    color: #000000;
+}
+
+.contact-page .contact-inner-content .left .position{
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.17);
+    width: 566px;
+    height: 180px;
+    text-align: center;
+    padding: 32px 146px;
+    position: absolute;
+    bottom: 82px;
+}
+
+.contact-page .contact-inner-content .left .position h6{
+    padding-left: 14px;
+    padding-bottom: 7px;
+}
+
+.contact-page .contact-inner-content .right{
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.17);
+    padding: 45px 50px 54px 50px;
+    margin-left: 16px;
+}
+
+.contact-page .contact-inner-content .right h3{
+    padding-bottom: 25px;
+}
+
+.contact-page form #firstname{
+    margin-right: 5px;
+}
+
+.contact-page form #subject{
+    width: 238px;
+}
+
+.contact-page form input[type="email"]{
+    width: 100%;
+    height: 56px;
+    background: #ECF0F4;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: #666666;
+    font-family: 'ProximaNovaRegular';
+}
+
+.contact-page form input[type="email"]:focus, .contact-page form input[type="text"]:focus{
+    border: 1px solid #9DAFBD;
+    background: #FFFFFF;
+}
+
+.contact-page form input[type="text"]{
+    display: inline-block;
+    width: 220px;
+    height: 56px;
+    background: #ECF0F4;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: #666666;
+    font-family: 'ProximaNovaRegular';
+}
+
+.contact-page form textarea{
+    width: 100%;
+    height: 180px;
+    background: #ECF0F4;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 14px;
+    padding-left: 20px;
+    padding-top: 19px;
+    color: #666666;
+    font-family: 'ProximaNovaRegular';
+}
+
+
+.contact-page form .cont{
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    padding: 11px 0 0 39px;
+}
+
+.contact-page form .cont a{
+    color: #9dafbd;
+}
+
+.contact-page form .cont input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    top: 15px;
+    left: 101px;
+    z-index: 2;
+}
+
+.contact-page form .checkmark {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    top: 8px;
+    left: 4px;
+    width: 22px;
+    height: 22px;
+    content: url("../img/checkbox.png");
+}
+
+.contact-page input[type="checkbox"]:checked+.checkmark {
+    content: url("../img/checkbox-active.svg");
+    border: none;
+}
+
+
+.contact-page form input::placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form input::-webkit-input-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form input::-moz-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form input:-ms-input-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form input:-moz-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form textarea::placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form textarea::-webkit-input-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form textarea::-moz-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form textarea:-ms-input-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form textarea:-moz-placeholder{
+    font-family: 'ProximaNovaRegular';
+    color: #9DAFBD;
+    font-size: 14px;
+}
+
+.contact-page form input[type="submit"]{
+    display: inline-block;
+    float: right;
+}
+
+
+/* Contacts Form Accepted */
+
+.contact-page .contact-shadow{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    overflow: scroll;
+}
+
+.contact-page .contact-shadow .contact-accepted{
+    width: 832px;
+    height: 490px;
+    background: #FFFFFF;
+    margin: 276px auto;
+    text-align: center;
+    position: relative;
+}
+
+.contact-page .contact-shadow .contact-accepted .top{
+    background: #ecf0f4;
+    padding: 50px 0;
+}
+
+.contact-page .contact-shadow .contact-accepted .top img{
+    width: 100px;
+    height: auto;
+}
+
+.contact-page .contact-shadow .contact-accepted h3{
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    line-height: 30px;
+    margin-top: -6px;
+    padding-bottom: 0px;
+}
+
+.contact-page .contact-shadow .contact-accepted p{
+    color: #000000;
+    padding-bottom: 43px;
+}
+
+.contact-page .contact-shadow .contact-accepted .bottom{
+    padding: 58px 0;
+}
+
+.contact-page .contact-shadow .contact-accepted .bottom h3{
+    padding-bottom: 19px;
+}
+
+.contact-page .contact-shadow .contact-accepted .more{
+    padding: 12px 23px;
+}
+
+
+
+
 
 
 

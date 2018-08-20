@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Imprint</title>
+    <title>Form Request Accepted</title>
 
     <!-- PURE CSS style -->
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -20,7 +20,7 @@
 
 
 </head>
-<body class="pages imprint">
+<body class="pages form-request">
 
 <header>
     <div class="settings">
@@ -88,68 +88,65 @@
 
 <main class="pages-content">
 
-    <section class="imprint-content">
+    <div class="request-shadow">
+        <div class="request-accepted">
+            <div class="top">
+                <img src="img/accepted.svg">
+                <h3>Request accepted</h3>
+            </div>
+            <div class="bottom">
+                <h3>The Manager will contact you as soon as possible.</h3>
+                <p>In the meantime, you can go to the main page</p>
+                <a href="index.html" class="more btn-default">Home page</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="form-request-content">
         <div class="container">
-            <div class="row imprint-content-padding">
-                <div class="col-lg-12">
-                    <div class="imprint-content-header">
-                        <div>
-                            <h6>Court of registration</h6>
-                            <p>Amtsgericht München</p>
-                        </div>
-                        <div>
-                            <h6>Registration number</h6>
-                            <p>175058</p>
-                        </div>
-                        <div>
-                            <h6>Managing Director</h6>
-                            <p>Volodymyr Glik</p>
-                        </div>
-                        <div>
-                            <h6>weee registration</h6>
-                            <p>DE4993303</p>
-                        </div>
-                    </div>
-                    <div class="imprint-content-text">
-                        <div class="left-column">
-                            <div>
-                                <p>VAT identification number according
-                                    to § 27 a Value Added Tax Act<br/>
-                                    DE261402540   </p>
-                            </div>
-                            <div>
-                                <h6>address</h6>
-                                <p>Damaschkestr 85<br/>
-                                    81825 Munich | Germany  </p>
-                            </div>
-                            <div class="cont">
-                                <h6>Phone</h6>
-                                <p>49 (0) 89 954575-650</p>
-                            </div>
-                            <div class="cont">
-                                <h6>fax</h6>
-                                <p> 49 (0) 89 954575649 </p>
-                            </div>
-                            <div class="cont">
-                                <h6>e-mail</h6>
-                                <p>vertrieb1@lichtdekor.de </p>
-                            </div>
-                        </div>
-                        <div class="right-column">
-                            <p>Platform of the European Commission online Dispute resolution:  https://ec.europa.eu/consumers/odr</p>
-                            <p>We are neither obliged nor willing to participate in a dispute settlement procedure before a
-                                consumer dispute resolution body.</p>
-                            <div class="initiative">
-                                <img src="img/initiative-icon.png">
-                                <p>Member of the Fairness in Commerce initiative.<br/>
-                                    Information about the initiative: <a href="#">fairness-im-handel.de</a></p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row form-request-padding">
+                <div class="col-lg-12 form-request-inner">
+                    <h2 class="form-name">Reques form Star Lighting Panels</h2>
+                    <h3>Manager will contact you</h3>
+                    <form action="" id="contactForm">
+                        <input type="text" placeholder="Name*" name="firstname" id="firstname" class="form-control" required="required"/>
+                        <input type="tel" placeholder="Phone*" name="phone" id="phone" class="form-control"/>
+                        <input type="email" placeholder="E-mail" name="email" id="email" class="form-control" required="required"/>
+                        <label class="cont">I have read the <a href="#">privacy policy</a> and accept it
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <input type="submit" name="submit" value="Submit" class="btn-default more" />
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="contact">
+        <div class="container">
+            <div class="contact-content row">
+                <div class="col-lg-12 col-md-12 col-sm-12 left-padding">
+                    <div class="adds">
+                        <p>Damaschkestraße 85</p>
+                        <p>81825, Munich</p>
+                    </div>
+                    <div class="schedule">
+                        <p>Our exhibition</p>
+                        <p>Mon-Fri 09: 00-17: 00</p>
+                    </div>
+                    <h6>contact us</h6>
+                    <p class="mail">versolux@gmail.com</p>
+                    <p class="mail">+49 (0) 89 954575-650</p>
+                    <ul class="link">
+                        <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </main>
 
