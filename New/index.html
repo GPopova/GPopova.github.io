@@ -78,8 +78,7 @@
                         <p>Hotel Zur Weinsteige</p>
                         <p>Stuttgart</p>
                         <div class="link-more">
-                            <a href="#" class="arrow"><img src="img/arrow-down.svg"></a>
-                            <a href="#">Discover More</a>
+                            <a href="#scroll-down">Discover More</a>
                         </div>
 
                     </div>
@@ -110,7 +109,7 @@
 
 </header>
 
-<section class="about-company">
+<section class="about-company" id="scroll-down">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-6 col-md-6-left left-padding col-sm-12">
@@ -184,19 +183,19 @@
                         </div>
                     </div>
                     <div class="item hidden-xs">
-                        <img src="img/project2.png">
+                        <a href="#"><img src="img/project2.png"></a>
                     </div>
                     <div class="item hidden-xs">
-                        <img src="img/project3.png">
+                        <a href="#"><img src="img/project3.png"></a>
                     </div>
                     <div class="item hidden-xs">
-                        <img src="img/project4.png">
+                        <a href="#"><img src="img/project4.png"></a>
                     </div>
                     <div class="item hidden-md">
-                        <img src="img/project5.png">
+                        <a href="#"><img src="img/project5.png"></a>
                     </div>
                     <div class="item hidden-md">
-                        <img src="img/project6.png">
+                        <a href="#"><img src="img/project6.png"></a>
                     </div>
                 </div>
                 <a class="all" href="#">View all</a>
@@ -222,7 +221,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 blog-content left-padding">
                 <h2>Latest of blog</h2>
-                <div class="blog-item">
+                <div class="blog-item gray-bg">
                     <h6 class="time">11 hours ago</h6>
                     <p>Google makes it easier to run high-performance workloads on its cloud platform</p>
                     <a href="#">Read more</a>
@@ -338,14 +337,15 @@
 
 <script>
     function initMap() {
-        var latlng = new google.maps.LatLng(48.123485, 11.658706);
+        var latlng = new google.maps.LatLng(48.124082, 11.657947);
         map = new google.maps.Map(document.getElementById('map'), {
             center: latlng,
             zoom: 17
         });
         var marker = new google.maps.Marker({
             position: latlng,
-            map: map
+            map: map,
+            icon: "img/marker.png",
         });
     }
 

@@ -63,7 +63,7 @@ $(document).ready(function(){
 
 
 
-/* Select */
+/* Select Lang */
 
 
 var x, i, j, selElmnt, a, b, c;
@@ -139,7 +139,20 @@ function closeAllSelect(elmnt) {
  then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
+/* Scroll */
 
+$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+        $target = $(target);
+
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+    }, 600, 'swing', function () {
+        window.location.hash = target;
+    });
+});
 
 
 /* Menu Responsive */
@@ -214,7 +227,7 @@ function prew4(){
 
 
 
-/* Projects Page */
+/* Projects Page Img Zoom */
 
 $(document).ready(function() {
 
@@ -232,5 +245,4 @@ $(document).ready(function() {
     });
 
 });
-
 

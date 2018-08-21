@@ -191,14 +191,12 @@ ul li a:hover, ul li.active a{
     line-height: 16px;
 }
 
-.header-content-left .completed .arrow{
+.header-content-left .completed .link-more a:before{
+    content: url("../img/arrow-down.svg");
+    width: 14px;
     position: absolute;
     left: 0;
     bottom: 3px;
-}
-
-.header-content-left .completed .arrow img{
-    width: 14px;
 }
 
 .picture{
@@ -361,14 +359,15 @@ ul li a:hover, ul li.active a{
     width: 480px;
     height: 335px;
     display: inline-block;
-    margin-right: -4px;
+    margin-right: -5px;
     margin-bottom: 1px;
     vertical-align: top;
     position: relative;
+    border: 1px solid #f8f8f8;
 }
 
 .projects .projects-content .item img{
-    width: 100%;
+    width: 101%;
     height: 335px;
 }
 
@@ -481,6 +480,10 @@ ul li a:hover, ul li.active a{
     padding: 11px 36px 10px 30px;
     margin-bottom: 34px;
     background: #FFFFFF;
+}
+
+.blog .blog-content .gray-bg{
+    background: #f8f8f8;
 }
 
 .blog .blog-content .blog-item:hover{
@@ -598,6 +601,7 @@ ul li a:hover, ul li.active a{
 }
 
 .court .position{
+    display: none;
     position: absolute;
     background: url("../img/position-bg.png");
     background-size: 100%;
@@ -1316,7 +1320,7 @@ footer .footer-panel .column{
     background: transparent;
     position: absolute;
     right: -38px;
-    bottom: 72px;
+    bottom: 64px;
 }
 
 .news-page .pages-content .next{

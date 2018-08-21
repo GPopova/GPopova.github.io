@@ -149,6 +149,10 @@
         bottom: 43px;
     }
 
+    .blog .blog-content .gray-bg{
+        background: #FFFFFF;
+    }
+
     .court{
         margin-left: -14px;
     }
