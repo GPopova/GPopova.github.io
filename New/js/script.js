@@ -212,50 +212,12 @@ function prew4(){
     slider4.src = images4[num4];
 }
 
-/* Carousel Slider5 */
-
-var image = [
-    "img/carousel-bg.png",
-    "img/color-img.png",
-    "img/lighter-img.png"
-];
-
-var n = 0;
-
-function pre(){
-    var slide = document.getElementById("slider5");
-    n--;
-    if(n < 0){
-        n = image.length-1;
-    }
-    slide.src = image[n];
-}
-
-
-/* Carousel Slider6 */
-
-var img = [
-    "img/carousel-bg.png",
-    "img/color-img.png",
-    "img/lighter-img.png"
-];
-
-var nu = 0;
-
-function prev(){
-    var slid = document.getElementById("slider6");
-    nu--;
-    if(nu < 0){
-        nu = img.length-1;
-    }
-    slid.src = img[nu];
-}
 
 
 /* Projects Page */
 
 $(document).ready(function() {
-    
+
     $(".image").click(function(){
         var img = $('.zoom', this);
         var src = img.attr('src');

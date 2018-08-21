@@ -284,7 +284,75 @@
         padding-right: 18px;
     }
 
+    /* Project */
 
+    .projects-page .popup_img{
+        margin-top: 30%;
+    }
+
+    /* News */
+
+    .news-page .blog .blog-content .all{
+        bottom: 0;
+    }
+
+    /* Imprint */
+
+    .imprint .imprint-content-header div {
+        padding-right: 30px;
+    }
+
+    /* About Us */
+
+    .about-us-page .our-clients-inner .right{
+        padding-left: 16px;
+    }
+
+    .about-us-page .our-clients-inner .second{
+        right: 0;
+    }
+
+    /* Contacts */
+
+    .contact-page #map{
+        width: 100%;
+    }
+
+    .contact-page .contact-inner-content .left .position{
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .contact-page .contact-inner-content .right{
+        padding: 30px 20px;
+    }
+
+    .contact-page form #firstname{
+        width: 45%;
+    }
+
+    .contact-page form #subject{
+        width: 53%;
+        margin-right: -5px;
+    }
+
+    .contact-page .contact-inner-content .left .padding{
+        padding-left: 30px;
+    }
+
+    /* Form Request */
+
+    .form-request .form-request-inner input[type="checkbox"]:checked+.checkmark{
+        left: 42px;
+        top: 13px;
+    }
+
+    /* 404 */
+
+    .error-page .error-content-inner .left {
+        padding: 30px 50px 0;
+    }
 
 }
 
@@ -335,6 +403,23 @@
 
     .pages .base-model-content ul {
         padding-right: 42px;
+    }
+
+    /* Project */
+
+    .projects-page .popup_img{
+        margin-top: 41%;
+    }
+
+    /* About Us */
+
+    .about-us-page .our-clients-inner .first{
+        width: 332px;
+    }
+
+    .about-us-page .our-clients-inner .second{
+        width: 232px;
+        right: 20px;
     }
 
 }
@@ -701,7 +786,146 @@
         padding-left: 30px;
     }
 
+    /* Projects */
 
+    .projects-page table tr{
+        height: 180px;
+    }
+
+    /* News */
+
+    .news-page .news-content .follow .link {
+        padding-left: 52px;
+    }
+
+    /* Imprint */
+
+    .imprint .imprint-content-header div{
+        width: 49%;
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .imprint .imprint-content-header{
+        padding-bottom: 0;
+    }
+
+    .imprint .imprint-content-text{
+        padding-right: 20px;
+    }
+
+    .imprint .imprint-content-text .right-column{
+        padding-left: 0;
+    }
+
+    .imprint .imprint-content-text .initiative{
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    /* About Us */
+
+    .about-us-page .about .about-us-inner .about-us-experience div{
+        width: 32%;
+    }
+
+    .about-us-page .our-clients-inner .first {
+        width: 250px;
+        height: auto;
+    }
+
+    .about-us-page .our-clients-inner .second {
+        width: 180px;
+        height: auto;
+    }
+
+    .about-us-page .our-clients-inner .left {
+        padding-top: 70px;
+    }
+
+    /* Contacts */
+
+    .contact-page .contact-inner-content .left .position{
+        bottom: 82px;
+    }
+
+    .contact-page .contact-inner-content .left .padding{
+        padding: 0 10px 0 0;
+    }
+
+    .contact-page form input[type="submit"] {
+        float: none;
+        margin-top: 20px;
+    }
+
+    /* Contacts Accepted */
+
+    .contact-page .contact-shadow .contact-accepted{
+        width: 95%;
+        height: auto;
+    }
+
+    /* Form Request */
+
+    .form-request .form-request-padding{
+        padding: 43px 90px 0;
+    }
+
+    .form-request .form-request-inner form {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 450px;
+    }
+
+    .form-request .form-request-inner h2{
+        padding: 0 20px 18px 20px;
+    }
+
+    .form-request .form-request-inner{
+        padding: 30px 0;
+    }
+
+    .form-request .form-request-inner input[type="checkbox"]:checked+.checkmark{
+        left: 74px;
+    }
+
+    /* Request Accepted */
+
+    .form-request .request-shadow .request-accepted{
+        width: 95%;
+        height: auto;
+    }
+
+    /* 404 */
+
+    .error-page .error-content-inner .left{
+        padding: 20px 30px;
+    }
+
+    .error-page .error-content-inner .left p{
+        padding-bottom: 4px;
+    }
+
+    .error-page .error-content-inner .right img{
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 790px) {
+
+    .products-page .updates-form .form-updates-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .products-page .updates-form .form-updates-content input{
+        width: 500px;
+    }
+
+    .contact-page form #subject {
+        width: 52%;
+    }
 
 }
 
@@ -819,6 +1043,142 @@
     .pages .contact .left-padding{
         display: block;
     }
+
+
+    /* Products */
+
+    .products-page .products-content .first{
+        padding-bottom: 70px;
+    }
+
+    .products-page .updates-form .form-updates-content input {
+        width: 425px;
+    }
+
+    .products-page .products-content .left {
+        padding-right: 0;
+    }
+
+    .products-page .products-content .right {
+        padding-left: 0;
+    }
+
+    /* Projects */
+
+    .projects-page table tr {
+        height: 160px;
+    }
+
+    /* News */
+
+    .news-page .news-content .news-about{
+        margin-right: 0;
+        padding-bottom: 0;
+        width: 80%;
+    }
+
+    .news-page .news-content .follow{
+        padding: 30px 0 0;
+    }
+
+    .news-page .news-content .news-content-right{
+        padding-top: 48px;
+        padding-left: 0;
+    }
+
+    .news-page .news-content .follow .link {
+        padding-left: 70px;
+    }
+
+    /* Imprint */
+
+    .imprint .imprint-content-text {
+        padding-right: 30px;
+    }
+
+    .imprint .imprint-content-text .left-column{
+        width: 100%;
+    }
+
+    .imprint .imprint-content-text .right-column{
+        width: 100%;
+    }
+
+    .imprint .imprint-content-text .initiative{
+        padding-right: 14px;
+        margin-top: 20px;
+    }
+
+    /* About Us */
+
+    .about-us-page .our-clients-inner .left{
+        text-align: center;
+    }
+
+    .about-us-page .our-clients-inner .right{
+        margin: 0;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        border: none;
+    }
+
+    .about-us-page .our-clients-inner .second{
+        position: relative;
+    }
+
+    /* Contacts */
+
+    .contact-page .contact-inner-content .left{
+        text-align: center;
+    }
+
+    .contact-page .contact-inner-content .left .padding{
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .contact-page .contact-inner-content .left .position {
+        bottom: 112px;
+        left: 0;
+    }
+
+    .contact-page .contact-inner-content .left .position h3{
+        font-size: 24px;
+    }
+
+    .contact-page form input[type="submit"]{
+        float: right;
+        margin: 0;
+    }
+
+    .contact-page .contact-inner-content .right{
+        margin: 0;
+    }
+
+    /* Form request */
+
+    .form-request .form-request-inner input[type="checkbox"]:checked+.checkmark {
+        left: 60px;
+    }
+
+    .form-request .form-request-padding{
+        padding: 43px 60px 0;
+    }
+
+   /* 404 */
+
+    .error-page .error-content-inner .right{
+        margin-left: 0;
+        padding: 0 30px;
+    }
+
+    .error-page .error-content-inner .right img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 
 
 }
@@ -1211,6 +1571,94 @@
     }
 
 
+    /* Products */
+
+    .products-page .updates-form .form-updates-content input{
+        width: 100%;
+    }
+
+    .products-page .form-updates-content .more{
+        margin-top: 22px;
+        margin-bottom: -10px;
+    }
+
+    /* Projects */
+
+    .projects-page table tr {
+        height: 120px;
+    }
+
+    .projects-page .our-projects .projects-inner h1 {
+        padding-bottom: 55px;
+    }
+
+    .projects-page .our-projects .projects-inner {
+        padding-top: 48px;
+        padding-bottom: 60px;
+    }
+
+    .products-page .updates-form .updates-form-padding {
+        padding: 60px 0;
+    }
+
+    /* News */
+
+    .news-page .news-content .news-content-right .news-text{
+        padding-right: 80px;
+    }
+
+    /* Imprint */
+
+    .imprint .imprint-content-padding{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .imprint .imprint-content-header{
+        padding-left: 20px;
+    }
+
+    .imprint .imprint-content-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* About Us */
+
+    .about-us-page .about .about-us-inner{
+        padding-bottom: 60px;
+    }
+
+    .about-us-page .about .about-us-inner .about-us-experience div {
+        width: 100%;
+        padding-bottom: 16px;
+    }
+
+    .about-us-page .about .about-us-inner .about-us-experience{
+        padding: 30px 0 16px;
+        margin-top: 34px;
+    }
+
+    /* Contacts */
+
+    .contact-page .contact-inner-content .right{
+        padding-bottom: 80px;
+    }
+
+    .contact-page form input[type="submit"]{
+        margin-top: 10px;
+    }
+
+    /* Form Request */
+
+    .form-request .form-request-padding {
+        padding: 43px 30px 0;
+    }
+
+    .form-request .form-request-inner input[type="checkbox"]:checked+.checkmark {
+        left: 40px;
+    }
+
 
 }
 
@@ -1228,6 +1676,80 @@
 
     .projects .projects-content .item .slider2 .owl-nav .owl-prev{
         margin-right: 340px;
+    }
+
+    /* Project */
+
+    .projects-page .popup_img{
+        margin-top: 48%;
+        max-width: 92%;
+    }
+
+    /* Imprint */
+
+    .imprint .imprint-content-padding{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* About Us */
+
+    .about-us-page .our-clients-inner .first{
+        width: 200px;
+    }
+
+    .about-us-page .our-clients-inner .second{
+        width: 140px;
+    }
+
+    /* Contacts Accepted */
+
+    .contact-page .contact-shadow .contact-accepted .top{
+        padding: 0 0 38px;
+    }
+
+    .contact-page .contact-shadow .contact-accepted .bottom{
+        padding: 38px 0;
+    }
+
+    /* Form Request */
+
+    .form-request .form-request-inner form{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .form-request .form-request-inner input[type="checkbox"]:checked+.checkmark {
+        left: 30px;
+    }
+
+    .form-request .form-request-padding {
+        padding: 43px 0px 0;
+    }
+
+    /* Request Accepted */
+
+    .form-request .request-shadow .request-accepted .top{
+        padding: 0 0 38px;
+    }
+
+    .form-request .request-shadow .request-accepted .bottom{
+        padding: 38px 0;
+    }
+
+    /* 404 */
+
+    .error-page .error-content-inner .left{
+        padding: 20px 15px;
+    }
+
+    .error-page .error-content-inner .right {
+        padding: 0 15px;
+    }
+
+    .error-page .error-text-content {
+        text-align: center;
+        padding: 69px 0;
     }
 
 }
@@ -1462,6 +1984,39 @@
         padding-right: 22px;
     }
 
+    /* Products */
+
+    .products-page .updates-form .form-updates-content{
+        padding: 30px 15px;
+        margin-top: 40px;
+    }
+
+    /* Projects */
+
+    .projects-page table tr {
+        height: 90px;
+    }
+
+    .projects-page .popup_img {
+        margin-top: 65%;
+        max-width: 80%;
+    }
+
+    /* News */
+
+    .news-page .news-content .news-about{
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    .news-page .news-content .news-content-right .news-text {
+        padding-right: 40px;
+    }
+
+    .news-page .news-content .follow{
+        padding-top: 15px;
+    }
+
 
 }
 
@@ -1469,12 +2024,50 @@
     .projects .projects-content .item .slider2 .owl-nav .owl-prev {
         margin-right: 220px;
     }
+
+    /* Contacts */
+
+    .contact-page .contact-inner-content .left .position {
+        bottom: 160px;
+    }
+
+    .contact-page .contact-inner-content .left .padding{
+        padding-right: 0;
+    }
+
+    .contact-page .contact-inner-content .right{
+        margin-top: 30px;
+    }
+
+    .contact-page form #firstname, .contact-page form #subject{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* Form Request */
+
+    .form-request .form-request-inner input[type="checkbox"]:checked+.checkmark {
+        left: 12px;
+    }
+
+
+
 }
 
 @media (max-width: 359px) {
 
     .blog .blog-content .blog-item{
         width: 100%;
+    }
+
+    /* About Us */
+
+    .about-us-page .our-clients-inner .first {
+        width: 172px;
+    }
+
+    .about-us-page .our-clients-inner .second {
+        width: 120px;
     }
 
 }
