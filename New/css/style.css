@@ -2241,8 +2241,18 @@ footer .footer-panel .column{
       max-width:100%;
   }
 
+#content{
+    text-align: center;
+    padding: 28px 59px 10px 79px;
+}
 
-
+#content p{
+    color: #666666;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'ProximaNovaRegular';
+    padding-bottom: 10px;
+}
 
 
 

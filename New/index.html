@@ -336,17 +336,32 @@
 </div>
 
 <script>
+
     function initMap() {
-        var latlng = new google.maps.LatLng(48.124082, 11.657947);
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: latlng,
-            zoom: 17
+        var uluru = {lat: 48.124082, lng: 11.657947};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 17,
+            center: uluru
         });
+
+        var contentString = '<div id="content">'+
+                '<div id="bodyContent">'+
+                '<p>Damaschkestraße 85</p>'+
+                '<p>81825, Munich</p>'+
+                '</div>'+
+                '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
         var marker = new google.maps.Marker({
-            position: latlng,
+            position: uluru,
             map: map,
-            icon: "img/marker.png",
+            title: 'Uluru (Ayers Rock)'
         });
+
+        infowindow.open(map, marker);
     }
 
 </script>
