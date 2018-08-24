@@ -243,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stroyhit" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -274,12 +274,12 @@
       <workItem from="1534865874962" duration="214000" />
       <workItem from="1534869373006" duration="2197000" />
       <workItem from="1534871895448" duration="52000" />
-      <workItem from="1535017597729" duration="4274000" />
+      <workItem from="1535017597729" duration="4475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219107000" />
+    <option name="totallyTimeSpent" value="219308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="1" width="1932" height="1045" extended-state="1" />
