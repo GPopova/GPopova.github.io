@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="11213" column="17" selection-start-line="11213" selection-start-column="4" selection-end-line="11213" selection-end-column="17" />
+            <state relative-caret-position="429">
+              <caret line="11222" column="26" selection-start-line="11222" selection-start-column="26" selection-end-line="11222" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
+            <state relative-caret-position="22219">
               <caret line="1307" column="34" selection-start-line="1288" selection-start-column="24" selection-end-line="1307" selection-end-column="34" />
               <folding />
             </state>
@@ -45,7 +45,7 @@
       <file leaf-file-name="review.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
+            <state relative-caret-position="12869">
               <caret line="757" column="92" selection-start-line="757" selection-start-column="92" selection-end-line="757" selection-end-column="92" />
               <folding />
             </state>
@@ -55,7 +55,7 @@
       <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="11169">
               <caret line="657" column="29" selection-start-line="657" selection-start-column="29" selection-end-line="657" selection-end-column="29" />
               <folding />
             </state>
@@ -65,14 +65,14 @@
       <file leaf-file-name="compare.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compare.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="8330">
               <caret line="490" column="40" selection-start-line="490" selection-start-column="40" selection-end-line="490" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -95,7 +95,7 @@
       <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="9078">
               <caret line="534" column="59" selection-start-line="534" selection-start-column="59" selection-end-line="534" selection-end-column="59" />
               <folding />
             </state>
@@ -105,7 +105,7 @@
       <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
+            <state relative-caret-position="11254">
               <caret line="662" column="37" selection-start-line="662" selection-start-column="37" selection-end-line="662" selection-end-column="37" />
               <folding />
             </state>
@@ -115,7 +115,7 @@
       <file leaf-file-name="order-callback.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order-callback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="9299">
               <caret line="547" column="41" selection-start-line="547" selection-start-column="41" selection-end-line="547" selection-end-column="41" />
               <folding />
             </state>
@@ -137,9 +137,9 @@
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/order-callback.html" />
         <option value="$PROJECT_DIR$/review.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/category.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -181,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,6 +229,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -254,6 +254,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -277,17 +283,18 @@
       <workItem from="1535091406169" duration="193000" />
       <workItem from="1535356385846" duration="10841000" />
       <workItem from="1535368254573" duration="15628000" />
+      <workItem from="1535391123996" duration="197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26662000" />
+    <option name="totallyTimeSpent" value="26859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="1" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2857906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2889957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25054705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -316,11 +323,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190621">
+          <caret line="11213" column="17" selection-start-line="11213" selection-start-column="4" selection-end-line="11213" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22219">
+          <caret line="1307" column="34" selection-start-line="1288" selection-start-column="24" selection-end-line="1307" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12869">
+          <caret line="757" column="92" selection-start-line="757" selection-start-column="92" selection-end-line="757" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11169">
+          <caret line="657" column="29" selection-start-line="657" selection-start-column="29" selection-end-line="657" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8330">
+          <caret line="490" column="40" selection-start-line="490" selection-start-column="40" selection-end-line="490" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7055">
+          <caret line="415" column="22" selection-start-line="415" selection-start-column="22" selection-end-line="415" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9078">
+          <caret line="534" column="59" selection-start-line="534" selection-start-column="59" selection-end-line="534" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11254">
+          <caret line="662" column="37" selection-start-line="662" selection-start-column="37" selection-end-line="662" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9299">
+          <caret line="547" column="41" selection-start-line="547" selection-start-column="41" selection-end-line="547" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -336,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14399">
           <caret line="847" column="34" selection-start-line="847" selection-start-column="34" selection-end-line="847" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -344,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11288">
           <caret line="664" column="90" selection-start-line="664" selection-start-column="35" selection-end-line="664" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -360,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12903">
           <caret line="759" column="99" selection-start-line="759" selection-start-column="99" selection-end-line="759" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -392,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14399">
           <caret line="847" column="34" selection-start-line="847" selection-start-column="34" selection-end-line="847" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11288">
           <caret line="664" column="90" selection-start-line="664" selection-start-column="35" selection-end-line="664" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -424,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="511" column="47" selection-start-line="511" selection-start-column="47" selection-end-line="511" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -432,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,13 +550,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="759" column="99" selection-start-line="759" selection-start-column="99" selection-end-line="759" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="9078">
           <caret line="534" column="59" selection-start-line="534" selection-start-column="59" selection-end-line="534" selection-end-column="59" />
           <folding />
         </state>
@@ -490,7 +563,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="8330">
           <caret line="490" column="40" selection-start-line="490" selection-start-column="40" selection-end-line="490" selection-end-column="40" />
           <folding />
         </state>
@@ -498,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="11169">
           <caret line="657" column="29" selection-start-line="657" selection-start-column="29" selection-end-line="657" selection-end-column="29" />
           <folding />
         </state>
@@ -506,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
+        <state relative-caret-position="11254">
           <caret line="662" column="37" selection-start-line="662" selection-start-column="37" selection-end-line="662" selection-end-column="37" />
           <folding />
         </state>
@@ -514,7 +587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order-callback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="9299">
           <caret line="547" column="41" selection-start-line="547" selection-start-column="41" selection-end-line="547" selection-end-column="41" />
           <folding />
         </state>
@@ -522,7 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
+        <state relative-caret-position="22219">
           <caret line="1307" column="34" selection-start-line="1288" selection-start-column="24" selection-end-line="1307" selection-end-column="34" />
           <folding />
         </state>
@@ -530,16 +603,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/review.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
+        <state relative-caret-position="12869">
           <caret line="757" column="92" selection-start-line="757" selection-start-column="92" selection-end-line="757" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="11213" column="17" selection-start-line="11213" selection-start-column="4" selection-end-line="11213" selection-end-column="17" />
+        <state relative-caret-position="544">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -552,10 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        <state relative-caret-position="429">
+          <caret line="11222" column="26" selection-start-line="11222" selection-start-column="26" selection-end-line="11222" selection-end-column="26" />
           <folding />
         </state>
       </provider>

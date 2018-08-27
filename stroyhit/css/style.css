@@ -11215,6 +11215,13 @@ margin-top: 0;
         right: 1%;
         bottom: 40vh;
     }
+
+    #filterForm{
+        position: sticky;
+        top: 0;
+        margin-bottom: 100px;
+        min-height: 200px;
+    }
     .affix .c-table-wrapper .c-header-wrapper{
         max-width: 1420px;
     }
