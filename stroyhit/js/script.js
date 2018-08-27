@@ -260,7 +260,7 @@ var w=$(window).width()<768?$(window).width()/2:$('.c-table-wrapper.active-table
     $('body').on('click','.tab-product-upper',function(e){
         e.preventDefault();
         $(this).find('.open-link').toggleClass('active');
-        var text=$(this).find('.open-link').hasClass('active')?'Свернуть':'Показать';
+        var text=$(this).find('.open-link').hasClass('active')?'Показать':'Свернуть';
         $(this).find('.open-link').text(text);
         $(this).next().slideToggle(500);
         $(this).parent().toggleClass('active');
@@ -867,6 +867,22 @@ $('#brand-display').on('click', function () {
     $('.brand-display').show();
 });
 
+
+
+    /* Contacts Scroll */
+
+    $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+            $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 600, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
 
 
 });
