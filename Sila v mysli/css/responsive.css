@@ -1,0 +1,548 @@
+@media (max-width: 1440px) {
+    .top-menu li{
+        padding-right: 20px;
+    }
+
+    h1{
+        font-size: 86px;
+        line-height: 86px;
+    }
+
+    h2{
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .welcome{
+        min-height: 600px;
+        background-position: 77%;
+    }
+
+    .welcome .welcome-content{
+        padding-top: 80px;
+        margin-left: 0;
+    }
+
+    .welcome-content .btn-default{
+        padding: 18px 64px;
+    }
+
+    .changes .changes-content .item{
+        padding-left: 20px;
+        padding-top: 26px;
+    }
+
+    .changes .changes-content .item .more{
+        bottom: 14px;
+    }
+
+    .about h3.red{
+        width: 70%;
+    }
+
+    .about .logo{
+        position: absolute;
+        right: 0;
+    }
+
+    .articles-content .more{
+        position: absolute;
+        bottom: 0px;
+    }
+
+    #playpause{
+        width: 70px;
+        height: 70px;
+        top: 32%;
+        left: 39%;
+    }
+
+    #playpause span{
+        bottom: -28px;
+        left: -32px;
+    }
+
+}
+
+@media (width: 1024px) {
+    .welcome{
+        background-position: 65%;
+    }
+
+    .welcome .welcome-content p{
+        padding-bottom: 56px;
+    }
+}
+
+
+@media (max-width: 1023px) {
+    .top-menu{
+        display: none;
+    }
+    .submenu{
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 23px;
+        float: right;
+        margin-right: 100px;
+        position: relative;
+    }
+
+    .submenu img{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 19px;
+        left: 50px;
+    }
+
+    .menu-responsive.open{
+        display: block;
+    }
+
+    .menu-responsive{
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 70px;
+        background: white;
+        box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        width: 280px;
+    }
+
+    .menu-responsive li{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        line-height: 40px;
+    }
+
+    .menu-responsive li:last-child{
+        border:none;
+    }
+
+    .menu-responsive li:hover{
+        border-bottom: 1px solid #fb0045;
+    }
+
+    .menu-responsive li a{
+        font-family: 'RobotoConRegular';
+        color:  #000000;
+        font-size: 18px;
+        transform: scaleX(1.0003);
+        position: relative;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .welcome {
+        min-height: auto;
+        background-position: 68%;
+    }
+
+    .welcome .welcome-content p{
+        font-size: 26px;
+        line-height: 30px;
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+
+    .welcome .welcome-content{
+        padding: 50px 0 90px;
+    }
+
+    .welcome-content .btn-default {
+        padding: 16px 56px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+
+    .changes{
+        padding: 40px 0 50px;
+    }
+
+    .changes .changes-content .item{
+        display: inline-block;
+        width: 33.333333%;
+        padding: 14px;
+    }
+
+    .changes .changes-content .item:last-child{
+        display: none;
+    }
+
+    .changes .changes-content .item:first-of-type{
+        margin-left: 0;
+    }
+
+    .changes .changes-content{
+        margin: 0;
+    }
+
+    .about{
+        padding: 115px 0 60px;
+    }
+
+    .about h3.red{
+        width: 100%;
+    }
+
+    .about .logo {
+        right: auto;
+        top: -72px;
+    }
+
+    .about p{
+        padding-right: 40px;
+    }
+
+    .articles{
+        padding: 60px 0;
+    }
+
+    .articles-content .item{
+        width: 50%;
+    }
+
+    .articles-content .item p{
+        font-size: 26px;
+        line-height: 30px;
+        padding-bottom: 70px;
+    }
+
+    .articles-content .item img{
+        height: 370px;
+    }
+
+    .articles-content .right img{
+        object-position: 0 40%;
+    }
+
+    .articles-content .left img{
+        object-position: 24%;
+    }
+
+    .video{
+        padding-bottom: 40px;
+    }
+
+    .video .video-content .item{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .video .video-content .item video{
+        width: 70%;
+    }
+
+    #playpause{
+        width: 86px;
+        height: 86px;
+        left: calc(50% - 43px);
+    }
+
+    .video .all{
+        position: absolute;
+        left: 0;
+        top: 50px;
+    }
+
+    .video h6{
+        margin-bottom: 30px;
+    }
+
+    footer{
+        position: relative;
+    }
+
+    footer .menu{
+        padding-left: 130px;
+        margin-right: 0;
+    }
+
+    footer .contacts>ul {
+        padding-bottom: 60px;
+    }
+
+    footer .soc-link{
+        position: absolute;
+        right: 0;
+        padding-left: 22px;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    footer .soc-link{
+        left: 0;
+        position: absolute;
+        bottom: 42px;
+        padding: 0;
+    }
+
+    footer .art {
+        padding-left: 130px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .welcome {
+        min-height: 220px;
+        background-position: 44%;
+    }
+
+    h1{
+        line-height: 55px;
+        text-align: right;
+    }
+
+    h2{
+        line-height: 36px;
+        text-align: right;
+    }
+
+    .welcome .welcome-content p{
+        text-align: right;
+        margin-right: 0;
+        padding-bottom: 24px;
+    }
+
+    .welcome-content .btn-default{
+        padding: 16px 38px;
+        float: right;
+    }
+
+    .welcome .welcome-content {
+        padding: 62px 0 50px;
+    }
+
+    .logo{
+        padding-right: 0;
+    }
+
+    .logo a img{
+        width: 80%;
+    }
+
+    .changes {
+        padding: 20px 0 50px;
+    }
+
+    .changes .changes-content .item{
+        width: 49%;
+        vertical-align: top;
+        padding: 14px 0 14px 10px;
+    }
+
+    .changes .changes-content .item:last-child {
+        display: inline-block;
+    }
+
+    .about .logo img{
+        width: 80%;
+    }
+
+    .articles-content .item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .articles-content .right{
+        margin-top: 20px;
+    }
+
+    .video .all{
+        left: auto;
+        right: 0;
+        top: 58px;
+    }
+
+    .video h6{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .video .video-content{
+        padding-top: 20px;
+    }
+
+    .video .video-content .item video {
+        width: 100%;
+    }
+
+    .video {
+        padding-bottom: 0;
+    }
+
+    footer .menu{
+        padding-left: 0;
+    }
+
+    footer .art {
+        padding-left: 50%;
+        padding-top: 0;
+        margin-top: -264px;
+    }
+
+    footer .soc-link{
+        position: relative;
+        margin-left: 0;
+        padding-top: 70px;
+    }
+
+}
+
+@media (max-width: 479px) {
+    .logo a img {
+        width: 100%;
+    }
+
+    .top-panel .header-menu{
+        text-align: center;
+    }
+
+    .submenu{
+        float: none;
+        margin: -8px 0 0 -8px;
+        padding: 0;
+    }
+
+    .submenu img{
+        top:-2px;
+    }
+
+    .menu-responsive{
+        top: 115px;
+        width: 100%;
+    }
+
+    .welcome{
+        background-position: 62%;
+    }
+
+    .welcome .welcome-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+
+    .welcome .welcome-content p{
+        text-align: center;
+    }
+
+    .welcome-content .btn-default{
+        float: none;
+    }
+
+    .changes{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .changes h6{
+        margin-left: 0;
+    }
+
+    .changes .changes-content .item{
+        width: 100%;
+        text-align: left;
+        padding: 30px;
+    }
+
+    .changes .changes-content .item .more {
+        bottom: 30px;
+    }
+
+    .about .logo{
+        text-align: center;
+    }
+
+    .about{
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .about .logo{
+        top: -58px;
+    }
+
+    h3{
+        line-height: 50px;
+    }
+
+    .about h3.red{
+        text-align: center;
+    }
+
+    .about p{
+        padding-right: 0;
+    }
+
+    .articles{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .articles h6{
+        margin-left: 0;
+    }
+
+    .articles .all{
+        display: inline-block;
+        float: none;
+    }
+
+    .articles-content .more{
+        position: relative;
+    }
+
+    .articles-content .item p{
+        padding-bottom: 20px;
+    }
+
+    .articles-content .item{
+        padding-bottom: 20px;
+    }
+
+    .video{
+        text-align: center;
+    }
+
+    .video h3{
+        text-align: center;
+    }
+
+    .video .all{
+        position: relative;
+        float: none;
+        display: inline-block;
+        top: 0;
+    }
+
+    #playpause {
+        width: 70px;
+        height: 70px;
+        top:28%;
+        left: calc(50% - 35px);
+    }
+
+    footer{
+        padding-bottom: 0;
+    }
+
+
+}
