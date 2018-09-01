@@ -185,11 +185,13 @@ header .top-panel{
     display: inline-block;
     vertical-align: top;
     padding-top: 23px;
+    position: relative;
 }
 
 .top-menu li{
     display: inline-block;
     padding-right: 45px;
+    position: relative;
 }
 
 .top-menu li:last-child{
@@ -202,9 +204,20 @@ header .top-panel{
     font-size: 18px;
     transform: scaleX(1.0003);
     position: relative;
+    cursor: pointer;
 }
 
 .top-menu li.active a:after{
+    position: absolute;
+    content: '';
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fb0045;
+}
+
+.top-menu li a:active:after{
     position: absolute;
     content: '';
     bottom: -15px;
@@ -222,6 +235,10 @@ header .top-panel{
     width: 100%;
     height: 1px;
     background: #fb0045;
+}
+
+.open-menu li:hover a:after{
+    display: none;
 }
 
 .welcome{
@@ -258,16 +275,16 @@ header .top-panel{
     padding-bottom: 100px;
 }
 
-.changes .changes-header{
+.changes-header{
     padding-bottom: 14px;
 }
 
-.changes .changes-content{
+.changes-content{
     margin-left: -30px;
     margin-right: -8px;
 }
 
-.changes .changes-content .item{
+.changes .item{
     padding: 36px 10px 24px 30px;
     height: 357px;
 }
@@ -283,7 +300,7 @@ header .top-panel{
 }
 
 
-.changes .changes-content .item p{
+.changes-content .item p{
     padding-top: 19px;
     line-height: 21px;
 }
@@ -566,4 +583,596 @@ footer .soc-link ul li{
 
 .menu-responsive{
     display: none;
+}
+
+.open-menu{
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 237px;
+    top: 68px;
+    left: 202px;
+    padding: 9px 0 11px 33px;
+    z-index: 2;
+}
+
+.open-menu li{
+    border:none;
+    line-height: 48px;
+    padding: 0;
+}
+
+.open-menu li a:hover{
+    color:  #fc0045;
+}
+
+.open-menu li:hover a:hover{
+    color:  #fc0045;
+}
+
+.open-menu.open{
+    display: block;
+}
+
+.top-menu .open-menu li:hover a:after{
+    display: none;
+}
+
+.wealth .welcome{
+    background: url("../img/wealth-bg-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 83% 50%;
+}
+
+.programs .welcome{
+    text-align: center;
+    min-height: 762px;
+}
+
+.programs h1{
+    font-family: 'RobotoConBold';
+}
+
+.wealth h1{
+    text-align: left;
+    padding-left: 56px;
+}
+
+.wealth h1 span{
+    display: block;
+    text-align: right;
+    padding-top: 19px;
+}
+
+
+.programs h2{
+    font-size: 36px;
+    line-height: 62px;
+    font-family: 'RobotoConBold';
+}
+
+.programs .logo{
+    padding-left: 11px;
+    padding-right: 41px;
+}
+
+.wealth .welcome .welcome-content{
+    padding: 136px 34px 0 36px;
+    margin: 0 auto;
+    float: none;
+}
+
+.programs .welcome .welcome-content p{
+    font-family: 'RobotoConBold';
+    padding-top: 19px;
+    padding-left: 40px;
+    padding-bottom: 42px;
+}
+
+.programs .btn-default{
+    font-family: 'RobotoConBold';
+    letter-spacing: 1.9px;
+    border: none;
+    width: 345px;
+    padding: 25px 0;
+    margin-left: 14px;
+    margin-right: 12px;
+}
+
+.programs .btn-default.btn-left{
+    background:  #2a3242;
+}
+
+
+.programs .item{
+    background:  #ffffff;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.2);
+    height: 150px;
+    margin-bottom: 18px;
+    padding: 0;
+}
+
+.programs .item:hover{
+    border: 1px solid #fc0045;
+}
+
+.programs .item h4{
+    color:  #fc0045;
+    font-size: 24px;
+    font-family: 'RobotoConBold';
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.programs .item p{
+    color:  #000000;
+    font-size: 18px;
+    font-family: 'RobotoConRegular';
+    padding-top: 15px;
+}
+
+.programs .item .left{
+    float: left;
+    padding: 27px 0 0 55px;
+    width: 777px;
+}
+
+.wealth .item:first-child .left{
+    padding-top: 40px;
+}
+
+.wealth .item:last-child .left{
+    padding-top: 33px;
+}
+
+.programs .item .right{
+    float: right;
+    width: 333px;
+    height: 100%;
+    background:  #2a3242;
+    padding: 22px 0 0 5px;
+    text-align: center;
+}
+
+.programs .item .right p{
+    font-family: 'RobotoConBold';
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.programs .item .right .date{
+    font-size: 18px;
+}
+
+.programs .item .right .more{
+    position: relative;
+    bottom: auto;
+    margin-top: 16px;
+    border-radius: 3px;
+    background:  #ffffff;
+    width: 194px;
+    height: 40px;
+    color:  #000000;
+    padding: 2px 0 0 0;
+    border:none;
+}
+
+.programs .item:hover .more{
+    background:  #ee1639;
+    color:  #FFFFFF;
+}
+
+.programs .item .right .more:hover{
+    background:  #ee1639;
+    color:  #FFFFFF;
+}
+
+.programs .changes-content{
+    margin: 0;
+}
+
+.programs .changes{
+    padding-top: 87px;
+    padding-bottom: 76px;
+}
+
+.programs .changes h6{
+    padding: 0 30px;
+    background-size: 100% 50%;
+}
+
+.programs .about{
+    background: url("../img/wealth-bg.png");
+    padding-bottom: 61px;
+    background-size: 150%;
+    background-position: 65% 13%;
+    background-repeat: no-repeat;
+}
+
+.programs .about h3.red{
+    padding-bottom: 27px;
+}
+
+.programs .about .item .left{
+    padding: 20px 0 0 52px;
+}
+
+.wealth .about .item:first-child .left{
+    padding-top: 34px;
+}
+
+.programs .about .item p{
+    padding-bottom: 1px;
+}
+
+.programs .about .item h4 span{
+    color: #000000;
+    font-size: 18px;
+    font-family: 'RobotoConBold';
+    padding-top: 15px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.programs .about .logo{
+    padding-right: 0;
+}
+
+.programs .about .item .right .more{
+    background:  #ffffff;
+    box-shadow: 0px 10px 25px 0px rgba(224, 22, 55, 0.9);
+    width: 232px;
+    color: #000000;
+}
+
+.programs .about .item .right{
+    background:  #ee1639;
+}
+
+.programs footer{
+    padding-top: 62px;
+}
+
+.programs footer .right{
+    float: right;
+    padding-top: 18px;
+}
+
+.programs footer .logo{
+    padding-left: 4px;
+}
+
+.programs footer p{
+    color: #FFFFFF;
+}
+
+
+/* Relationship */
+
+.relationship .welcome {
+    background: url("../img/relationship-bg-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 83% 50%;
+}
+
+.relationship h1{
+    font-size: 72px;
+}
+
+.relationship h2{
+    font-size: 36px;
+    line-height: 45px;
+    padding-left: 18px;
+}
+
+.relationship .welcome-content{
+    padding-top: 243px;
+    margin: 0;
+}
+
+.relationship .welcome .welcome-content p{
+    padding-top: 24px;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.relationship .btn-default{
+    width: 360px;
+}
+
+.programs .item .right .more.width{
+   width: 234px;
+}
+
+.relationship .item h4 .red-span{
+    font-size: 18px;
+    font-family: 'RobotoConRegular';
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.programs .item .right .date-time{
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.relationship .changes h6{
+    margin-left: 20px;
+}
+
+.relationship .item .left{
+    padding-top: 20px;
+}
+
+.relationship .changes-content .item:first-child .left{
+    padding-top: 35px;
+}
+
+.relationship .changes-content .item:last-child .left{
+    padding-top: 9px;
+}
+
+.relationship .about .item .right .more{
+    width: 195px;
+}
+
+.relationship .about .item .left {
+    padding: 42px 0 0 52px;
+}
+
+.relationship .about .item:last-child .left {
+    padding: 26px 24px 0 52px;
+}
+
+/* Fate */
+
+.fate .welcome{
+    background: url("../img/fate-bg-header.png");
+    background-repeat: no-repeat;
+    background-position: 83% 50%;
+}
+
+.fate .welcome .welcome-content{
+    padding-top: 240px;
+    margin-left: 0;
+}
+
+.fate h2{
+    padding-bottom: 106px;
+}
+
+.fate h1{
+    font-size: 72px;
+    line-height: 82px;
+}
+
+.fate .btn-default{
+    width: 360px;
+}
+
+.fate .changes{
+    padding-bottom: 82px;
+}
+
+.fate .about .item .left{
+    padding-top: 34px;
+}
+
+.fate .about .item .left h4{
+    display: inline-block;
+}
+
+.fate .about .item .left h4 span{
+    display: inline-block;
+}
+
+.fate .about .item .right .more{
+    width: 194px;
+}
+
+.fate .about .item .right .more.width{
+    width: 234px;
+}
+
+
+/* Health */
+
+.health .welcome{
+    background: url("../img/health-bg-header.png");
+    background-repeat: no-repeat;
+    background-position: 83% 50%;
+}
+
+.health h1{
+    text-align: left;
+    letter-spacing: -0.13px;
+}
+
+.health h2{
+    padding-bottom: 86px;
+}
+
+.health .welcome .welcome-content{
+    padding-top: 260px;
+}
+
+.health .btn-default {
+    width: 390px;
+    vertical-align: top;
+}
+
+.health .btn-default.btn-right{
+    letter-spacing: 0.8px;
+}
+
+.health .changes .item .left p{
+    padding-top: 8px;
+}
+
+.health .about{
+    padding-bottom: 95px;
+}
+
+
+/* Blog */
+
+/* Blog Book */
+
+.blog .blog-content{
+    background: rgb(250, 250, 250);
+    padding-top: 28px;
+}
+
+.blog .blog-content .container{
+    width: 1170px;
+    padding: 0 16px 0 0px;
+}
+
+.blog .blog-inner{
+    background: #FFFFFF;
+    padding: 23px 34px 20px 31px;
+    margin-right: 3px;
+}
+
+.blog .blog-aside{
+    margin-left: 11px;
+}
+
+.blog .item{
+    height: 100%;
+}
+
+.blog .book h6{
+    padding: 0 42px;
+    margin-left: 21px;
+    background-size: 100% 48%;
+    vertical-align: 10px;
+    background-position: 0 13px;
+}
+
+.blog p{
+    font-family: 'RobotoConLight';
+}
+
+.blog .bold{
+    font-family: 'RobotoConBold';
+}
+
+.blog .blog-inner a{
+    color:  #fc0045;
+}
+
+.blog .blog-inner .book-about p{
+    padding-top: 21px;
+    line-height: 21px;
+}
+
+.blog .blog-inner .book-about iframe{
+    padding-top: 25px;
+    width: 100%;
+    padding-right: 8px;
+    height: 406px;
+    margin-bottom: -2px;
+}
+
+.blog .blog-inner .book-list{
+    padding-top: 26px;
+}
+
+.blog .blog-inner .book-list p{
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 17px;
+    letter-spacing: -0.15px;
+}
+
+.blog .blog-inner .book-list .bold{
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'RobotoConBold';
+    padding-top: 15px;
+    letter-spacing: 0;
+    clear: both;
+}
+
+.blog .blog-inner .book-list .item{
+    position: relative;
+    background: none;
+    box-shadow: none;
+    padding-bottom: 17px;
+}
+
+.blog .blog-inner .book-list .item:before{
+    position: absolute;
+    content: '';
+    top: -3px;
+    left: 0;
+    width: 49%;
+    height: 1px;
+    background: #fb0045;
+}
+
+.blog .blog-inner .book-list .item img{
+    float: left;
+    margin-right: 36px;
+    margin-top: -2px;
+}
+
+.blog .blog-inner .comments{
+    clear: both;
+    padding-top: 20px;
+    margin-left: -17px;
+}
+
+.blog .blog-inner .feedback{
+    background: rgb(249, 249, 249);
+    margin: -4px -6px 0 -10px;
+    padding: 12px 118px 12px 15px;
+}
+
+.blog .blog-inner .feedback input{
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+    height: 46px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.blog .blog-inner .feedback textarea{
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+    height: 186px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.blog .blog-inner .feedback input[type="submit"]{
+    background-color:  rgba(247, 27, 63, 0.97);
+    border-radius: 3px;
+    border:none;
+    width: 308px;
+    height: 42px;
+    margin-top: 14px;
+    margin-left: -2px;
+    font-size: 12px;
+    font-family: 'RobotoConBold';
+    padding-top: 15px;
+    letter-spacing: 1.3px;
+}
+
+.blog .blog-inner .feedback .bold{
+    font-family: 'MontserratBold';
+    letter-spacing: 1.3px;
+    padding-bottom: 7px;
+}
+
+.blog .blog-inner .feedback p{
+    font-family: 'MontserratRegular';
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    padding-bottom: 9px;
 }

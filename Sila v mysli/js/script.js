@@ -8,7 +8,9 @@ $('.submenu').on('click', function () {
 });
 
 
-
+$('.open-list').on('click', function () {
+    $('.open-menu').toggleClass('open');
+});
 
 
 

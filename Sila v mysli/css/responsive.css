@@ -62,6 +62,72 @@
         left: -32px;
     }
 
+    /* Programs */
+
+    /* Wealth */
+
+    .programs .changes .item{
+        padding: 0;
+    }
+
+    .open-menu{
+        left: 148px;
+    }
+
+    .programs .welcome-content .btn-default{
+        padding: 25px 0;
+    }
+
+    .programs .welcome{
+        min-height: auto;
+        background-position: 62% 50%;
+    }
+
+    .programs .welcome .welcome-content{
+        padding-bottom: 90px;
+    }
+
+    .programs .item .right{
+        width: 34.5%;
+    }
+
+    .programs .item .left{
+        width: 65.5%;
+        padding-left: 20px;
+    }
+
+    .programs .item{
+        height: 170px;
+    }
+
+    .programs .changes .item .right .more{
+        bottom: auto;
+    }
+
+    .programs .about{
+        background-size: cover;
+    }
+
+    /* Relationship */
+
+    .relationship .welcome-content{
+        padding-top: 243px;
+    }
+
+    /* Health */
+
+    .health .welcome{
+        background-position: 66% 50%;
+    }
+    .health h1{
+        text-align: center;
+    }
+
+    .health h2{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
 }
 
 @media (width: 1024px) {
@@ -113,7 +179,6 @@
     }
 
     .menu-responsive li{
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         line-height: 40px;
     }
 
@@ -121,8 +186,8 @@
         border:none;
     }
 
-    .menu-responsive li:hover{
-        border-bottom: 1px solid #fb0045;
+    .menu-responsive li:hover a{
+        color: #fb0045;
     }
 
     .menu-responsive li a{
@@ -279,6 +344,129 @@
         padding-left: 22px;
     }
 
+    /* Programs */
+
+    /* Wealth */
+
+    .open-menu{
+        position: relative;
+        left: auto;
+        top: auto;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .programs .welcome .welcome-content{
+        padding: 100px 0;
+    }
+
+    .programs .welcome-content .btn-default{
+        margin: 0 8px;
+    }
+
+    .programs .welcome {
+        background-position: 58% 50%;
+    }
+
+    .programs .changes{
+        padding-top: 60px;
+    }
+
+    .programs .changes .item{
+        width: 100%;
+        padding: 0;
+    }
+
+    .programs .changes .item:last-child{
+        display: block;
+    }
+
+    .programs .item .left{
+        padding-top: 20px;
+    }
+
+    .wealth .item:last-child .left{
+        padding-top: 16px;
+    }
+
+    .programs .about .item .left{
+        padding-left: 20px;
+    }
+
+    .programs .about .item h4 span{
+        display: block;
+        margin-top: -24px;
+    }
+
+    /* Relationship */
+
+    .relationship h1{
+        font-size: 56px;
+        line-height: 66px;
+    }
+
+    .relationship h2{
+        font-size: 30px;
+    }
+
+    .relationship .welcome .welcome-content{
+        padding: 170px 0 70px;
+    }
+
+    .relationship .changes .item:last-child{
+        height: 205px;
+    }
+
+    .relationship .about .item:last-child .left{
+        padding-left: 20px;
+    }
+
+    .relationship .welcome-content .btn-default{
+        margin: 0;
+    }
+
+    /* Fate */
+
+
+    .fate .welcome-content .btn-default{
+        margin: 0;
+    }
+
+    .fate .item p{
+        padding-top: 0;
+    }
+
+    .fate .welcome .welcome-content{
+        padding-top: 240px;
+    }
+
+    .fate h2{
+        padding-bottom: 90px;
+    }
+
+    /* Health */
+
+    .health .welcome {
+        background-position: 66% 0;
+    }
+
+    .health .welcome .welcome-content {
+        padding-top: 180px;
+    }
+
+    .health h2 {
+        padding-bottom: 30px;
+    }
+
+    .health .welcome-content .btn-default{
+        margin-bottom: 10px;
+    }
+
+    .health .changes .item:first-child .left p{
+        padding-top: 0;
+    }
+
 }
 
 
@@ -401,6 +589,199 @@
         padding-top: 70px;
     }
 
+    /* Programs */
+
+    /* Wealth */
+
+    .programs .logo{
+        padding: 0 0 0 10px;
+    }
+
+    .wealth h1{
+        padding-left: 0;
+    }
+
+    .programs .welcome .welcome-content{
+        padding-top: 68px;
+    }
+
+    .wealth h1 span{
+        padding-top: 74px;
+    }
+
+    .programs h2 {
+        text-align: center;
+        text-align: center;
+        line-height: 36px;
+        font-size: 30px;
+    }
+
+    .programs .welcome .welcome-content p{
+        text-align: center;
+        padding-left: 0;
+        padding-top: 4px;
+    }
+
+    .programs .welcome-content .btn-default{
+        font-size: 18px;
+        width: 50%;
+        display: inline-block;
+        margin-right: -7px;
+        vertical-align: top;
+    }
+
+    .programs .btn-default.btn-left{
+        margin-left: -7px;
+        float: left;
+    }
+
+    .programs .changes {
+        padding-top: 46px;
+    }
+
+    .programs .changes h6{
+        margin-left: 0;
+    }
+
+    .programs .changes .item{
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+
+    .programs .item{
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+
+    .programs .item .left{
+        width: 100%;
+        padding-top: 16px;
+        padding-bottom: 8px;
+        float: none;
+    }
+
+    .programs .item:first-child .left{
+        padding-top: 16px;
+    }
+
+    .programs .item:last-child .left{
+        padding-top: 16px;
+    }
+
+    .programs .item .right{
+        width: 100%;
+    }
+
+    .programs .item h4{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .programs .item p{
+        padding-top: 0;
+    }
+
+    .programs .item .right{
+        padding: 2px 0 6px;
+        float: none;
+    }
+
+    .programs .changes .item .right .more{
+        margin-top: 5px;
+    }
+
+    .programs .item .right .more{
+        margin-top: 5px;
+    }
+
+    .programs .about .item .left{
+        padding-bottom: 20px;
+    }
+
+    .programs footer{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .programs footer .right{
+        float: none;
+    }
+
+    /* Relationship */
+
+    .relationship .btn-default.btn-left{
+        padding: 14px 0;
+        width: 230px;
+        float: none;
+    }
+
+    .relationship h1{
+        text-align: center;
+    }
+
+    .relationship .welcome .welcome-content{
+        padding: 100px 0;
+    }
+
+    .relationship .changes .item:last-child{
+        height: 100%;
+    }
+
+    .relationship .about .item:last-child .left{
+        padding-bottom: 20px;
+    }
+
+    .relationship .about .item .left{
+        padding-top: 20px;
+    }
+
+    .relationship .changes h6{
+        display: inline-block;
+        margin-left: 34px;
+    }
+
+    .relationship .changes h3{
+        display: inline;
+    }
+
+    .relationship .welcome-content .btn-default{
+        float: none;
+        width: 230px;
+    }
+
+    /* Fate */
+
+    .fate h1{
+        text-align: center;
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+    .fate .welcome .welcome-content{
+        padding-top: 200px;
+    }
+
+    .fate .welcome {
+        background-position: 57% 7%;
+    }
+
+    /* Health */
+
+    .health .welcome .welcome-content{
+        padding-top: 160px;
+    }
+
+    .health .welcome-content .btn-default{
+        padding: 14px 0;
+        margin-bottom: 80px;
+    }
+
+    .health .welcome {
+        background-position: 64% 0;
+    }
+
 }
 
 @media (max-width: 479px) {
@@ -416,10 +797,14 @@
         float: none;
         margin: -8px 0 0 -8px;
         padding: 0;
+        display: block;
     }
 
-    .submenu img{
-        top:-2px;
+    .submenu img {
+        vertical-align: middle;
+        position: relative;
+        top: auto;
+        left: auto;
     }
 
     .menu-responsive{
@@ -428,7 +813,7 @@
     }
 
     .welcome{
-        background-position: 62%;
+        background-position: 76%;
     }
 
     .welcome .welcome-content{
@@ -544,5 +929,94 @@
         padding-bottom: 0;
     }
 
+    /* Programs */
+
+    /* Wealth */
+
+    .programs .welcome {
+        background-position: 56% 50%;
+    }
+
+    .programs .logo{
+        padding: 0;
+    }
+
+    .wealth h1{
+        padding-bottom: 54px;
+    }
+
+    .wealth h1 span{
+        padding-top: 0;
+    }
+
+    .programs .welcome .welcome-content{
+        padding: 20px 0 28px;
+    }
+
+    .programs .welcome-content .btn-default{
+        display: block;
+        width: 300px;
+        margin: 0 auto 10px;
+        padding: 18px 0;
+    }
+
+    .programs .btn-default.btn-left{
+        float: none;
+    }
+
+    .programs .welcome .welcome-content p{
+        font-size: 24px;
+    }
+
+    .programs h3{
+        text-align: center;
+    }
+
+    .programs .changes .item{
+        padding: 0;
+    }
+
+    .programs footer{
+        padding-bottom: 30px;
+    }
+
+    .programs footer .logo img{
+        width: 80%;
+    }
+
+    /* Relationship */
+
+    .relationship .welcome .welcome-content{
+        padding-top: 120px;
+    }
+
+    .relationship .changes h6{
+        margin-left: 0;
+    }
+
+    /* Fate */
+
+    .fate .welcome .welcome-content{
+        padding-top: 200px;
+    }
+
+    .fate h2{
+        padding-bottom: 30px;
+    }
+
+    /* Health */
+
+    .health .welcome .welcome-content {
+        padding-top: 100px;
+    }
+
+    .health h2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .health .welcome {
+        background-position: 62% 0;
+    }
 
 }
