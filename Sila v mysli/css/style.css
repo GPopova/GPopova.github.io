@@ -245,7 +245,7 @@ header .top-panel{
     background-image: url("../img/bg-header.png");
     background-size: cover;
     background-color: rgba(250, 250, 250);
-    background-position: 83% 54%;
+    background-position: center;
     min-height: 787px;
 }
 
@@ -622,7 +622,7 @@ footer .soc-link ul li{
     background: url("../img/wealth-bg-header.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 83% 50%;
+    background-position: center;
 }
 
 .programs .welcome{
@@ -691,6 +691,7 @@ footer .soc-link ul li{
     height: 150px;
     margin-bottom: 18px;
     padding: 0;
+    border: 1px solid transparent;
 }
 
 .programs .item:hover{
@@ -786,8 +787,8 @@ footer .soc-link ul li{
 .programs .about{
     background: url("../img/wealth-bg.png");
     padding-bottom: 61px;
-    background-size: 150%;
-    background-position: 65% 13%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -855,7 +856,7 @@ footer .soc-link ul li{
     background: url("../img/relationship-bg-header.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 83% 50%;
+    background-position: center;
 }
 
 .relationship h1{
@@ -933,7 +934,7 @@ footer .soc-link ul li{
 .fate .welcome{
     background: url("../img/fate-bg-header.png");
     background-repeat: no-repeat;
-    background-position: 83% 50%;
+    background-position: center;
 }
 
 .fate .welcome .welcome-content{
@@ -984,7 +985,8 @@ footer .soc-link ul li{
 .health .welcome{
     background: url("../img/health-bg-header.png");
     background-repeat: no-repeat;
-    background-position: 83% 50%;
+    background-position: center;
+    background-size: cover;
 }
 
 .health h1{

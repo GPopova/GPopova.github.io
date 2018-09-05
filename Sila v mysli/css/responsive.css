@@ -15,7 +15,6 @@
 
     .welcome{
         min-height: 600px;
-        background-position: 77%;
     }
 
     .welcome .welcome-content{
@@ -80,7 +79,6 @@
 
     .programs .welcome{
         min-height: auto;
-        background-position: 62% 50%;
     }
 
     .programs .welcome .welcome-content{
@@ -116,9 +114,6 @@
 
     /* Health */
 
-    .health .welcome{
-        background-position: 66% 50%;
-    }
     .health h1{
         text-align: center;
     }
@@ -140,12 +135,13 @@
         width: 100%;
     }
 
+    .articles-content .right, .articles-content .left{
+        height: 733px;
+    }
+
 }
 
 @media (width: 1024px) {
-    .welcome{
-        background-position: 65%;
-    }
 
     .welcome .welcome-content p{
         padding-bottom: 56px;
@@ -220,7 +216,6 @@
 
     .welcome {
         min-height: auto;
-        background-position: 68%;
     }
 
     .welcome .welcome-content p{
@@ -228,6 +223,7 @@
         line-height: 30px;
         padding-bottom: 40px;
         padding-top: 10px;
+        padding-right: 20px;
     }
 
     .welcome .welcome-content{
@@ -307,6 +303,11 @@
         object-position: 24%;
     }
 
+    .articles-content .right, .articles-content .left{
+        height: auto;
+        min-height: 605px;
+    }
+
     .video{
         padding-bottom: 40px;
     }
@@ -375,10 +376,6 @@
 
     .programs .welcome-content .btn-default{
         margin: 0 8px;
-    }
-
-    .programs .welcome {
-        background-position: 58% 50%;
     }
 
     .programs .changes{
@@ -574,7 +571,7 @@
 @media (max-width: 767px){
     .welcome {
         min-height: 220px;
-        background-position: 44%;
+        background-position: 34%;
     }
 
     h1{
@@ -851,7 +848,7 @@
     }
 
     .fate .welcome {
-        background-position: 57% 7%;
+        background-position: center 7%;
     }
 
     /* Health */
@@ -905,6 +902,10 @@
         height: 231px;
     }
 
+    .articles-content .right, .articles-content .left{
+        min-height: auto;
+    }
+
 }
 
 @media (max-width: 479px) {
@@ -936,7 +937,7 @@
     }
 
     .welcome{
-        background-position: 76%;
+        background-position: 71%;
     }
 
     .welcome .welcome-content{
@@ -1057,7 +1058,7 @@
     /* Wealth */
 
     .programs .welcome {
-        background-position: 56% 50%;
+        background-position: 49%;
     }
 
     .programs .logo{
