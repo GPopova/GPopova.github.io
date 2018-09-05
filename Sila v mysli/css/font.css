@@ -145,3 +145,17 @@
     font-family: 'PTSansBold';
     src: url('../fonts/PTSans/PTSansBold.ttf')  format('truetype');
 }
+
+/* MyriadPro */
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadPro/MyriadPro-Regular.ttf')  format('truetype');
+}
+
+/* MyriadPro */
+
+@font-face {
+    font-family: 'MonBaiti';
+    src: url('../fonts/MongolianBaiti/monbaiti.ttf')  format('truetype');
+}

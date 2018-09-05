@@ -128,6 +128,18 @@
         padding-right: 30px;
     }
 
+    /* Blog */
+
+    /* Blog Book */
+
+    .blog .blog-aside .event{
+        width: 100%;
+    }
+
+    .blog .blog-aside .wrap .youtube-channel iframe{
+        width: 100%;
+    }
+
 }
 
 @media (width: 1024px) {
@@ -482,6 +494,81 @@
         padding-left: 130px;
     }
 
+    /* Blog */
+
+    /* Blog Book */
+
+    .blog .blog-content .container{
+        width: 750px;
+        padding: 0 20px;
+        margin: auto;
+    }
+
+    .blog .blog-inner{
+        margin: 0 auto;
+    }
+
+    .blog .blog-inner .comments img{
+        width: 100%;
+    }
+
+    .blog .blog-aside{
+        margin: 40px 50px 0;
+    }
+
+    .blog .blog-aside .event{
+        width: 345px;
+        margin: auto;
+    }
+
+    .blog .blog-aside .wrap .marafon .marafon-event{
+        width: 337px;
+        margin: auto;
+    }
+
+    .blog .blog-aside .wrap .youtube-channel iframe{
+        height: 338px;
+        width: 600px;
+    }
+
+    .blog .blog-aside .wrap .youtube-channel{
+        text-align: center;
+    }
+
+    .blog .blog-aside .wrap .youtube-channel .bold{
+        text-align: left;
+    }
+
+    .blog .blog-aside .wrap .about-blog img{
+        width: 80%;
+    }
+
+    .blog .blog-aside .wrap .rubric ul li a:after{
+        position: absolute;
+        content: '';
+        top: 8px;
+        left: 0;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #000000;
+    }
+
+    .blog .blog-aside .wrap .rubric ul li a{
+        padding-left: 10px;
+        line-height: 28px;
+    }
+
+    .blog .book h6{
+        margin-left: 0;
+    }
+
+    /* Author */
+
+    .blog .author h6{
+        margin-left: 20px;
+    }
+
 }
 
 @media (max-width: 767px){
@@ -782,6 +869,42 @@
         background-position: 64% 0;
     }
 
+    /* Blog */
+
+    /* Blog Book */
+
+    .blog .blog-content .container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .blog h3{
+        line-height: 42px;
+    }
+
+    .blog .blog-inner .book-about iframe{
+        padding-right: 0;
+        height: 258px;
+        width: 415px;
+    }
+
+    .blog .blog-inner .book-list .item img{
+        margin-right: 20px;
+    }
+
+    .blog .blog-inner .feedback{
+        padding-right: 30px;
+    }
+
+    .blog .blog-aside {
+        margin: 40px 20px 0;
+    }
+
+    .blog .blog-aside .wrap .youtube-channel iframe{
+        width: 412px;
+        height: 231px;
+    }
+
 }
 
 @media (max-width: 479px) {
@@ -1017,6 +1140,76 @@
 
     .health .welcome {
         background-position: 62% 0;
+    }
+
+    /* Blog */
+
+    /* Blog Book */
+
+    .blog .blog-inner{
+        padding: 20px 14px;
+    }
+
+    .blog h3{
+        text-align: left;
+    }
+
+    .blog .blog-inner .book-about iframe{
+        width: 100%;
+    }
+
+    .blog .blog-inner .book-list .item img{
+        width: 50%;
+    }
+
+    .blog .blog-inner .comments{
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .blog .blog-inner .feedback .bold{
+        padding: 0;
+    }
+
+    .blog .blog-inner .feedback input[type="submit"]{
+        width: 100%;
+    }
+
+    .blog .blog-aside .wrap .articles{
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .blog .blog-aside {
+        margin: 40px 10px 0;
+    }
+
+    .blog .blog-aside .wrap{
+        padding: 34px 0 0;
+    }
+
+    .blog .blog-aside .event{
+        width: 100%;
+    }
+
+    .blog .blog-aside .wrap .marafon .marafon-event{
+        width: 100%;
+    }
+
+    .blog .blog-aside .wrap .youtube-channel iframe{
+        width: 100%;
+        height: 200px;
+    }
+
+    .blog .blog-content{
+        padding-bottom: 40px;
+    }
+
+    /* Author */
+
+    .blog .author .idols .phrase{
+        margin-right: 20px;
+        padding-right: 38px;
     }
 
 }
