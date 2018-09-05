@@ -1212,6 +1212,7 @@ footer .soc-link ul li{
     width: 100%;
     height: 42px;
     position: relative;
+    padding-left: 10px;
 }
 
 .blog .blog-aside .search input[type="submit"]{
@@ -1278,6 +1279,7 @@ footer .soc-link ul li{
     height: 42px;
     margin-bottom: 14px;
     padding-left: 18px;
+    color: #FFFFFF;
 }
 
 .blog .blog-aside .event input[type="text"]::placeholder{
