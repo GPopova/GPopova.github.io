@@ -62,6 +62,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="blog-book.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="108" column="119" selection-start-line="108" selection-start-column="119" selection-end-line="108" selection-end-column="119" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="blog-publications.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-publications.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,21 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog-author.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-author.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2635">
-              <caret line="155" column="86" selection-start-line="155" selection-start-column="86" selection-end-line="155" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="858" column="31" selection-start-line="858" selection-start-column="31" selection-end-line="858" selection-end-column="31" />
+            <state relative-caret-position="429">
+              <caret line="1117" column="23" selection-start-line="1117" selection-start-column="23" selection-end-line="1117" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -286,15 +286,15 @@
       <workItem from="1536042162678" duration="18681000" />
       <workItem from="1536075105458" duration="5087000" />
       <workItem from="1536141993098" duration="8774000" />
-      <workItem from="1536151200772" duration="6296000" />
+      <workItem from="1536151200772" duration="6646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149377000" />
+    <option name="totallyTimeSpent" value="149727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="1" width="1932" height="1045" extended-state="1" />
+    <frame x="-6" y="1" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1741453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -641,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="119" selection-start-line="108" selection-start-column="119" selection-end-line="108" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/font.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2720">
@@ -729,10 +721,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="108" column="119" selection-start-line="108" selection-start-column="119" selection-end-line="108" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="858" column="31" selection-start-line="858" selection-start-column="31" selection-end-line="858" selection-end-column="31" />
+        <state relative-caret-position="429">
+          <caret line="1117" column="23" selection-start-line="1117" selection-start-column="23" selection-end-line="1117" selection-end-column="23" />
           <folding />
         </state>
       </provider>

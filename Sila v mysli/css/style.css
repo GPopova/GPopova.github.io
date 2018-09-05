@@ -698,6 +698,10 @@ footer .soc-link ul li{
     border: 1px solid #fc0045;
 }
 
+.blog .blog-inner .item:hover{
+    border: none;
+}
+
 .programs .item h4{
     color:  #fc0045;
     font-size: 24px;
@@ -1107,6 +1111,7 @@ footer .soc-link ul li{
     background: none;
     box-shadow: none;
     padding-bottom: 17px;
+    border:none;
 }
 
 .blog .blog-inner .book-list .item:before{
