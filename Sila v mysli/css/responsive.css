@@ -1,7 +1,4 @@
 @media (max-width: 1440px) {
-    .top-menu li{
-        padding-right: 20px;
-    }
 
     h1{
         font-size: 86px;
@@ -11,6 +8,10 @@
     h2{
         font-size: 48px;
         line-height: 50px;
+    }
+
+    .top-menu li{
+        padding-right: 20px;
     }
 
     .welcome{
@@ -73,6 +74,15 @@
         left: 148px;
     }
 
+    .programs .logo{
+        float: left;
+    }
+
+    .programs .top-menu{
+        float: right;
+    }
+
+
     .programs .welcome-content .btn-default{
         padding: 25px 0;
     }
@@ -87,6 +97,7 @@
 
     .programs .item .right{
         width: 34.5%;
+        height: 101%;
     }
 
     .programs .item .left{
@@ -139,7 +150,39 @@
         height: 733px;
     }
 
+
 }
+
+
+@media (max-width: 1439px) {
+
+    .blog .container{
+        width: 100%;
+        max-width: 1170px;
+    }
+
+}
+
+
+@media (max-width: 1171px) {
+
+    .programs .logo{
+        float: left;
+        padding-left: 0;
+        padding-right: 30px;
+    }
+
+    .programs .top-menu{
+        float: right;
+    }
+    
+    .programs .top-menu li{
+        padding-right: 20px;
+    }
+
+}
+
+
 
 @media (width: 1024px) {
 
@@ -150,6 +193,14 @@
 
 
 @media (max-width: 1023px) {
+
+    .top-panel .container{
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+
     .top-menu{
         display: none;
     }
@@ -158,7 +209,7 @@
         vertical-align: top;
         padding-top: 23px;
         float: right;
-        margin-right: 100px;
+        margin-right: 50px;
         position: relative;
     }
 
@@ -505,10 +556,6 @@
         margin: 0 auto;
     }
 
-    .blog .blog-inner .comments img{
-        width: 100%;
-    }
-
     .blog .blog-aside{
         margin: 40px 50px 0;
     }
@@ -754,10 +801,6 @@
         padding-top: 16px;
     }
 
-    .programs .item .right{
-        width: 100%;
-    }
-
     .programs .item h4{
         font-size: 20px;
         line-height: 24px;
@@ -770,6 +813,10 @@
     .programs .item .right{
         padding: 2px 0 6px;
         float: none;
+        position: relative;
+        margin-bottom: -2px;
+        margin-left: -2px;
+        width: calc(100% + 2px);
     }
 
     .programs .changes .item .right .more{
@@ -919,7 +966,7 @@
 
     .submenu{
         float: none;
-        margin: -8px 0 0 -8px;
+        margin: -8px 0 0;
         padding: 0;
         display: block;
     }
@@ -1161,11 +1208,6 @@
 
     .blog .blog-inner .book-list .item img{
         width: 50%;
-    }
-
-    .blog .blog-inner .comments{
-        padding-top: 0;
-        margin-left: 0;
     }
 
     .blog .blog-inner .feedback .bold{

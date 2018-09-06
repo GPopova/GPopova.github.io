@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/font.css"/>
     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
 </head>
 <body class="home">
 
@@ -177,57 +178,37 @@
     </div>
     <div class="video-content row">
         <div class="item first col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <video poster="img/video-bg1.png">
-                <source src="video.mp4" type="video/mp4">
-                <source src="video.webm" type="video/webm">
-                <source src="video.ogg" type="video/ogg">
-                <object type="application/x-shockwave-flash" data="player.swf">
-                    <param name="allowfullscreen" value="true">
-                    <param name="allowscriptaccess" value="always">
-                    <param name="flashvars" value="file=video.mp4">
-                    <!--[if IE]><param name="movie" value="player.swf"><![endif]-->
-                    <img src="video.jpg" alt="Video">
-                    <p>Your browser can’t play HTML5 video. <a href="video.webm"> Download it</a> instead.</p>
-                </object>
-            </video>
-            <div id="video-controls" class="controls" data-state="hidden">
-                <button id="playpause" type="button" data-state="play"><img src="img/button-watch.png"><span>Название ролика</span></button>
+            <div class="card">
+                <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                    <img class="card-img-top img-fluid" src="img/video-bg1.png" />
+                </a>
+                <div class="card-body">
+                    <div class="card-body">
+                        <p>Название ролика</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="item second col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <video poster="img/video-bg2.png">
-                <source src="video.mp4" type="video/mp4">
-                <source src="video.webm" type="video/webm">
-                <source src="video.ogg" type="video/ogg">
-                <object type="application/x-shockwave-flash" data="player.swf">
-                    <param name="allowfullscreen" value="true">
-                    <param name="allowscriptaccess" value="always">
-                    <param name="flashvars" value="file=video.mp4">
-                    <!--[if IE]><param name="movie" value="player.swf"><![endif]-->
-                    <img src="video.jpg" alt="Video">
-                    <p>Your browser can’t play HTML5 video. <a href="video.webm"> Download it</a> instead.</p>
-                </object>
-            </video>
-            <div id="video-controls" class="controls" data-state="hidden">
-                <button id="playpause" type="button" data-state="play"><img src="img/button-watch.png"><span>Название ролика</span></button>
+            <div class="card">
+                <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                    <img class="card-img-top img-fluid" src="img/video-bg2.png" />
+                </a>
+                <div class="card-body">
+                    <div class="card-body">
+                        <p>Название ролика</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="item third col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <video poster="img/video-bg3.png">
-                <source src="video.mp4" type="video/mp4">
-                <source src="video.webm" type="video/webm">
-                <source src="video.ogg" type="video/ogg">
-                <object type="application/x-shockwave-flash" data="player.swf">
-                    <param name="allowfullscreen" value="true">
-                    <param name="allowscriptaccess" value="always">
-                    <param name="flashvars" value="file=video.mp4">
-                    <!--[if IE]><param name="movie" value="player.swf"><![endif]-->
-                    <img src="video.jpg" alt="Video">
-                    <p>Your browser can’t play HTML5 video. <a href="video.webm"> Download it</a> instead.</p>
-                </object>
-            </video>
-            <div id="video-controls" class="controls" data-state="hidden">
-                <button id="playpause" type="button" data-state="play"><img src="img/button-watch.png"><span>Название ролика</span></button>
+            <div class="card">
+                <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                    <img class="card-img-top img-fluid" src="img/video-bg3.png" />
+                </a>
+                <div class="card-body">
+                    <p>Название ролика</p>
+                </div>
             </div>
         </div>
     </div>
@@ -301,6 +282,7 @@
 
 
 <script src="js/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

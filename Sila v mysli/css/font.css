@@ -159,3 +159,25 @@
     font-family: 'MonBaiti';
     src: url('../fonts/MongolianBaiti/monbaiti.ttf')  format('truetype');
 }
+
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSans/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans/OpenSans-Regular.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSans/OpenSans-Bold.eot');
+    src: url('../fonts/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans/OpenSans-Bold.woff') format('woff'),
+    url('../fonts/OpenSans/OpenSans-Bold.ttf')  format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
