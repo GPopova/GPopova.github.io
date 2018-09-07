@@ -1609,7 +1609,7 @@ footer .soc-link ul li{
     margin-bottom: -3px;
 }
 
-.blog .author .idols .phrase{
+.blog .author .idols blockquote{
     margin: 34px 98px 14px 0;
     border: 1px solid rgb(232, 232, 232);
     border-radius: 8px;
@@ -1617,7 +1617,7 @@ footer .soc-link ul li{
     position: relative;
 }
 
-.blog .author .idols .phrase blockquote:before{
+.blog .author .idols blockquote:before{
     left: 38px;
     content: "\201C";
     color:  #f71b3f;
@@ -1626,7 +1626,7 @@ footer .soc-link ul li{
     position: absolute;
 }
 
-.blog .author .idols .phrase blockquote:after{
+.blog .author .idols blockquote:after{
     right: 32px;
     bottom: 30px;
     content: "\201C";
@@ -1641,7 +1641,7 @@ footer .soc-link ul li{
     transform: rotate(180deg);
 }
 
-.blog .author .idols .phrase p{
+.blog .author .idols blockquote p{
     padding-top: 0;
 }
 
@@ -1674,7 +1674,7 @@ footer .soc-link ul li{
     width: calc(50% - 16px);
 }
 
-.blog .author .personal-info img.right{
+.blog .author .personal-info img:last-child{
     margin-left: 16px;
 }
 
