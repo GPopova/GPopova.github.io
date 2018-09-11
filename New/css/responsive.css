@@ -358,6 +358,30 @@
         padding: 30px 50px 0;
     }
 
+    .pages .versocrystal .panels-content .right .text{
+        padding-top: 16px;
+    }
+
+    .versocrystal.pages-content .base-model-content p{
+        display: inline-block;
+    }
+
+    .pages .versocrystal .base-model-content ul:first-of-type{
+        border-left: 2px solid #ECF0F4;
+        padding-left: 30px;
+        padding-right: 0;
+    }
+
+    .projects-page .our-projects .projects-inner .image img {
+        margin: -3px;
+    }
+
+    .projects-page .our-projects .container{
+        padding: 0;
+    }
+
+
+
 }
 
 
@@ -914,6 +938,33 @@
         margin-top: 20px;
     }
 
+
+    .pages .versocrystal .base-model-content ul:first-of-type{
+        display: inline-block;
+    }
+
+    .versocrystal.pages-content .base-model-content .gray-p{
+        max-width: 53%;
+    }
+
+    .goods .goods-item .box img{
+        width: 80%;
+    }
+
+    .goods .goods-item .box{
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+
+    .goods .goods-item p{
+        left:auto;
+    }
+
+    .goods .goods-item a{
+        right: 8px;
+        bottom: 10px;
+    }
+
 }
 
 @media (max-width: 790px) {
@@ -1046,6 +1097,18 @@
 
     .pages .contact .left-padding{
         display: block;
+    }
+
+    .pages-content .panels-content .right .images{
+        margin-right: 0;
+    }
+
+    .pages-content .panels-content .right{
+        margin-left: 0;
+    }
+
+    .pages-content .panels-content .imagea {
+        padding-right: 0;
     }
 
 
@@ -1183,7 +1246,19 @@
         margin-bottom: 20px;
     }
 
+    .versocrystal.pages-content .base-model-content p{
+        display: block;
+        width: 100%;
+    }
 
+    .pages .versocrystal .base-model-content ul:first-of-type{
+        max-width: 30%;
+    }
+
+    .versocrystal.pages-content .base-model-content .gray-p {
+        max-width: 70%;
+        padding-left: 20px;
+    }
 
 }
 
@@ -1506,7 +1581,7 @@
     }
 
     footer .footer-panel .column{
-        padding-right: 74px;
+        padding-right: 15%;
     }
 
     footer .lang{
@@ -1570,7 +1645,7 @@
         padding-left: 16px;
     }
 
-    .pages-content .panels-content .image {
+    .pages-content .panels-content .imagea {
         padding-right: 0;
     }
 
@@ -2021,6 +2096,27 @@
         padding-top: 15px;
     }
 
+    .versocrystal.pages-content .base-model-content .gray-p{
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .pages .versocrystal .base-model-content ul:first-of-type {
+        max-width: 100%;
+    }
+
+    .pages-content .group-table{
+        display: none;
+    }
+
+    .goods .goods-item.col-lg-7{
+        width: 100%;
+    }
+
+    .goods .goods-item.col-lg-5{
+        width: 100%;
+    }
 
 }
 

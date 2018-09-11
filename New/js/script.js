@@ -62,6 +62,36 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+    $(".slider3").owlCarousel({
+        loop:true,
+        margin:0,
+        nav: true,
+        navText: ["<img src='img/button-left.png'>","<img src='img/button-right.png'>"],
+        responsiveClass:true,
+        URLhashListener:true,
+        startPosition: 'URLHash',
+        navSpeed: 1000,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:true,
+            },
+            992:{
+                items:1,
+                nav:true,
+                loop:true
+
+            }
+        }
+    });
+});
+
+
 
 /* Select Lang */
 
@@ -168,68 +198,12 @@ $('.menu').on('click', function () {
 
 // PAGES //
 
-/* Carousel Slider3 */
-
-var images = [
-    "img/install-img.png",
-    "img/color-img.png",
-    "img/lighter-img.png"
-];
-
-var num = 0;
-
-function next(){
-    var slider = document.getElementById("slider3");
-    num++;
-    if(num >= images.length){
-        num = 0;
-    }
-    slider.src = images[num];
-}
-
-function prew(){
-    var slider = document.getElementById("slider3");
-    num--;
-    if(num < 0){
-        num = images.length-1;
-    }
-    slider.src = images[num];
-}
-
-
-/* Carousel Slider4 */
-
-var images4 = [
-    "img/install-img.png",
-    "img/color-img.png",
-    "img/lighter-img.png"
-];
-
-var num4 = 0;
-
-function next4(){
-    var slider4 = document.getElementById("slider4");
-    num4++;
-    if(num4 >= images4.length){
-        num4 = 0;
-    }
-    slider4.src = images4[num4];
-}
-
-function prew4(){
-    var slider4 = document.getElementById("slider4");
-    num4--;
-    if(num4 < 0){
-        num4 = images4.length-1;
-    }
-    slider4.src = images4[num4];
-}
 
 
 
 /* Projects Page Img Zoom */
 
-$(document).ready(function() {
+/*$(document).ready(function() {
 
     $(".image").click(function(){
         var img = $('.zoom', this);
@@ -244,5 +218,17 @@ $(document).ready(function() {
         });
     });
 
-});
+});*/
 
+
+$( function() {
+    $('.isotope').isotope({
+        layoutMode: 'fitRows',
+        itemSelector: '.item',
+        fitRows: {
+            rowHeight: 10,
+            columnWidth: 10,
+            gutter: 5
+        }
+    });
+});
