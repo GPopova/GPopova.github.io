@@ -232,3 +232,10 @@ $( function() {
         }
     });
 });
+
+
+$(function() {
+    $('.zoom').on('click', function() {
+        $(this).next().fancybox().trigger('click');
+    });
+});

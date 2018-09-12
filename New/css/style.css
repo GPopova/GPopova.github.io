@@ -2204,7 +2204,6 @@ footer .footer-panel .column{
 .projects-page .our-projects .projects-inner{
     padding-top: 69px;
     padding-bottom: 101px;
-    margin-bottom: 135px;
 }
 
 .projects-page .our-projects .projects-inner h1{
@@ -2215,11 +2214,11 @@ footer .footer-panel .column{
     margin-top: 48px;
 }
 
-.image {
+/*.image {
     margin:30px;
     cursor:pointer;
     max-height:100px;
-}
+}*/
 
   .popup {
       position: absolute;
@@ -2275,13 +2274,14 @@ footer .footer-panel .column{
 
 .projects-page .our-projects .projects-inner .image{
     margin: 0;
-    max-height: 470px;
+    /*max-height: 470px;*/
     float: left;
 }
 
 .projects-page .our-projects .projects-inner .image img{
     width: 100%;
     margin: -2px;
+    max-height: 470px;
 }
 
 .projects-page .our-projects .projects-inner .image img.w-sm{
@@ -2465,9 +2465,20 @@ footer .footer-panel .column{
     position: relative;
 }
 
-.projects-page .our-projects .projects-inner .row {
-    padding: 0 0 100px;
+.projects-page .our-projects .projects-inner .image .fancybox{
+    display: none;
+    max-width: 100%;
 }
+
+.fancybox-container * {
+    max-width: 100%!important;
+}
+
+.fancybox-can-pan .fancybox-content, .fancybox-can-swipe .fancybox-content{
+    background: none;
+    padding: 30px;
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
