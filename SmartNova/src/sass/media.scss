@@ -1,0 +1,517 @@
+
+@media (max-width: 1439px) {
+
+  header .menu .menu-settings ul li{
+    padding-right: 10px;
+  }
+  header .menu .menu-settings ul .select-selected:after{
+    right: -5px;
+  }
+  .banner{
+    background-size: 100% 480px;
+    .banner-inner{
+      padding-top: 400px;
+    }
+  }
+  .directions .item{
+    width: 32%;
+  }
+  .installation .block-list ul li{
+    margin: 0 50px;
+  }
+  .about-us .advantage ul {
+    padding-right: 10px;
+  }
+  .error-content img{
+    height: auto;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  h3{
+    font-size: 26px;
+    line-height: 38px;
+  }
+  h2{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h1{
+    font-size: 56px;
+    line-height: 68px;
+  }
+  .banner{
+    min-height: auto;
+  }
+  .banner .banner-inner .slider{
+    padding: 30px 80px;
+  }
+  .banner .banner-inner .slider h2 {
+    padding-bottom: 20px;
+  }
+  .banner {
+    background-size: 100% 420px;
+  }
+
+  .banner .banner-inner{
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 360px;
+    padding-bottom: 70px;
+  }
+  header{
+    padding: 30px 0;
+  }
+  header .logo{
+    width: 100%;
+    padding-top: 8px;
+  }
+  .content {
+    margin-top: 145px;
+  }
+  header .menu .menu-settings ul li {
+    padding-right: 6px;
+  }
+  header .menu .menu-navigation ul li a{
+    font-size: 24px;
+  }
+  .installation {
+    padding-top: 0px;
+    padding-bottom: 180px;
+  }
+  .about-us .advantage ul li .num{
+    width: 60px;
+    height: 60px;
+    padding-top: 0;
+    font-size: 50px;
+    line-height: 59px;
+  }
+
+  .about-us .advantage ul li {
+    padding-left: 100px;
+    line-height: 100px;
+  }
+  .installation .block-list ul li {
+    margin: 0 40px;
+  }
+  .feedback form {
+    max-width: 90%;
+  }
+  footer .column{
+    margin-bottom: 30px;
+  }
+  footer .copy{
+    float: none;
+    text-align: center;
+  }
+  footer{
+    padding-bottom: 30px;
+  }
+
+}
+@media(max-width: 991px) {
+  header .menu{
+    display: none;
+  }
+  header .menu-responsive{
+    display: block;
+  }
+  .search{
+    padding: 0 30px;
+  }
+  .menu-responsive-inner.open{
+    display: block;
+  }
+  header .menu-responsive .menu-navigation ul li a{
+    font-size: 20px;
+  }
+  header .menu .menu-settings, header .menu-responsive .menu-settings {
+    padding-bottom: 0;
+  }
+  header .menu .menu-settings ul .select-selected:after, header .menu-responsive .menu-settings ul .select-selected:after{
+    right: auto;
+    left: 48px;
+  }
+  header .menu-responsive .menu-settings ul .select-items{
+    position: relative;
+    width: 80px;
+    padding: 0;
+    text-align: center;
+  }
+  header .logo{
+    padding-top: 0;
+    height: auto;
+  }
+  header {
+    padding: 30px 0 20px;
+  }
+  .search{
+    img{
+      width: 25px;
+      height: auto;
+    }
+  }
+  .content {
+    margin-top: 112px;
+  }
+  .banner {
+    background-size: 100%;
+    .banner-inner{
+      padding-top: 240px;
+    }
+    .container{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .directions .item {
+    width: 48%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .directions .block{
+    padding-bottom: 60px;
+  }
+  footer .column{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .installation .block-header{
+    height: auto;
+  }
+  .installation .block-header h1{
+    padding: 50px 0;
+  }
+  .about-us .advantage ul li .num{
+    font-size: 40px;
+  }
+  .btn-default{
+    font-size: 24px;
+  }
+    footer .copy{
+      float: right;
+    }
+  h1{
+    font-size: 40px;
+    line-height: 52px;
+  }
+  h2{
+    font-size: 28px;
+    line-height: 40px;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+@media(max-width: 767px){
+  header{
+    padding: 25px 15px 15px;
+  }
+  .content {
+    margin-top: 102px;
+  }
+  .search img{
+    width: auto;
+  }
+  .menu-open img{
+    width: auto;
+  }
+  header .logo {
+    padding-top: 2px;
+    padding-right: 20px;
+  }
+  .search {
+    padding: 0 35px;
+  }
+  .banner{
+    background-size: 100% 240px;
+  }
+  h1{
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 15px;
+  }
+  h2{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -1px;
+  }
+  .banner h3{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+  }
+  .banner .banner-inner {
+    padding-top: 240px;
+    padding-bottom: 30px;
+  }
+  .banner .banner-inner .slider .owl-nav .owl-prev{
+    width: 14px;
+    background-size: 16px 16px;
+    height: 15px;
+    left: 17px;
+    top: 59%;
+  }
+  .banner .banner-inner .slider .owl-nav .owl-next{
+    width: 14px;
+    background-size: 16px 16px;
+    height: 15px;
+    right: 17px;
+    top: 59%;
+  }
+  .banner .banner-inner .slider .owl-dots .owl-dot span{
+    width: 30px;
+    margin: 0 -8px 0 0;
+    height: 1px;
+    bottom: 3px;
+  }
+  .banner .banner-inner .slider .owl-dots .active span{
+    height: 2px;
+  }
+  .directions .block {
+    text-align: center;
+    padding: 0 15px;
+  }
+  .directions h1 {
+    letter-spacing: 0;
+  }
+  .directions .item{
+    width: 100%;
+    max-width: 290px;
+  }
+  .directions .item .item-box{
+    height: 159px;
+    padding: 14px 14px;
+  }
+  .directions .item .item-box h3{
+    padding-bottom: 20px;
+  }
+  .content li{
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -0.7px;
+    padding-left: 4px;
+  }
+  .content li:before{
+    top: 8px;
+    width: 4px;
+    height: 1px;
+  }
+  .directions .item .item-box h3 br{
+    display: none;
+  }
+  .installation .block-header{
+    margin: -14px auto 0;
+    max-width: 700px;
+  }
+  .installation .block-header h1 {
+    padding: 21px 0;
+  }
+  .installation .block-list{
+    padding-top: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .installation{
+    padding-bottom: 82px;
+  }
+  .about-us h1{
+    top: -68px;
+  }
+  .about-us .advantage ul li h3{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+  }
+  .about-us .advantage ul li .num{
+    font-size: 24px;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    top: 1px;
+  }
+  .about-us .advantage {
+    padding: 27px 5px 36px 17px;
+  }
+  .about-us .advantage ul li h3 br{
+    display: none;
+  }
+  .about-us .advantage ul li {
+    padding-left: 60px;
+    line-height: 63px;
+  }
+  .feedback{
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+  .feedback h2{
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 30px;
+  }
+  .feedback form [type=email], .feedback form [type=tel], .feedback form input[type=text], .feedback form textarea{
+    height: 40px;
+    margin-bottom: 27px;
+    font-size: 16px;
+    &::placeholder{
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.5px;
+    }
+  }
+  .feedback form textarea {
+    padding-top: 7px;
+  }
+  .btn-default {
+    font-size: 20px;
+    line-height: 24px;
+    width: 180px;
+    height: 40px;
+  }
+  .feedback form .btn-default {
+    margin-top: 0;
+  }
+  footer .column{
+    display: none;
+    margin-bottom: 20px;
+  }
+  footer .column:first-of-type{
+    display: block;
+    width: 100%;
+  }
+  footer{
+    padding: 40px 20px;
+  }
+  footer .copy {
+    float: none;
+    margin-top: 0;
+  }
+  footer .column div{
+    padding-right: 36px;
+  }
+  footer .address {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 14px;
+  }
+  footer p{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  footer .column b{
+    font-size: 13px;
+    line-height: 16px;
+  }
+  footer .column div ul li {
+    line-height: 20px;
+  }
+  footer .address:last-of-type {
+    padding-bottom: 0;
+  }
+  footer .mail{
+    margin: 15px 0;
+  }
+  footer .logo{
+    margin: 0;
+    width: 100%;
+    img{
+      width: 170px;
+      height: 40px;
+    }
+  }
+  .scrollup-btn{
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+  }
+  p{
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -.7px;
+  }
+  a.btn-default {
+    padding: 6px 22px;
+  }
+
+}
+
+@media (max-width: 479px){
+  header{
+    padding: 25px 15px 5px;
+  }
+  .content{
+    margin-top: 60px;
+  }
+  .banner{
+    background-size: 100% 120px;
+  }
+  h1{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  h2{
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .banner h3{
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -0.6px;
+  }
+  .banner .banner-inner {
+    padding-top: 120px;
+    padding-bottom: 15px;
+  }
+  .banner .banner-inner .slider {
+    padding: 15px 52px 20px;
+  }
+  .banner .banner-inner .slider h2{
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  .installation .block-list ul li{
+    display: block;
+    margin:0;
+  }
+  .installation .block-list{
+    padding: 15px 30px;
+  }
+  .installation .block-list ul:after{
+    display: none;
+  }
+  .about-us .advantage ul li h3{
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -0.6px;
+  }
+  .feedback form [type=email], .feedback form [type=tel], .feedback form input[type=text], .feedback form textarea{
+    height: 30px;
+    font-size: 12px;
+    &::placeholder{
+      font-size: 12px;
+      line-height: 17px;
+      letter-spacing: -0.6px;
+    }
+  }
+  .scrollup-btn{
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+  }
+  footer .column div {
+    padding-right: 0;
+  }
+  p{
+    font-size: 12px;
+  }
+  a.btn-default {
+    padding: 4px 10px;
+  }
+
+}

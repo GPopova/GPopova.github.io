@@ -1,43 +1,13 @@
+
 "use strict";
 
 
-//PAGE HOME//
-/* Slider OwlCarousel*/
-
+// Slider OwlCarousel
 $(document).ready(function(){
     $(".slider").owlCarousel({
         loop:true,
-        margin:0,
-        responsiveClass:true,
-        URLhashListener:true,
-        startPosition: 'URLHash',
-        navSpeed: 1000,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:1,
-                nav:true,
-            },
-            992:{
-                items:1,
-                nav:true,
-                loop:true
-
-            }
-        }
-    });
-});
-
-
-$(document).ready(function(){
-    $(".slider2").owlCarousel({
-        loop:true,
-        margin:0,
+        margin:10,
         nav: true,
-        navText: ["<img src='img/button-left.svg'>","<img src='img/button-right.png'>"],
         responsiveClass:true,
         URLhashListener:true,
         startPosition: 'URLHash',
@@ -60,37 +30,6 @@ $(document).ready(function(){
         }
     });
 });
-
-
-$(document).ready(function(){
-    $(".slider3").owlCarousel({
-        loop:true,
-        margin:0,
-        nav: true,
-        navText: ["<img src='img/button-left.png'>","<img src='img/button-right.png'>"],
-        responsiveClass:true,
-        URLhashListener:true,
-        startPosition: 'URLHash',
-        navSpeed: 1000,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:1,
-                nav:true,
-            },
-            992:{
-                items:1,
-                nav:true,
-                loop:true
-
-            }
-        }
-    });
-});
-
 
 
 /* Select Lang */
@@ -169,73 +108,41 @@ function closeAllSelect(elmnt) {
  then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
-/* Scroll */
 
-$('a[href^="#"]').bind('click.smoothscroll',function (e) {
-    e.preventDefault();
 
-    var target = this.hash,
-        $target = $(target);
+/* header fixed */
 
-    $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-    }, 600, 'swing', function () {
-        window.location.hash = target;
-    });
+/*window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("headerFixed");
+var sticky = header.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
+}*/
+
+/* scroll-button */
+
+$(window).on('scroll',function(){
+    var wt=$(window).scrollTop();
+    var vw=$(window).height();
+    var sb=$('.scrollup-btn');
+    if(wt>vw && $(sb).hasClass('btn-hide'))
+        $(sb).removeClass('btn-hide');
+    else if(wt<=vw && !$(sb).hasClass('btn-hide'))
+        $(sb).addClass('btn-hide');
 });
 
-
-/* Menu Responsive */
-
-
-$('.menu').on('click', function () {
-   $('.menu-top-responsive').show();
-   $('.close').on('click', function () {
-       $('.menu-top-responsive').hide();
-   });
+$('.scrollup-btn').on('click',function(){
+    $('body,html').animate({scrollTop:0},500,'swing');
 });
 
+/* menu-responsive */
 
-// PAGES //
-
-
-
-
-/* Projects Page Img Zoom */
-
-/*$(document).ready(function() {
-
-    $(".image").click(function(){
-        var img = $('.zoom', this);
-        var src = img.attr('src');
-        $("body").append("<div class='popup'>"+ "<div class='popup_bg'></div>"+ "<img src='"+src+"' class='popup_img' />"+ "</div>");
-        $(".popup").fadeIn(800);
-        $(".popup_bg").click(function(){
-            $(".popup").fadeOut(800);
-            setTimeout(function() {
-                $(".popup").remove();
-            }, 800);
-        });
-    });
-
-});*/
-
-
-/*$( function() {
-    $('.isotope').isotope({
-        layoutMode: 'fitRows',
-        itemSelector: '.item',
-        fitRows: {
-            rowHeight: 10,
-            columnWidth: 10,
-            gutter: 5
-        }
-    });
-});*/
-
-
-$(function() {
-    $('.zoom').on('click', function() {
-        $(this).next().fancybox().trigger('click');
-    });
+$('.menu-open').on('click',function () {
+    $('.menu-responsive-inner').toggleClass('open');
 });

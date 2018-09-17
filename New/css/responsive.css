@@ -1,4 +1,4 @@
-@media(min-width: 1440px){
+@media screen and (min-width: 1440px){
     .projects-page .our-projects .projects-inner .image{
         max-height: 470px;
     }
@@ -7,7 +7,7 @@
         margin-top: 290px;
     }
 }
-@media (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
 
     .left-padding{
         padding-left: 28px;
@@ -395,7 +395,7 @@
 
 
 
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
 
     .header-content-left .top-panel .top-menu {
         padding-left: 30px;
@@ -461,7 +461,7 @@
 
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
 
     .picture{
         width: 100%;
@@ -976,7 +976,7 @@
 
 }
 
-@media (max-width: 790px) {
+@media screen and (max-width: 790px) {
 
     .products-page .updates-form .form-updates-content{
         width: 100%;
@@ -993,7 +993,7 @@
 
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     h1{
         font-size: 34px;
@@ -1291,7 +1291,7 @@
 
 }
 
-@media (max-width: 666px) {
+@media screen and (max-width: 666px) {
 
     .settings{
         position: relative;
@@ -1770,7 +1770,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
     .projects .projects-content .item .slider2 .owl-nav {
         left: -10px;
@@ -1862,7 +1862,7 @@
 
 }
 
-@media (max-width: 470px) {
+@media screen and (max-width: 470px) {
 
     .header-content-left .top-panel .menu-top-responsive .logo {
         top: 20px;
@@ -1897,7 +1897,7 @@
 
 }
 
-@media (max-width: 421px) {
+@media screen and (max-width: 421px) {
 
     .header-content-left .title{
        width: 80%;
@@ -2153,7 +2153,7 @@
 
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .projects .projects-content .item .slider2 .owl-nav .owl-prev {
         margin-right: 220px;
     }
@@ -2187,7 +2187,7 @@
 
 }
 
-@media (max-width: 359px) {
+@media screen and (max-width: 359px) {
 
     .blog .blog-content .blog-item{
         width: 100%;
@@ -2205,7 +2205,7 @@
 
 }
 
-@media (max-width: 325px) {
+@media screen and (max-width: 325px) {
 
     .menu-top-responsive .mail {
         margin-left: 18px;

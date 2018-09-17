@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: 'PlayRegular';
+  src: url('../fonts/Play/play.regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/Roboto/roboto.light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url('../fonts/Roboto/roboto.black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Robotoregular';
+  src: url('../fonts/Roboto/roboto.regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../fonts/Roboto/roboto.bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+$Roboto:'RobotoRegular';
+$RobotoBold:'RobotoBold';
+$RobotoB:'RobotoBlack';
+$RobotoL:'RobotoLight';
+$Play:'PlayRegular';
+
+$OpenSans:'OpenSansLight';
+$FuturaL: 'FuturaLight';
+$FuturaLOb: 'FuturaLightOb';
+$FuturaHOb: 'FuturaHeavyOb';
+$FuturaB: 'FuturaBold';
+
+
+
+
