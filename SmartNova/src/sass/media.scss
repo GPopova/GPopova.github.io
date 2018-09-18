@@ -61,14 +61,14 @@
     padding-bottom: 70px;
   }
   header{
-    padding: 30px 0;
+    padding: 60px 0 30px;
   }
   header .logo{
     width: 100%;
     padding-top: 8px;
   }
   .content {
-    margin-top: 145px;
+    margin-top: 175px;
   }
   header .menu .menu-settings ul li {
     padding-right: 6px;
@@ -122,6 +122,7 @@
   }
   .menu-responsive-inner.open{
     display: block;
+    z-index: 3;
   }
   header .menu-responsive .menu-navigation ul li a{
     font-size: 20px;
@@ -204,10 +205,25 @@
     font-size: 20px;
     line-height: 32px;
   }
+  #searchForm{
+    margin-top: -20px;
+  }
+  #searchForm .btn-default{
+    font-size: 20px;
+    right: 20px;
+  }
+  .title-block{
+    padding: 30px 40px 20px;
+    margin-top: -60px;
+  }
+  .contacts .title-block h1{
+    padding-bottom: 16px;
+  }
 }
 @media(max-width: 767px){
   header{
     padding: 25px 15px 15px;
+    min-height: 102px;
   }
   .content {
     margin-top: 102px;
@@ -438,12 +454,29 @@
   a.btn-default {
     padding: 6px 22px;
   }
+  #searchForm{
+    margin-top: -8px;
+  }
+  #searchForm .btn-default{
+    right: 0;
+    font-size: 18px;
+    height: 30px;
+  }
+  #searchForm input[type=text]{
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+  }
+  .contacts .info{
+    padding: 0 20px;
+  }
 
 }
 
 @media (max-width: 479px){
   header{
     padding: 25px 15px 5px;
+    min-height: auto;
   }
   .content{
     margin-top: 60px;
@@ -512,6 +545,20 @@
   }
   a.btn-default {
     padding: 4px 10px;
+  }
+  #searchForm input[type=text]{
+    width: 290px;
+    height: 20px;
+    font-size: 12px;
+  }
+  #searchForm .btn-default{
+    font-size: 14px;
+    height: 20px;
+    width: 70px;
+    line-height: 14px;
+  }
+  #searchForm {
+    margin-top: 0;
   }
 
 }

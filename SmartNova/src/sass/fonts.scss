@@ -7,6 +7,13 @@
 }
 
 @font-face {
+  font-family: 'PlayBold';
+  src: url('../fonts/Play/play.bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
   font-family: 'RobotoLight';
   src: url('../fonts/Roboto/roboto.light.ttf') format('truetype');
   font-style: normal;
@@ -39,6 +46,7 @@ $RobotoBold:'RobotoBold';
 $RobotoB:'RobotoBlack';
 $RobotoL:'RobotoLight';
 $Play:'PlayRegular';
+$PlayB: 'PlayBold';
 
 $OpenSans:'OpenSansLight';
 $FuturaL: 'FuturaLight';

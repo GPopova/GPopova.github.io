@@ -146,3 +146,10 @@ $('.scrollup-btn').on('click',function(){
 $('.menu-open').on('click',function () {
     $('.menu-responsive-inner').toggleClass('open');
 });
+
+/* search */
+
+$('.search').on('click', function (event) {
+    event.preventDefault();
+   $('#searchForm').toggleClass('open');
+});
