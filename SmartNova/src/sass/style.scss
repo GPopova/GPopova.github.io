@@ -311,6 +311,9 @@ header{
     vertical-align: top;
     img{
       width: 100%;
+      object-fit: cover;
+      height: auto;
+      max-height: 253px;
     }
     .item-box{
       width: 100%;
@@ -324,6 +327,7 @@ header{
         color: #274D9A;
         position: relative;
         padding-bottom: 23px;
+        min-height: 111px;
         &:after{
           position: absolute;
           content: '';
@@ -842,6 +846,339 @@ header .menu-responsive .menu-navigation ul li{
     .container{
       margin-top: -244px;
     }
+  }
+  .installation{
+    padding-top: 98px;
+    padding-bottom: 11px;
+    .block-list{
+      padding: 26px 120px 65px 90px;
+      min-height: 147px;
+    }
+  }
+  .feedback{
+    padding-bottom: 106px;
+    form [type=email], .feedback form [type=tel], .feedback form input[type=text], .feedback form textarea{
+      margin-bottom: 46px;
+    }
+  }
+}
+.telemetry{
+  .title-block{
+    margin-top: -134px;
+    padding: 58px 75px 32px;
+    p{
+      text-align: center;
+    }
+  }
+  .contacts-inner{
+    padding-bottom: 0;
+    margin-bottom: -8px;
+  }
+  .analytics,.options,.private-office{
+    background: #FFFFFF;
+    img{
+      width: 100%;
+    }
+    h3{
+      position: relative;
+      color: #274d9a;
+      &:after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: -5px;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,#274d99,#2ec8f8);
+      }
+    }
+  }
+  .block-padding{
+    h3{
+      margin-right: 74px;
+      padding-bottom: 23px;
+    }
+    ul{
+      padding-top: 13px;
+      padding-right: 30px;
+      li{
+        padding-bottom: 0;
+        padding-left: 6px;
+        position: relative;
+        &:before{
+          content: '';
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background: rgba(45, 55, 60, 0.6);
+          padding-right: 0;
+          font-size: 15px;
+          position: absolute;
+          display: block;
+          left: -4px;
+          top: 12px;
+        }
+      }
+    }
+  }
+  .analytics{
+    padding-bottom: 54px;
+    .move-link{
+      padding-bottom: 32px;
+      ul li{
+        display: inline-block;
+        a{
+          font-family: $Roboto;
+          font-size: 20px;
+          line-height: 28px;
+          color: rgba(45, 55, 60, 0.6);
+        }
+        &:last-of-type a{
+          color: #000000;
+        }
+      }
+    }
+    .image{
+      padding-right: 16px;
+    }
+    .block-padding{
+      padding: 55px 0 0 110px;
+      h3{
+        margin-right: 74px;
+        padding-bottom: 23px;
+      }
+      ul{
+        padding-top: 13px;
+        padding-right: 30px;
+        li{
+          padding-bottom: 0;
+          padding-left: 6px;
+          position: relative;
+          &:before{
+            content: '';
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: rgba(45, 55, 60, 0.6);
+            padding-right: 0;
+            font-size: 15px;
+            position: absolute;
+            display: block;
+            left: -4px;
+            top: 12px;
+          }
+        }
+      }
+    }
+  }
+  .options{
+    background: rgba(217,235,248,.36);
+    padding-top: 50px;
+    padding-bottom: 54px;
+    .block-padding{
+      padding: 193px 26px 0 7px;
+    }
+    .image{
+      padding-left: 16px;
+    }
+  }
+  .private-office{
+    padding-top: 60px;
+    padding-bottom: 215px;
+    .image{
+      padding-right: 16px;
+    }
+    .block-padding{
+      padding: 108px 0 0 112px;
+      .go-to{
+        padding-top: 25%;
+        a{
+          text-decoration: underline;
+          color: #274d9a;
+        }
+      }
+    }
+  }
+  .about-us{
+    .container .advantage{
+      padding-top: 82px;
+      ul{
+        padding-right: 20px;
+        li{
+          font-size: 26px;
+          line-height: 36px;
+          letter-spacing: -1.3px;
+          margin-bottom: 56px;
+          .num{
+            top: -22px;
+          }
+        }
+      }
+    }
+  }
+  .feedback{
+    padding-top: 100px;
+  }
+}
+.news{
+  .news-inner{
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .main-news{
+    margin: 0;
+    .item-box{
+      height: 100%;
+      background: url("../img/news-img-main.png");
+      background-size: cover;
+      margin: 0;
+      padding: 236px 20px 20px;
+      h3{
+        color: #FFFFFF;
+        font-size: 52px;
+        line-height: 60px;
+        letter-spacing: 0;
+        padding-bottom: 34px;
+        &:after{
+          background: #FFFFFF;
+        }
+      }
+      p{
+        color: #FFFFFF;
+        padding-top: 12px;
+      }
+      a{
+        img{
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          -webkit-transform: rotate(180deg);
+          -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+  .item-box{
+    position: relative;
+    p{
+      padding-top: 12px;
+      padding-bottom: 0;
+    }
+    a{
+      position: absolute;
+      right: 18px;
+      bottom: 8px;
+      img{
+        width: 17px;
+        height: 17px;
+      }
+    }
+  }
+  .big{
+    width: 930px;
+  }
+  .item{
+    margin-bottom: 30px;
+  }
+  .date{
+    font-size: 16px;
+    line-height: 23px;
+    font-family: $RobotoB;
+    position: absolute;
+    bottom: 18px;
+  }
+}
+.article{
+  .contacts-inner{
+    background: transparent;
+  }
+  .title-block{
+    padding: 60px 88px 96px;
+    text-align: left;
+    margin-bottom: -8px;
+  }
+  .repost{
+    text-align: right;
+    position: relative;
+    padding-bottom: 24px;
+    &:after{
+      position: absolute;
+      content: '';
+      bottom: 14px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(to right,#274d99,#2ec8f8);
+    }
+    p{
+      display: inline-block;
+      color:#2D373C;
+      font-size: 16px;
+      line-height: 23px;
+      font-family: $RobotoBold;
+      padding-right: 8px;
+    }
+    ul{
+      display: inline-block;
+      li{
+        display: inline-block;
+        padding: 0 2px 0;
+        &:hover a i{
+          background: linear-gradient(to right,#274d99,#2ec8f8);
+        }
+        a{
+          i{
+            background: #6F6F6F;
+            width: 37px;
+            height: 37px;
+            text-align: center;
+            vertical-align: middle;
+            color: #FFFFFF;
+            font-size: 26px;
+            padding-top: 5px;
+          }
+          .fa-facebook-f{
+            font-size: 18px;
+            padding-top: 8px;
+          }
+        }
+      }
+    }
+  }
+  .article-inner{
+    position: relative;
+    padding-bottom: 68px;
+  }
+  .news-inner{
+    .block{
+      position: relative;
+      &:before{
+        position: absolute;
+        content: '';
+        top: -34px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,#274d99,#2ec8f8);
+      }
+    }
+  }
+  .border-box{
+    img{
+      width: 100%;
+      height: auto;
+      min-height: 676px;
+      padding-right: 15px;
+    }
+    .text{
+      padding-left: 15px;
+    }
+  }
+  p{
+    padding-bottom: 30px;
+  }
+  .feedback{
+    padding-top: 32px;
   }
 }
 
