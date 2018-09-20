@@ -128,6 +128,7 @@ header{
         /*select-lang*/
         .custom-select {
           position: relative;
+          cursor: pointer;
         }
         .custom-select select {
           display: none;
