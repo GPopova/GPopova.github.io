@@ -485,7 +485,6 @@ footer{
     line-height: 23px;
     font-family: $RobotoB;
     float: right;
-    margin-top: -44px;
   }
   .mail{
     font-family: $RobotoB;
@@ -501,9 +500,7 @@ footer{
     font-size: 18px;
     line-height: 21px;
     padding-top: 30px;
-    &:last-of-type{
-      padding-bottom: 20px;
-    }
+    padding-bottom: 20px;
   }
   .column{
     padding-left: 12px;
@@ -511,7 +508,6 @@ footer{
       padding-left: 0;
     }
     ul{
-      max-width: 210px;
       padding-top: 26px;
       li{
         position: relative;
@@ -545,7 +541,7 @@ footer{
         max-width: 100%;
         padding-top: 0;
         li{
-          line-height: 48px;
+          line-height: 28px;
           padding-left: 0;
           a{
             color: #FFFFFF;
@@ -1188,12 +1184,8 @@ header .menu-responsive .menu-navigation ul li{
   }
 }
 
-.block{
-  .item:hover{
-    .item-box{
+.block .item:hover .item-box{
       box-shadow: 0 10px 10px rgba(39, 77, 153, 0.35);
-    }
-  }
 }
 
 #submit-window{
@@ -1213,6 +1205,8 @@ header .menu-responsive .menu-navigation ul li{
   color: rgba(66,66,66,.8);
 }
 
-
+footer .address br{
+  display: none;
+}
 
 
